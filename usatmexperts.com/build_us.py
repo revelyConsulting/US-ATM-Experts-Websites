@@ -449,6 +449,7 @@ def foot(depth=0):
   <div><a href="{r}privacy.html">Privacy Policy</a> · <a href="{r}sitemap.xml">Sitemap</a></div>
  </div>
 </div></footer>
+{PARTNERS_FORM}
 <script src="{r}js/main.js" defer></script>
 </body>
 </html>
@@ -1255,7 +1256,7 @@ pa["body"] = sub_hero(pa,"Vaulting partner program","Add revenue to your ATM rou
 <section class="cta-band"><div class="wrap"><h2>Ready to add locations to your route?</h2><p>Tap Apply now, or call {PHONE_DISPLAY} with your market and a little about your current route. We'll tell you what's available in your area.</p><div class="btn-row" style="justify-content:center"><a class="btn btn-outline" href="#apply">Apply now</a><a class="btn btn-outline" href="tel:{PHONE_TEL}">Call {PHONE_DISPLAY}</a></div></div></section>
 """
 STATE_OPTIONS = "".join(f'<option value="{ab}">{STATE_NAMES[ab]}</option>' for ab in sorted(STATE_NAMES, key=lambda a: STATE_NAMES[a]))
-pa["body"] += FORM.replace("{PHONE_TEL}",PHONE_TEL).replace("{PHONE_DISPLAY}",PHONE_DISPLAY).replace("{EMAIL}",EMAIL).replace("{STATE_OPTIONS}",STATE_OPTIONS)
+PARTNERS_FORM = FORM.replace("{PHONE_TEL}",PHONE_TEL).replace("{PHONE_DISPLAY}",PHONE_DISPLAY).replace("{EMAIL}",EMAIL).replace("{STATE_OPTIONS}",STATE_OPTIONS)
 PAGES.append(pa)
 
 

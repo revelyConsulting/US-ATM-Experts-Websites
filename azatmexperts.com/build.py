@@ -402,6 +402,7 @@ def foot(depth=0):
   <div><a href="{r}privacy.html">Privacy Policy</a> · <a href="{r}sitemap.xml">Sitemap</a></div>
  </div>
 </div></footer>
+{PORTFOLIO_FORM}
 <script src="{r}js/main.js" defer></script>
 </body>
 </html>
@@ -888,7 +889,6 @@ FOOTNOTE = '<section style="padding:1.5rem 0"><div class="wrap"><p id="cannabis-
 pr["body"] = re.sub(r"([Ff]ree (?:ATM )?processing)(?![*\w])", r"\1*", pr["body"])
 pr["body"] = pr["body"].replace("provides free ATM processing* with", "provides free ATM processing* with")
 pr["body"] = pr["body"].replace('<section class="cta-band">', FOOTNOTE + '<section class="cta-band">', 1)
-pr["body"] += PORTFOLIO_FORM
 PAGES.append(pr)
 
 # ================================================================== EQUIPMENT

@@ -447,6 +447,7 @@ def foot(depth=0):
   <div><a href="{r}privacy.html">Privacy Policy</a> · <a href="{r}sitemap.xml">Sitemap</a></div>
  </div>
 </div></footer>
+{PORTFOLIO_FORM}
 <script src="{r}js/main.js" defer></script>
 </body>
 </html>
@@ -915,7 +916,6 @@ pr["body"] = sub_hero(pr,"ATM processing",f"{STATE} ATM processing with daily va
 {faq_block(PR_FAQ, title="ATM processing FAQs")}
 {cta_band(h="Own an ATM or thinking about it?", p="Compare buying, leasing, and free placement with a quick call. We'll show you the numbers for your location.")}
 """
-pr["body"] += PORTFOLIO_FORM
 PAGES.append(pr)
 
 # ================================================================== EQUIPMENT
