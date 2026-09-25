@@ -797,6 +797,75 @@ di["body"] = sub_hero(di,"Dispensary ATMs",f"100% compliant ATMs for {STATE} dis
 di["body"] = di["body"].replace("_assets/_images/_slider_images/../dispensary-hero.svg')\"","_assets/_images/dispensary-hero.svg');opacity:.5\"",1)
 if CANNABIS: PAGES.append(di)
 
+# ---------------- floating quote panel (processing page) ----------------
+FLOAT_CSS = r"""
+<style>
+.fab{position:fixed;right:20px;bottom:20px;z-index:60;display:inline-flex;align-items:center;gap:.6rem;background:var(--copper);color:#fff;font-weight:700;padding:.9rem 1.4rem;border-radius:999px;border:0;box-shadow:0 12px 30px rgba(0,0,0,.25);cursor:pointer;font:inherit;font-weight:700}
+.fab:hover{background:var(--copper-2)}
+.fab svg{width:20px;height:20px}
+.apply-overlay{position:fixed;inset:0;background:rgba(15,31,75,.45);z-index:70;opacity:0;pointer-events:none;transition:.2s}
+.apply-panel{position:fixed;top:0;right:0;height:100%;width:min(480px,100%);background:#fff;z-index:80;transform:translateX(100%);transition:.25s;overflow-y:auto;padding:1.5rem 1.5rem 2rem;box-shadow:-10px 0 40px rgba(0,0,0,.2)}
+body.apply-open .apply-overlay{opacity:1;pointer-events:auto}
+body.apply-open .apply-panel{transform:none}
+body.apply-open{overflow:hidden}
+.apply-panel form.quote{grid-template-columns:1fr 1fr}
+.apply-panel form.quote>div{display:flex;flex-direction:column;justify-content:flex-end}
+.apply-panel .close{position:absolute;top:.9rem;right:.9rem;background:var(--sand);border:0;width:38px;height:38px;border-radius:50%;font-size:1.3rem;cursor:pointer;color:var(--navy)}
+@media(max-width:480px){.apply-panel form.quote{grid-template-columns:1fr}.fab span{display:none}.fab{padding:.9rem}}
+</style>
+"""
+FLOAT_JS = r"""
+<script>
+(function(){var b=document.body,fab=document.getElementById('apply'),panel=document.getElementById('apply-panel');
+function open(){b.classList.add('apply-open');fab.setAttribute('aria-expanded','true');panel.setAttribute('aria-hidden','false');setTimeout(function(){panel.querySelector('input:not([type=hidden])').focus()},250);}
+function close(){b.classList.remove('apply-open');fab.setAttribute('aria-expanded','false');panel.setAttribute('aria-hidden','true');}
+fab.addEventListener('click',open);
+document.querySelectorAll('[data-close]').forEach(function(el){el.addEventListener('click',close)});
+document.querySelectorAll('a[href="#apply"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();open();})});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
+if(location.hash==='#apply'){open();}
+})();
+</script>
+"""
+def float_panel(label, eyebrow, title, intro, subject, fields, submit, consent):
+    FULL = ' class="full"'
+    req_mark = ' <span style="color:#c0392b">*</span>'
+    rows = "".join(f'<div{FULL if full else ""}><label for="{fid}">{lab}{req_mark if "required" in inp else ""}</label>{inp}</div>' for fid,lab,inp,full in fields)
+    return FLOAT_CSS + f"""
+<button class="fab" type="button" id="apply" aria-controls="apply-panel" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg><span>{label}</span></button>
+<div class="apply-overlay" data-close></div>
+<aside class="apply-panel" id="apply-panel" role="dialog" aria-modal="true" aria-labelledby="apply-title" aria-hidden="true">
+ <button class="close" type="button" aria-label="Close" data-close>&times;</button>
+ <span class="eyebrow">{eyebrow}</span>
+ <h2 id="apply-title" style="margin-bottom:.4rem;font-size:1.6rem">{title}</h2>
+ <p style="color:var(--muted);margin-bottom:1.25rem">{intro}</p>
+ <form class="quote" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dfn00000Io6pR" method="POST">
+  <input type="hidden" name="oid" value="00Dfn00000Io6pR">
+  <input type="hidden" name="retURL" value="https://usatmexperts.com/thankyou.html">
+  <input type="hidden" name="lead_source" value="Web">
+  {rows}
+  <div class="full"><button class="btn btn-primary" type="submit" style="width:100%">{submit}</button></div>
+  <p class="full" style="margin:0;font-size:.82rem;color:var(--muted)">{consent}</p>
+ </form>
+ <p style="margin:1.25rem 0 0;font-size:.9rem;color:var(--muted)">Prefer to talk? Call <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a> or email <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
+</aside>
+""" + FLOAT_JS
+
+PORTFOLIO_FORM = float_panel("Get a quote","Move your portfolio","Tell us about your terminals","We'll come back with interchange and processing terms for your portfolio, usually within two business days.",f"Portfolio processing inquiry ({BRAND})",[
+ ("pf-business","Business name",'<input id="pf-business" name="company" type="text" required autocomplete="organization">',True),
+ ("pf-first","First name",'<input id="pf-first" name="first_name" type="text" required autocomplete="given-name">',False),
+ ("pf-last","Last name",'<input id="pf-last" name="last_name" type="text" required autocomplete="family-name">',False),
+ ("pf-email","Email",'<input id="pf-email" name="email" type="email" required autocomplete="email">',False),
+ ("pf-phone","Phone",'<input id="pf-phone" name="phone" type="tel" required autocomplete="tel">',False),
+ ("pf-street","Street address",'<input id="pf-street" name="street" type="text" required autocomplete="street-address">',True),
+ ("pf-city","City",'<input id="pf-city" name="city" type="text" required autocomplete="address-level2">',False),
+ ("pf-state","State",f'<select id="pf-state" name="state" required autocomplete="address-level1"><option value="{ABBR}" selected>{ABBR}</option></select>',False),
+ ("pf-zip","ZIP",'<input id="pf-zip" name="zip" type="text" required autocomplete="postal-code" inputmode="numeric">',False),
+ ("pf-terminals","Number of terminals",'<input id="pf-terminals" name="00NbV0000045QUD" type="number" min="1" step="1" required inputmode="numeric">',False),
+ ("pf-tx","Monthly transactions",'<input id="pf-tx" name="00NbV0000045QcH" type="number" min="0" step="1" required inputmode="numeric" placeholder="Average">',False),
+ ("pf-description","Anything else we should know?",'<textarea id="pf-description" name="description" placeholder="Current processor, contract end date, etc."></textarea>',True),
+],"Request processing terms",f"By submitting, you agree to be contacted by {BRAND} about ATM processing. We don't share your information.")
+
 # ================================================================== PROCESSING
 PR_FAQ = [
  ("When do I receive my vault money?", "<p>Funds from Monday's transactions are available Tuesday, Tuesday's on Wednesday, and Thursday's on Friday. Transactions from Friday, Saturday, and Sunday are deposited the following Monday via the Federal Reserve.</p>"),
@@ -810,7 +879,7 @@ pr = {
  "desc":f"Free ATM processing with daily deposits and real-time online reporting, included with every ATM we sell or place in {STATE}. Keep 100% of the surcharge on owned machines.",
  "ld":[service_ld("ATM processing", BASE+"/atm-processing.html",f"ATM transaction processing with daily deposits and real-time online reporting for ATM owners in {STATE}."), faq_ld(PR_FAQ), crumbs_ld([("Home","index.html"),("ATM Processing","atm-processing.html")])],
 }
-pr["body"] = sub_hero(pr,"ATM processing",f"{STATE} ATM processing with daily vault cash deposits and real-time reporting",f"{BRAND} provides free ATM processing with each ATM we sell. No more waiting days for your vault cash funds, and no more guessing how much money is remaining in your ATM.","hero-processing.svg",crumbs=[("ATM Processing",None)]) + f"""
+pr["body"] = sub_hero(pr,"ATM processing",f"{STATE} ATM processing with daily vault cash deposits and real-time reporting",f"{BRAND} provides free ATM processing with each ATM we sell. No more waiting days for your vault cash funds, and no more guessing how much money is remaining in your ATM.","hero-processing.svg",crumbs=[("ATM Processing",None)],extra='<div class="btn-row"><a class="btn btn-light" href="#apply">Get a processing quote</a></div>') + f"""
 <div class="trust"><div class="wrap"><span>Free with every machine</span><span>Next-business-day deposits</span><span>Web &amp; mobile app reporting</span><span>Dedicated account rep</span></div></div>
 
 <section><div class="wrap"><div class="split">
@@ -845,6 +914,7 @@ pr["body"] = sub_hero(pr,"ATM processing",f"{STATE} ATM processing with daily va
 {faq_block(PR_FAQ, title="ATM processing FAQs")}
 {cta_band(h="Own an ATM or thinking about it?", p="Compare buying, leasing, and free placement with a quick call. We'll show you the numbers for your location.")}
 """
+pr["body"] += PORTFOLIO_FORM
 PAGES.append(pr)
 
 # ================================================================== EQUIPMENT
