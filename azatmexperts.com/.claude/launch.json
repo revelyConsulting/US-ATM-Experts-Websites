@@ -18,6 +18,30 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/utatmexperts.com", "-p", "8003"],
       "port": 8003
+    },
+    {
+      "name": "ak-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/akatmexperts.com", "-p", "8004"],
+      "port": 8004
+    },
+    {
+      "name": "tx-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/txatmexperts.com", "-p", "8005"],
+      "port": 8005
+    },
+    {
+      "name": "ny-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/nyatmexperts.com", "-p", "8006"],
+      "port": 8006
+    },
+    {
+      "name": "ca-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/caatmexperts.com", "-p", "8007"],
+      "port": 8007
     }
   ]
 }
