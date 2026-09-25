@@ -1,0 +1,183 @@
+{
+  "abbr": "DE",
+  "name": "Delaware",
+  "metro_city": "Wilmington",
+  "metro_phrase": "the greater Wilmington area",
+  "span_phrase": "from Wilmington to Rehoboth Beach",
+  "seasonal_phrase": "summer beach season at the Delaware shore, NASCAR race weekends in Dover, and the tax-free holiday shopping rush",
+  "cities": [
+    {
+      "slug": "wilmington",
+      "name": "Wilmington",
+      "region": "Northern Delaware",
+      "blurb": "We place and service ATMs across Wilmington, Delaware's largest city and a national center for banking and corporate law. The Riverfront along the Christina River supports restaurants, bars, hotels, a minor-league ballpark, and event venues, while Market Street downtown hosts theaters, cafes, and nightlife. Trolley Square and Little Italy's Union Street are lined with taverns, restaurants, and salons, and licensed dispensaries operate in the area. Convenience stores in every neighborhood depend on cash access. Businesses here rely on our machines for dependable service in a compact, busy market.",
+      "areas": [
+        "Riverfront",
+        "Market Street",
+        "Trolley Square",
+        "Little Italy",
+        "Downtown Wilmington",
+        "Brandywine"
+      ],
+      "nearby": [
+        "newark",
+        "new-castle",
+        "middletown",
+        "dover"
+      ]
+    },
+    {
+      "slug": "newark",
+      "name": "Newark",
+      "region": "Northern Delaware",
+      "blurb": "We place and service ATMs throughout Newark, home of the University of Delaware and one of the busiest college-town main streets in the region. Main Street is packed with bars, restaurants, coffee shops, and convenience stores that stay busy through the academic year, while the Christiana Mall area and the Route 273 and Kirkwood Highway corridors carry hotels, chain dining, salons, and tax-free retail that draws shoppers from neighboring states. Businesses here count on our machines to handle student weekends, move-in season, and the holiday shopping surge.",
+      "areas": [
+        "Main Street",
+        "Downtown Newark",
+        "Christiana Mall",
+        "Kirkwood Highway",
+        "College Square",
+        "Pike Creek"
+      ],
+      "nearby": [
+        "wilmington",
+        "new-castle",
+        "middletown"
+      ]
+    },
+    {
+      "slug": "new-castle",
+      "name": "New Castle",
+      "region": "Northern Delaware",
+      "blurb": "We place and service ATMs across New Castle and the Route 13 and Route 40 corridors south of Wilmington. The colonial-era historic district along Delaware Street draws visitors to its taverns, cafes, and riverfront green, while the DuPont Highway carries hotels, chain restaurants, convenience stores, salons, and retail serving airport traffic and the industrial parks nearby. Bear and Glasgow along Route 40 add fast-growing suburban dining and shopping. Businesses here rely on our machines for dependable cash access and quick service throughout New Castle County.",
+      "areas": [
+        "Historic New Castle",
+        "Delaware Street",
+        "DuPont Highway",
+        "Route 40 Corridor",
+        "Bear",
+        "Glasgow"
+      ],
+      "nearby": [
+        "wilmington",
+        "newark",
+        "middletown"
+      ]
+    },
+    {
+      "slug": "middletown",
+      "name": "Middletown",
+      "region": "Northern Delaware",
+      "blurb": "We place and service ATMs throughout Middletown and the fast-growing communities south of the canal, including Odessa and Townsend. Main Street's historic downtown supports restaurants, bars, and the Everett Theatre, while the Route 299 and Route 1 corridors near Westown carry hotels, chain dining, convenience stores, salons, and retail serving thousands of new residents. The annual Peach Festival draws crowds every August, and beach traffic on Route 1 passes through all summer. Businesses here count on our machines for reliable cash availability as the area continues to expand.",
+      "areas": [
+        "Downtown Middletown",
+        "Main Street",
+        "Westown",
+        "Route 299 Corridor",
+        "Odessa",
+        "Townsend"
+      ],
+      "nearby": [
+        "new-castle",
+        "dover",
+        "wilmington",
+        "newark"
+      ]
+    },
+    {
+      "slug": "dover",
+      "name": "Dover",
+      "region": "Central Delaware",
+      "blurb": "We place and service ATMs across Dover, the state capital and the hub of Kent County. Loockerman Street downtown supports restaurants, bars, and cafes near the historic Green and the Legislative Hall, while the DuPont Highway corridor carries hotels, chain dining, convenience stores, salons, and a casino resort. The motor speedway draws enormous crowds on race weekends, and a large Air Force base sustains steady demand year-round. Delaware State University and Wesley College add student traffic. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Dover",
+        "Loockerman Street",
+        "DuPont Highway",
+        "Dover Downs",
+        "Camden",
+        "Smyrna"
+      ],
+      "nearby": [
+        "middletown",
+        "milford",
+        "wilmington"
+      ]
+    },
+    {
+      "slug": "milford",
+      "name": "Milford",
+      "region": "Central Delaware",
+      "blurb": "We place and service ATMs throughout Milford and the surrounding towns of Harrington, Frederica, and Slaughter Beach on the Kent and Sussex county line. Milford's Walnut Street riverfront downtown supports restaurants, bars, boutiques, and salons along the Mispillion River, while the Route 113 corridor carries hotels, chain dining, convenience stores, and retail. A regional hospital and the state fairgrounds in Harrington, which fill every July, anchor local demand. Businesses here count on our machines for reliable cash availability and responsive service.",
+      "areas": [
+        "Downtown Milford",
+        "Walnut Street",
+        "Route 113 Corridor",
+        "Harrington",
+        "Frederica",
+        "Slaughter Beach"
+      ],
+      "nearby": [
+        "dover",
+        "georgetown",
+        "lewes"
+      ]
+    },
+    {
+      "slug": "georgetown",
+      "name": "Georgetown",
+      "region": "Sussex County",
+      "blurb": "We place and service ATMs across Georgetown, Seaford, and the inland towns of Sussex County. Georgetown's Circle is the county seat's historic center, surrounded by restaurants, cafes, and shops, while the Route 113 and Route 9 corridors carry convenience stores, salons, and retail serving a growing population and the region's poultry industry. Seaford's downtown along the Nanticoke River and its Route 13 commercial strip add dining and hotels. Return Day draws large crowds to the Circle after elections. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "The Circle",
+        "Downtown Georgetown",
+        "Route 113 Corridor",
+        "Seaford",
+        "Millsboro",
+        "Laurel"
+      ],
+      "nearby": [
+        "milford",
+        "lewes",
+        "rehoboth-beach"
+      ]
+    },
+    {
+      "slug": "lewes",
+      "name": "Lewes",
+      "region": "the Delaware Beaches",
+      "blurb": "We place and service ATMs throughout Lewes and Milton at the northern end of the Delaware beaches. Second Street's historic downtown supports restaurants, taverns, inns, and boutiques a short walk from the canal and the Cape Henlopen ferry terminal, while Cape Henlopen State Park and the beach draw families all summer. The Route 1 and Savannah Road corridors carry hotels, chain dining, convenience stores, salons, and licensed dispensaries. Milton's downtown adds a popular brewery and small-town dining. Businesses here count on our machines to keep pace with the summer surge.",
+      "areas": [
+        "Downtown Lewes",
+        "Second Street",
+        "Lewes Beach",
+        "Cape Henlopen",
+        "Route 1 Corridor",
+        "Milton"
+      ],
+      "nearby": [
+        "rehoboth-beach",
+        "milford",
+        "georgetown"
+      ]
+    },
+    {
+      "slug": "rehoboth-beach",
+      "name": "Rehoboth Beach",
+      "region": "the Delaware Beaches",
+      "blurb": "We place and service ATMs across Rehoboth Beach, Dewey Beach, and Bethany Beach, the heart of the Delaware shore. Rehoboth Avenue and the boardwalk pack restaurants, bars, arcades, and hotels into a few blocks that fill from Memorial Day through Labor Day, while Dewey Beach's Route 1 strip runs late with beach bars and live music. The tax-free outlets along Route 1 draw shoppers year-round, and Baltimore Avenue supports cafes, boutiques, and salons. Businesses here rely on our machines for dependable cash access during intense seasonal peaks.",
+      "areas": [
+        "Rehoboth Avenue",
+        "The Boardwalk",
+        "Baltimore Avenue",
+        "Dewey Beach",
+        "Tanger Outlets",
+        "Bethany Beach"
+      ],
+      "nearby": [
+        "lewes",
+        "georgetown",
+        "milford"
+      ]
+    }
+  ]
+}

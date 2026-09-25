@@ -1,0 +1,177 @@
+{
+  "abbr": "NE",
+  "name": "Nebraska",
+  "metro_city": "Omaha",
+  "metro_phrase": "the Omaha metro",
+  "span_phrase": "from Omaha to Scottsbluff",
+  "seasonal_phrase": "college football Saturdays, the College World Series, and harvest season",
+  "cities": [
+    {
+      "slug": "omaha",
+      "name": "Omaha",
+      "region": "Eastern Nebraska",
+      "blurb": "We place and service ATMs across Omaha, from the bars, restaurants, and hotels of the Old Market downtown to the taprooms and music venues of Benson and the Blackstone District. Midtown Crossing and Dundee add cafes, boutiques, and neighborhood taverns, while the ballpark district fills with baseball fans every June. Gas stations, salons, and convenience stores along Dodge Street, 72nd Street, and the South 24th Street corridor depend on machines we keep stocked and running from our local routes.",
+      "areas": [
+        "Old Market",
+        "Benson",
+        "Blackstone District",
+        "Dundee",
+        "Midtown Crossing",
+        "South Omaha"
+      ],
+      "nearby": [
+        "lincoln",
+        "bellevue",
+        "fremont"
+      ]
+    },
+    {
+      "slug": "lincoln",
+      "name": "Lincoln",
+      "region": "Southeast Nebraska",
+      "blurb": "We place and service ATMs in Lincoln, the state capital and home to a university whose football Saturdays transform the city. The Haymarket district's bars, restaurants, and hotels stay full on game weekends and through the school year, and the O Street corridor downtown adds taverns, coffee shops, and late-night eateries. The Railyard entertainment district, the 48th and O Street retail area, and the South Pointe and Gateway mall corridors carry gas stations, salons, and convenience stores that rely on our reliable local service.",
+      "areas": [
+        "Haymarket",
+        "Downtown Lincoln",
+        "The Railyard",
+        "O Street",
+        "South Lincoln",
+        "University Place"
+      ],
+      "nearby": [
+        "omaha",
+        "bellevue",
+        "grand-island"
+      ]
+    },
+    {
+      "slug": "bellevue",
+      "name": "Bellevue",
+      "region": "the Omaha metro",
+      "blurb": "We place and service ATMs in Bellevue, Papillion, and La Vista, the Sarpy County suburbs south of Omaha that have grown up around the air force base. Olde Towne Bellevue holds restaurants, taverns, and antique shops, and the Fort Crook Road and Highway 370 corridors carry gas stations, convenience stores, salons, and hotels that serve base personnel and their families. Papillion's Shadow Lake Towne Center and La Vista's 84th Street district add retail and bars, and neighborhood bowling alleys and diners across Sarpy County rely on our locally stocked machines.",
+      "areas": [
+        "Olde Towne Bellevue",
+        "Fort Crook Road",
+        "Highway 370",
+        "Papillion",
+        "La Vista",
+        "Shadow Lake"
+      ],
+      "nearby": [
+        "omaha",
+        "lincoln",
+        "fremont"
+      ]
+    },
+    {
+      "slug": "grand-island",
+      "name": "Grand Island",
+      "region": "Central Nebraska",
+      "blurb": "We place and service ATMs in Grand Island, the largest city in central Nebraska and home to the state fairgrounds. Third Street and the Railside downtown district hold bars, restaurants, and shops, and the Highway 281 and 13th Street corridors on the north side carry hotels, gas stations, big-box retail, and salons. The state fair in late summer and the spring sandhill crane migration bring regional visitors, and meatpacking and ag-supply businesses keep convenience stores and taverns busy year round. Hastings' downtown bars rely on us as well.",
+      "areas": [
+        "Railside",
+        "Third Street",
+        "Highway 281 corridor",
+        "Fonner Park area",
+        "Hastings"
+      ],
+      "nearby": [
+        "kearney",
+        "lincoln",
+        "norfolk"
+      ]
+    },
+    {
+      "slug": "kearney",
+      "name": "Kearney",
+      "region": "Central Nebraska",
+      "blurb": "We place and service ATMs in Kearney, a university town on I-80 that serves as the retail and hospitality hub for a wide stretch of central Nebraska. Central Avenue and the Bricks downtown district hold bars, restaurants, coffee shops, and boutiques, and the Second Avenue corridor carries hotels, gas stations, retail, and salons that serve interstate travelers and conference crowds. Spring crane-watching tours and university events push cash demand up, and convenience stores and taverns in Lexington, Holdrege, and Minden depend on our locally serviced machines.",
+      "areas": [
+        "Downtown Kearney",
+        "The Bricks",
+        "Second Avenue",
+        "Hilltop Mall area",
+        "Lexington"
+      ],
+      "nearby": [
+        "grand-island",
+        "north-platte",
+        "lincoln"
+      ]
+    },
+    {
+      "slug": "north-platte",
+      "name": "North Platte",
+      "region": "Western Nebraska",
+      "blurb": "We place and service ATMs in North Platte, a railroad and ranching town built around the world's largest rail classification yard and the I-80 travel corridor. Dewey Street and the downtown blocks hold taverns, restaurants, and western wear stores, and the South Jeffers and Highway 83 corridors carry truck stops, motels, gas stations, and convenience stores serving cross-country traffic. The annual rodeo and summer lake recreation at Lake Maloney bring visitors, and salons, bars, and grocers in Ogallala and McCook count on our machines staying stocked across the long distances.",
+      "areas": [
+        "Downtown North Platte",
+        "Dewey Street",
+        "South Jeffers",
+        "Highway 83 corridor",
+        "Ogallala"
+      ],
+      "nearby": [
+        "kearney",
+        "scottsbluff",
+        "grand-island"
+      ]
+    },
+    {
+      "slug": "scottsbluff",
+      "name": "Scottsbluff",
+      "region": "the Nebraska Panhandle",
+      "blurb": "We place and service ATMs in Scottsbluff and Gering, the twin cities that anchor the Nebraska Panhandle and serve as the regional center for ranchers and sugar beet growers. Broadway downtown holds bars, restaurants, and shops, and the Highway 26 corridor carries hotels, gas stations, retail, and salons. The national monument and Oregon Trail sites draw summer travelers who stop for supplies, and convenience stores, taverns, and grocers in Alliance, Sidney, and Chadron rely on our machines through hunting season and the long Panhandle winters.",
+      "areas": [
+        "Downtown Scottsbluff",
+        "Broadway",
+        "Highway 26 corridor",
+        "Gering",
+        "Alliance",
+        "Sidney"
+      ],
+      "nearby": [
+        "north-platte",
+        "kearney",
+        "grand-island"
+      ]
+    },
+    {
+      "slug": "norfolk",
+      "name": "Norfolk",
+      "region": "Northeast Nebraska",
+      "blurb": "We place and service ATMs in Norfolk, the commercial center of northeast Nebraska's farm and livestock country. Norfolk Avenue downtown holds bars, restaurants, and shops, and the 13th Street and Highway 275 corridors carry hotels, gas stations, big-box retail, and salons. Meatpacking plants and agricultural suppliers bring steady daytime traffic to convenience stores and diners, and the college campus keeps taverns busy through the school year. Neighborhood bars and grocers in Columbus, Wayne, and South Sioux City depend on our locally serviced machines.",
+      "areas": [
+        "Downtown Norfolk",
+        "Norfolk Avenue",
+        "13th Street",
+        "Highway 275 corridor",
+        "Columbus",
+        "South Sioux City"
+      ],
+      "nearby": [
+        "fremont",
+        "grand-island",
+        "omaha"
+      ]
+    },
+    {
+      "slug": "fremont",
+      "name": "Fremont",
+      "region": "Eastern Nebraska",
+      "blurb": "We place and service ATMs in Fremont, a manufacturing and agricultural town northwest of Omaha along the Platte River. Main Street and the downtown historic district hold bars, restaurants, and antique shops, and the 23rd Street and Highway 30 corridors carry hotels, gas stations, retail, and salons. The poultry processing plant and the college campus bring steady traffic to convenience stores and taverns, and the Fremont Lakes recreation area draws summer campers and boaters. Neighborhood bars and grocers in Blair and Wahoo rely on our reliable local service.",
+      "areas": [
+        "Downtown Fremont",
+        "Main Street",
+        "23rd Street",
+        "Highway 30 corridor",
+        "Blair"
+      ],
+      "nearby": [
+        "omaha",
+        "norfolk",
+        "bellevue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "abbr": "ME",
+  "name": "Maine",
+  "metro_city": "Portland",
+  "metro_phrase": "Greater Portland",
+  "span_phrase": "from Kittery to Presque Isle",
+  "seasonal_phrase": "summer coastal tourism, fall foliage season, and ski season in the western mountains",
+  "cities": [
+    {
+      "slug": "portland",
+      "name": "Portland",
+      "region": "Greater Portland",
+      "blurb": "We place and service ATMs across Portland, the largest city in Maine. The Old Port is packed with bars, restaurants, breweries, boutiques, and hotels along cobblestone streets near the working waterfront, while the Arts District along Congress Street hosts music venues, cafes, and salons. The East End and Munjoy Hill have neighborhood pubs and corner stores, and dispensaries throughout the city see steady traffic. Summer cruise ships and year-round food tourism keep cash demand high, and our technicians are based locally.",
+      "areas": ["Old Port", "Arts District", "Congress Street", "Munjoy Hill", "East Bayside", "West End"],
+      "nearby": ["south-portland", "lewiston", "biddeford"]
+    },
+    {
+      "slug": "south-portland",
+      "name": "South Portland",
+      "region": "Greater Portland",
+      "blurb": "South Portland sits directly across the harbor from Portland, and we place and service ATMs at businesses throughout the city and neighboring Scarborough and Westbrook. The Maine Mall area along Maine Mall Road and Running Hill Road is the largest retail district in the state, lined with restaurants, hotels, convenience stores, gas stations, and dispensaries. Knightville and Mill Creek host cafes, pubs, and salons, while Willard Beach and Bug Light Park draw summer visitors to nearby restaurants and ice cream shops.",
+      "areas": ["Maine Mall area", "Knightville", "Mill Creek", "Willard Beach", "Scarborough", "Westbrook"],
+      "nearby": ["portland", "biddeford", "lewiston"]
+    },
+    {
+      "slug": "lewiston",
+      "name": "Lewiston",
+      "region": "Central Maine",
+      "blurb": "We place and service ATMs in Lewiston and Auburn, the twin cities on the Androscoggin River. Lisbon Street in Downtown Lewiston hosts bars, restaurants, cafes, and salons in historic storefronts, and the Bates College campus keeps nearby pubs and coffee shops busy through the school year. Center Street in Auburn and Sabattus Street in Lewiston are lined with convenience stores, gas stations, dispensaries, and shopping plazas around the Auburn Mall, while the Androscoggin Bank Colisee hosts hockey and concerts.",
+      "areas": ["Lisbon Street", "Downtown Lewiston", "Auburn", "Center Street", "Sabattus Street", "Bates College area"],
+      "nearby": ["portland", "augusta", "south-portland"]
+    },
+    {
+      "slug": "bangor",
+      "name": "Bangor",
+      "region": "Eastern Maine",
+      "blurb": "Bangor is the commercial hub of eastern and northern Maine, and we place and service ATMs at businesses throughout the city. Downtown Bangor along Main Street and the waterfront hosts bars, restaurants, breweries, and salons, and the Maine Savings Amphitheater brings large summer concert crowds. Hollywood Casino sits near the riverfront, while Stillwater Avenue and Hogan Road are lined with convenience stores, gas stations, hotels, dispensaries, and shopping plazas around the Bangor Mall. The University of Maine in nearby Orono adds student traffic.",
+      "areas": ["Downtown Bangor", "Bangor Waterfront", "Stillwater Avenue", "Hogan Road", "Brewer", "Orono"],
+      "nearby": ["augusta", "waterville", "bar-harbor"]
+    },
+    {
+      "slug": "augusta",
+      "name": "Augusta",
+      "region": "Central Maine",
+      "blurb": "We place and service ATMs in Augusta, the state capital on the Kennebec River. Water Street in Downtown Augusta hosts restaurants, bars, cafes, and salons that serve state employees, legislators, and visitors to the Maine State House, while the Civic Center Drive and Western Avenue corridors are lined with convenience stores, gas stations, hotels, dispensaries, and shopping plazas around the Marketplace at Augusta. The Augusta Civic Center hosts trade shows and concerts, and Interstate 95 brings steady traveler traffic.",
+      "areas": ["Downtown Augusta", "Water Street", "Western Avenue", "Civic Center Drive", "Marketplace at Augusta", "Hallowell"],
+      "nearby": ["waterville", "lewiston", "bangor"]
+    },
+    {
+      "slug": "waterville",
+      "name": "Waterville",
+      "region": "Central Maine",
+      "blurb": "Waterville is a college town on the Kennebec River midway between Augusta and Bangor, and we place and service ATMs at businesses across the city. Main Street in Downtown Waterville has been revitalized with restaurants, bars, cafes, and the Paul J. Schupf Art Center, and the Colby College campus keeps nearby pubs and coffee shops busy through the school year. Kennedy Memorial Drive and the Interstate 95 exits are lined with convenience stores, gas stations, hotels, dispensaries, and shopping plazas.",
+      "areas": ["Downtown Waterville", "Main Street", "Kennedy Memorial Drive", "Colby College area", "Interstate 95 corridor", "Winslow"],
+      "nearby": ["augusta", "bangor", "lewiston"]
+    },
+    {
+      "slug": "biddeford",
+      "name": "Biddeford",
+      "region": "Southern Maine",
+      "blurb": "We place and service ATMs in Biddeford and Saco, the twin mill cities on the Saco River. The Pepperell Mill campus and Main Street in Downtown Biddeford have become a hub of restaurants, breweries, cafes, and salons, while the University of New England campus adds student traffic. Route 1 and Alfred Street are lined with convenience stores, gas stations, dispensaries, and shopping plazas, and the Biddeford Pool and Old Orchard Beach area just north brings large crowds of summer tourists to bars, arcades, and hotels.",
+      "areas": ["Downtown Biddeford", "Pepperell Mill", "Saco", "Route 1", "Alfred Street", "Old Orchard Beach"],
+      "nearby": ["south-portland", "portland", "lewiston"]
+    },
+    {
+      "slug": "bar-harbor",
+      "name": "Bar Harbor",
+      "region": "the Down East coast",
+      "blurb": "Bar Harbor is the gateway to Acadia National Park and one of the busiest tourist towns in New England each summer, and we place and service ATMs at businesses on Mount Desert Island and the surrounding coast. Main Street and Cottage Street in the village are packed with restaurants, bars, ice cream shops, boutiques, and hotels, and cruise ship days bring thousands of extra visitors. Ellsworth on the mainland hosts convenience stores, gas stations, dispensaries, and shopping plazas along High Street that serve the whole region.",
+      "areas": ["Downtown Bar Harbor", "Main Street", "Cottage Street", "Ellsworth", "Southwest Harbor", "Northeast Harbor"],
+      "nearby": ["bangor", "augusta", "waterville"]
+    },
+    {
+      "slug": "presque-isle",
+      "name": "Presque Isle",
+      "region": "Aroostook County",
+      "blurb": "We place and service ATMs in Presque Isle, the commercial center of Aroostook County in far northern Maine. Main Street in Downtown Presque Isle hosts restaurants, bars, cafes, and salons, while the Aroostook Centre Mall area and US 1 are lined with convenience stores, gas stations, hotels, and dispensaries that serve customers from Caribou, Fort Fairfield, and across the Canadian border. The Northern Maine Fair each summer and the potato harvest each fall bring seasonal spikes in traffic to local businesses.",
+      "areas": ["Downtown Presque Isle", "Main Street", "US 1 corridor", "Aroostook Centre", "Caribou", "Fort Fairfield"],
+      "nearby": ["bangor", "waterville", "augusta"]
+    }
+  ]
+}

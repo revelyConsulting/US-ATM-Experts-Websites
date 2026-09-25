@@ -1,0 +1,202 @@
+{
+  "abbr": "GA",
+  "name": "Georgia",
+  "metro_city": "Atlanta",
+  "metro_phrase": "metro Atlanta",
+  "span_phrase": "from Dalton to Savannah",
+  "seasonal_phrase": "college football weekends, the spring golf tournament in Augusta, and summer coastal tourism",
+  "cities": [
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "region": "Metro Atlanta",
+      "blurb": "We place and service ATMs across Atlanta, from the bars, restaurants, and music venues of Midtown and the BeltLine's Eastside Trail to the hotels and convention traffic of Downtown around Centennial Olympic Park. Buckhead supports upscale dining, nightlife, and salons, Little Five Points and East Atlanta Village run late with dive bars and live music, and Old Fourth Ward's Ponce City Market and Krog Street Market draw crowds daily. Convenience stores everywhere depend on cash. Businesses here rely on our machines for dependable service in the Southeast's largest market.",
+      "areas": [
+        "Midtown",
+        "Downtown Atlanta",
+        "Buckhead",
+        "Old Fourth Ward",
+        "Little Five Points",
+        "East Atlanta Village"
+      ],
+      "nearby": [
+        "marietta",
+        "athens",
+        "macon",
+        "rome"
+      ]
+    },
+    {
+      "slug": "marietta",
+      "name": "Marietta",
+      "region": "Metro Atlanta",
+      "blurb": "We place and service ATMs throughout Marietta, Smyrna, and Cobb County northwest of Atlanta. Marietta Square is the historic heart of the city, ringed with restaurants, bars, theaters, and boutiques, while the Battery around the county's major-league ballpark packs hotels, restaurants, and entertainment venues that fill on game nights and concert evenings. The Cobb Parkway and Roswell Road corridors carry chain dining, convenience stores, salons, and retail near Cumberland Mall and Town Center. Businesses here count on our machines for reliable cash access and quick service.",
+      "areas": [
+        "Marietta Square",
+        "The Battery",
+        "Cumberland",
+        "Cobb Parkway",
+        "Smyrna Market Village",
+        "Kennesaw"
+      ],
+      "nearby": [
+        "atlanta",
+        "rome",
+        "athens"
+      ]
+    },
+    {
+      "slug": "athens",
+      "name": "Athens",
+      "region": "Northeast Georgia",
+      "blurb": "We place and service ATMs throughout Athens, home of the University of Georgia and a music scene that launched some of the country's best-known bands. Downtown's Broad Street, Clayton Street, and Washington Street pack bars, restaurants, coffee shops, and live-music venues into a walkable grid beside campus, while Five Points supports cafes, boutiques, and salons. The Prince Avenue corridor in Normaltown adds neighborhood dining and taverns. Fall football weekends bring enormous crowds, and the academic calendar shapes demand all year. Businesses here rely on our machines for reliable cash access.",
+      "areas": [
+        "Downtown Athens",
+        "Five Points",
+        "Normaltown",
+        "Prince Avenue",
+        "Eastside",
+        "Watkinsville"
+      ],
+      "nearby": [
+        "atlanta",
+        "augusta",
+        "macon"
+      ]
+    },
+    {
+      "slug": "augusta",
+      "name": "Augusta",
+      "region": "the CSRA",
+      "blurb": "We place and service ATMs across Augusta and the Central Savannah River Area on the South Carolina line. Broad Street downtown supports restaurants, bars, hotels, and event venues near the Riverwalk and the James Brown Arena, while Washington Road and the Bobby Jones Expressway corridor carry chain dining, convenience stores, salons, and hotels that book out completely during the famous spring golf tournament. A large Army installation and the medical college sustain steady year-round demand. Businesses here count on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Augusta",
+        "Broad Street",
+        "Riverwalk",
+        "Washington Road",
+        "Summerville",
+        "Evans"
+      ],
+      "nearby": [
+        "athens",
+        "macon",
+        "savannah"
+      ]
+    },
+    {
+      "slug": "macon",
+      "name": "Macon",
+      "region": "Middle Georgia",
+      "blurb": "We place and service ATMs throughout Macon and Middle Georgia at the geographic center of the state. Downtown's Cherry Street and Poplar Street support restaurants, bars, breweries, and music venues that honor the city's soul and Southern-rock heritage, while the Riverside Drive and Eisenhower Parkway corridors carry hotels, chain dining, convenience stores, and salons. The Cherry Blossom Festival draws large crowds every March, Mercer University adds student traffic, and an Air Force base in Warner Robins anchors employment. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Macon",
+        "Cherry Street",
+        "Ingleside",
+        "Riverside Drive",
+        "Mercer Village",
+        "Warner Robins"
+      ],
+      "nearby": [
+        "atlanta",
+        "augusta",
+        "columbus",
+        "savannah"
+      ]
+    },
+    {
+      "slug": "columbus",
+      "name": "Columbus",
+      "region": "West Georgia",
+      "blurb": "We place and service ATMs across Columbus and the Chattahoochee Valley on the Alabama line. Broadway's Uptown district is lined with restaurants, bars, hotels, and theaters beside the Riverwalk and the longest urban whitewater course in the world, while the Veterans Parkway and Manchester Expressway corridors carry chain dining, convenience stores, salons, and retail near Columbus Park Crossing. A large Army installation south of the city sustains steady demand, and Columbus State University adds student traffic. Businesses here count on our machines for reliable cash access and quick service.",
+      "areas": [
+        "Uptown Columbus",
+        "Broadway",
+        "Riverwalk",
+        "Columbus Park Crossing",
+        "Midtown Columbus",
+        "Phenix City"
+      ],
+      "nearby": [
+        "macon",
+        "atlanta",
+        "albany"
+      ]
+    },
+    {
+      "slug": "albany",
+      "name": "Albany",
+      "region": "Southwest Georgia",
+      "blurb": "We place and service ATMs throughout Albany and the agricultural communities of Southwest Georgia. Downtown along Pine Avenue and the Flint River supports restaurants, bars, event venues, and a civic center, while the Dawson Road and Slappey Boulevard corridors carry hotels, chain dining, convenience stores, and salons near the Albany Mall. A Marine Corps logistics base and regional hospital system anchor year-round employment, and Albany State University adds student demand. Pecan and peanut harvests shape the fall economy. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Albany",
+        "Pine Avenue",
+        "Dawson Road",
+        "Slappey Boulevard",
+        "Albany Mall",
+        "Lee County"
+      ],
+      "nearby": [
+        "columbus",
+        "valdosta",
+        "macon"
+      ]
+    },
+    {
+      "slug": "valdosta",
+      "name": "Valdosta",
+      "region": "South Georgia",
+      "blurb": "We place and service ATMs across Valdosta and South Georgia along Interstate 75 near the Florida line. Downtown's Patterson Street and Ashley Street support restaurants, bars, and cafes, while the Norman Drive and St. Augustine Road corridors carry hotels, chain dining, convenience stores, salons, and retail serving heavy highway traffic headed to and from Florida. Valdosta State University drives student demand, and the region's large amusement park draws families all summer. An Air Force base adds steady employment. Businesses here count on our machines for reliable cash access.",
+      "areas": [
+        "Downtown Valdosta",
+        "Patterson Street",
+        "Norman Drive",
+        "St. Augustine Road",
+        "Valdosta Mall",
+        "Moody Corridor"
+      ],
+      "nearby": [
+        "albany",
+        "savannah",
+        "macon"
+      ]
+    },
+    {
+      "slug": "savannah",
+      "name": "Savannah",
+      "region": "the Georgia Coast",
+      "blurb": "We place and service ATMs throughout Savannah and the Georgia coast. River Street's cobblestone waterfront is lined with bars, restaurants, hotels, and candy shops that serve tourists year-round, while the Historic District's squares, Broughton Street, and City Market support boutiques, salons, and nightlife. The Starland District adds breweries, galleries, and neighborhood dining, and Tybee Island's beach fills all summer. St. Patrick's Day brings one of the largest celebrations in the country, and the port sustains steady employment. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "River Street",
+        "Historic District",
+        "Broughton Street",
+        "City Market",
+        "Starland District",
+        "Tybee Island"
+      ],
+      "nearby": [
+        "augusta",
+        "macon",
+        "valdosta"
+      ]
+    },
+    {
+      "slug": "rome",
+      "name": "Rome",
+      "region": "Northwest Georgia",
+      "blurb": "We place and service ATMs across Rome, Dalton, and the communities of Northwest Georgia along Interstate 75 toward Chattanooga. Rome's historic Broad Street downtown supports restaurants, bars, cafes, and boutiques at the meeting of three rivers, while Turner McCall Boulevard carries hotels, chain dining, convenience stores, and salons. Dalton's downtown and the Walnut Avenue corridor serve the carpet-manufacturing capital's large workforce. Berry College and two regional hospital systems anchor year-round demand. Businesses here count on our machines for reliable cash access and quick service.",
+      "areas": [
+        "Downtown Rome",
+        "Broad Street",
+        "Turner McCall Boulevard",
+        "Downtown Dalton",
+        "Walnut Avenue",
+        "Cartersville"
+      ],
+      "nearby": [
+        "marietta",
+        "atlanta",
+        "athens"
+      ]
+    }
+  ]
+}

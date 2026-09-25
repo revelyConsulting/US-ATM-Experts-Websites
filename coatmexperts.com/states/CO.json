@@ -1,0 +1,182 @@
+{
+  "abbr": "CO",
+  "name": "Colorado",
+  "metro_city": "Denver",
+  "metro_phrase": "the Denver metro and the Front Range",
+  "span_phrase": "from Fort Collins to Durango",
+  "seasonal_phrase": "ski season in the high country, summer mountain tourism, and fall football and concert weekends",
+  "cities": [
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "region": "the Front Range",
+      "blurb": "We place and service ATMs across Denver, from the bars, breweries, and rooftop patios of LoDo and RiNo to the hotels and convention traffic of Downtown and the 16th Street Mall. Capitol Hill's Colfax Avenue runs late with music venues, dive bars, and licensed dispensaries, while South Broadway, Highland, and Cherry Creek support restaurants, boutiques, and salons. Events at the downtown stadiums and arenas create sharp weekend spikes. Businesses here count on our machines and fast local service to keep cash flowing.",
+      "areas": [
+        "LoDo",
+        "RiNo",
+        "Capitol Hill",
+        "Highland",
+        "Cherry Creek",
+        "South Broadway"
+      ],
+      "nearby": [
+        "aurora",
+        "boulder",
+        "colorado-springs",
+        "fort-collins"
+      ]
+    },
+    {
+      "slug": "aurora",
+      "name": "Aurora",
+      "region": "the Front Range",
+      "blurb": "We place and service ATMs throughout Aurora, Colorado's third-largest city on the eastern edge of the Denver metro. The Havana Street corridor is one of the state's most diverse dining districts, packed with Korean, Ethiopian, Mexican, and Vietnamese restaurants, markets, and salons, while Southlands in the southeast carries hotels, chain dining, and retail. The Anschutz Medical Campus, a large Air Force base, and the airport corridor along Peña Boulevard sustain steady weekday demand, and licensed dispensaries operate across the city. Businesses here rely on our machines for reliable cash access.",
+      "areas": [
+        "Havana Street",
+        "Southlands",
+        "Original Aurora",
+        "Anschutz Medical Campus",
+        "Gateway",
+        "Stanley Marketplace"
+      ],
+      "nearby": [
+        "denver",
+        "boulder",
+        "colorado-springs"
+      ]
+    },
+    {
+      "slug": "boulder",
+      "name": "Boulder",
+      "region": "the Front Range",
+      "blurb": "We place and service ATMs across Boulder, where the University of Colorado and a dense cluster of tech and outdoor-industry employers drive a strong hospitality economy. The Pearl Street Mall is lined with restaurants, bars, boutiques, and street performers, while University Hill's Thirteenth Street packs student bars, late-night food, and convenience stores near campus. The 29th Street district and North Boulder carry hotels, salons, breweries, and licensed dispensaries. Trailheads at Chautauqua draw visitors year-round. Businesses here count on us for dependable machines and prompt service.",
+      "areas": [
+        "Pearl Street Mall",
+        "University Hill",
+        "29th Street",
+        "North Boulder",
+        "Chautauqua",
+        "East Boulder"
+      ],
+      "nearby": [
+        "denver",
+        "fort-collins",
+        "aurora"
+      ]
+    },
+    {
+      "slug": "fort-collins",
+      "name": "Fort Collins",
+      "region": "Northern Colorado",
+      "blurb": "We place and service ATMs throughout Fort Collins and Northern Colorado, a college town known for its craft breweries and a walkable Old Town that inspired a famous theme-park main street. Old Town Square and the surrounding blocks host bars, restaurants, coffee shops, and live-music venues, while the Campus West district near Colorado State University supports student dining, convenience stores, and salons. Midtown along College Avenue carries hotels, retail, and licensed dispensaries, and nearby Loveland and Greeley extend our coverage. Businesses here rely on our machines for dependable cash availability.",
+      "areas": [
+        "Old Town Fort Collins",
+        "Campus West",
+        "Midtown",
+        "Harmony Corridor",
+        "Loveland",
+        "Greeley"
+      ],
+      "nearby": [
+        "boulder",
+        "denver",
+        "aurora"
+      ]
+    },
+    {
+      "slug": "colorado-springs",
+      "name": "Colorado Springs",
+      "region": "the Pikes Peak Region",
+      "blurb": "We place and service ATMs across Colorado Springs, the state's second-largest city at the foot of Pikes Peak. Downtown's Tejon Street supports bars, restaurants, hotels, and entertainment venues, while Old Colorado City and Manitou Springs draw tourists to their shops, cafes, and arcades on the way to Garden of the Gods. The Powers Boulevard and Academy Boulevard corridors carry chain dining, convenience stores, and salons serving the large military community from nearby installations. Businesses here rely on our machines for reliable cash access and quick service.",
+      "areas": [
+        "Downtown Colorado Springs",
+        "Old Colorado City",
+        "Manitou Springs",
+        "Powers Corridor",
+        "Academy Boulevard",
+        "Broadmoor"
+      ],
+      "nearby": [
+        "pueblo",
+        "denver",
+        "aurora"
+      ]
+    },
+    {
+      "slug": "pueblo",
+      "name": "Pueblo",
+      "region": "Southern Colorado",
+      "blurb": "We place and service ATMs throughout Pueblo, the historic steel city and commercial hub of Southern Colorado. The Historic Arkansas Riverwalk downtown hosts restaurants, bars, event venues, and a convention center, while Union Avenue's historic district supports cafes, shops, and salons. The Pueblo Boulevard and Highway 50 corridors carry hotels, chain dining, convenience stores, and licensed dispensaries, and the state fairgrounds fill every late summer. Pueblo's famous green chile harvest and festival draw fall crowds. Businesses here count on our machines for dependable cash availability year-round.",
+      "areas": [
+        "Downtown Pueblo",
+        "Riverwalk",
+        "Union Avenue Historic District",
+        "Pueblo Boulevard",
+        "Belmont",
+        "Pueblo West"
+      ],
+      "nearby": [
+        "colorado-springs",
+        "denver",
+        "durango"
+      ]
+    },
+    {
+      "slug": "grand-junction",
+      "name": "Grand Junction",
+      "region": "the Western Slope",
+      "blurb": "We place and service ATMs across Grand Junction and the Western Slope, the largest city between Denver and Salt Lake City. Downtown's Main Street shopping park hosts restaurants, bars, breweries, and galleries beneath the Colorado National Monument, while the North Avenue and Horizon Drive corridors near the airport carry hotels, chain dining, convenience stores, and salons. Nearby Palisade's wineries and peach orchards draw visitors every summer and fall. Licensed dispensaries operate in the region. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Grand Junction",
+        "Main Street",
+        "Horizon Drive",
+        "North Avenue",
+        "Palisade",
+        "Fruita"
+      ],
+      "nearby": [
+        "vail",
+        "durango",
+        "denver"
+      ]
+    },
+    {
+      "slug": "vail",
+      "name": "Vail",
+      "region": "the High Country",
+      "blurb": "We place and service ATMs throughout Vail and the mountain resort corridor along Interstate 70, including Breckenridge, Frisco, Avon, and Glenwood Springs. Vail Village and Lionshead pack hotels, ski-in restaurants, bars, and boutiques into pedestrian villages that fill from Thanksgiving through April and again in summer, while Breckenridge's Main Street runs a similar rhythm with saloons, galleries, and licensed dispensaries. Convenience stores and workforce housing towns down-valley serve year-round residents. Businesses here need machines that handle intense seasonal peaks and get serviced reliably in mountain conditions.",
+      "areas": [
+        "Vail Village",
+        "Lionshead",
+        "Breckenridge Main Street",
+        "Frisco",
+        "Avon",
+        "Glenwood Springs"
+      ],
+      "nearby": [
+        "denver",
+        "grand-junction",
+        "boulder"
+      ]
+    },
+    {
+      "slug": "durango",
+      "name": "Durango",
+      "region": "Southwest Colorado",
+      "blurb": "We place and service ATMs across Durango and the Four Corners region of Southwest Colorado. Downtown's Main Avenue historic district is lined with restaurants, saloons, breweries, hotels, and gift shops near the depot of the famous narrow-gauge railroad that carries visitors to Silverton all summer. The north Main and Highway 160 corridors carry chain dining, convenience stores, salons, and licensed dispensaries, and Fort Lewis College adds student demand. Winter brings skiers to Purgatory, and Mesa Verde draws year-round tourism. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Durango",
+        "Main Avenue",
+        "North Main",
+        "Fort Lewis College",
+        "Bayfield",
+        "Silverton"
+      ],
+      "nearby": [
+        "grand-junction",
+        "pueblo",
+        "colorado-springs"
+      ]
+    }
+  ]
+}

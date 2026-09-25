@@ -1,0 +1,90 @@
+{
+  "abbr": "TN",
+  "name": "Tennessee",
+  "metro_city": "Nashville",
+  "metro_phrase": "the Nashville metro area",
+  "span_phrase": "from Memphis to Bristol",
+  "seasonal_phrase": "music festival season, college football weekends, and Smoky Mountain tourism",
+  "cities": [
+    {
+      "slug": "nashville",
+      "name": "Nashville",
+      "region": "Middle Tennessee",
+      "blurb": "We place and service ATMs across Nashville, where Lower Broadway's honky-tonks, rooftop bars, and souvenir shops draw crowds every night of the week. The Gulch and Midtown mix boutique hotels, cocktail lounges, and restaurants, while East Nashville's Five Points supports neighborhood bars, coffee shops, and salons. Germantown and 12South add restaurants and specialty retail. Music venues, convenience stores, and hotels throughout Davidson County rely on dependable cash access for tourists and locals alike.",
+      "areas": ["Lower Broadway", "The Gulch", "East Nashville", "Midtown", "Germantown", "12South"],
+      "nearby": ["murfreesboro", "franklin", "clarksville"]
+    },
+    {
+      "slug": "memphis",
+      "name": "Memphis",
+      "region": "West Tennessee",
+      "blurb": "We place and service ATMs throughout Memphis, from the blues clubs and barbecue restaurants on Beale Street to the shops and cafes of Cooper-Young and Overton Square. Downtown hotels near the riverfront, convenience stores along Poplar Avenue, and entertainment venues in Midtown all need reliable cash service. Germantown Parkway retail corridors and Whitehaven businesses round out a metro where bars, gas stations, salons, and nightclubs depend on fast, well-stocked machines.",
+      "areas": ["Beale Street", "Cooper-Young", "Overton Square", "Downtown", "Midtown", "Whitehaven"],
+      "nearby": ["jackson", "nashville", "clarksville"]
+    },
+    {
+      "slug": "knoxville",
+      "name": "Knoxville",
+      "region": "East Tennessee",
+      "blurb": "We place and service ATMs in Knoxville, where Market Square and Gay Street anchor a downtown full of restaurants, bars, and boutique hotels. The Old City draws nightlife crowds to its music venues and cocktail bars, while Cumberland Avenue near campus supports late-night eateries and convenience stores. Bearden and West Knoxville add salons, retail centers, and neighborhood restaurants. Game weekends and Smoky Mountain visitors keep cash demand high for merchants across Knox County.",
+      "areas": ["Market Square", "Old City", "Cumberland Avenue", "Bearden", "Gay Street"],
+      "nearby": ["chattanooga", "johnson-city", "kingsport"]
+    },
+    {
+      "slug": "chattanooga",
+      "name": "Chattanooga",
+      "region": "Southeast Tennessee",
+      "blurb": "We place and service ATMs across Chattanooga, from the restaurants and hotels around the Riverfront and the Tennessee Aquarium to the breweries and cafes of the Southside near Main Street. The North Shore brings boutique retail and bars near Coolidge Park, while Hamilton Place and East Brainerd support convenience stores, salons, and casual dining. Outdoor tourism, Lookout Mountain visitors, and downtown events give local businesses steady reasons to keep cash close at hand.",
+      "areas": ["Riverfront", "Southside", "North Shore", "Hamilton Place", "Downtown"],
+      "nearby": ["knoxville", "murfreesboro", "nashville"]
+    },
+    {
+      "slug": "clarksville",
+      "name": "Clarksville",
+      "region": "Middle Tennessee",
+      "blurb": "We place and service ATMs in Clarksville, a fast-growing city on the Cumberland River near Fort Campbell. Historic Downtown along Franklin Street supports restaurants, bars, and small shops, while Wilma Rudolph Boulevard is lined with convenience stores, hotels, and retail plazas. Sango and St. Bethlehem add neighborhood salons, gas stations, and dining. Military families, university students, and commuters to Nashville all keep cash moving through local merchants year round.",
+      "areas": ["Downtown Clarksville", "Wilma Rudolph Boulevard", "Sango", "St. Bethlehem"],
+      "nearby": ["nashville", "franklin", "murfreesboro"]
+    },
+    {
+      "slug": "murfreesboro",
+      "name": "Murfreesboro",
+      "region": "Middle Tennessee",
+      "blurb": "We place and service ATMs throughout Murfreesboro, where the Public Square downtown supports restaurants, bars, and locally owned shops. The area around Middle Tennessee State University keeps late-night eateries, convenience stores, and salons busy through the school year, while The Avenue and Medical Center Parkway anchor hotels and retail. Smyrna and La Vergne nearby add commuter traffic and gas stations, making Rutherford County a dependable market for cash-based businesses.",
+      "areas": ["Public Square", "MTSU area", "The Avenue", "Medical Center Parkway"],
+      "nearby": ["nashville", "franklin", "chattanooga"]
+    },
+    {
+      "slug": "franklin",
+      "name": "Franklin",
+      "region": "Middle Tennessee",
+      "blurb": "We place and service ATMs in Franklin and Williamson County, where the historic Main Street district draws visitors to its restaurants, boutiques, and bars. Cool Springs is a major retail and hotel hub along Interstate 65, with convenience stores, salons, and casual dining serving office workers and shoppers. Nearby Brentwood adds neighborhood retail and service businesses. Festivals downtown and strong suburban growth keep merchants here reliant on well-serviced cash machines.",
+      "areas": ["Downtown Franklin", "Cool Springs", "Brentwood", "Berry Farms"],
+      "nearby": ["nashville", "murfreesboro", "clarksville"]
+    },
+    {
+      "slug": "jackson",
+      "name": "Jackson",
+      "region": "West Tennessee",
+      "blurb": "We place and service ATMs in Jackson, the commercial hub of West Tennessee midway between Memphis and Nashville on Interstate 40. Downtown and the Lafayette Street area support restaurants, bars, and small businesses, while the Vann Drive and North Highland corridors are lined with convenience stores, hotels, and retail centers. Truck stops near the interstate, salons, and gas stations throughout Madison County serve travelers and locals who still count on cash.",
+      "areas": ["Downtown Jackson", "Vann Drive", "North Highland Avenue", "Old Hickory Boulevard"],
+      "nearby": ["memphis", "nashville", "clarksville"]
+    },
+    {
+      "slug": "johnson-city",
+      "name": "Johnson City",
+      "region": "the Tri-Cities",
+      "blurb": "We place and service ATMs across Johnson City, where the revitalized downtown near Founders Park supports breweries, restaurants, and bars. The East Tennessee State University area keeps convenience stores and late-night dining busy, while North Roan Street and the mall district anchor hotels, salons, and retail. Nearby Elizabethton and Jonesborough add small-town shops and visitor traffic. Outdoor recreation in the surrounding mountains brings seasonal cash demand to local merchants.",
+      "areas": ["Downtown Johnson City", "ETSU area", "North Roan Street", "Jonesborough"],
+      "nearby": ["kingsport", "knoxville", "chattanooga"]
+    },
+    {
+      "slug": "kingsport",
+      "name": "Kingsport",
+      "region": "the Tri-Cities",
+      "blurb": "We place and service ATMs in Kingsport and neighboring Bristol, serving businesses from downtown Broad Street to the Fort Henry Drive retail corridor. Restaurants, bars, and small shops downtown draw steady weekend traffic, while convenience stores, hotels, and salons along Stone Drive serve commuters and travelers. In Bristol, State Street and the motor speedway area see major surges during race weekends, and Boone Lake recreation adds summer demand for cash across the region.",
+      "areas": ["Downtown Kingsport", "Fort Henry Drive", "Stone Drive", "Bristol", "State Street"],
+      "nearby": ["johnson-city", "knoxville", "chattanooga"]
+    }
+  ]
+}

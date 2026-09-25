@@ -1,0 +1,82 @@
+{
+  "abbr": "AK",
+  "name": "Alaska",
+  "metro_city": "Anchorage",
+  "metro_phrase": "the Anchorage bowl and Mat-Su",
+  "span_phrase": "from Fairbanks to Ketchikan",
+  "seasonal_phrase": "cruise ship season, summer fishing and tourism, and the winter sled-dog race crowds",
+  "cities": [
+    {
+      "slug": "anchorage",
+      "name": "Anchorage",
+      "region": "Southcentral Alaska",
+      "blurb": "We place and service ATMs across Anchorage, home to roughly four in ten Alaskans. Downtown's Fourth Avenue and the area around the Alaska Center for the Performing Arts support hotels, bars, restaurants, and gift shops that fill with summer tourists, while Spenard's eclectic nightlife and Midtown's restaurants and dispensaries draw locals year-round. The Dimond Center and South Anchorage carry big-box retail, convenience stores, and salons. Businesses here need machines that handle summer surges, tolerate long winters, and get serviced quickly when it matters.",
+      "areas": ["Downtown Anchorage", "Spenard", "Midtown", "South Anchorage", "Muldoon", "Dimond Center"],
+      "nearby": ["wasilla", "palmer", "kenai", "seward"]
+    },
+    {
+      "slug": "wasilla",
+      "name": "Wasilla",
+      "region": "the Mat-Su Valley",
+      "blurb": "We place and service ATMs throughout Wasilla and the fast-growing Mat-Su Valley north of Anchorage. The Parks Highway corridor carries most of the area's commerce: chain and independent restaurants, bars, convenience stores, dispensaries, and retail centers around Wasilla Lake and the Palmer-Wasilla Highway. The valley hosts the ceremonial restart of the famous March sled-dog race, and summer brings anglers, RV travelers, and visitors heading toward Denali. Local businesses depend on our machines for consistent cash availability across a widely spread commuter community.",
+      "areas": ["Parks Highway Corridor", "Wasilla Lake", "Palmer-Wasilla Highway", "Knik-Goose Bay Road", "Big Lake"],
+      "nearby": ["palmer", "anchorage", "fairbanks"]
+    },
+    {
+      "slug": "palmer",
+      "name": "Palmer",
+      "region": "the Mat-Su Valley",
+      "blurb": "We place and service ATMs in Palmer and the eastern Mat-Su Valley. Palmer's historic downtown along Colony Way supports cafes, bars, breweries, and small shops beneath the Chugach and Talkeetna mountains, and the Alaska State Fairgrounds draw the state's largest annual crowd every late summer. The Glenn Highway carries hotels, convenience stores, and fuel stops serving travelers to Glennallen and beyond, while the Butte and Sutton areas add rural roadhouses. Businesses here rely on us for dependable machines that keep up with fair season and year-round local traffic.",
+      "areas": ["Downtown Palmer", "Colony Way", "Alaska State Fairgrounds", "Glenn Highway", "The Butte"],
+      "nearby": ["wasilla", "anchorage", "fairbanks"]
+    },
+    {
+      "slug": "fairbanks",
+      "name": "Fairbanks",
+      "region": "the Interior",
+      "blurb": "We place and service ATMs across Fairbanks, the commercial center of Alaska's Interior. Downtown's Second Avenue and the Chena riverfront support hotels, bars, restaurants, and gift shops that bus tours fill each summer, while the Airport Way and College Road corridors carry convenience stores, dispensaries, salons, and retail near the University of Alaska Fairbanks. Winter brings aurora tourism and the ice art championships, and nearby military installations sustain steady demand. Businesses here need machines built for extreme cold and serviced by people who know the Interior.",
+      "areas": ["Downtown Fairbanks", "Airport Way", "College Road", "North Pole", "Chena Hot Springs Road"],
+      "nearby": ["palmer", "wasilla", "anchorage"]
+    },
+    {
+      "slug": "juneau",
+      "name": "Juneau",
+      "region": "Southeast Alaska",
+      "blurb": "We place and service ATMs throughout Juneau, the state capital and a major cruise port in Southeast Alaska. Downtown's South Franklin Street and the cruise docks concentrate gift shops, bars, restaurants, and tour operators that serve well over a million visitors between May and September. The Mendenhall Valley carries the city's grocery, convenience stores, salons, and neighborhood dining for year-round residents, while the legislative session fills hotels each winter and spring. Businesses here rely on us for machines that stay stocked when ships are in port.",
+      "areas": ["Downtown Juneau", "South Franklin Street", "Mendenhall Valley", "Douglas", "Auke Bay"],
+      "nearby": ["ketchikan", "anchorage", "seward"]
+    },
+    {
+      "slug": "ketchikan",
+      "name": "Ketchikan",
+      "region": "Southeast Alaska",
+      "blurb": "We place and service ATMs in Ketchikan, Alaska's first port of call for northbound cruise ships. Downtown's Front Street, Creek Street, and the waterfront berths host gift shops, bars, restaurants, and excursion operators that see intense daily surges from May through September. Tongass Avenue carries the year-round convenience stores, dining, and retail serving residents, and the fishing and timber heritage still shape the local economy. Businesses here depend on our machines to keep cash available through the busiest port days of the season.",
+      "areas": ["Downtown Ketchikan", "Creek Street", "Front Street", "Tongass Avenue", "Ward Cove"],
+      "nearby": ["juneau", "anchorage", "seward"]
+    },
+    {
+      "slug": "kenai",
+      "name": "Kenai",
+      "region": "the Kenai Peninsula",
+      "blurb": "We place and service ATMs across Kenai, Soldotna, and the central Kenai Peninsula, where summer salmon runs on the Kenai River bring anglers from around the world. The Kenai Spur Highway and Sterling Highway corridors carry the area's hotels, restaurants, bars, convenience stores, and dispensaries, while Old Town Kenai overlooks Cook Inlet. Oil and gas operations and commercial fishing sustain year-round activity. Businesses here count on our machines to stay stocked through the July dipnet crowds and to remain reliable in the off-season.",
+      "areas": ["Old Town Kenai", "Kenai Spur Highway", "Soldotna", "Sterling Highway", "Nikiski"],
+      "nearby": ["seward", "anchorage", "homer"]
+    },
+    {
+      "slug": "homer",
+      "name": "Homer",
+      "region": "the Kenai Peninsula",
+      "blurb": "We place and service ATMs in Homer at the end of the Sterling Highway on Kachemak Bay. The Homer Spit is lined with charter fishing offices, seafood restaurants, bars, galleries, and lodging that fill from spring through fall, while Pioneer Avenue and Old Town carry the year-round shops, cafes, and salons serving residents. Halibut fishing, water taxis to Seldovia and Halibut Cove, and summer festivals drive strong visitor traffic. Local businesses rely on our machines for dependable cash when the Spit is at its busiest.",
+      "areas": ["Homer Spit", "Pioneer Avenue", "Old Town Homer", "Kachemak Bay", "Anchor Point"],
+      "nearby": ["kenai", "seward", "anchorage"]
+    },
+    {
+      "slug": "seward",
+      "name": "Seward",
+      "region": "the Kenai Peninsula",
+      "blurb": "We place and service ATMs throughout Seward, a cruise port and gateway to Kenai Fjords National Park at the head of Resurrection Bay. The small-boat harbor district and Fourth Avenue downtown support tour operators, seafood restaurants, bars, gift shops, and lodging that serve cruise passengers, railroad visitors, and road-trippers all summer. The Alaska SeaLife Center and the Fourth of July mountain race bring additional crowds. Convenience stores and hospitality businesses here depend on our machines to keep cash flowing during a short, intense season.",
+      "areas": ["Downtown Seward", "Small Boat Harbor", "Fourth Avenue", "Resurrection Bay", "Seward Highway"],
+      "nearby": ["kenai", "homer", "anchorage"]
+    }
+  ]
+}

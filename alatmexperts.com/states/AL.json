@@ -1,0 +1,193 @@
+{
+  "abbr": "AL",
+  "name": "Alabama",
+  "metro_city": "Birmingham",
+  "metro_phrase": "the greater Birmingham metro",
+  "span_phrase": "from Huntsville to Mobile",
+  "seasonal_phrase": "college football weekends, Gulf Coast beach season, and Mardi Gras in Mobile",
+  "cities": [
+    {
+      "slug": "birmingham",
+      "name": "Birmingham",
+      "region": "Central Alabama",
+      "blurb": "We place and service ATMs across Birmingham, from the bars and restaurants of Five Points South to the breweries and lofts around Avondale and the revitalized warehouses of Parkside near Railroad Park. Downtown's hotels and event venues draw steady foot traffic, while Lakeview's nightlife runs late on weekends. Convenience stores, salons, and neighborhood taverns throughout Jefferson County rely on us for reliable cash access, fast servicing, and machines that stay stocked when the city fills up for concerts, conventions, and game weekends.",
+      "areas": [
+        "Five Points South",
+        "Avondale",
+        "Lakeview",
+        "Parkside",
+        "Downtown Birmingham",
+        "Homewood"
+      ],
+      "nearby": [
+        "hoover",
+        "tuscaloosa",
+        "montgomery"
+      ]
+    },
+    {
+      "slug": "hoover",
+      "name": "Hoover",
+      "region": "Central Alabama",
+      "blurb": "We place and service ATMs throughout Hoover and the over-the-mountain suburbs south of Birmingham. The Riverchase Galleria area anchors a dense cluster of restaurants, hotels, and retail, while Patton Creek and the Highway 150 corridor add chain and independent eateries, convenience stores, and salons. Hoover Metropolitan Stadium and its surrounding complex host tournaments and events that bring visitors from across the Southeast. Businesses here value dependable machines, quick cash replenishment, and service technicians who know the area.",
+      "areas": [
+        "Riverchase Galleria",
+        "Patton Creek",
+        "Highway 150 Corridor",
+        "Bluff Park",
+        "Inverness"
+      ],
+      "nearby": [
+        "birmingham",
+        "tuscaloosa",
+        "montgomery"
+      ]
+    },
+    {
+      "slug": "huntsville",
+      "name": "Huntsville",
+      "region": "North Alabama",
+      "blurb": "We place and service ATMs across Huntsville, one of the fastest-growing cities in the Southeast. Downtown's bars and restaurants around Big Spring Park, the breweries and food halls at Campus 805, and the retail and entertainment at Bridge Street Town Centre keep cash moving every night of the week. Research Park and the aerospace and defense employers nearby support a large workforce that eats out, travels, and shops locally. Hotels, convenience stores, and salons throughout Madison County count on our machines to stay stocked and online.",
+      "areas": [
+        "Downtown Huntsville",
+        "Campus 805",
+        "Bridge Street Town Centre",
+        "Lowe Mill",
+        "Five Points"
+      ],
+      "nearby": [
+        "decatur",
+        "birmingham",
+        "florence"
+      ]
+    },
+    {
+      "slug": "decatur",
+      "name": "Decatur",
+      "region": "North Alabama",
+      "blurb": "We place and service ATMs in Decatur and the Tennessee River communities of Morgan County. Historic downtown along Second Avenue supports restaurants, bars, and specialty shops, while the Beltline Road corridor carries the city's hotels, convenience stores, and chain retail. Point Mallard Park draws summer crowds to its water park and campground, and the riverfront attracts anglers and boaters throughout the year. Local businesses depend on us for reliable machines, prompt servicing, and cash availability that keeps pace with seasonal visitors.",
+      "areas": [
+        "Downtown Decatur",
+        "Beltline Road",
+        "Point Mallard",
+        "Old Decatur",
+        "Southwest Decatur"
+      ],
+      "nearby": [
+        "huntsville",
+        "florence",
+        "birmingham"
+      ]
+    },
+    {
+      "slug": "florence",
+      "name": "Florence",
+      "region": "the Shoals",
+      "blurb": "We place and service ATMs across Florence and the Shoals communities of Muscle Shoals, Sheffield, and Tuscumbia. Downtown Florence's Court Street district is home to restaurants, bars, boutiques, and live-music venues that build on the region's recording heritage. The University of North Alabama campus keeps the area busy during the academic year, and the W.C. Handy Music Festival fills hotels every summer. Convenience stores, salons, and hospitality businesses throughout Lauderdale and Colbert counties rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Florence",
+        "Court Street",
+        "Seven Points",
+        "Muscle Shoals",
+        "Sheffield"
+      ],
+      "nearby": [
+        "huntsville",
+        "decatur",
+        "tuscaloosa"
+      ]
+    },
+    {
+      "slug": "tuscaloosa",
+      "name": "Tuscaloosa",
+      "region": "West Alabama",
+      "blurb": "We place and service ATMs throughout Tuscaloosa, where the University of Alabama drives a hospitality economy that surges on football weekends. The Strip along University Boulevard packs bars, restaurants, and late-night food into a few blocks, while Downtown Tuscaloosa and the Riverwalk area add hotels, entertainment venues, and the Tuscaloosa Amphitheater. Midtown Village and the McFarland Boulevard corridor carry retail, convenience stores, and salons. Businesses here need machines that handle heavy game-day demand and stay stocked all season long.",
+      "areas": [
+        "The Strip",
+        "Downtown Tuscaloosa",
+        "Midtown Village",
+        "Riverwalk",
+        "Northport"
+      ],
+      "nearby": [
+        "birmingham",
+        "hoover",
+        "montgomery"
+      ]
+    },
+    {
+      "slug": "montgomery",
+      "name": "Montgomery",
+      "region": "the River Region",
+      "blurb": "We place and service ATMs across Montgomery, the state capital and center of the River Region. Downtown's Dexter Avenue and the riverfront entertainment district support hotels, restaurants, and bars serving legislators, visitors, and workers, while the Alley adds nightlife near the convention center and riverwalk stadium. Eastchase and the Atlanta Highway corridor carry retail, convenience stores, and salons. Maxwell Air Force Base and state government offices anchor steady weekday demand, and businesses here depend on us for reliable machines and quick service.",
+      "areas": [
+        "Downtown Montgomery",
+        "The Alley",
+        "Eastchase",
+        "Cloverdale",
+        "Old Cloverdale",
+        "Atlanta Highway"
+      ],
+      "nearby": [
+        "birmingham",
+        "auburn",
+        "dothan"
+      ]
+    },
+    {
+      "slug": "auburn",
+      "name": "Auburn",
+      "region": "East Alabama",
+      "blurb": "We place and service ATMs throughout Auburn and neighboring Opelika, a college town whose population swells dramatically on fall weekends. Downtown Auburn's Toomer's Corner and College Street district are packed with bars, restaurants, and shops that stay busy through the academic year. Opelika's historic downtown has grown into a dining and craft-beverage destination, and Tiger Town on the Opelika side carries chain retail, hotels, and convenience stores. Businesses here need machines built for game-day surges and consistent servicing between them.",
+      "areas": [
+        "Downtown Auburn",
+        "Toomer's Corner",
+        "College Street",
+        "Downtown Opelika",
+        "Tiger Town"
+      ],
+      "nearby": [
+        "montgomery",
+        "dothan",
+        "birmingham"
+      ]
+    },
+    {
+      "slug": "dothan",
+      "name": "Dothan",
+      "region": "the Wiregrass",
+      "blurb": "We place and service ATMs across Dothan, the commercial hub of the Wiregrass region in southeast Alabama. Downtown Dothan's historic district hosts restaurants, bars, and event venues around the murals and the Dothan Opera House, while the Ross Clark Circle loop carries the city's hotels, chain restaurants, convenience stores, and retail. The National Peanut Festival brings large crowds each fall, and traffic between Fort Novosel and the Florida beaches keeps highway-side businesses busy. Local merchants depend on our machines for dependable cash availability year-round.",
+      "areas": [
+        "Downtown Dothan",
+        "Ross Clark Circle",
+        "Wiregrass Commons",
+        "Westgate",
+        "Enterprise"
+      ],
+      "nearby": [
+        "montgomery",
+        "auburn",
+        "mobile"
+      ]
+    },
+    {
+      "slug": "mobile",
+      "name": "Mobile",
+      "region": "the Gulf Coast",
+      "blurb": "We place and service ATMs throughout Mobile and Baldwin County, from the bars and restaurants of Dauphin Street in the Lower Dauphin Street Entertainment District to the hotels and convention traffic along the downtown waterfront. Mardi Gras season transforms the city for weeks every year, and the port, shipbuilding, and aerospace employers keep weekday demand steady. Across the bay, Fairhope, Daphne, and the beach towns of Gulf Shores and Orange Beach fill with summer visitors. Local businesses count on our machines to stay stocked through every peak.",
+      "areas": [
+        "Downtown Mobile",
+        "Dauphin Street",
+        "Midtown",
+        "Spring Hill",
+        "Fairhope",
+        "Gulf Shores"
+      ],
+      "nearby": [
+        "dothan",
+        "montgomery",
+        "birmingham"
+      ]
+    }
+  ]
+}

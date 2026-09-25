@@ -1,0 +1,194 @@
+{
+  "abbr": "MI",
+  "name": "Michigan",
+  "metro_city": "Detroit",
+  "metro_phrase": "Metro Detroit",
+  "span_phrase": "from Detroit to Marquette",
+  "seasonal_phrase": "summer lake tourism, fall color season, and auto show week",
+  "cities": [
+    {
+      "slug": "detroit",
+      "name": "Detroit",
+      "region": "Southeast Michigan",
+      "blurb": "We place and service ATMs across Detroit, from the bars and restaurants of Corktown and Greektown to the hotels, casinos, and entertainment venues downtown. Midtown's galleries, cafes, and music clubs draw steady foot traffic near Wayne State, while Eastern Market pulls weekend crowds to its vendors and breweries. Neighborhood party stores, gas stations, salons, and dispensaries along Woodward, Gratiot, and Michigan Avenue depend on reliable cash access, and we keep every machine stocked and running.",
+      "areas": [
+        "Downtown Detroit",
+        "Corktown",
+        "Greektown",
+        "Midtown",
+        "Eastern Market",
+        "Southwest Detroit"
+      ],
+      "nearby": [
+        "dearborn",
+        "flint",
+        "ann-arbor"
+      ]
+    },
+    {
+      "slug": "grand-rapids",
+      "name": "Grand Rapids",
+      "region": "West Michigan",
+      "blurb": "We place and service ATMs throughout Grand Rapids, a city known for its craft breweries, taprooms, and restaurants. Downtown and the Arena District fill up on event nights, and the Heartside and Eastown neighborhoods support bars, coffee shops, and boutiques with steady walk-in traffic. Along 28th Street and in the Wealthy Street corridor, convenience stores, salons, and dispensaries need dependable cash access. Our machines are serviced locally so owners never wait long for a refill or repair.",
+      "areas": [
+        "Downtown Grand Rapids",
+        "Arena District",
+        "Eastown",
+        "Heartside",
+        "Wealthy Street",
+        "Creston"
+      ],
+      "nearby": [
+        "kalamazoo",
+        "lansing",
+        "traverse-city"
+      ]
+    },
+    {
+      "slug": "ann-arbor",
+      "name": "Ann Arbor",
+      "region": "Southeast Michigan",
+      "blurb": "We place and service ATMs in Ann Arbor, where the university calendar drives cash demand at bars, restaurants, and shops. Main Street and the State Street district stay busy with dining and nightlife, Kerrytown hosts a farmers market and specialty food shops, and South University serves late-night pizza and student crowds. Football Saturdays bring tens of thousands of visitors who need cash for parking, vendors, and tailgates. Hotels, convenience stores, and dispensaries across the city rely on our fast local service.",
+      "areas": [
+        "Main Street",
+        "State Street",
+        "Kerrytown",
+        "South University",
+        "Briarwood"
+      ],
+      "nearby": [
+        "detroit",
+        "dearborn",
+        "lansing"
+      ]
+    },
+    {
+      "slug": "lansing",
+      "name": "Lansing",
+      "region": "Mid-Michigan",
+      "blurb": "We place and service ATMs in Lansing and East Lansing, home to state government and a major university. Downtown Lansing's Washington Square restaurants and bars serve the capitol lunch crowd, while Old Town's galleries, taverns, and boutiques anchor evening traffic. Grand River Avenue in East Lansing runs with student bars, late-night eateries, and convenience stores. REO Town's cafes and breweries are growing, and dispensaries and gas stations across the metro depend on machines that stay stocked through busy legislative sessions and game weekends.",
+      "areas": [
+        "Downtown Lansing",
+        "Old Town",
+        "REO Town",
+        "East Lansing",
+        "Frandor"
+      ],
+      "nearby": [
+        "ann-arbor",
+        "grand-rapids",
+        "flint",
+        "kalamazoo"
+      ]
+    },
+    {
+      "slug": "flint",
+      "name": "Flint",
+      "region": "Mid-Michigan",
+      "blurb": "We place and service ATMs in Flint and Genesee County, keeping cash flowing for party stores, gas stations, and bars along Saginaw Street and Dort Highway. Downtown Flint's restaurants, the Flint Farmers' Market, and the cultural center campus draw regular visitors, and the college corridor near Kettering and UM-Flint supports cafes and convenience stores. Salons, laundromats, dispensaries, and neighborhood taverns across Flint Township, Burton, and Grand Blanc rely on our locally serviced machines to keep customers spending.",
+      "areas": [
+        "Downtown Flint",
+        "Carriage Town",
+        "Flint Township",
+        "Grand Blanc",
+        "Burton"
+      ],
+      "nearby": [
+        "detroit",
+        "lansing",
+        "saginaw"
+      ]
+    },
+    {
+      "slug": "saginaw",
+      "name": "Saginaw",
+      "region": "the Great Lakes Bay Region",
+      "blurb": "We place and service ATMs in Saginaw, Bay City, and Midland, the three cities that make up the Great Lakes Bay Region. Old Town Saginaw's bars and restaurants along Court and Hamilton streets, downtown Bay City's riverfront taverns and antique shops, and Midland's Main Street dining district each generate steady cash traffic. Summer boating on the Saginaw Bay and events at the Dow Event Center bring visitors, and convenience stores, dispensaries, and gas stations across the region depend on machines we stock and maintain locally.",
+      "areas": [
+        "Old Town Saginaw",
+        "Downtown Saginaw",
+        "Bay City",
+        "Midland",
+        "Saginaw Township"
+      ],
+      "nearby": [
+        "flint",
+        "lansing",
+        "traverse-city"
+      ]
+    },
+    {
+      "slug": "kalamazoo",
+      "name": "Kalamazoo",
+      "region": "Southwest Michigan",
+      "blurb": "We place and service ATMs in Kalamazoo, a college town with a busy downtown and a strong brewery scene. The Kalamazoo Mall and the Haymarket district support restaurants, bars, and live music venues, while the Vine neighborhood near Western Michigan University runs with student cafes and convenience stores. Portage's Westnedge corridor is lined with retail, salons, and gas stations. Dispensaries, hotels near the airport, and taverns in Battle Creek and along I-94 rely on our machines to stay stocked through the school year and summer festivals.",
+      "areas": [
+        "Downtown Kalamazoo",
+        "Vine Neighborhood",
+        "Haymarket District",
+        "Westnedge Avenue",
+        "Portage"
+      ],
+      "nearby": [
+        "grand-rapids",
+        "lansing",
+        "traverse-city"
+      ]
+    },
+    {
+      "slug": "traverse-city",
+      "name": "Traverse City",
+      "region": "Northern Michigan",
+      "blurb": "We place and service ATMs in Traverse City and the surrounding Grand Traverse Bay region, where summer tourism transforms cash demand. Front Street's restaurants, wine bars, and boutiques stay packed from the Cherry Festival through fall color season, and the Old Town and Warehouse District neighborhoods add breweries and galleries. Marinas, resorts, wineries on the Old Mission and Leelanau peninsulas, and dispensaries in town all need machines that hold up under peak traffic. We plan refills around the seasonal swings so owners never run empty in July.",
+      "areas": [
+        "Front Street",
+        "Old Town",
+        "Warehouse District",
+        "Old Mission Peninsula",
+        "Garfield Township"
+      ],
+      "nearby": [
+        "saginaw",
+        "marquette",
+        "grand-rapids"
+      ]
+    },
+    {
+      "slug": "marquette",
+      "name": "Marquette",
+      "region": "the Upper Peninsula",
+      "blurb": "We place and service ATMs in Marquette and across the Upper Peninsula, where long distances make dependable local service essential. Downtown Marquette's Washington Street and Third Street corridor hold bars, restaurants, and shops that serve Northern Michigan University students and Lake Superior tourists, and the lower harbor draws summer boaters and festival crowds. Convenience stores, gas stations, motels, snowmobile trail stops, and dispensaries throughout Marquette County, Escanaba, and Sault Ste. Marie rely on our machines through both summer tourist season and the long winter.",
+      "areas": [
+        "Downtown Marquette",
+        "Third Street",
+        "Lower Harbor",
+        "Marquette Township",
+        "Escanaba"
+      ],
+      "nearby": [
+        "traverse-city",
+        "saginaw",
+        "detroit"
+      ]
+    },
+    {
+      "slug": "dearborn",
+      "name": "Dearborn",
+      "region": "Metro Detroit",
+      "blurb": "We place and service ATMs in Dearborn and the Downriver communities west and south of Detroit. Michigan Avenue and Warren Avenue are dense with restaurants, bakeries, cafes, and grocers serving one of the country's largest Arab American communities, and East and West Downtown Dearborn add bars, salons, and retail. Hotels near the museum campus and the Ford world headquarters host business travelers year round, while gas stations, convenience stores, and dispensaries in Dearborn Heights, Taylor, and Wyandotte depend on machines we keep stocked and maintained.",
+      "areas": [
+        "West Downtown Dearborn",
+        "East Downtown Dearborn",
+        "Warren Avenue",
+        "Dearborn Heights",
+        "Taylor",
+        "Wyandotte"
+      ],
+      "nearby": [
+        "detroit",
+        "ann-arbor",
+        "flint"
+      ]
+    }
+  ]
+}

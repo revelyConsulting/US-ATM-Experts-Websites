@@ -1,0 +1,82 @@
+{
+  "abbr": "RI",
+  "name": "Rhode Island",
+  "metro_city": "Providence",
+  "metro_phrase": "the Providence metro",
+  "span_phrase": "from Woonsocket to Westerly",
+  "seasonal_phrase": "summer beach and sailing traffic in Newport and South County, WaterFire weekends in Providence, and college move-in and graduation season",
+  "cities": [
+    {
+      "slug": "providence",
+      "name": "Providence",
+      "region": "the Providence metro",
+      "blurb": "We place and service ATMs across Providence, from the bars, restaurants, and hotels of Downcity and the Jewelry District to the Italian restaurants and cafes of Federal Hill along Atwells Avenue. Thayer Street's convenience stores and late-night eateries serve the College Hill campus community, while Westminster Street's boutiques and salons and Olneyville's music venues draw weekend crowds. WaterFire nights and convention-center events bring surges of visitors, and licensed dispensaries across the city are a natural fit for cash-only sales.",
+      "areas": ["Downcity", "Federal Hill", "Thayer Street", "Jewelry District", "Westminster Street", "Olneyville"],
+      "nearby": ["pawtucket", "cranston", "warwick"]
+    },
+    {
+      "slug": "warwick",
+      "name": "Warwick",
+      "region": "the Providence metro",
+      "blurb": "We place and service ATMs in Warwick, home to the state's main airport and its busiest retail corridors. The hotels, convenience stores, and quick-service restaurants along Post Road and Jefferson Boulevard serve airport travelers year-round, while the Warwick Mall and Bald Hill Road corridor draw shoppers from across the state. Oakland Beach's seafood shacks and the marinas along Greenwich Bay fill in summer, and Apponaug Village's restaurants and salons serve the local community. Licensed dispensaries in Kent County rely on us for cash access.",
+      "areas": ["Post Road", "Bald Hill Road", "Warwick Mall", "Oakland Beach", "Apponaug Village", "Jefferson Boulevard"],
+      "nearby": ["providence", "cranston", "east-greenwich"]
+    },
+    {
+      "slug": "cranston",
+      "name": "Cranston",
+      "region": "the Providence metro",
+      "blurb": "We place and service ATMs in Cranston, just south of Providence. Rolfe Square and Knightsville's restaurants, bakeries, and bars anchor the city's neighborhood commercial districts, while the convenience stores, salons, and quick-service restaurants along Reservoir Avenue and Oaklawn Avenue serve daily traffic. Garden City Center's shops and cafes draw visitors from across the metro, and the Pawtuxet Village waterfront hosts taverns and specialty stores near the Warwick line. Licensed dispensaries in the area rely on us for reliable cash service.",
+      "areas": ["Rolfe Square", "Knightsville", "Reservoir Avenue", "Garden City Center", "Pawtuxet Village", "Oaklawn Avenue"],
+      "nearby": ["providence", "warwick", "pawtucket"]
+    },
+    {
+      "slug": "pawtucket",
+      "name": "Pawtucket",
+      "region": "the Blackstone Valley",
+      "blurb": "We place and service ATMs in Pawtucket and Central Falls in the lower Blackstone Valley. Downtown's Main Street and the converted mill buildings along the river host restaurants, breweries, and arts venues that fill on weekends and during the fall arts festival, while the convenience stores, salons, and quick-service restaurants along Newport Avenue and Broad Street serve neighborhoods across both cities. Hotels near Interstate 95 handle steady traveler traffic, and licensed dispensaries in the area rely on us for cash access.",
+      "areas": ["Downtown Pawtucket", "Main Street", "Newport Avenue", "Broad Street", "Central Falls", "Slater Mill"],
+      "nearby": ["providence", "woonsocket", "cranston"]
+    },
+    {
+      "slug": "woonsocket",
+      "name": "Woonsocket",
+      "region": "the Blackstone Valley",
+      "blurb": "We place and service ATMs in Woonsocket and the northern Blackstone Valley. Downtown's Main Street hosts restaurants, bars, and the Stadium Theatre, while the convenience stores, salons, and quick-service restaurants along Diamond Hill Road and Cumberland Hill Road serve residents and Massachusetts commuters. Nearby Cumberland and Lincoln add cafes and taverns along Mendon Road, and the Twin River casino area draws visitors to hotels and restaurants year-round. Licensed dispensaries in northern Rhode Island rely on us for reliable cash service.",
+      "areas": ["Downtown Woonsocket", "Main Street", "Diamond Hill Road", "Cumberland Hill Road", "Lincoln", "Cumberland"],
+      "nearby": ["pawtucket", "providence", "cranston"]
+    },
+    {
+      "slug": "newport",
+      "name": "Newport",
+      "region": "Aquidneck Island",
+      "blurb": "We place and service ATMs in Newport and across Aquidneck Island. Thames Street and Bowen's Wharf host bars, seafood restaurants, and hotels that fill from Memorial Day through the fall folk and jazz festival season, while Broadway's taverns and cafes serve locals year-round. Bellevue Avenue's shops and the mansion tours draw steady tourist traffic, and the convenience stores and salons along West Main Road in Middletown serve the naval base community. Licensed dispensaries in Newport County rely on us for cash access during the summer surge.",
+      "areas": ["Thames Street", "Bowen's Wharf", "Broadway", "Bellevue Avenue", "Middletown", "Portsmouth"],
+      "nearby": ["warwick", "east-greenwich", "south-kingstown"]
+    },
+    {
+      "slug": "south-kingstown",
+      "name": "South Kingstown",
+      "region": "South County",
+      "blurb": "We place and service ATMs in South Kingstown and Narragansett in the heart of South County. Wakefield's Main Street hosts restaurants, bars, and shops, while the convenience stores and late-night eateries in Kingston serve the university community through the school year. Narragansett's Pier and the beach bars along Ocean Road surge with summer crowds, and the Galilee fishing port's seafood restaurants and ferry traffic to Block Island keep cash moving all season. Licensed dispensaries in Washington County rely on us for reliable service.",
+      "areas": ["Wakefield Main Street", "Kingston", "Narragansett Pier", "Ocean Road", "Galilee", "Matunuck"],
+      "nearby": ["newport", "westerly", "east-greenwich"]
+    },
+    {
+      "slug": "westerly",
+      "name": "Westerly",
+      "region": "South County",
+      "blurb": "We place and service ATMs in Westerly and the southwestern corner of the state. Downtown's High Street and Broad Street host restaurants, bars, and the Granite Theatre, while Watch Hill's shops and beachfront hotels and Misquamicut's beach bars and arcades surge with summer visitors. The convenience stores, salons, and quick-service restaurants along Post Road and Franklin Street serve residents and Connecticut commuters year-round, and nearby Charlestown's beaches add seasonal traffic. Licensed dispensaries in the area rely on us for cash service.",
+      "areas": ["Downtown Westerly", "Watch Hill", "Misquamicut", "Post Road", "Charlestown"],
+      "nearby": ["south-kingstown", "newport", "warwick"]
+    },
+    {
+      "slug": "east-greenwich",
+      "name": "East Greenwich",
+      "region": "Kent County",
+      "blurb": "We place and service ATMs in East Greenwich and the surrounding Kent County towns. Main Street's restaurants, bars, and boutiques draw diners from across the state, while the marinas and waterfront restaurants along Water Street fill through the summer boating season. The convenience stores, salons, and quick-service restaurants along Division Street and Route 2 serve residents and commuters, and nearby Coventry and West Greenwich add taverns and shops. Licensed dispensaries in the area rely on us for reliable cash access.",
+      "areas": ["Main Street", "Water Street", "Hill and Harbour District", "Division Street", "Route 2 corridor", "Coventry"],
+      "nearby": ["warwick", "cranston", "south-kingstown"]
+    }
+  ]
+}

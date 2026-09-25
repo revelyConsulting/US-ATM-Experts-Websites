@@ -1,0 +1,180 @@
+{
+  "abbr": "NM",
+  "name": "New Mexico",
+  "metro_city": "Albuquerque",
+  "metro_phrase": "the Albuquerque metro",
+  "span_phrase": "from Albuquerque to Las Cruces",
+  "seasonal_phrase": "Balloon Fiesta week, the Santa Fe summer market season, and ski season in the Sangre de Cristos",
+  "cities": [
+    {
+      "slug": "albuquerque",
+      "name": "Albuquerque",
+      "region": "Central New Mexico",
+      "blurb": "We place and service ATMs across Albuquerque, from the bars, restaurants, and music venues of Nob Hill along Central Avenue to the galleries, hotels, and shops of Old Town near the plaza. Downtown's brewery district and the Rail Yards add taverns and weekend market crowds, and the university area keeps cafes and convenience stores busy through the school year. Gas stations, salons, smoke shops, and dispensaries along Coors Boulevard, Menaul, and in the Northeast Heights depend on machines we keep stocked and running, especially during Balloon Fiesta week each October.",
+      "areas": [
+        "Nob Hill",
+        "Old Town",
+        "Downtown Albuquerque",
+        "University area",
+        "Northeast Heights",
+        "West Side"
+      ],
+      "nearby": [
+        "rio-rancho",
+        "santa-fe",
+        "los-lunas"
+      ]
+    },
+    {
+      "slug": "santa-fe",
+      "name": "Santa Fe",
+      "region": "Northern New Mexico",
+      "blurb": "We place and service ATMs in Santa Fe, where tourism, the arts, and state government keep cash in demand. The Plaza and the surrounding downtown blocks hold galleries, restaurants, hotels, and boutiques that fill during the summer Indian Market and Spanish Market weekends, and Canyon Road's galleries and cafes draw visitors daily. The Railyard district adds breweries and a farmers market, and the Cerrillos Road corridor carries gas stations, motels, salons, and retail. Dispensaries and taverns across the city and in Española rely on our locally serviced machines.",
+      "areas": [
+        "The Plaza",
+        "Canyon Road",
+        "Railyard District",
+        "Cerrillos Road",
+        "Guadalupe Street",
+        "Española"
+      ],
+      "nearby": [
+        "albuquerque",
+        "rio-rancho",
+        "taos"
+      ]
+    },
+    {
+      "slug": "las-cruces",
+      "name": "Las Cruces",
+      "region": "Southern New Mexico",
+      "blurb": "We place and service ATMs in Las Cruces, the university hub of the Mesilla Valley. Downtown's Main Street plaza holds restaurants, bars, breweries, and a Saturday farmers market, and the university district along University Avenue keeps taverns, pizza shops, and convenience stores busy through the school year. Old Mesilla's plaza adds restaurants and gift shops, and the Telshor and Lohman corridors on the east side carry hotels, gas stations, salons, and retail. Dispensaries and bars across Doña Ana County depend on our reliable local service.",
+      "areas": [
+        "Downtown Las Cruces",
+        "Main Street",
+        "University area",
+        "Old Mesilla",
+        "Telshor Boulevard",
+        "Lohman Avenue"
+      ],
+      "nearby": [
+        "alamogordo",
+        "roswell",
+        "albuquerque"
+      ]
+    },
+    {
+      "slug": "rio-rancho",
+      "name": "Rio Rancho",
+      "region": "the Albuquerque metro",
+      "blurb": "We place and service ATMs in Rio Rancho and the Sandoval County suburbs northwest of Albuquerque, one of the state's fastest-growing areas. The Southern Boulevard and Unser Boulevard corridors carry restaurants, gas stations, salons, and neighborhood retail, and the city center district near the events arena draws concert and hockey crowds. Bernalillo's Camino del Pueblo adds taverns and a casino resort along the river, and the Corrales village holds cafes, wineries, and shops. Dispensaries, convenience stores, and bars across Rio Rancho and Bernalillo rely on our locally stocked machines.",
+      "areas": [
+        "Southern Boulevard",
+        "Unser Boulevard",
+        "City Center",
+        "Enchanted Hills",
+        "Bernalillo",
+        "Corrales"
+      ],
+      "nearby": [
+        "albuquerque",
+        "santa-fe",
+        "los-lunas"
+      ]
+    },
+    {
+      "slug": "los-lunas",
+      "name": "Los Lunas",
+      "region": "the Albuquerque metro",
+      "blurb": "We place and service ATMs in Los Lunas, Belen, and the Valencia County communities south of Albuquerque along the Rio Grande. Main Street in Los Lunas and the Highway 314 corridor carry restaurants, gas stations, salons, and neighborhood retail, and the large data center and manufacturing employers bring steady daytime traffic to convenience stores and diners. Belen's historic downtown near the rail yard holds taverns, cafes, and a harvey house museum, and dispensaries, bars, and grocers in Bosque Farms and Peralta count on our reliable local service.",
+      "areas": [
+        "Main Street",
+        "Highway 314 corridor",
+        "Belen",
+        "Bosque Farms",
+        "Peralta"
+      ],
+      "nearby": [
+        "albuquerque",
+        "rio-rancho",
+        "las-cruces"
+      ]
+    },
+    {
+      "slug": "roswell",
+      "name": "Roswell",
+      "region": "Southeastern New Mexico",
+      "blurb": "We place and service ATMs in Roswell, the hub of southeastern New Mexico and a tourist stop known for its extraterrestrial lore. Main Street downtown holds gift shops, restaurants, bars, and the famous museum, and the annual summer festival packs hotels and convenience stores. The North Main and West Second Street corridors carry gas stations, retail, and salons, and dairy and oil-field workers bring steady traffic to taverns and diners. Dispensaries and bars in Artesia and Carlsbad rely on our locally serviced machines across the Pecos Valley.",
+      "areas": [
+        "Downtown Roswell",
+        "Main Street",
+        "North Main",
+        "West Second Street",
+        "Artesia",
+        "Carlsbad"
+      ],
+      "nearby": [
+        "las-cruces",
+        "alamogordo",
+        "albuquerque"
+      ]
+    },
+    {
+      "slug": "farmington",
+      "name": "Farmington",
+      "region": "the Four Corners",
+      "blurb": "We place and service ATMs in Farmington and the Four Corners region of northwestern New Mexico, where energy workers, ranchers, and visitors to the nearby national monuments and Navajo Nation communities keep cash in demand. Main Street downtown holds restaurants, bars, breweries, and shops, and the East Main and Highway 516 corridors carry hotels, gas stations, retail, and salons. Trading posts, convenience stores, and taverns in Bloomfield, Aztec, and Shiprock rely on our machines, and we plan routes around the region's long distances and seasonal tourism.",
+      "areas": [
+        "Downtown Farmington",
+        "Main Street",
+        "East Main",
+        "Highway 516 corridor",
+        "Aztec",
+        "Bloomfield"
+      ],
+      "nearby": [
+        "albuquerque",
+        "taos",
+        "santa-fe"
+      ]
+    },
+    {
+      "slug": "taos",
+      "name": "Taos",
+      "region": "Northern New Mexico",
+      "blurb": "We place and service ATMs in Taos, an arts and ski town where winter resort season and summer gallery crowds create two peaks in cash demand. The Taos Plaza and Bent Street hold galleries, restaurants, taverns, and boutiques, and the Paseo del Pueblo corridor carries hotels, gas stations, convenience stores, and salons. The ski valley's lodges and bars fill from December through March, and the Rio Grande Gorge draws summer visitors. Dispensaries and neighborhood bars in Taos, Arroyo Seco, and Red River depend on our locally serviced machines.",
+      "areas": [
+        "Taos Plaza",
+        "Bent Street",
+        "Paseo del Pueblo",
+        "Taos Ski Valley",
+        "Arroyo Seco",
+        "Red River"
+      ],
+      "nearby": [
+        "santa-fe",
+        "farmington",
+        "albuquerque"
+      ]
+    },
+    {
+      "slug": "alamogordo",
+      "name": "Alamogordo",
+      "region": "Southern New Mexico",
+      "blurb": "We place and service ATMs in Alamogordo and the Tularosa Basin, shaped by the air force base, the missile range, and the national park's gypsum dunes. White Sands Boulevard and the downtown blocks carry restaurants, bars, hotels, gas stations, and retail that serve service members and park visitors, and the Tenth Street corridor adds salons and convenience stores. Ruidoso's mountain village an hour north holds taverns, cabins, and a racetrack casino for summer and ski crowds, and dispensaries and bars across Otero County rely on our reliable local service.",
+      "areas": [
+        "White Sands Boulevard",
+        "Downtown Alamogordo",
+        "Tenth Street",
+        "Tularosa",
+        "Ruidoso",
+        "Cloudcroft"
+      ],
+      "nearby": [
+        "las-cruces",
+        "roswell",
+        "albuquerque"
+      ]
+    }
+  ]
+}

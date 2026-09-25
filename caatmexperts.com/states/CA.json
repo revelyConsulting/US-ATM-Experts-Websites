@@ -1,0 +1,202 @@
+{
+  "abbr": "CA",
+  "name": "California",
+  "metro_city": "Los Angeles",
+  "metro_phrase": "the greater Los Angeles area",
+  "span_phrase": "from San Diego to Redding",
+  "seasonal_phrase": "summer beach tourism, wine-country harvest season, and the winter ski months in the Sierra",
+  "cities": [
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "region": "Southern California",
+      "blurb": "We place and service ATMs across Los Angeles, from the bars, hotels, and music venues of Hollywood and the Sunset Strip to the restaurants and rooftop lounges of Downtown's Arts District and the historic core. Venice Boardwalk and Santa Monica draw beach crowds year-round, Koreatown's late-night dining and karaoke bars run until dawn, and the Valley's Ventura Boulevard carries salons, convenience stores, and neighborhood restaurants. Licensed dispensaries citywide depend on cash. Businesses here count on us for reliable machines and fast service in a region that never slows down.",
+      "areas": [
+        "Hollywood",
+        "Downtown Los Angeles",
+        "Arts District",
+        "Koreatown",
+        "Venice",
+        "Silver Lake"
+      ],
+      "nearby": [
+        "anaheim",
+        "riverside",
+        "san-diego",
+        "bakersfield"
+      ]
+    },
+    {
+      "slug": "anaheim",
+      "name": "Anaheim",
+      "region": "Orange County",
+      "blurb": "We place and service ATMs across Anaheim and Orange County, where the resort district around the famous theme parks and the convention center supports one of the largest concentrations of hotels, restaurants, and gift shops in the country. The Anaheim Packing District and Center Street Promenade downtown host food halls, breweries, and bars, while Little Arabia along Brookhurst Street offers cafes, bakeries, and hookah lounges. Convenience stores, salons, and entertainment venues throughout the county rely on our machines to stay stocked during convention weeks and holiday peaks.",
+      "areas": [
+        "Anaheim Resort District",
+        "Packing District",
+        "Center Street Promenade",
+        "Little Arabia",
+        "Platinum Triangle"
+      ],
+      "nearby": [
+        "los-angeles",
+        "riverside",
+        "san-diego"
+      ]
+    },
+    {
+      "slug": "san-diego",
+      "name": "San Diego",
+      "region": "Southern California",
+      "blurb": "We place and service ATMs throughout San Diego, from the bars, restaurants, and hotels of the Gaslamp Quarter and the convention center waterfront to the beach-town nightlife of Pacific Beach and Ocean Beach. North Park and Hillcrest support breweries, restaurants, salons, and licensed dispensaries, while Little Italy's India Street draws diners every night of the week. Naval installations, biotech employers, and border traffic with Tijuana keep demand steady year-round. Businesses here depend on our machines and quick local servicing to keep cash available through tourist season and beyond.",
+      "areas": [
+        "Gaslamp Quarter",
+        "Pacific Beach",
+        "North Park",
+        "Little Italy",
+        "Hillcrest",
+        "Ocean Beach"
+      ],
+      "nearby": [
+        "anaheim",
+        "los-angeles",
+        "riverside"
+      ]
+    },
+    {
+      "slug": "riverside",
+      "name": "Riverside",
+      "region": "the Inland Empire",
+      "blurb": "We place and service ATMs across Riverside, San Bernardino, and the Inland Empire, one of the fastest-growing regions in the state. Downtown Riverside's Mission Inn Avenue and the pedestrian mall host restaurants, bars, hotels, and the historic mission-style hotel that anchors the holiday Festival of Lights. The University Avenue corridor near UC Riverside and the Canyon Crest area carry student-oriented dining, convenience stores, and salons, and licensed dispensaries serve the region. Warehousing and logistics employ a large workforce, and local businesses rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Riverside",
+        "Mission Inn District",
+        "University Avenue",
+        "Canyon Crest",
+        "Downtown San Bernardino",
+        "Ontario Mills"
+      ],
+      "nearby": [
+        "los-angeles",
+        "anaheim",
+        "bakersfield",
+        "san-diego"
+      ]
+    },
+    {
+      "slug": "bakersfield",
+      "name": "Bakersfield",
+      "region": "the Central Valley",
+      "blurb": "We place and service ATMs throughout Bakersfield and Kern County at the southern end of the Central Valley. Downtown's Wall Street Alley and the Arts District support restaurants, bars, and live-music venues rooted in the city's country-music heritage, while the Rosedale Highway and Ming Avenue corridors carry hotels, chain dining, convenience stores, and salons. Oil, agriculture, and freight along Highway 99 sustain a large working population, and licensed dispensaries operate within the city. Businesses here count on our machines for reliable cash availability and responsive service.",
+      "areas": [
+        "Downtown Bakersfield",
+        "Wall Street Alley",
+        "Rosedale Highway",
+        "Ming Avenue",
+        "Oleander",
+        "Northwest Bakersfield"
+      ],
+      "nearby": [
+        "fresno",
+        "riverside",
+        "los-angeles"
+      ]
+    },
+    {
+      "slug": "fresno",
+      "name": "Fresno",
+      "region": "the Central Valley",
+      "blurb": "We place and service ATMs across Fresno, the largest city in the San Joaquin Valley and the commercial hub of the state's agricultural heartland. The Tower District is Fresno's nightlife and arts neighborhood, with bars, restaurants, theaters, and salons along Olive Avenue, while downtown's Fulton Street has been reopened to traffic and revitalized with dining and event venues. The Shaw Avenue corridor near Fashion Fair and River Park carries chain restaurants, hotels, convenience stores, and licensed dispensaries. Businesses here rely on us for dependable machines and fast local service.",
+      "areas": [
+        "Tower District",
+        "Downtown Fresno",
+        "Fulton Street",
+        "River Park",
+        "Shaw Avenue",
+        "Woodward Park"
+      ],
+      "nearby": [
+        "bakersfield",
+        "san-jose",
+        "sacramento"
+      ]
+    },
+    {
+      "slug": "san-jose",
+      "name": "San Jose",
+      "region": "the Bay Area",
+      "blurb": "We place and service ATMs throughout San Jose and Silicon Valley, from the bars, restaurants, and hotels of Downtown's SoFA District and San Pedro Square Market to the Vietnamese cafes and shops of Little Saigon along Story Road. Santana Row and Westfield Valley Fair draw upscale dining and retail crowds, Japantown's Jackson Street supports restaurants and salons, and licensed dispensaries operate across the city. Tech employers, the convention center, and a downtown arena keep demand steady. Businesses here count on our machines and quick servicing across the South Bay.",
+      "areas": [
+        "Downtown San Jose",
+        "SoFA District",
+        "Santana Row",
+        "Japantown",
+        "Little Saigon",
+        "Willow Glen"
+      ],
+      "nearby": [
+        "san-francisco",
+        "sacramento",
+        "fresno"
+      ]
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "region": "the Bay Area",
+      "blurb": "We place and service ATMs across San Francisco, from the bars, restaurants, and music venues of the Mission and the Castro to the hotels and convention traffic of Union Square and SoMa. Fisherman's Wharf and North Beach draw tourists year-round to gift shops, seafood restaurants, and cafes, while the Haight, Hayes Valley, and the Marina support boutiques, salons, and neighborhood dining. Licensed dispensaries operate throughout the city. Businesses here rely on us for reliable machines and prompt service in a dense, demanding market.",
+      "areas": [
+        "The Mission",
+        "Union Square",
+        "North Beach",
+        "Fisherman's Wharf",
+        "SoMa",
+        "Hayes Valley"
+      ],
+      "nearby": [
+        "san-jose",
+        "sacramento",
+        "fresno"
+      ]
+    },
+    {
+      "slug": "sacramento",
+      "name": "Sacramento",
+      "region": "the Sacramento Valley",
+      "blurb": "We place and service ATMs across Sacramento, the state capital and the hub of Northern California's interior. Midtown's J Street and the Handle District pack bars, restaurants, and live-music venues into a walkable grid, while Downtown's DOCO plaza and the K Street corridor around the arena support hotels, entertainment venues, and convention traffic. Old Sacramento's riverfront draws tourists to its shops and saloons, and licensed dispensaries operate throughout the city. Businesses here rely on us for dependable machines and quick service.",
+      "areas": [
+        "Midtown Sacramento",
+        "Downtown Sacramento",
+        "Old Sacramento",
+        "Handle District",
+        "Land Park",
+        "Natomas"
+      ],
+      "nearby": [
+        "san-francisco",
+        "san-jose",
+        "fresno",
+        "redding"
+      ]
+    },
+    {
+      "slug": "redding",
+      "name": "Redding",
+      "region": "the North State",
+      "blurb": "We place and service ATMs throughout Redding and the far North State along Interstate 5. Downtown Redding's Market Street district supports restaurants, breweries, and bars near the Sundial Bridge and the riverfront trail system, while the Hilltop Drive and Dana Drive corridors carry hotels, chain dining, convenience stores, salons, and retail serving highway travelers. Summer recreation on Shasta Lake and Whiskeytown Lake and traffic toward Mount Shasta drive strong seasonal demand. Businesses here count on our machines for reliable cash availability in a region where service coverage matters.",
+      "areas": [
+        "Downtown Redding",
+        "Market Street",
+        "Hilltop Drive",
+        "Dana Drive",
+        "Sundial Bridge",
+        "Enterprise"
+      ],
+      "nearby": [
+        "sacramento",
+        "san-francisco",
+        "san-jose"
+      ]
+    }
+  ]
+}

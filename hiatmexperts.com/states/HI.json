@@ -1,0 +1,183 @@
+{
+  "abbr": "HI",
+  "name": "Hawaii",
+  "metro_city": "Honolulu",
+  "metro_phrase": "Honolulu and the island of Oahu",
+  "span_phrase": "from Hilo to Lihue",
+  "seasonal_phrase": "the winter high season for visitors, summer family travel, and the big-wave surf season on the North Shore",
+  "cities": [
+    {
+      "slug": "honolulu",
+      "name": "Honolulu",
+      "region": "Oahu",
+      "blurb": "We place and service ATMs across Honolulu, from the hotels, restaurants, bars, and ABC stores that line Kalakaua Avenue in Waikiki to the bars, galleries, and late-night dining of Chinatown and the Downtown arts district. Ala Moana Center is one of the largest open-air shopping centers in the world, and Kakaako's warehouse district has become a hub of breweries, restaurants, and salons. Kaimuki's Waialae Avenue supports neighborhood cafes and eateries, and licensed medical dispensaries operate on the island. Businesses here rely on our machines for dependable service year-round.",
+      "areas": [
+        "Waikiki",
+        "Chinatown",
+        "Kakaako",
+        "Ala Moana",
+        "Downtown Honolulu",
+        "Kaimuki"
+      ],
+      "nearby": [
+        "kapolei",
+        "kaneohe",
+        "haleiwa",
+        "kahului"
+      ]
+    },
+    {
+      "slug": "kapolei",
+      "name": "Kapolei",
+      "region": "West Oahu",
+      "blurb": "We place and service ATMs throughout Kapolei, Ewa Beach, and West Oahu, the fastest-growing part of the island. Ko Olina's resort lagoons support hotels, restaurants, bars, and a marina that host visitors year-round, while Kapolei's commercial center and the Ka Makana Alii mall carry chain dining, convenience stores, salons, and retail serving tens of thousands of new residents. The University of Hawaii West Oahu campus and a large naval presence in the Pearl Harbor and Ewa areas add steady demand. Businesses here count on our machines for reliable cash access.",
+      "areas": [
+        "Ko Olina",
+        "Kapolei Commons",
+        "Ka Makana Alii",
+        "Ewa Beach",
+        "Waipahu",
+        "Pearl City"
+      ],
+      "nearby": [
+        "honolulu",
+        "kaneohe",
+        "haleiwa"
+      ]
+    },
+    {
+      "slug": "kaneohe",
+      "name": "Kaneohe",
+      "region": "Windward Oahu",
+      "blurb": "We place and service ATMs across Kaneohe, Kailua, and the Windward side of Oahu. Kailua town's Hekili Street and Kailua Road support cafes, restaurants, boutiques, salons, and shave-ice stands a short walk from one of the island's most famous beaches, while Kaneohe's Kamehameha Highway corridor carries convenience stores, local plate-lunch spots, and the Windward Mall. A Marine Corps base on the Mokapu Peninsula anchors steady demand, and the coastal highway north toward the Polynesian Cultural Center brings tour traffic daily. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Kailua Town",
+        "Kaneohe",
+        "Windward Mall",
+        "Lanikai",
+        "Waimanalo",
+        "Kahaluu"
+      ],
+      "nearby": [
+        "honolulu",
+        "haleiwa",
+        "kapolei"
+      ]
+    },
+    {
+      "slug": "haleiwa",
+      "name": "Haleiwa",
+      "region": "the North Shore",
+      "blurb": "We place and service ATMs throughout Haleiwa and the North Shore of Oahu, the surfing capital of the world. Haleiwa's historic town along Kamehameha Highway supports surf shops, shave-ice stands, food trucks, galleries, and restaurants that fill with visitors every day, while the Pupukea and Sunset Beach stretch hosts food trucks, convenience stores, and vacation rentals that pack out during the winter big-wave contests. Turtle Bay's resort adds hotel and dining demand at the island's northern tip. Businesses here count on our machines where bank branches are scarce.",
+      "areas": [
+        "Haleiwa Town",
+        "Pupukea",
+        "Sunset Beach",
+        "Turtle Bay",
+        "Waialua",
+        "Laie"
+      ],
+      "nearby": [
+        "kaneohe",
+        "honolulu",
+        "kapolei"
+      ]
+    },
+    {
+      "slug": "kahului",
+      "name": "Kahului",
+      "region": "Maui",
+      "blurb": "We place and service ATMs across Kahului, Wailuku, and Central Maui, the island's commercial hub and airport gateway. The Queen Kaahumanu Center and the Dairy Road corridor carry the island's big-box retail, chain dining, convenience stores, and salons, while Wailuku's Market Street historic district supports cafes, restaurants, bars, and galleries. Paia's Baldwin Avenue on the way to Hana draws surfers and visitors to its boutiques and eateries, and Kihei's South Kihei Road supports beach bars and restaurants. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Kahului",
+        "Wailuku",
+        "Market Street",
+        "Paia",
+        "Kihei",
+        "Wailea"
+      ],
+      "nearby": [
+        "lahaina",
+        "honolulu",
+        "kailua-kona",
+        "lihue"
+      ]
+    },
+    {
+      "slug": "lahaina",
+      "name": "Lahaina",
+      "region": "West Maui",
+      "blurb": "We place and service ATMs throughout West Maui, from Lahaina to the resort communities of Kaanapali, Kahana, Napili, and Kapalua. Kaanapali Beach's hotels, Whalers Village, and beachfront restaurants and bars host visitors year-round, and the resort corridor along Honoapiilani Highway carries convenience stores, salons, and local dining serving both guests and the West Side workforce. Lahaina's historic Front Street district is rebuilding after the 2023 wildfire, and businesses across the region are reopening steadily. We support West Maui merchants with reliable machines and responsive service as the community recovers.",
+      "areas": [
+        "Kaanapali",
+        "Whalers Village",
+        "Kahana",
+        "Napili",
+        "Kapalua",
+        "Lahaina Town"
+      ],
+      "nearby": [
+        "kahului",
+        "honolulu",
+        "kailua-kona"
+      ]
+    },
+    {
+      "slug": "kailua-kona",
+      "name": "Kailua-Kona",
+      "region": "the Big Island",
+      "blurb": "We place and service ATMs across Kailua-Kona and the Kohala Coast on the west side of Hawaii Island. Alii Drive in Kona town is lined with restaurants, bars, hotels, coffee shops, and gift stores along the waterfront, while the Kohala resorts at Waikoloa and Mauna Lani support hotels, upscale dining, and shopping villages. The Queen Kaahumanu Highway corridor carries convenience stores, salons, and retail near the airport. A famous triathlon fills the town every October. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Alii Drive",
+        "Kona Town",
+        "Waikoloa",
+        "Mauna Lani",
+        "Keauhou",
+        "Holualoa"
+      ],
+      "nearby": [
+        "hilo",
+        "kahului",
+        "honolulu"
+      ]
+    },
+    {
+      "slug": "hilo",
+      "name": "Hilo",
+      "region": "the Big Island",
+      "blurb": "We place and service ATMs throughout Hilo and the east side of Hawaii Island. Downtown Hilo's Kamehameha Avenue and the bayfront support restaurants, bars, cafes, and galleries near a famous farmers market, while the Kanoelehua Avenue and Puainako Street corridors carry the Prince Kuhio Plaza mall, chain dining, convenience stores, and salons. The University of Hawaii at Hilo adds student demand, the Merrie Monarch Festival fills every hotel each spring, and visitors to the volcanoes national park pass through daily. Businesses here count on our machines for reliable cash access.",
+      "areas": [
+        "Downtown Hilo",
+        "Kamehameha Avenue",
+        "Kanoelehua Avenue",
+        "Prince Kuhio Plaza",
+        "Keaau",
+        "Volcano"
+      ],
+      "nearby": [
+        "kailua-kona",
+        "kahului",
+        "honolulu"
+      ]
+    },
+    {
+      "slug": "lihue",
+      "name": "Lihue",
+      "region": "Kauai",
+      "blurb": "We place and service ATMs across Lihue and the island of Kauai. Lihue hosts the airport, harbor, and Kukui Grove Center, where chain dining, convenience stores, salons, and retail serve residents and arriving visitors, while nearby Kalapaki Beach supports resort hotels and waterfront restaurants. Kapaa's Kuhio Highway corridor on the east side is lined with food trucks, cafes, surf shops, and bars, Poipu's resorts anchor the sunny south shore, and Hanalei's small town serves the north shore. Businesses here rely on our machines across a rural island.",
+      "areas": [
+        "Lihue",
+        "Kukui Grove",
+        "Kalapaki Beach",
+        "Kapaa",
+        "Poipu",
+        "Hanalei"
+      ],
+      "nearby": [
+        "honolulu",
+        "kahului",
+        "kailua-kona"
+      ]
+    }
+  ]
+}

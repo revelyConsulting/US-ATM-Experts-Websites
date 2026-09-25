@@ -1,0 +1,82 @@
+{
+  "abbr": "OR",
+  "name": "Oregon",
+  "metro_city": "Portland",
+  "metro_phrase": "the Portland metro",
+  "span_phrase": "from Portland to Medford",
+  "seasonal_phrase": "summer coast and wine-country tourism, ski season on Mount Hood and Mount Bachelor, and college football weekends",
+  "cities": [
+    {
+      "slug": "portland",
+      "name": "Portland",
+      "region": "the Portland metro",
+      "blurb": "We place and service ATMs across Portland, from the bars, food carts, and music venues of the Pearl District and Old Town to the breweries and restaurants along Division Street and Hawthorne Boulevard. Alberta Street and Mississippi Avenue host cafes, salons, and boutiques that draw weekend crowds, while the convenience stores and hotels downtown and near the airport see steady daily traffic. Licensed dispensaries across the metro are one of our most common placements, and we handle installation, cash loading, and monitoring locally.",
+      "areas": ["Pearl District", "Old Town", "Hawthorne", "Division Street", "Alberta Street", "Mississippi Avenue"],
+      "nearby": ["beaverton", "gresham", "salem"]
+    },
+    {
+      "slug": "beaverton",
+      "name": "Beaverton",
+      "region": "the Portland metro",
+      "blurb": "We place and service ATMs in Beaverton and Hillsboro on the west side of the Portland metro. Old Town Beaverton's restaurants and bars fill on weekends, while the convenience stores, salons, and quick-service restaurants along Canyon Road, Cedar Hills Boulevard, and Tualatin Valley Highway serve residents and tech-campus workers. Hillsboro's downtown and the Orenco Station district add cafes and breweries, and hotels near the Sunset Highway handle business travelers year-round. Licensed dispensaries across Washington County rely on us for cash access.",
+      "areas": ["Old Town Beaverton", "Canyon Road", "Cedar Hills", "Orenco Station", "Downtown Hillsboro"],
+      "nearby": ["portland", "gresham", "salem"]
+    },
+    {
+      "slug": "gresham",
+      "name": "Gresham",
+      "region": "East Multnomah County",
+      "blurb": "We place and service ATMs in Gresham and the east side of the Portland metro. Historic downtown's Main Avenue hosts restaurants, bars, and shops, while the convenience stores, salons, and quick-service restaurants along Powell Boulevard, Burnside Road, and Stark Street serve neighborhoods across the city. Summer visitors heading to the Columbia River Gorge and Mount Hood stop at hotels and stores in Troutdale and Wood Village, and licensed dispensaries in the area are a steady fit for cash-only sales. Our machines keep cash flowing year-round.",
+      "areas": ["Historic Downtown Gresham", "Powell Boulevard", "Burnside Road", "Troutdale", "Rockwood"],
+      "nearby": ["portland", "beaverton", "salem"]
+    },
+    {
+      "slug": "salem",
+      "name": "Salem",
+      "region": "the mid-Willamette Valley",
+      "blurb": "We place and service ATMs in Salem and the mid-Willamette Valley. Downtown's State Street and Court Street host restaurants, bars, and shops that fill during the legislative session and the Oregon State Fair each summer, while the convenience stores, salons, and quick-service restaurants along Lancaster Drive and Commercial Street serve residents citywide. Wine-country visitors pass through on their way to Eola-Amity Hills tasting rooms, and licensed dispensaries in Marion and Polk counties rely on us for reliable cash service.",
+      "areas": ["Downtown Salem", "State Street", "Lancaster Drive", "Commercial Street", "West Salem", "Keizer"],
+      "nearby": ["portland", "eugene", "beaverton"]
+    },
+    {
+      "slug": "eugene",
+      "name": "Eugene",
+      "region": "the southern Willamette Valley",
+      "blurb": "We place and service ATMs in Eugene and Springfield. The bars, restaurants, and convenience stores along 13th Avenue and the campus district fill on football Saturdays and through the academic year, while downtown's Fifth Street Market and Whiteaker neighborhood breweries draw weekend crowds. Springfield's Main Street adds taverns, salons, and shops, and hotels along Franklin Boulevard and Interstate 5 serve visitors to track meets and concerts. Licensed dispensaries across Lane County are a common placement, and our machines handle the game-day surges.",
+      "areas": ["Campus District", "13th Avenue", "Fifth Street Market", "Whiteaker", "Downtown Springfield"],
+      "nearby": ["salem", "corvallis", "medford"]
+    },
+    {
+      "slug": "corvallis",
+      "name": "Corvallis",
+      "region": "the Willamette Valley",
+      "blurb": "We place and service ATMs in Corvallis and Albany. Downtown Corvallis along Second Street and Monroe Avenue hosts bars, restaurants, and convenience stores that fill on football weekends and through the school year, while the salons and quick-service restaurants along Ninth Street and Circle Boulevard serve residents citywide. Albany's historic downtown adds taverns and cafes, and the county fairgrounds draw summer crowds. Licensed dispensaries in Benton and Linn counties rely on us for reliable cash service and monitoring.",
+      "areas": ["Downtown Corvallis", "Monroe Avenue", "Ninth Street", "Circle Boulevard", "Downtown Albany"],
+      "nearby": ["eugene", "salem", "portland"]
+    },
+    {
+      "slug": "bend",
+      "name": "Bend",
+      "region": "Central Oregon",
+      "blurb": "We place and service ATMs in Bend and Central Oregon. Downtown's Wall Street and Bond Street host restaurants, bars, and boutiques, while the breweries and food carts of the Old Mill District and the Box Factory draw visitors year-round. Ski season at Mount Bachelor and summer river traffic push hotels, convenience stores, and salons to peak demand, and nearby Redmond and Sisters see the same seasonal swings. Licensed dispensaries across Deschutes County rely on us for cash access where mountain connectivity can be unreliable.",
+      "areas": ["Downtown Bend", "Old Mill District", "Box Factory", "Galveston Avenue", "Redmond", "Sisters"],
+      "nearby": ["eugene", "salem", "medford"]
+    },
+    {
+      "slug": "medford",
+      "name": "Medford",
+      "region": "the Rogue Valley",
+      "blurb": "We place and service ATMs in Medford and the Rogue Valley, including Ashland and Grants Pass. Downtown Medford's Main Street hosts restaurants, bars, and shops, while the convenience stores, hotels, and quick-service restaurants along Crater Lake Highway and Interstate 5 serve travelers and residents. Ashland's theater season brings visitors to Main Street cafes and hotels from spring through fall, and summer rafting on the Rogue River boosts demand in Grants Pass. Licensed dispensaries throughout Jackson and Josephine counties rely on us for reliable cash service.",
+      "areas": ["Downtown Medford", "Crater Lake Highway", "Ashland", "Grants Pass", "Rogue Valley Mall"],
+      "nearby": ["eugene", "bend", "corvallis"]
+    },
+    {
+      "slug": "astoria",
+      "name": "Astoria",
+      "region": "the North Oregon Coast",
+      "blurb": "We place and service ATMs in Astoria and along the North Oregon Coast, including Seaside and Cannon Beach. Astoria's downtown along Commercial Street and the waterfront hosts breweries, restaurants, and hotels, while Seaside's Broadway promenade lines up arcades, candy shops, and convenience stores that surge with summer beach traffic. Cannon Beach's galleries and cafes draw visitors year-round, and licensed dispensaries in Clatsop County are a steady fit. Our machines keep cash accessible where coastal connectivity and card readers can fall short.",
+      "areas": ["Downtown Astoria", "Commercial Street", "Astoria Waterfront", "Seaside Broadway", "Cannon Beach"],
+      "nearby": ["portland", "beaverton", "gresham"]
+    }
+  ]
+}

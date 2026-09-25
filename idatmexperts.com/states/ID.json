@@ -1,0 +1,90 @@
+{
+  "abbr": "ID",
+  "name": "Idaho",
+  "metro_city": "Boise",
+  "metro_phrase": "the Treasure Valley",
+  "span_phrase": "from Coeur d'Alene to Pocatello",
+  "seasonal_phrase": "ski season, summer lake tourism, and fall harvest",
+  "cities": [
+    {
+      "slug": "boise",
+      "name": "Boise",
+      "region": "the Treasure Valley",
+      "blurb": "We place and service ATMs across Boise, from the bars and restaurants of Downtown Boise and the BoDo district to the taprooms and cafes along the Boise Greenbelt. Hyde Park in the North End draws neighborhood pubs, coffee shops, and salons, while the Boise Bench and West Boise are lined with convenience stores, gas stations, and strip-mall retailers. Concert venues, breweries, and hotels near the Idaho State Capitol and Boise State campus keep foot traffic steady year-round, and our machines are serviced by local technicians.",
+      "areas": ["Downtown Boise", "BoDo", "Hyde Park", "North End", "Boise Bench", "West Boise"],
+      "nearby": ["meridian", "nampa", "caldwell"]
+    },
+    {
+      "slug": "meridian",
+      "name": "Meridian",
+      "region": "the Treasure Valley",
+      "blurb": "Meridian is one of the fastest-growing cities in the Northwest, and we place and service ATMs at businesses throughout it. The Village at Meridian brings restaurants, entertainment venues, and retail shops together in one walkable district, while Old Town Meridian along Main Street hosts local bars, cafes, and salons. Eagle Road and Ten Mile Road are busy commercial corridors filled with convenience stores, gas stations, and quick-service restaurants that benefit from on-site cash access.",
+      "areas": ["The Village at Meridian", "Old Town Meridian", "Eagle Road", "Ten Mile", "South Meridian"],
+      "nearby": ["boise", "nampa", "caldwell"]
+    },
+    {
+      "slug": "nampa",
+      "name": "Nampa",
+      "region": "the Treasure Valley",
+      "blurb": "We place and service ATMs in Nampa, the largest city in Canyon County. Historic Downtown Nampa is home to bars, restaurants, antique shops, and salons along 1st Street and 2nd Street, while the Ford Idaho Center draws crowds for concerts, rodeos, and trade shows. Karcher Road and Garrity Boulevard are lined with convenience stores, gas stations, and hotels serving Interstate 84 travelers. Agricultural businesses and farm-supply stores around the city also depend on reliable cash access.",
+      "areas": ["Downtown Nampa", "Karcher Road", "Garrity Boulevard", "North Nampa", "Idaho Center area"],
+      "nearby": ["caldwell", "meridian", "boise"]
+    },
+    {
+      "slug": "caldwell",
+      "name": "Caldwell",
+      "region": "the Treasure Valley",
+      "blurb": "Caldwell anchors the western end of the Treasure Valley, and we place and service ATMs at businesses across the city. Indian Creek Plaza in Downtown Caldwell hosts festivals, winter ice skating, and a growing cluster of restaurants, bars, and cafes. The Sunnyslope wine region just south of town brings tasting rooms and seasonal tourists, while Cleveland Boulevard and the Interstate 84 exits are busy with convenience stores, gas stations, and hotels. College of Idaho adds steady student traffic.",
+      "areas": ["Downtown Caldwell", "Indian Creek Plaza", "Cleveland Boulevard", "Sunnyslope", "College of Idaho area"],
+      "nearby": ["nampa", "meridian", "boise"]
+    },
+    {
+      "slug": "idaho-falls",
+      "name": "Idaho Falls",
+      "region": "Eastern Idaho",
+      "blurb": "We place and service ATMs throughout Idaho Falls, the commercial hub of Eastern Idaho. The Snake River Greenbelt and Historic Downtown Idaho Falls are lined with restaurants, bars, coffee shops, and boutiques, while the Snake River Landing development adds hotels, entertainment venues, and event space. 17th Street and Hitt Road host convenience stores, gas stations, and big-box retail. As the gateway to Yellowstone and Grand Teton, the city sees heavy summer tourism that drives cash demand at hotels and travel stops.",
+      "areas": ["Historic Downtown", "Snake River Landing", "17th Street", "Hitt Road", "Greenbelt"],
+      "nearby": ["pocatello", "twin-falls", "boise"]
+    },
+    {
+      "slug": "pocatello",
+      "name": "Pocatello",
+      "region": "Eastern Idaho",
+      "blurb": "Pocatello is a university town and rail hub in southeastern Idaho, and we place and service ATMs at businesses across it. Old Town Pocatello along Main Street and Center Street hosts bars, restaurants, cafes, and salons in historic brick storefronts. Yellowstone Avenue is the city's main commercial strip, packed with convenience stores, gas stations, and hotels, and the Idaho State University campus keeps cafes and pubs busy during the school year. Chubbuck's retail corridor sits just north of the city.",
+      "areas": ["Old Town Pocatello", "Yellowstone Avenue", "Idaho State University area", "Chubbuck", "Pocatello Creek Road"],
+      "nearby": ["idaho-falls", "twin-falls", "boise"]
+    },
+    {
+      "slug": "twin-falls",
+      "name": "Twin Falls",
+      "region": "the Magic Valley",
+      "blurb": "We place and service ATMs in Twin Falls, the retail and services center of the Magic Valley. Historic Downtown Twin Falls along Main Avenue has seen a revival of restaurants, bars, breweries, and coffee shops, while Blue Lakes Boulevard is the main commercial corridor lined with convenience stores, gas stations, hotels, and chain restaurants. The Perrine Bridge and Shoshone Falls draw visitors and BASE jumpers through the summer, and the Canyon Rim area adds hotels and restaurants overlooking the Snake River.",
+      "areas": ["Downtown Twin Falls", "Blue Lakes Boulevard", "Canyon Rim", "Kimberly Road", "Pole Line Road"],
+      "nearby": ["pocatello", "idaho-falls", "boise"]
+    },
+    {
+      "slug": "coeur-dalene",
+      "name": "Coeur d'Alene",
+      "region": "North Idaho",
+      "blurb": "Coeur d'Alene is a lakeside resort city in the Idaho Panhandle, and we place and service ATMs at businesses across the area. Downtown Coeur d'Alene along Sherman Avenue is packed with bars, restaurants, boutiques, and hotels within walking distance of the lakefront and Coeur d'Alene Resort. Riverstone offers restaurants, a movie theater, and hotels, while Highway 95 and Appleway Avenue are lined with convenience stores and gas stations. Summer lake tourism and nearby ski resorts keep cash demand strong in both seasons.",
+      "areas": ["Downtown Coeur d'Alene", "Sherman Avenue", "Riverstone", "Highway 95 corridor", "Midtown"],
+      "nearby": ["post-falls", "lewiston", "boise"]
+    },
+    {
+      "slug": "post-falls",
+      "name": "Post Falls",
+      "region": "North Idaho",
+      "blurb": "We place and service ATMs in Post Falls, a fast-growing city between Coeur d'Alene and the Washington state line. Seltice Way and Interstate 90 exits are busy with convenience stores, gas stations, truck stops, and hotels serving cross-border traffic. The Spokane River waterfront and Q'emiln Park draw summer visitors to nearby restaurants and pubs, and the Greyhound Park and Event Center hosts events and trade shows. Neighborhood bars, salons, and casual restaurants along Highway 41 round out the local business mix.",
+      "areas": ["Seltice Way", "Highway 41", "Spokane River waterfront", "Interstate 90 corridor", "Downtown Post Falls"],
+      "nearby": ["coeur-dalene", "lewiston", "boise"]
+    },
+    {
+      "slug": "lewiston",
+      "name": "Lewiston",
+      "region": "North Central Idaho",
+      "blurb": "Lewiston sits at the confluence of the Snake and Clearwater rivers and is the farthest inland seaport on the West Coast, and we place and service ATMs at businesses throughout the city. Downtown Lewiston along Main Street hosts bars, restaurants, cafes, and salons, while 21st Street and the Lewiston Orchards are lined with convenience stores, gas stations, and grocery-anchored plazas. Hells Canyon jet boat tours and fall steelhead fishing bring seasonal visitors to hotels and river-side businesses, and Lewis-Clark State College adds student traffic.",
+      "areas": ["Downtown Lewiston", "Lewiston Orchards", "21st Street", "Clearwater riverfront", "Lewis-Clark State College area"],
+      "nearby": ["coeur-dalene", "post-falls", "boise"]
+    }
+  ]
+}

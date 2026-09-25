@@ -1,0 +1,82 @@
+{
+  "abbr": "LA",
+  "name": "Louisiana",
+  "metro_city": "New Orleans",
+  "metro_phrase": "the Greater New Orleans area",
+  "span_phrase": "from Shreveport to New Orleans",
+  "seasonal_phrase": "Mardi Gras, festival season, and college football weekends",
+  "cities": [
+    {
+      "slug": "new-orleans",
+      "name": "New Orleans",
+      "region": "Greater New Orleans",
+      "blurb": "We place and service ATMs across New Orleans, from the bars, hotels, and music clubs of the French Quarter and Bourbon Street to the restaurants and galleries of the Warehouse District and Magazine Street. Frenchmen Street in the Marigny is packed with live-music venues, while Uptown, Mid-City, and the Bywater host neighborhood bars, cafes, and corner stores. Mardi Gras, Jazz Fest, and year-round convention traffic keep cash demand high, and our technicians are based locally to keep machines stocked through the busiest weeks.",
+      "areas": ["French Quarter", "Warehouse District", "Marigny", "Uptown", "Mid-City", "Bywater"],
+      "nearby": ["metairie", "baton-rouge", "houma"]
+    },
+    {
+      "slug": "metairie",
+      "name": "Metairie",
+      "region": "Jefferson Parish",
+      "blurb": "Metairie is the largest suburb of New Orleans, and we place and service ATMs at businesses throughout Jefferson Parish. Veterans Memorial Boulevard is one of the busiest commercial corridors in the state, lined with restaurants, bars, convenience stores, gas stations, salons, and shopping centers around Lakeside and Clearview. Old Metairie and Metairie Road host cafes and boutiques, while Fat City has a growing mix of restaurants and bars. Nearby Kenner adds hotels near the airport and the Treasure Chest Casino.",
+      "areas": ["Veterans Memorial Boulevard", "Old Metairie", "Fat City", "Lakeside", "Clearview", "Kenner"],
+      "nearby": ["new-orleans", "houma", "baton-rouge"]
+    },
+    {
+      "slug": "baton-rouge",
+      "name": "Baton Rouge",
+      "region": "the Capital Region",
+      "blurb": "We place and service ATMs in Baton Rouge, the state capital and home to Louisiana State University. Downtown Baton Rouge near the State Capitol hosts hotels, restaurants, bars, and riverboat casinos along the Mississippi, while Tigerland and the area around the LSU campus are packed with bars and late-night food spots that fill up on football weekends. Mid City and Perkins Road host cafes, breweries, and salons, and Siegen Lane, Airline Highway, and Florida Boulevard are lined with convenience stores, gas stations, and shopping plazas.",
+      "areas": ["Downtown Baton Rouge", "Mid City", "LSU campus area", "Perkins Road", "Siegen Lane", "Airline Highway"],
+      "nearby": ["new-orleans", "lafayette", "metairie"]
+    },
+    {
+      "slug": "lafayette",
+      "name": "Lafayette",
+      "region": "Acadiana",
+      "blurb": "Lafayette is the heart of Cajun country, and we place and service ATMs at businesses across Acadiana. Downtown Lafayette along Jefferson Street hosts bars, restaurants, music venues, and salons, and Festival International each spring draws large crowds. The area around the University of Louisiana at Lafayette campus keeps cafes and pubs busy through the school year, while Johnston Street, Ambassador Caffery Parkway, and the River Ranch development are lined with convenience stores, gas stations, hotels, restaurants, and shopping plazas.",
+      "areas": ["Downtown Lafayette", "River Ranch", "Johnston Street", "Ambassador Caffery Parkway", "University of Louisiana campus area", "Youngsville"],
+      "nearby": ["baton-rouge", "lake-charles", "houma"]
+    },
+    {
+      "slug": "lake-charles",
+      "name": "Lake Charles",
+      "region": "Southwest Louisiana",
+      "blurb": "We place and service ATMs in Lake Charles, the hub of southwest Louisiana near the Texas border. The city's casino resorts, including L'Auberge and Golden Nugget, draw heavy weekend traffic from Houston, and the lakefront and Downtown Lake Charles host bars, restaurants, cafes, and hotels along Ryan Street. Prien Lake Road and Nelson Road are lined with convenience stores, gas stations, salons, and shopping plazas, while the petrochemical and LNG plants along the ship channel bring steady contractor traffic to local businesses.",
+      "areas": ["Downtown Lake Charles", "Ryan Street", "Lakefront", "Prien Lake Road", "Nelson Road", "Sulphur"],
+      "nearby": ["lafayette", "baton-rouge", "alexandria"]
+    },
+    {
+      "slug": "shreveport",
+      "name": "Shreveport",
+      "region": "Northwest Louisiana",
+      "blurb": "Shreveport and neighboring Bossier City anchor the Ark-La-Tex region, and we place and service ATMs at businesses across both cities. The riverfront casinos along the Red River, including those in Downtown Shreveport and on the Bossier side, draw visitors from Texas and Arkansas, and the East Bank District in Bossier City hosts restaurants, bars, and entertainment venues. Youree Drive and Airline Drive are lined with convenience stores, gas stations, salons, and shopping plazas, while Barksdale Air Force Base brings steady military traffic.",
+      "areas": ["Downtown Shreveport", "Bossier City", "East Bank District", "Youree Drive", "Airline Drive", "Highland"],
+      "nearby": ["monroe", "alexandria", "lake-charles"]
+    },
+    {
+      "slug": "monroe",
+      "name": "Monroe",
+      "region": "Northeast Louisiana",
+      "blurb": "We place and service ATMs in Monroe and West Monroe, the commercial center of northeast Louisiana along the Ouachita River. Downtown Monroe hosts bars, restaurants, cafes, and the Monroe Civic Center, while Antique Alley in West Monroe is lined with shops, cafes, and salons. Louisville Avenue and the Interstate 20 corridor host convenience stores, gas stations, hotels, and shopping plazas around Pecanland Mall, and the University of Louisiana Monroe campus keeps nearby quick-service restaurants and pubs busy through the school year.",
+      "areas": ["Downtown Monroe", "West Monroe", "Antique Alley", "Louisville Avenue", "Pecanland", "Interstate 20 corridor"],
+      "nearby": ["shreveport", "alexandria", "baton-rouge"]
+    },
+    {
+      "slug": "alexandria",
+      "name": "Alexandria",
+      "region": "Central Louisiana",
+      "blurb": "Alexandria sits at the geographic center of the state along the Red River, and we place and service ATMs at businesses throughout the city and neighboring Pineville. Downtown Alexandria hosts restaurants, bars, cafes, and the Rapides Parish Coliseum event traffic, while MacArthur Drive and Jackson Street Extension are lined with convenience stores, gas stations, hotels, salons, and shopping plazas around the Alexandria Mall. Fort Johnson to the southwest and the Kisatchie National Forest bring military and outdoor recreation traffic through the region.",
+      "areas": ["Downtown Alexandria", "MacArthur Drive", "Jackson Street Extension", "Pineville", "Alexandria Mall area", "Interstate 49 corridor"],
+      "nearby": ["lafayette", "monroe", "shreveport"]
+    },
+    {
+      "slug": "houma",
+      "name": "Houma",
+      "region": "the Bayou Region",
+      "blurb": "We place and service ATMs in Houma, the largest city in the bayou country south of New Orleans. Downtown Houma along Main Street hosts bars, restaurants, and cafes, and the city's Mardi Gras parades draw big crowds each winter. Martin Luther King Boulevard and Tunnel Boulevard are lined with convenience stores, gas stations, salons, hotels, and shopping plazas, while the oilfield service and shipbuilding businesses along Highway 90 and in nearby Thibodaux bring steady daily traffic to local restaurants and stores.",
+      "areas": ["Downtown Houma", "Main Street", "Martin Luther King Boulevard", "Tunnel Boulevard", "Highway 90 corridor", "Thibodaux"],
+      "nearby": ["new-orleans", "metairie", "lafayette"]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "abbr": "MS",
+  "name": "Mississippi",
+  "metro_city": "Jackson",
+  "metro_phrase": "the Jackson metro",
+  "span_phrase": "from Southaven to Biloxi",
+  "seasonal_phrase": "Gulf Coast beach season, college football weekends, and Mardi Gras",
+  "cities": [
+    {
+      "slug": "jackson",
+      "name": "Jackson",
+      "region": "Central Mississippi",
+      "blurb": "We place and service ATMs across Jackson and the surrounding metro, from the restaurants, hotels, and event venues downtown near the Capitol to the boutiques, bars, and cafes of Fondren. Belhaven and the Midtown arts district add galleries, coffee shops, and neighborhood taverns, while the County Line Road and I-55 corridors carry retail, gas stations, and salons into Ridgeland. Convenience stores, barbershops, and dispensaries across Jackson, Clinton, and Pearl depend on machines we keep stocked and serviced from our local routes.",
+      "areas": [
+        "Downtown Jackson",
+        "Fondren",
+        "Belhaven",
+        "Midtown",
+        "County Line Road",
+        "Ridgeland"
+      ],
+      "nearby": [
+        "gulfport",
+        "hattiesburg",
+        "meridian",
+        "vicksburg"
+      ]
+    },
+    {
+      "slug": "gulfport",
+      "name": "Gulfport",
+      "region": "the Mississippi Gulf Coast",
+      "blurb": "We place and service ATMs in Gulfport and along the western Gulf Coast, where beach season and casino traffic keep cash moving year round. Highway 90 runs past hotels, seafood restaurants, and bars facing the beach, and downtown Gulfport's 25th Avenue district holds coffee shops, taverns, and retail. The Gulfport Premium Outlets and the Highway 49 corridor add gas stations, salons, and convenience stores. Bars and dispensaries in Long Beach, Pass Christian, and Bay St. Louis rely on our locally serviced machines through spring break and summer crowds.",
+      "areas": [
+        "Downtown Gulfport",
+        "Highway 90 beachfront",
+        "Highway 49 corridor",
+        "Long Beach",
+        "Bay St. Louis"
+      ],
+      "nearby": [
+        "biloxi",
+        "hattiesburg",
+        "jackson"
+      ]
+    },
+    {
+      "slug": "biloxi",
+      "name": "Biloxi",
+      "region": "the Mississippi Gulf Coast",
+      "blurb": "We place and service ATMs in Biloxi and the eastern Gulf Coast, home to the state's largest concentration of casinos, resorts, and hotels along Beach Boulevard and Back Bay. Downtown's Howard Avenue holds bars, restaurants, and music venues, and the Ocean Springs waterfront across the bridge adds galleries, cafes, and taverns that fill up on festival weekends. D'Iberville's retail corridor and the seafood docks at Point Cadet generate steady cash traffic, and convenience stores, dispensaries, and gas stations in Pascagoula and Gautier count on our machines to stay full.",
+      "areas": [
+        "Beach Boulevard",
+        "Downtown Biloxi",
+        "Back Bay",
+        "Ocean Springs",
+        "D'Iberville",
+        "Pascagoula"
+      ],
+      "nearby": [
+        "gulfport",
+        "hattiesburg",
+        "meridian"
+      ]
+    },
+    {
+      "slug": "hattiesburg",
+      "name": "Hattiesburg",
+      "region": "the Pine Belt",
+      "blurb": "We place and service ATMs in Hattiesburg, the hub of Mississippi's Pine Belt and home to two universities. Downtown's Front Street district holds bars, restaurants, and live music venues that draw students and locals, and the Hardy Street corridor near campus is lined with pizza spots, convenience stores, and gas stations. Turtle Creek Mall and the Highway 98 strip carry salons, retail, and hotels for football weekends. Dispensaries, barbershops, and taverns in Petal, Oak Grove, and Laurel rely on our machines staying stocked through the school year.",
+      "areas": [
+        "Downtown Hattiesburg",
+        "Hardy Street",
+        "Highway 98 corridor",
+        "Oak Grove",
+        "Petal",
+        "Laurel"
+      ],
+      "nearby": [
+        "jackson",
+        "gulfport",
+        "biloxi",
+        "meridian"
+      ]
+    },
+    {
+      "slug": "southaven",
+      "name": "Southaven",
+      "region": "North Mississippi",
+      "blurb": "We place and service ATMs in Southaven, Olive Branch, and Horn Lake, the fast-growing DeSoto County suburbs just across the Tennessee line from Memphis. Goodman Road and the Airways Boulevard corridor carry restaurants, gas stations, and salons, and the arena and hotel district at Silo Square draws concert and event crowds. Olive Branch's Old Towne holds cafes and boutiques, and the warehouse and logistics parks bring daytime traffic to convenience stores. Dispensaries, bars, and barbershops across DeSoto County depend on our reliable local service.",
+      "areas": [
+        "Goodman Road",
+        "Silo Square",
+        "Airways Boulevard",
+        "Olive Branch",
+        "Horn Lake",
+        "Hernando"
+      ],
+      "nearby": [
+        "oxford",
+        "tupelo",
+        "columbus"
+      ]
+    },
+    {
+      "slug": "oxford",
+      "name": "Oxford",
+      "region": "North Mississippi",
+      "blurb": "We place and service ATMs in Oxford, a college town where football Saturdays and campus events multiply cash demand overnight. The Square's bars, restaurants, bookstores, and boutiques draw crowds every weekend, and the Jackson Avenue and University Avenue corridors add gas stations, convenience stores, and late-night eateries. Hotels fill up for home games and graduation, and tailgating in the Grove brings thousands of visitors who need cash for vendors and parking. Dispensaries and salons around town rely on our machines being full before every big weekend.",
+      "areas": [
+        "The Square",
+        "Jackson Avenue",
+        "University Avenue",
+        "Midtown Oxford",
+        "West Oxford"
+      ],
+      "nearby": [
+        "southaven",
+        "tupelo",
+        "columbus"
+      ]
+    },
+    {
+      "slug": "tupelo",
+      "name": "Tupelo",
+      "region": "Northeast Mississippi",
+      "blurb": "We place and service ATMs in Tupelo, the commercial center of northeast Mississippi and a stop for visitors tracing the region's music history. Downtown's Main Street holds restaurants, bars, and shops near the birthplace museum, and the Barnes Crossing mall area along Highway 45 carries retail, hotels, gas stations, and salons. The furniture manufacturing plants of surrounding Lee and Itawamba counties bring steady daytime traffic to convenience stores and diners, and dispensaries, taverns, and barbershops across the region count on our locally serviced machines.",
+      "areas": [
+        "Downtown Tupelo",
+        "Barnes Crossing",
+        "Highway 45 corridor",
+        "West Main Street",
+        "Saltillo"
+      ],
+      "nearby": [
+        "oxford",
+        "southaven",
+        "columbus"
+      ]
+    },
+    {
+      "slug": "columbus",
+      "name": "Columbus",
+      "region": "the Golden Triangle",
+      "blurb": "We place and service ATMs in Columbus and Starkville, the two anchors of Mississippi's Golden Triangle. Downtown Columbus's Main Street holds restaurants, taverns, and antique shops, and the air force base on the north side brings a steady flow of service members to gas stations, barbershops, and convenience stores. Starkville's Cotton District and Main Street fill with students and fans on football weekends, while the Highway 12 corridor carries hotels, salons, and retail. Dispensaries and bars across both cities rely on our machines through the college calendar.",
+      "areas": [
+        "Downtown Columbus",
+        "Main Street",
+        "Cotton District",
+        "Downtown Starkville",
+        "Highway 12 corridor"
+      ],
+      "nearby": [
+        "tupelo",
+        "oxford",
+        "meridian"
+      ]
+    },
+    {
+      "slug": "meridian",
+      "name": "Meridian",
+      "region": "East Mississippi",
+      "blurb": "We place and service ATMs in Meridian, a crossroads city on I-20 and I-59 that serves as the retail hub for east-central Mississippi and west Alabama. Downtown's Fifth Street and the arts district around the restored opera house hold restaurants, bars, and galleries, and the Bonita Lakes mall area along Highway 19 carries hotels, gas stations, and salons. The naval air station and railroad yards bring steady daytime traffic to convenience stores and diners, and dispensaries and taverns across Lauderdale County depend on our locally serviced machines.",
+      "areas": [
+        "Downtown Meridian",
+        "Bonita Lakes",
+        "Highway 19 corridor",
+        "North Hills",
+        "Marion"
+      ],
+      "nearby": [
+        "jackson",
+        "hattiesburg",
+        "columbus"
+      ]
+    },
+    {
+      "slug": "vicksburg",
+      "name": "Vicksburg",
+      "region": "the Mississippi Delta",
+      "blurb": "We place and service ATMs in Vicksburg and the southern Delta, where riverfront casinos, hotels, and the national military park keep tourists coming year round. Washington Street in downtown Vicksburg holds restaurants, bars, antique shops, and galleries, and the Halls Ferry Road and Pemberton corridors carry gas stations, salons, and retail. Delta towns like Greenville and Cleveland add blues clubs, convenience stores, and roadside diners, and dispensaries and taverns across Warren County count on our machines staying stocked through festival season and the summer travel months.",
+      "areas": [
+        "Downtown Vicksburg",
+        "Washington Street",
+        "Halls Ferry Road",
+        "Pemberton",
+        "Greenville"
+      ],
+      "nearby": [
+        "jackson",
+        "gulfport",
+        "meridian"
+      ]
+    }
+  ]
+}

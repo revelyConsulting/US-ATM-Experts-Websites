@@ -1,0 +1,201 @@
+{
+  "abbr": "FL",
+  "name": "Florida",
+  "metro_city": "Miami",
+  "metro_phrase": "the greater Miami area",
+  "span_phrase": "from Pensacola to Key West",
+  "seasonal_phrase": "the winter snowbird season, spring break, and summer theme-park and beach tourism",
+  "cities": [
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "region": "South Florida",
+      "blurb": "We place and service ATMs across Miami and Miami-Dade County, from the nightclubs, hotels, and beachfront restaurants of South Beach along Ocean Drive and Collins Avenue to the murals, breweries, and galleries of Wynwood. Brickell's high-rise bars and rooftop lounges serve the financial district, Little Havana's Calle Ocho supports cafes, cigar shops, and music venues, and Coconut Grove draws diners and boutique shoppers. Convenience stores, salons, and licensed medical dispensaries throughout the county depend on cash access. Businesses here count on us for reliable service.",
+      "areas": [
+        "South Beach",
+        "Wynwood",
+        "Brickell",
+        "Little Havana",
+        "Coconut Grove",
+        "Downtown Miami"
+      ],
+      "nearby": [
+        "fort-lauderdale",
+        "west-palm-beach",
+        "fort-myers",
+        "key-west"
+      ]
+    },
+    {
+      "slug": "fort-lauderdale",
+      "name": "Fort Lauderdale",
+      "region": "South Florida",
+      "blurb": "We place and service ATMs throughout Fort Lauderdale and Broward County. Las Olas Boulevard is lined with restaurants, bars, boutiques, and salons running from downtown to the beach, while the A1A beachfront strip supports hotels, tiki bars, and beachside cafes that fill during spring break and the winter season. The Riverwalk and Flagler Village add breweries, galleries, and nightlife, and the port and airport bring steady cruise and convention traffic. Convenience stores and licensed medical dispensaries across the county rely on our machines for dependable cash access.",
+      "areas": [
+        "Las Olas Boulevard",
+        "Fort Lauderdale Beach",
+        "Riverwalk",
+        "Flagler Village",
+        "Wilton Manors",
+        "Hollywood Beach"
+      ],
+      "nearby": [
+        "miami",
+        "west-palm-beach",
+        "fort-myers"
+      ]
+    },
+    {
+      "slug": "west-palm-beach",
+      "name": "West Palm Beach",
+      "region": "the Palm Beaches",
+      "blurb": "We place and service ATMs across West Palm Beach and Palm Beach County, from the restaurants, bars, and hotels of Clematis Street and the Rosemary Square district downtown to the upscale boutiques and salons of Worth Avenue on the island of Palm Beach. Northwood Village supports galleries and neighborhood dining, while Delray Beach's Atlantic Avenue and Boca Raton's Mizner Park extend our coverage south. Winter equestrian season and snowbird months drive seasonal demand. Convenience stores and licensed medical dispensaries here count on our machines for reliable cash access.",
+      "areas": [
+        "Clematis Street",
+        "Rosemary Square",
+        "Northwood Village",
+        "Worth Avenue",
+        "Atlantic Avenue",
+        "Mizner Park"
+      ],
+      "nearby": [
+        "fort-lauderdale",
+        "miami",
+        "orlando"
+      ]
+    },
+    {
+      "slug": "orlando",
+      "name": "Orlando",
+      "region": "Central Florida",
+      "blurb": "We place and service ATMs throughout Orlando and Central Florida, where the theme-park resorts along International Drive and in Kissimmee support one of the largest concentrations of hotels, restaurants, gift shops, and entertainment venues anywhere. Downtown's Orange Avenue and Church Street run late with bars and nightclubs, Thornton Park and Mills 50 support neighborhood dining and salons, and Winter Park's Park Avenue draws boutique shoppers. The convention center generates steady trade-show traffic. Convenience stores and licensed medical dispensaries here rely on our machines for dependable cash access year-round.",
+      "areas": [
+        "International Drive",
+        "Downtown Orlando",
+        "Thornton Park",
+        "Mills 50",
+        "Winter Park",
+        "Kissimmee"
+      ],
+      "nearby": [
+        "tampa",
+        "west-palm-beach",
+        "jacksonville"
+      ]
+    },
+    {
+      "slug": "tampa",
+      "name": "Tampa",
+      "region": "Tampa Bay",
+      "blurb": "We place and service ATMs across Tampa, St. Petersburg, and the Tampa Bay region. Ybor City's Seventh Avenue is the area's historic nightlife district, packed with bars, restaurants, cigar shops, and music venues, while downtown's Riverwalk and Water Street support hotels, event venues, and the convention center. SoHo along South Howard Avenue draws diners and bar-goers, and St. Petersburg's Central Avenue and Beach Drive add breweries, galleries, and waterfront dining. Convenience stores, salons, and licensed medical dispensaries throughout the bay area count on our machines for reliable cash access.",
+      "areas": [
+        "Ybor City",
+        "Downtown Tampa",
+        "SoHo",
+        "Hyde Park",
+        "Central Avenue St. Petersburg",
+        "Clearwater Beach"
+      ],
+      "nearby": [
+        "orlando",
+        "fort-myers",
+        "jacksonville"
+      ]
+    },
+    {
+      "slug": "fort-myers",
+      "name": "Fort Myers",
+      "region": "Southwest Florida",
+      "blurb": "We place and service ATMs throughout Fort Myers, Cape Coral, and Naples on the Southwest Florida Gulf Coast. The downtown River District along First Street supports restaurants, bars, and event venues, while Fort Myers Beach's Times Square and Estero Boulevard fill with beachgoers each winter and spring. Naples' Fifth Avenue South and Third Street South draw upscale dining, boutiques, and salons, and spring-training baseball brings crowds every March. Convenience stores and licensed medical dispensaries across Lee and Collier counties rely on our machines for dependable cash access.",
+      "areas": [
+        "River District",
+        "Fort Myers Beach",
+        "Cape Coral",
+        "Fifth Avenue South",
+        "Bonita Springs",
+        "Sanibel"
+      ],
+      "nearby": [
+        "tampa",
+        "miami",
+        "fort-lauderdale"
+      ]
+    },
+    {
+      "slug": "jacksonville",
+      "name": "Jacksonville",
+      "region": "Northeast Florida",
+      "blurb": "We place and service ATMs across Jacksonville, the largest city by area in the continental United States. Riverside and Avondale's Five Points and King Street districts support restaurants, bars, breweries, and salons, while San Marco's square draws diners and theater-goers. Jacksonville Beach's First Street and the Beaches Town Center in Atlantic Beach fill with beach traffic and nightlife, and the downtown stadium and arena bring event surges. A large naval presence sustains steady demand. Convenience stores and licensed medical dispensaries here count on our machines for reliable cash access.",
+      "areas": [
+        "Riverside",
+        "Five Points",
+        "San Marco",
+        "Jacksonville Beach",
+        "Atlantic Beach",
+        "Downtown Jacksonville"
+      ],
+      "nearby": [
+        "orlando",
+        "tallahassee",
+        "tampa"
+      ]
+    },
+    {
+      "slug": "tallahassee",
+      "name": "Tallahassee",
+      "region": "the Big Bend",
+      "blurb": "We place and service ATMs throughout Tallahassee, the state capital and home to Florida State University and Florida A&M University. College Town and the Tennessee Street strip pack bars, restaurants, and late-night food near campus, while Midtown along Thomasville Road supports cafes, cocktail bars, boutiques, and salons. The legislative session fills downtown hotels every spring, and fall football weekends transform the city. The Apalachee Parkway and Capital Circle corridors carry chain dining, convenience stores, and licensed medical dispensaries. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "College Town",
+        "Midtown",
+        "Downtown Tallahassee",
+        "Tennessee Street",
+        "Market District",
+        "Railroad Square"
+      ],
+      "nearby": [
+        "jacksonville",
+        "pensacola",
+        "orlando"
+      ]
+    },
+    {
+      "slug": "pensacola",
+      "name": "Pensacola",
+      "region": "the Panhandle",
+      "blurb": "We place and service ATMs across Pensacola, Destin, and the Emerald Coast of the Florida Panhandle. Downtown Pensacola's Palafox Street is lined with restaurants, bars, breweries, and hotels near Seville Square, while Pensacola Beach's boardwalk and Casino Beach fill from spring break through summer. Destin's Harbor Boardwalk and the Panama City Beach strip carry seafood restaurants, beach bars, hotels, and gift shops serving intense seasonal crowds. A major naval air station anchors year-round demand. Convenience stores and licensed medical dispensaries here rely on our machines for dependable cash access.",
+      "areas": [
+        "Palafox Street",
+        "Downtown Pensacola",
+        "Pensacola Beach",
+        "Seville Square",
+        "Destin Harbor",
+        "Panama City Beach"
+      ],
+      "nearby": [
+        "tallahassee",
+        "jacksonville",
+        "tampa"
+      ]
+    },
+    {
+      "slug": "key-west",
+      "name": "Key West",
+      "region": "the Florida Keys",
+      "blurb": "We place and service ATMs throughout Key West and the Florida Keys along the Overseas Highway. Duval Street is lined end to end with bars, restaurants, hotels, and gift shops that host cruise passengers by day and revelers by night, while Mallory Square's sunset celebration draws crowds every evening. Old Town's guesthouses add year-round demand, and Marathon and Key Largo support dive shops, marinas, and waterfront dining. Convenience stores here count on our machines to stay stocked through Fantasy Fest and the winter season.",
+      "areas": [
+        "Duval Street",
+        "Mallory Square",
+        "Old Town Key West",
+        "Bahama Village",
+        "Marathon",
+        "Key Largo"
+      ],
+      "nearby": [
+        "miami",
+        "fort-lauderdale",
+        "fort-myers"
+      ]
+    }
+  ]
+}

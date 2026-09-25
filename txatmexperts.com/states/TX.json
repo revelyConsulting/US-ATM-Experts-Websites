@@ -1,0 +1,90 @@
+{
+  "abbr": "TX",
+  "name": "Texas",
+  "metro_city": "Dallas",
+  "metro_phrase": "the Dallas–Fort Worth metroplex",
+  "span_phrase": "from Houston to El Paso",
+  "seasonal_phrase": "rodeo season, football weekends, and summer coastal tourism",
+  "cities": [
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "region": "North Texas",
+      "blurb": "We place and service ATMs across Dallas, from the live music venues and bars of Deep Ellum to the high-rise hotels and restaurants of Uptown along McKinney Avenue. The Bishop Arts District in Oak Cliff supports boutiques, cafes, and cocktail bars, while Lower Greenville and Knox-Henderson keep neighborhood pubs and salons busy. Downtown convention traffic and convenience stores along the major freeways give Dallas County merchants a constant need for reliable cash access.",
+      "areas": ["Deep Ellum", "Uptown", "Bishop Arts District", "Downtown Dallas", "Lower Greenville", "Knox-Henderson"],
+      "nearby": ["fort-worth", "plano", "arlington"]
+    },
+    {
+      "slug": "fort-worth",
+      "name": "Fort Worth",
+      "region": "North Texas",
+      "blurb": "We place and service ATMs in Fort Worth, where the Stockyards National Historic District draws visitors to its saloons, steakhouses, and western wear shops. Sundance Square downtown supports restaurants, bars, and hotels, while West 7th and the Near Southside on Magnolia Avenue anchor breweries, cafes, and nightlife. The Cultural District's museums bring steady daytime traffic to nearby merchants. Livestock shows and rodeo events create seasonal spikes in cash demand across Tarrant County.",
+      "areas": ["Stockyards", "Sundance Square", "West 7th", "Near Southside", "Cultural District"],
+      "nearby": ["dallas", "arlington", "plano"]
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "region": "the Gulf Coast",
+      "blurb": "We place and service ATMs throughout Houston, the largest city in Texas. Montrose and the Heights support bars, restaurants, and salons, while Midtown's nightlife district and Downtown's hotels near the convention center see heavy foot traffic. The Galleria area anchors retail and hospitality on the west side, and Washington Avenue keeps lounges and late-night dining busy. Convenience stores, gas stations, and taquerias across Harris County rely on well-stocked machines to serve a cash-friendly customer base.",
+      "areas": ["Montrose", "The Heights", "Midtown", "Downtown Houston", "Galleria", "Washington Avenue"],
+      "nearby": ["austin", "san-antonio", "corpus-christi"]
+    },
+    {
+      "slug": "san-antonio",
+      "name": "San Antonio",
+      "region": "South Central Texas",
+      "blurb": "We place and service ATMs across San Antonio, where the River Walk's hotels, restaurants, and bars serve millions of visitors each year. The Pearl district supports upscale dining, a weekend market, and boutique retail, while Southtown and the King William Historic District draw crowds to galleries, cafes, and pubs. Alamo Heights and the Medical Center add neighborhood retail, salons, and convenience stores. Fiesta and the stock show keep seasonal cash demand strong for Bexar County merchants.",
+      "areas": ["River Walk", "The Pearl", "Southtown", "Alamo Heights", "Medical Center", "Downtown"],
+      "nearby": ["austin", "houston", "corpus-christi"]
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "region": "Central Texas",
+      "blurb": "We place and service ATMs in Austin, where Sixth Street's bars and live music venues, Rainey Street's bungalow bars, and the Warehouse District's lounges keep downtown busy every night. South Congress supports boutiques, food trailers, and restaurants, while East Austin brings breweries, cocktail bars, and coffee shops. The campus area along Guadalupe Street serves students with convenience stores and casual dining. Major music and film festivals bring surges in cash demand across Travis County.",
+      "areas": ["Sixth Street", "Rainey Street", "South Congress", "East Austin", "The Drag", "Warehouse District"],
+      "nearby": ["san-antonio", "houston", "dallas"]
+    },
+    {
+      "slug": "el-paso",
+      "name": "El Paso",
+      "region": "Far West Texas",
+      "blurb": "We place and service ATMs throughout El Paso, a border city where Downtown and the Union Plaza district support bars, restaurants, and entertainment venues. Cincinnati Avenue near the university keeps pubs and late-night eateries busy, while the Westside along Mesa Street and the Eastside along Montana Avenue anchor convenience stores, salons, and hotels. Cross-border shoppers and Fort Bliss personnel keep cash flowing through gas stations, taquerias, and retail plazas across El Paso County.",
+      "areas": ["Downtown El Paso", "Union Plaza", "Cincinnati Avenue", "Westside", "Eastside"],
+      "nearby": ["lubbock", "san-antonio", "austin"]
+    },
+    {
+      "slug": "arlington",
+      "name": "Arlington",
+      "region": "North Texas",
+      "blurb": "We place and service ATMs in Arlington, which sits between Dallas and Fort Worth and hosts a major entertainment district with stadiums, theme parks, and hotels. Restaurants, sports bars, and convenience stores around the entertainment district see enormous game-day and concert crowds. Downtown Arlington near the university supports cafes, pubs, and salons, while the Highlands and Interstate 20 corridor anchor retail centers and gas stations. Neighboring Grand Prairie adds further convenience and dining traffic.",
+      "areas": ["Entertainment District", "Downtown Arlington", "The Highlands", "Grand Prairie", "Lincoln Square"],
+      "nearby": ["dallas", "fort-worth", "plano"]
+    },
+    {
+      "slug": "plano",
+      "name": "Plano",
+      "region": "North Texas",
+      "blurb": "We place and service ATMs across Plano and the northern Dallas suburbs, where Legacy West supports upscale restaurants, hotels, and retail near major corporate campuses. Historic Downtown Plano along 15th Street draws crowds to its bars, cafes, and shops, while The Shops at Legacy and the Preston Road corridor anchor salons, convenience stores, and casual dining. Nearby Frisco and McKinney add fast-growing retail districts and entertainment venues that keep Collin County merchants busy.",
+      "areas": ["Legacy West", "Downtown Plano", "The Shops at Legacy", "Preston Road", "Frisco", "McKinney"],
+      "nearby": ["dallas", "fort-worth", "arlington"]
+    },
+    {
+      "slug": "corpus-christi",
+      "name": "Corpus Christi",
+      "region": "the Coastal Bend",
+      "blurb": "We place and service ATMs in Corpus Christi, where the Downtown Marina and North Beach draw visitors to seafood restaurants, bars, and waterfront hotels. Padre Island and the beaches along the seawall bring summer tourists to convenience stores, surf shops, and casual dining, while the South Side along South Padre Island Drive anchors retail centers and salons. Port Aransas nearby sees heavy seasonal traffic. Fishing, beach season, and spring break shape cash demand across the Coastal Bend.",
+      "areas": ["Downtown Marina", "North Beach", "Padre Island", "South Side", "Port Aransas"],
+      "nearby": ["san-antonio", "houston", "austin"]
+    },
+    {
+      "slug": "lubbock",
+      "name": "Lubbock",
+      "region": "the South Plains",
+      "blurb": "We place and service ATMs throughout Lubbock, the commercial hub of West Texas. The Depot District supports bars, live music venues, and restaurants, while Broadway and the area around Texas Tech University keep convenience stores, pubs, and late-night dining busy. The South Loop and Slide Road corridors anchor hotels, salons, and retail centers. Game weekends, agricultural trade, and travelers from across the South Plains give Lubbock County merchants a steady need for dependable cash access.",
+      "areas": ["Depot District", "Texas Tech area", "Broadway", "South Loop", "Slide Road"],
+      "nearby": ["el-paso", "fort-worth", "dallas"]
+    }
+  ]
+}

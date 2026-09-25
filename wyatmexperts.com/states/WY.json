@@ -1,0 +1,90 @@
+{
+  "abbr": "WY",
+  "name": "Wyoming",
+  "metro_city": "Cheyenne",
+  "metro_phrase": "the Cheyenne area",
+  "span_phrase": "from Cheyenne to Jackson",
+  "seasonal_phrase": "summer national park tourism, rodeo and frontier days, and fall hunting season",
+  "cities": [
+    {
+      "slug": "cheyenne",
+      "name": "Cheyenne",
+      "region": "Southeast Wyoming",
+      "blurb": "We place and service ATMs across Cheyenne, the state capital and largest city, where the Downtown Historic District around the depot supports restaurants, bars, breweries, and western wear shops. Lincolnway and Dell Range Boulevard anchor hotels, convenience stores, retail centers, and gas stations serving Interstate 80 and 25 travelers. The air force base and state government bring steady weekday traffic, and the massive summer rodeo and frontier celebration each July fills every bar and hotel in Laramie County.",
+      "areas": ["Downtown Cheyenne", "Depot District", "Lincolnway", "Dell Range Boulevard", "Frontier Park"],
+      "nearby": ["laramie", "casper", "gillette"]
+    },
+    {
+      "slug": "casper",
+      "name": "Casper",
+      "region": "Central Wyoming",
+      "blurb": "We place and service ATMs throughout Casper, the commercial hub of central Wyoming on the North Platte River. The Old Yellowstone District and Downtown along Second Street support restaurants, bars, breweries, and boutiques, while the East Second Street and CY Avenue corridors anchor hotels, convenience stores, retail centers, and gas stations. Oil and gas payrolls, the state fair in nearby Douglas, and fly-fishing visitors on the river keep Natrona County merchants relying on steady cash service year round.",
+      "areas": ["Downtown Casper", "Old Yellowstone District", "East Second Street", "CY Avenue", "Mills"],
+      "nearby": ["cheyenne", "riverton", "gillette"]
+    },
+    {
+      "slug": "laramie",
+      "name": "Laramie",
+      "region": "Southeast Wyoming",
+      "blurb": "We place and service ATMs in Laramie, home to the state's university and a lively historic downtown. Grand Avenue and the downtown district along First and Second Streets support bars, restaurants, coffee shops, and locally owned retail that fill up on game weekends, while the area near campus keeps convenience stores and late-night dining busy through the school year. Hotels and gas stations near Interstate 80 serve cross-country travelers, and Snowy Range recreation brings skiers and hikers to Albany County businesses in every season.",
+      "areas": ["Downtown Laramie", "Grand Avenue", "University area", "West Laramie", "Interstate 80 corridor"],
+      "nearby": ["cheyenne", "casper", "rock-springs"]
+    },
+    {
+      "slug": "gillette",
+      "name": "Gillette",
+      "region": "Northeast Wyoming",
+      "blurb": "We place and service ATMs across Gillette and Campbell County, the energy capital of the state, where coal and oil payrolls keep bars, restaurants, and convenience stores busy around the clock. Downtown along Gillette Avenue supports taverns, cafes, and small shops, while the Highway 59 and Boxelder Road corridors anchor hotels, retail centers, gas stations, and salons. The Cam-Plex events center draws rodeos, concerts, and fairs, and travelers heading to Devils Tower and the Black Hills add summer cash demand.",
+      "areas": ["Downtown Gillette", "Gillette Avenue", "Highway 59", "Boxelder Road", "Cam-Plex"],
+      "nearby": ["sheridan", "casper", "cheyenne"]
+    },
+    {
+      "slug": "rock-springs",
+      "name": "Rock Springs",
+      "region": "Southwest Wyoming",
+      "blurb": "We place and service ATMs in Rock Springs and Green River in Sweetwater County, where the historic downtown supports bars, restaurants, cafes, and small shops reflecting the area's mining heritage. Dewar Drive anchors hotels, convenience stores, retail centers, and gas stations serving Interstate 80 travelers, while Green River's Flaming Gorge Way brings taverns and neighborhood businesses. Trona mining and natural gas payrolls, plus summer boaters headed to Flaming Gorge Reservoir, keep local merchants counting on dependable cash service.",
+      "areas": ["Downtown Rock Springs", "Dewar Drive", "Green River", "Flaming Gorge Way", "White Mountain"],
+      "nearby": ["laramie", "evanston", "casper"]
+    },
+    {
+      "slug": "sheridan",
+      "name": "Sheridan",
+      "region": "North Central Wyoming",
+      "blurb": "We place and service ATMs throughout Sheridan at the base of the Bighorn Mountains, where historic Main Street downtown supports saloons, restaurants, breweries, western wear shops, and boutiques. The Coffeen Avenue corridor anchors hotels, convenience stores, retail centers, and gas stations serving Interstate 90 travelers, while Big Horn and Ranchester add small-town businesses. The summer rodeo, polo season, and hunters and hikers heading into the Bighorns bring strong seasonal cash demand to Sheridan County merchants.",
+      "areas": ["Main Street", "Downtown Sheridan", "Coffeen Avenue", "Big Horn", "Ranchester"],
+      "nearby": ["gillette", "cody", "casper"]
+    },
+    {
+      "slug": "jackson",
+      "name": "Jackson",
+      "region": "Northwest Wyoming",
+      "blurb": "We place and service ATMs in Jackson and Teton County, the gateway to two national parks and a world-famous ski resort. The Town Square with its antler arches is surrounded by saloons, restaurants, galleries, and boutiques, while Broadway and Cache Street support hotels, convenience stores, and late-night dining. Teton Village at the base of the ski resort brings lodges, bars, and shops that fill up all winter. Summer park visitors and winter skiers give local merchants some of the highest seasonal cash demand in the region.",
+      "areas": ["Town Square", "Broadway", "Teton Village", "Cache Street", "Wilson"],
+      "nearby": ["cody", "riverton", "rock-springs"]
+    },
+    {
+      "slug": "cody",
+      "name": "Cody",
+      "region": "Northwest Wyoming",
+      "blurb": "We place and service ATMs across Cody and the Big Horn Basin, where Sheridan Avenue downtown is lined with restaurants, saloons, western galleries, and gift shops serving visitors headed to the east entrance of Yellowstone. Hotels, convenience stores, and gas stations along the Yellowstone Highway see heavy summer traffic, while the nightly summer rodeo draws crowds to nearby bars and dining. Powell to the northeast adds a college-town main street, and fall hunting season keeps Park County merchants busy after the tourists leave.",
+      "areas": ["Sheridan Avenue", "Downtown Cody", "Yellowstone Highway", "Powell", "Wapiti"],
+      "nearby": ["jackson", "sheridan", "riverton"]
+    },
+    {
+      "slug": "riverton",
+      "name": "Riverton",
+      "region": "Central Wyoming",
+      "blurb": "We place and service ATMs in Riverton and Lander in Fremont County, the commercial center of the Wind River region. Riverton's Main Street and Federal Boulevard support restaurants, bars, convenience stores, hotels, and retail plazas serving the surrounding reservation and ranching communities, while Lander's downtown brings breweries, cafes, and outdoor outfitters near Sinks Canyon. Rodeos, powwows, and the summer climbing and hiking season in the Wind River Range give local merchants steady seasonal cash demand throughout the year.",
+      "areas": ["Downtown Riverton", "Federal Boulevard", "Lander", "Main Street", "Sinks Canyon"],
+      "nearby": ["casper", "jackson", "cody"]
+    },
+    {
+      "slug": "evanston",
+      "name": "Evanston",
+      "region": "Southwest Wyoming",
+      "blurb": "We place and service ATMs in Evanston and Uinta County near the Utah border, where the historic downtown along Main and Front Streets supports restaurants, bars, cafes, and small shops near the restored railroad roundhouse. Harrison Drive and the Interstate 80 interchanges anchor hotels, truck stops, convenience stores, gas stations, and retail centers serving heavy cross-country traffic and shoppers from Utah. The summer rodeo and Uinta Mountain recreation add seasonal demand for dependable cash service across the county.",
+      "areas": ["Downtown Evanston", "Front Street", "Harrison Drive", "Interstate 80 corridor", "Bear River State Park"],
+      "nearby": ["rock-springs", "laramie", "cheyenne"]
+    }
+  ]
+}

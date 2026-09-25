@@ -1,0 +1,82 @@
+{
+  "abbr": "ND",
+  "name": "North Dakota",
+  "metro_city": "Fargo",
+  "metro_phrase": "the Fargo-Moorhead metro",
+  "span_phrase": "from Fargo to Williston",
+  "seasonal_phrase": "harvest season, hunting and fishing openers, and the summer construction and oilfield crew rotations",
+  "cities": [
+    {
+      "slug": "fargo",
+      "name": "Fargo",
+      "region": "the Red River Valley",
+      "blurb": "We place and service ATMs in Fargo and the Fargo-Moorhead metro. Downtown's Broadway hosts bars, restaurants, and live-music venues that fill on weekends and during the university's fall sports season, while the convenience stores and salons along 13th Avenue South and 45th Street serve steady shopper traffic near West Acres. The hotels along Interstate 94 handle travelers and conference visitors year-round, and medical dispensaries in the metro are a natural fit for cash-only sales. We handle installation, loading, and monitoring locally.",
+      "areas": ["Downtown Broadway", "13th Avenue South", "West Acres", "Northern Pacific Avenue", "Moorhead"],
+      "nearby": ["grand-forks", "west-fargo", "jamestown"]
+    },
+    {
+      "slug": "west-fargo",
+      "name": "West Fargo",
+      "region": "the Red River Valley",
+      "blurb": "We place and service ATMs in West Fargo, one of the fastest-growing communities in the state. Sheyenne Street's restaurants, bars, and specialty shops anchor the downtown, while the convenience stores, salons, and quick-service restaurants along 13th Avenue West and Veterans Boulevard serve new residential neighborhoods. Bonanzaville's summer events and the county fairgrounds draw seasonal crowds, and the Interstate 94 corridor's truck stops and hotels see heavy through-traffic. Our machines keep cash accessible for growing businesses in Cass County.",
+      "areas": ["Sheyenne Street", "13th Avenue West", "Veterans Boulevard", "Bonanzaville", "Interstate 94 corridor"],
+      "nearby": ["fargo", "grand-forks", "jamestown"]
+    },
+    {
+      "slug": "bismarck",
+      "name": "Bismarck",
+      "region": "Central North Dakota",
+      "blurb": "We place and service ATMs in Bismarck and Mandan. Downtown's Main Avenue and the Kirkwood Mall area host restaurants, bars, and hotels that fill during the legislative session and state events, while State Street and Century Avenue line up convenience stores, salons, and quick-service restaurants serving the north side. Across the river, Mandan's Main Street and the rodeo grounds draw summer crowds to local bars and shops. Our ATMs serve businesses across the capital region with regular cash loading and monitoring.",
+      "areas": ["Downtown Bismarck", "Kirkwood Mall", "State Street", "Mandan Main Street", "Century Avenue"],
+      "nearby": ["minot", "dickinson", "jamestown"]
+    },
+    {
+      "slug": "grand-forks",
+      "name": "Grand Forks",
+      "region": "the northern Red River Valley",
+      "blurb": "We place and service ATMs in Grand Forks and East Grand Forks. Downtown's DeMers Avenue and Third Street host bars, restaurants, and music venues that fill during hockey season and university weekends, and the convenience stores and salons along 32nd Avenue South and Columbia Road serve the campus and Columbia Mall corridor. The air base and university keep hotels and quick-service restaurants busy year-round, while summer brings crowds to the Greenway along the river. Our machines fit corner stores, bars, and entertainment venues across the city.",
+      "areas": ["Downtown Grand Forks", "DeMers Avenue", "32nd Avenue South", "Columbia Road", "East Grand Forks"],
+      "nearby": ["fargo", "west-fargo", "devils-lake"]
+    },
+    {
+      "slug": "minot",
+      "name": "Minot",
+      "region": "the Souris River Valley",
+      "blurb": "We place and service ATMs in Minot, the commercial hub of north-central North Dakota. Downtown's Main Street hosts restaurants, bars, and shops, while the convenience stores, salons, and hotels along Broadway and Burdick Expressway serve the air base community and oilfield traffic. The North Dakota State Fair each July and the Norsk Hostfest each fall bring large crowds to the fairgrounds and nearby businesses, creating sharp seasonal spikes in cash demand. Our ATMs help local owners keep up with visitors and residents alike.",
+      "areas": ["Downtown Minot", "Broadway", "Burdick Expressway", "State Fairgrounds", "Dakota Square"],
+      "nearby": ["bismarck", "williston", "devils-lake"]
+    },
+    {
+      "slug": "williston",
+      "name": "Williston",
+      "region": "the Bakken oil region",
+      "blurb": "We place and service ATMs in Williston and the Bakken oil region. Downtown's Main Street hosts bars, restaurants, and shops, while the convenience stores, truck stops, and hotels along Second Avenue West and Highway 2 serve oilfield crews rotating through the area. Crew schedules and drilling activity drive strong, sometimes unpredictable cash demand at bars, quick-service restaurants, and salons, and nearby Watford City sees the same patterns. Our machines are built for high-volume use, with regular loading and remote monitoring.",
+      "areas": ["Downtown Williston", "Second Avenue West", "Highway 2 corridor", "Million Dollar Way", "Watford City"],
+      "nearby": ["minot", "dickinson", "bismarck"]
+    },
+    {
+      "slug": "dickinson",
+      "name": "Dickinson",
+      "region": "Southwestern North Dakota",
+      "blurb": "We place and service ATMs in Dickinson and the southwestern corner of the state. Downtown's Villard Street hosts bars, restaurants, and shops, while Third Avenue West and the Interstate 94 exits line up convenience stores, hotels, and quick-service restaurants serving oilfield workers and travelers heading to Theodore Roosevelt National Park. Summer tourism through Medora and the Badlands brings visitors to local businesses, and the university keeps salons and restaurants busy through the school year. Our ATMs keep cash accessible across Stark County.",
+      "areas": ["Downtown Dickinson", "Villard Street", "Third Avenue West", "Interstate 94 corridor", "Medora"],
+      "nearby": ["bismarck", "williston", "minot"]
+    },
+    {
+      "slug": "jamestown",
+      "name": "Jamestown",
+      "region": "Central North Dakota",
+      "blurb": "We place and service ATMs in Jamestown, midway between Fargo and Bismarck on Interstate 94. Downtown's First Avenue hosts bars, restaurants, and shops, and the convenience stores, hotels, and quick-service restaurants near the interstate exits serve steady traveler traffic. The World's Largest Buffalo and Frontier Village draw summer tourists, while the university and the medical center keep salons and restaurants busy year-round. Nearby Valley City shares the same seasonal rhythms, and our machines serve small businesses throughout the region.",
+      "areas": ["Downtown Jamestown", "First Avenue", "Interstate 94 exits", "Frontier Village", "Valley City"],
+      "nearby": ["fargo", "bismarck", "west-fargo"]
+    },
+    {
+      "slug": "devils-lake",
+      "name": "Devils Lake",
+      "region": "the Lake Region",
+      "blurb": "We place and service ATMs in Devils Lake and the surrounding Lake Region. Downtown's Fourth Street hosts bars, restaurants, and shops, while Highway 2 lines up convenience stores, bait shops, motels, and quick-service restaurants serving the anglers and hunters who flock to the lake for summer walleye fishing, winter ice fishing, and fall waterfowl season. Those seasonal surges drive strong cash demand at marinas, resorts, and local taverns, and our machines keep cash accessible where connectivity is limited around the lake.",
+      "areas": ["Downtown Devils Lake", "Fourth Street", "Highway 2 corridor", "Grahams Island", "Spirit Lake"],
+      "nearby": ["grand-forks", "minot", "jamestown"]
+    }
+  ]
+}

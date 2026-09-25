@@ -1,0 +1,90 @@
+{
+  "abbr": "KY",
+  "name": "Kentucky",
+  "metro_city": "Louisville",
+  "metro_phrase": "the Louisville metro",
+  "span_phrase": "from Paducah to Pikeville",
+  "seasonal_phrase": "Derby season, college basketball season, and bourbon trail tourism",
+  "cities": [
+    {
+      "slug": "louisville",
+      "name": "Louisville",
+      "region": "the Louisville metro",
+      "blurb": "We place and service ATMs across Louisville, from the bourbon bars and hotels of Whiskey Row and Fourth Street Live downtown to the restaurants, music venues, and boutiques along Bardstown Road in the Highlands. NuLu is packed with cafes, breweries, and salons, while Germantown and Butchertown host neighborhood taverns and distillery tasting rooms. Derby week each May brings enormous crowds to the Churchill Downs area, and convenience stores and gas stations along Dixie Highway and Preston Highway see steady traffic year-round.",
+      "areas": ["Downtown Louisville", "NuLu", "The Highlands", "Bardstown Road", "Germantown", "St. Matthews"],
+      "nearby": ["lexington", "elizabethtown", "frankfort"]
+    },
+    {
+      "slug": "lexington",
+      "name": "Lexington",
+      "region": "the Bluegrass",
+      "blurb": "Lexington is the horse capital of the world and the second-largest city in Kentucky, and we place and service ATMs at businesses throughout it. Downtown Lexington and the Distillery District host bars, restaurants, breweries, and music venues, while Chevy Chase and the area around the University of Kentucky campus are lined with cafes, pubs, and salons. Keeneland race meets each April and October draw heavy crowds, and Nicholasville Road, Richmond Road, and Hamburg host convenience stores, gas stations, hotels, and shopping plazas.",
+      "areas": ["Downtown Lexington", "Distillery District", "Chevy Chase", "Hamburg", "Nicholasville Road", "University of Kentucky campus"],
+      "nearby": ["frankfort", "louisville", "richmond"]
+    },
+    {
+      "slug": "bowling-green",
+      "name": "Bowling Green",
+      "region": "South Central Kentucky",
+      "blurb": "We place and service ATMs in Bowling Green, the third-largest city in Kentucky and home to Western Kentucky University. Fountain Square Park downtown is surrounded by bars, restaurants, cafes, and salons, while the WKU campus keeps nearby pubs and quick-service restaurants busy through the school year. Scottsville Road and Campbell Lane are lined with convenience stores, gas stations, hotels, and shopping plazas around Greenwood Mall, and the National Corvette Museum and Interstate 65 exits bring steady tourist and traveler traffic.",
+      "areas": ["Downtown Bowling Green", "Fountain Square", "Scottsville Road", "Campbell Lane", "Western Kentucky University campus", "Interstate 65 corridor"],
+      "nearby": ["elizabethtown", "owensboro", "louisville"]
+    },
+    {
+      "slug": "owensboro",
+      "name": "Owensboro",
+      "region": "Western Kentucky",
+      "blurb": "Owensboro sits on the Ohio River and is the fourth-largest city in Kentucky, and we place and service ATMs at businesses across it. The revitalized riverfront and Downtown Owensboro host the Bluegrass Music Hall of Fame, the convention center, hotels, and a cluster of bars, restaurants, and barbecue spots. Frederica Street is the city's main commercial corridor lined with convenience stores, gas stations, salons, and shopping plazas around Towne Square Mall, and the annual barbecue festival draws large spring crowds.",
+      "areas": ["Downtown Owensboro", "Riverfront", "Frederica Street", "Towne Square", "Highway 54 corridor", "West Owensboro"],
+      "nearby": ["bowling-green", "paducah", "elizabethtown"]
+    },
+    {
+      "slug": "covington",
+      "name": "Covington",
+      "region": "Northern Kentucky",
+      "blurb": "We place and service ATMs in Covington and across Northern Kentucky, directly across the Ohio River from Cincinnati. Mainstrasse Village is a historic district packed with bars, restaurants, breweries, and salons, while the Covington riverfront and Roebling Point host hotels, cafes, and entertainment venues. Newport on the Levee next door adds a large restaurant and entertainment complex, and Florence along Interstate 75 is lined with convenience stores, gas stations, hotels, and shopping plazas around Florence Mall.",
+      "areas": ["Mainstrasse Village", "Roebling Point", "Covington riverfront", "Newport", "Florence", "Interstate 75 corridor"],
+      "nearby": ["lexington", "frankfort", "louisville"]
+    },
+    {
+      "slug": "frankfort",
+      "name": "Frankfort",
+      "region": "the Bluegrass",
+      "blurb": "Frankfort is the state capital, and we place and service ATMs at businesses throughout the city. Downtown Frankfort along Broadway and St. Clair Street hosts restaurants, bars, cafes, and salons that serve state employees and visitors to the Kentucky State Capitol, while Buffalo Trace Distillery draws bourbon trail tourists year-round. US 127 and the East-West Connector are lined with convenience stores, gas stations, hotels, and shopping plazas, and Kentucky State University adds steady student traffic to nearby businesses.",
+      "areas": ["Downtown Frankfort", "Capitol area", "US 127 corridor", "East-West Connector", "Buffalo Trace area", "Kentucky State University area"],
+      "nearby": ["lexington", "louisville", "richmond"]
+    },
+    {
+      "slug": "elizabethtown",
+      "name": "Elizabethtown",
+      "region": "Central Kentucky",
+      "blurb": "We place and service ATMs in Elizabethtown, a regional hub at the junction of Interstate 65 and the Bluegrass and Western Kentucky parkways. Historic Downtown Elizabethtown around the courthouse square hosts restaurants, bars, cafes, and salons, while North Dixie Highway and Ring Road are lined with convenience stores, gas stations, hotels, and shopping plazas around Towne Mall. Fort Knox just to the north brings soldiers and families to local businesses, and nearby Bardstown draws bourbon trail visitors.",
+      "areas": ["Downtown Elizabethtown", "North Dixie Highway", "Ring Road", "Interstate 65 corridor", "Fort Knox area", "Radcliff"],
+      "nearby": ["louisville", "bowling-green", "owensboro"]
+    },
+    {
+      "slug": "richmond",
+      "name": "Richmond",
+      "region": "Central Kentucky",
+      "blurb": "Richmond is home to Eastern Kentucky University and sits along Interstate 75 south of Lexington, and we place and service ATMs at businesses across the city. Downtown Richmond along Main Street hosts bars, restaurants, cafes, and salons near the EKU campus that stay busy through the school year. The Eastern Bypass and Interstate 75 exits are lined with convenience stores, gas stations, hotels, and shopping plazas, and the Richmond area serves as a gateway for travelers heading into the Appalachian foothills and Red River Gorge.",
+      "areas": ["Downtown Richmond", "Main Street", "Eastern Bypass", "Eastern Kentucky University campus", "Interstate 75 corridor", "Berea"],
+      "nearby": ["lexington", "frankfort", "pikeville"]
+    },
+    {
+      "slug": "paducah",
+      "name": "Paducah",
+      "region": "Western Kentucky",
+      "blurb": "We place and service ATMs in Paducah, the commercial center of far western Kentucky where the Ohio and Tennessee rivers meet. Historic Downtown Paducah and the Lower Town Arts District host bars, restaurants, cafes, galleries, and salons, and the National Quilt Museum draws visitors year-round. Hinkleville Road and the Interstate 24 interchange are lined with convenience stores, gas stations, hotels, and shopping plazas around Kentucky Oaks Mall, while Land Between the Lakes brings summer recreation traffic through the region.",
+      "areas": ["Downtown Paducah", "Lower Town", "Hinkleville Road", "Interstate 24 corridor", "Kentucky Oaks", "Lone Oak"],
+      "nearby": ["owensboro", "bowling-green", "elizabethtown"]
+    },
+    {
+      "slug": "pikeville",
+      "name": "Pikeville",
+      "region": "Eastern Kentucky",
+      "blurb": "Pikeville is the largest city in the coalfields of eastern Kentucky and a medical and retail hub for the Appalachian region, and we place and service ATMs at businesses throughout it. Downtown Pikeville along Main Street hosts restaurants, bars, cafes, and salons, and the Appalachian Wireless Arena brings concerts and events. US 23 and the Cassidy Boulevard area are lined with convenience stores, gas stations, hotels, and shopping plazas, while the University of Pikeville and Pikeville Medical Center generate steady daily foot traffic.",
+      "areas": ["Downtown Pikeville", "Main Street", "US 23 corridor", "Cassidy Boulevard", "University of Pikeville area", "Coal Run"],
+      "nearby": ["richmond", "lexington", "frankfort"]
+    }
+  ]
+}

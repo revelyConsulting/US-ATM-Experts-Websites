@@ -1,0 +1,90 @@
+{
+  "abbr": "SC",
+  "name": "South Carolina",
+  "metro_city": "Charleston",
+  "metro_phrase": "the Charleston Lowcountry",
+  "span_phrase": "from Myrtle Beach to Greenville",
+  "seasonal_phrase": "summer beach tourism along the Grand Strand, college football Saturdays, and the spring festival season in Charleston",
+  "cities": [
+    {
+      "slug": "charleston",
+      "name": "Charleston",
+      "region": "the Lowcountry",
+      "blurb": "We place and service ATMs across Charleston and the Lowcountry, from the bars, restaurants, and hotels of King Street and the French Quarter to the beach bars and surf shops of Folly Beach and Isle of Palms. The City Market's vendors and the Upper King nightlife district keep cash moving late, while the convenience stores and salons along Savannah Highway in West Ashley and Coleman Boulevard in Mount Pleasant serve residents daily. Spring festivals and summer tourism bring surges of visitors, and we handle installation, loading, and monitoring locally.",
+      "areas": ["King Street", "French Quarter", "City Market", "Upper King", "Mount Pleasant", "Folly Beach"],
+      "nearby": ["north-charleston", "summerville", "beaufort"]
+    },
+    {
+      "slug": "north-charleston",
+      "name": "North Charleston",
+      "region": "the Lowcountry",
+      "blurb": "We place and service ATMs in North Charleston, the commercial hub of the metro. Park Circle's restaurants, breweries, and bars fill on weekends, while the hotels, convenience stores, and quick-service restaurants along Rivers Avenue and International Boulevard serve airport travelers and workers from the aerospace and shipping industries. The coliseum and convention center draw concert and event crowds to nearby businesses, and Tanger Outlets brings shoppers from across the region. Our machines keep cash accessible for businesses citywide.",
+      "areas": ["Park Circle", "Rivers Avenue", "International Boulevard", "Tanger Outlets", "Ashley Phosphate Road"],
+      "nearby": ["charleston", "summerville", "columbia"]
+    },
+    {
+      "slug": "summerville",
+      "name": "Summerville",
+      "region": "the Lowcountry",
+      "blurb": "We place and service ATMs in Summerville and the fast-growing communities of Dorchester and Berkeley counties. Historic downtown's Hutchinson Square hosts restaurants, bars, and specialty shops, while the convenience stores, salons, and quick-service restaurants along Main Street and North Main Street serve new residential neighborhoods. The Flowertown Festival each spring draws large crowds, and nearby Goose Creek and Moncks Corner add taverns and stores along Highway 52. Our machines serve small businesses across the area with regular cash loading.",
+      "areas": ["Hutchinson Square", "Downtown Summerville", "Main Street", "Nexton", "Goose Creek", "Moncks Corner"],
+      "nearby": ["charleston", "north-charleston", "columbia"]
+    },
+    {
+      "slug": "columbia",
+      "name": "Columbia",
+      "region": "the Midlands",
+      "blurb": "We place and service ATMs in Columbia and the Midlands. Five Points' bars, restaurants, and convenience stores fill on football Saturdays and through the academic year, while the Vista's restaurants, hotels, and music venues along Gervais Street draw crowds for concerts and legislative-session events. Main Street's cafes and salons serve downtown workers, and Harbison Boulevard's shopping corridor lines up quick-service restaurants and stores serving the whole region. The state fair each October brings large crowds, and our ATMs keep up with the demand.",
+      "areas": ["Five Points", "The Vista", "Main Street", "Harbison Boulevard", "Devine Street", "Lexington"],
+      "nearby": ["greenville", "rock-hill", "florence"]
+    },
+    {
+      "slug": "greenville",
+      "name": "Greenville",
+      "region": "the Upstate",
+      "blurb": "We place and service ATMs in Greenville and the Upstate. Downtown's Main Street and the Falls Park area host restaurants, bars, and hotels that fill on weekends and during summer festivals, while the West End's breweries and the Village of West Greenville's galleries and cafes draw steady crowds. Woodruff Road's shopping corridor lines up convenience stores, salons, and quick-service restaurants, and nearby Spartanburg's Morgan Square adds taverns and shops. Football weekends in Clemson bring surges of visitors to the whole region.",
+      "areas": ["Downtown Main Street", "Falls Park", "West End", "Village of West Greenville", "Woodruff Road", "Spartanburg"],
+      "nearby": ["columbia", "rock-hill", "anderson"]
+    },
+    {
+      "slug": "myrtle-beach",
+      "name": "Myrtle Beach",
+      "region": "the Grand Strand",
+      "blurb": "We place and service ATMs in Myrtle Beach and along the Grand Strand. Ocean Boulevard's boardwalk arcades, beach bars, and hotels surge from spring break through Labor Day, while Broadway at the Beach and Barefoot Landing in North Myrtle Beach host restaurants, entertainment venues, and shops year-round. The convenience stores, salons, and golf-course pro shops along Kings Highway and Highway 17 serve visitors and residents, and the Market Common adds cafes and boutiques. Our machines handle the seasonal surge with frequent cash loading.",
+      "areas": ["Ocean Boulevard", "Boardwalk", "Broadway at the Beach", "Barefoot Landing", "Market Common", "North Myrtle Beach"],
+      "nearby": ["florence", "charleston", "columbia"]
+    },
+    {
+      "slug": "rock-hill",
+      "name": "Rock Hill",
+      "region": "the Catawba region",
+      "blurb": "We place and service ATMs in Rock Hill and the York County towns south of Charlotte. Old Town's Main Street hosts restaurants, bars, and shops, while the convenience stores, salons, and quick-service restaurants along Cherry Road and Dave Lyle Boulevard serve residents and university students. Fort Mill's downtown and the Baxter Village shops add cafes and taverns, and the sports complexes bring tournament crowds to hotels near Interstate 77 on weekends. Our machines keep cash accessible for growing businesses across the county.",
+      "areas": ["Old Town Rock Hill", "Main Street", "Cherry Road", "Dave Lyle Boulevard", "Fort Mill", "Baxter Village"],
+      "nearby": ["columbia", "greenville", "anderson"]
+    },
+    {
+      "slug": "florence",
+      "name": "Florence",
+      "region": "the Pee Dee",
+      "blurb": "We place and service ATMs in Florence and the Pee Dee region. Downtown's Evans Street and Dargan Street host restaurants, bars, and event venues that have grown with the revitalized city center, while the hotels, convenience stores, and quick-service restaurants at the Interstate 95 and Interstate 20 interchange serve heavy traveler traffic year-round. The salons and stores along David McLeod Boulevard serve local shoppers, and race weekends in nearby Darlington bring large crowds to the whole region. Our ATMs keep up with the traffic.",
+      "areas": ["Downtown Florence", "Evans Street", "Interstate 95 corridor", "David McLeod Boulevard", "Darlington"],
+      "nearby": ["columbia", "myrtle-beach", "charleston"]
+    },
+    {
+      "slug": "anderson",
+      "name": "Anderson",
+      "region": "the Upstate",
+      "blurb": "We place and service ATMs in Anderson and the Lake Hartwell area of the Upstate. Downtown's Main Street hosts restaurants, bars, and shops, while the convenience stores, salons, and quick-service restaurants along Clemson Boulevard serve residents and lake visitors. Nearby Clemson's College Avenue bars and convenience stores surge on football Saturdays, and the marinas and campgrounds around Lake Hartwell keep bait shops and taverns busy all summer. Our machines keep cash accessible for businesses across Anderson and Pickens counties.",
+      "areas": ["Downtown Anderson", "Main Street", "Clemson Boulevard", "College Avenue Clemson", "Lake Hartwell"],
+      "nearby": ["greenville", "rock-hill", "columbia"]
+    },
+    {
+      "slug": "beaufort",
+      "name": "Beaufort",
+      "region": "the Sea Islands",
+      "blurb": "We place and service ATMs in Beaufort, Hilton Head Island, and Bluffton in the southern Lowcountry. Beaufort's Bay Street waterfront hosts restaurants, bars, and inns, while Hilton Head's Coligny Plaza and Harbour Town line up beach shops, seafood restaurants, and hotels that surge from spring golf season through the summer. Bluffton's Old Town cafes and salons serve the fast-growing area, and the convenience stores along Boundary Street serve the Marine base community. Our ATMs keep cash accessible where island connectivity can fall short.",
+      "areas": ["Bay Street", "Downtown Beaufort", "Coligny Plaza", "Harbour Town", "Old Town Bluffton", "Boundary Street"],
+      "nearby": ["charleston", "north-charleston", "summerville"]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "abbr": "MT",
+  "name": "Montana",
+  "metro_city": "Billings",
+  "metro_phrase": "the Billings area",
+  "span_phrase": "from Billings to Kalispell",
+  "seasonal_phrase": "summer national park tourism, hunting season, and ski season",
+  "cities": [
+    {
+      "slug": "billings",
+      "name": "Billings",
+      "region": "Eastern Montana",
+      "blurb": "We place and service ATMs across Billings, Montana's largest city and the retail center for the eastern half of the state and northern Wyoming. Downtown's Montana Avenue and Broadway hold bars, restaurants, breweries, and hotels that fill up for conventions and rodeo events, and the West End's 24th Street and Grand Avenue corridors carry big-box retail, gas stations, casinos, and salons. Refinery workers and ranchers from surrounding counties bring steady daytime traffic to convenience stores, and dispensaries and taverns in the Heights and Laurel rely on our locally serviced machines.",
+      "areas": [
+        "Downtown Billings",
+        "Montana Avenue",
+        "West End",
+        "Billings Heights",
+        "Grand Avenue",
+        "Laurel"
+      ],
+      "nearby": [
+        "bozeman",
+        "great-falls",
+        "helena"
+      ]
+    },
+    {
+      "slug": "missoula",
+      "name": "Missoula",
+      "region": "Western Montana",
+      "blurb": "We place and service ATMs in Missoula, a university town and outdoor recreation hub in the Clark Fork valley. Downtown's Higgins Avenue and Front Street hold bars, breweries, restaurants, and music venues that stay busy through the school year and summer festival season, and the Hip Strip across the river adds coffee shops, taverns, and boutiques. Reserve Street and Brooks Street carry retail, gas stations, hotels, and salons. Dispensaries, fly shops, and river outfitters across Missoula County count on our machines through float season and football weekends.",
+      "areas": [
+        "Downtown Missoula",
+        "Hip Strip",
+        "Reserve Street",
+        "Brooks Street",
+        "Rattlesnake",
+        "Lolo"
+      ],
+      "nearby": [
+        "kalispell",
+        "helena",
+        "butte"
+      ]
+    },
+    {
+      "slug": "bozeman",
+      "name": "Bozeman",
+      "region": "the Gallatin Valley",
+      "blurb": "We place and service ATMs in Bozeman, one of the fastest-growing cities in the Mountain West and the gateway to the northern entrance of the national park. Downtown Main Street's restaurants, bars, galleries, and boutiques draw both students and tourists, and the North Seventh corridor and Cannery District add breweries, hotels, and coffee shops. Big Sky's ski resort and summer lodges an hour south generate heavy seasonal cash needs, while dispensaries, gas stations, and salons in Belgrade and Four Corners depend on our locally serviced machines.",
+      "areas": [
+        "Downtown Bozeman",
+        "Main Street",
+        "North Seventh",
+        "Cannery District",
+        "Belgrade",
+        "Big Sky"
+      ],
+      "nearby": [
+        "billings",
+        "helena",
+        "butte"
+      ]
+    },
+    {
+      "slug": "great-falls",
+      "name": "Great Falls",
+      "region": "North Central Montana",
+      "blurb": "We place and service ATMs in Great Falls, a Missouri River city anchored by an air force base and the agricultural trade of Montana's Golden Triangle wheat country. Central Avenue downtown holds bars, restaurants, and a growing brewery scene, and the 10th Avenue South corridor carries hotels, casinos, gas stations, retail, and salons. Service members and ranch families bring steady traffic to convenience stores and diners, and dispensaries and taverns across Cascade County rely on our machines through the state fair in late summer and the long winter.",
+      "areas": [
+        "Downtown Great Falls",
+        "Central Avenue",
+        "10th Avenue South",
+        "West Bank",
+        "Black Eagle"
+      ],
+      "nearby": [
+        "helena",
+        "billings",
+        "missoula"
+      ]
+    },
+    {
+      "slug": "helena",
+      "name": "Helena",
+      "region": "Southwest Montana",
+      "blurb": "We place and service ATMs in Helena, the state capital, where legislative sessions and state government offices keep downtown restaurants, taverns, and coffee shops busy. The Last Chance Gulch walking mall holds bars, boutiques, and breweries in historic mining-era storefronts, and the Euclid Avenue and Prospect Avenue corridors carry hotels, gas stations, retail, and salons. Summer visitors heading to the lakes and mountain trails stop for supplies at convenience stores, and dispensaries and neighborhood bars across Lewis and Clark County depend on our reliable local service.",
+      "areas": [
+        "Downtown Helena",
+        "Last Chance Gulch",
+        "Euclid Avenue",
+        "Prospect Avenue",
+        "East Helena"
+      ],
+      "nearby": [
+        "great-falls",
+        "butte",
+        "missoula",
+        "bozeman"
+      ]
+    },
+    {
+      "slug": "butte",
+      "name": "Butte",
+      "region": "Southwest Montana",
+      "blurb": "We place and service ATMs in Butte and Anaconda, historic mining towns with a bar scene that outsizes their population. Uptown Butte's Park Street and Main Street hold taverns, restaurants, and music venues in brick buildings from the copper boom, and the annual St. Patrick's Day and folk festival crowds push cash demand sharply higher. The Harrison Avenue corridor on the Flats carries hotels, gas stations, casinos, and retail. Dispensaries, convenience stores, and neighborhood bars across Silver Bow and Deer Lodge counties rely on our locally serviced machines.",
+      "areas": [
+        "Uptown Butte",
+        "Park Street",
+        "Harrison Avenue",
+        "The Flats",
+        "Anaconda"
+      ],
+      "nearby": [
+        "helena",
+        "bozeman",
+        "missoula"
+      ]
+    },
+    {
+      "slug": "kalispell",
+      "name": "Kalispell",
+      "region": "the Flathead Valley",
+      "blurb": "We place and service ATMs in Kalispell, Whitefish, and the Flathead Valley, where the west entrance of the national park and the ski resort above Whitefish create two distinct busy seasons. Kalispell's Main Street holds restaurants, bars, and shops, and Highway 93 carries hotels, gas stations, and salons. Whitefish's Central Avenue fills with tourists at breweries, boutiques, and taverns, and marinas and resorts around Flathead Lake in Bigfork and Polson need machines that stay stocked. Dispensaries and convenience stores across the valley count on our local service.",
+      "areas": [
+        "Downtown Kalispell",
+        "Highway 93 corridor",
+        "Whitefish",
+        "Columbia Falls",
+        "Bigfork",
+        "Polson"
+      ],
+      "nearby": [
+        "missoula",
+        "helena",
+        "great-falls"
+      ]
+    },
+    {
+      "slug": "miles-city",
+      "name": "Miles City",
+      "region": "Southeast Montana",
+      "blurb": "We place and service ATMs in Miles City and the ranch towns of southeastern Montana, a region where distances are long and dependable service matters. Main Street downtown holds saloons, restaurants, and western wear stores that fill to capacity during the Bucking Horse Sale each May, and the Haynes Avenue corridor along I-94 carries motels, gas stations, and convenience stores serving truckers and hunters. Taverns, dispensaries, and grocers in Glendive, Forsyth, and Baker rely on our machines, and we plan refills around hunting season and the region's oil field traffic.",
+      "areas": [
+        "Downtown Miles City",
+        "Main Street",
+        "Haynes Avenue",
+        "Glendive",
+        "Forsyth"
+      ],
+      "nearby": [
+        "billings",
+        "bozeman",
+        "great-falls"
+      ]
+    }
+  ]
+}

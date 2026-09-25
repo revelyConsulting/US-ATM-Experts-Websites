@@ -1,0 +1,90 @@
+{
+  "abbr": "MD",
+  "name": "Maryland",
+  "metro_city": "Baltimore",
+  "metro_phrase": "the Baltimore metro",
+  "span_phrase": "from Ocean City to Cumberland",
+  "seasonal_phrase": "summer beach season in Ocean City, Preakness weekend, and the fall crab season",
+  "cities": [
+    {
+      "slug": "baltimore",
+      "name": "Baltimore",
+      "region": "Central Maryland",
+      "blurb": "We place and service ATMs across Baltimore, from the bars, hotels, and restaurants of the Inner Harbor and Fells Point to the taverns and rowhouse corner stores of Canton and Federal Hill. Hampden along 36th Street hosts boutiques, cafes, and salons, while Mount Vernon and Station North are home to music venues and dispensaries. Convention traffic downtown and the Horseshoe Casino keep demand steady, and our technicians are based in the city to keep machines stocked through summer festivals and Preakness week.",
+      "areas": ["Inner Harbor", "Fells Point", "Canton", "Federal Hill", "Hampden", "Mount Vernon"],
+      "nearby": ["towson", "columbia", "annapolis"]
+    },
+    {
+      "slug": "towson",
+      "name": "Towson",
+      "region": "Baltimore County",
+      "blurb": "Towson is the Baltimore County seat and a busy college town just north of the city, and we place and service ATMs at businesses throughout the area. Downtown Towson along York Road hosts bars, restaurants, cafes, and salons that stay busy with students from Towson University and Goucher College, while Towson Town Center anchors a district of retail, hotels, and restaurants. The York Road and Joppa Road corridors are lined with convenience stores, gas stations, and dispensaries serving Parkville, Lutherville, and Timonium.",
+      "areas": ["Downtown Towson", "York Road", "Towson Town Center", "Towson University area", "Timonium", "Parkville"],
+      "nearby": ["baltimore", "columbia", "annapolis"]
+    },
+    {
+      "slug": "columbia",
+      "name": "Columbia",
+      "region": "Howard County",
+      "blurb": "We place and service ATMs in Columbia and across Howard County, the planned community midway between Baltimore and Washington. Downtown Columbia around the Mall in Columbia and the Merriweather District hosts restaurants, bars, hotels, and the Merriweather Post Pavilion concert venue, while the village centers host cafes, salons, and grocery-anchored plazas. Route 1 in Elkridge and Laurel is lined with convenience stores, gas stations, and hotels, and Historic Ellicott City on Main Street draws visitors to its pubs, boutiques, and restaurants.",
+      "areas": ["Downtown Columbia", "Merriweather District", "Ellicott City", "Route 1 corridor", "Laurel", "Elkridge"],
+      "nearby": ["baltimore", "silver-spring", "annapolis"]
+    },
+    {
+      "slug": "silver-spring",
+      "name": "Silver Spring",
+      "region": "Montgomery County",
+      "blurb": "Silver Spring sits just across the District line in Montgomery County, and we place and service ATMs at businesses across the area. Downtown Silver Spring around Ellsworth Drive and the Fillmore music venue hosts restaurants, bars, cafes, and hotels, while Georgia Avenue and University Boulevard in Wheaton are lined with international restaurants, convenience stores, gas stations, and salons. Takoma Park and Bethesda nearby add coffee shops, boutiques, and dispensaries, and the Metro stations keep foot traffic steady throughout the week.",
+      "areas": ["Downtown Silver Spring", "Ellsworth Drive", "Georgia Avenue", "Wheaton", "Takoma Park", "Bethesda"],
+      "nearby": ["rockville", "columbia", "annapolis"]
+    },
+    {
+      "slug": "rockville",
+      "name": "Rockville",
+      "region": "Montgomery County",
+      "blurb": "We place and service ATMs in Rockville and the Interstate 270 corridor, the biotech and government contracting hub of Montgomery County. Rockville Town Square hosts restaurants, bars, cafes, and salons, while Rockville Pike is one of the busiest commercial strips in the region, lined with shopping centers, hotels, convenience stores, gas stations, and dispensaries. Pike and Rose in North Bethesda adds upscale dining and entertainment, and Gaithersburg and Germantown to the north host the Rio Lakefront district and RIO shopping and dining.",
+      "areas": ["Rockville Town Square", "Rockville Pike", "Pike and Rose", "North Bethesda", "Gaithersburg", "Germantown"],
+      "nearby": ["silver-spring", "frederick", "columbia"]
+    },
+    {
+      "slug": "annapolis",
+      "name": "Annapolis",
+      "region": "Anne Arundel County",
+      "blurb": "Annapolis is the state capital and a sailing town on the Chesapeake Bay, and we place and service ATMs at businesses throughout the city and Anne Arundel County. Downtown Annapolis and the City Dock area along Main Street are packed with bars, restaurants, crab houses, boutiques, and hotels that fill up for the fall boat shows and summer tourism, and the Naval Academy draws visitors year-round. West Street hosts pubs, salons, and dispensaries, and Route 50 and the Annapolis Mall area are lined with convenience stores and gas stations.",
+      "areas": ["Downtown Annapolis", "City Dock", "Main Street", "West Street", "Eastport", "Annapolis Mall area"],
+      "nearby": ["baltimore", "columbia", "waldorf"]
+    },
+    {
+      "slug": "frederick",
+      "name": "Frederick",
+      "region": "Western Maryland",
+      "blurb": "We place and service ATMs in Frederick, the second-largest city in Maryland and the gateway to the western part of the state. Historic Downtown Frederick along Market Street and Carroll Creek Park hosts bars, restaurants, breweries, boutiques, cafes, and salons in a walkable district, while the Golden Mile along Route 40 and the Route 85 corridor are lined with convenience stores, gas stations, hotels, dispensaries, and shopping plazas around the Francis Scott Key Mall. Fort Detrick and the Interstate 70 and 270 interchanges bring steady daily traffic.",
+      "areas": ["Downtown Frederick", "Market Street", "Carroll Creek", "Golden Mile", "Route 85 corridor", "Urbana"],
+      "nearby": ["rockville", "hagerstown", "columbia"]
+    },
+    {
+      "slug": "hagerstown",
+      "name": "Hagerstown",
+      "region": "Western Maryland",
+      "blurb": "Hagerstown is the commercial hub of Washington County and the crossroads of Interstates 70 and 81, and we place and service ATMs at businesses across the city. Downtown Hagerstown around Public Square hosts restaurants, bars, cafes, and the Maryland Theatre, while Dual Highway and the Valley Mall area along Halfway Boulevard are lined with convenience stores, gas stations, hotels, dispensaries, and shopping plazas. Hagerstown Premium Outlets draws regional shoppers, and truck stops at the interstate interchanges serve heavy through traffic.",
+      "areas": ["Downtown Hagerstown", "Public Square", "Dual Highway", "Valley Mall area", "Halfway", "Interstate 81 corridor"],
+      "nearby": ["frederick", "rockville", "columbia"]
+    },
+    {
+      "slug": "salisbury",
+      "name": "Salisbury",
+      "region": "the Eastern Shore",
+      "blurb": "We place and service ATMs in Salisbury, the largest city on Maryland's Eastern Shore, and across the Lower Shore to the ocean. Downtown Salisbury along Main Street and the riverwalk hosts bars, restaurants, breweries, cafes, and salons, and Salisbury University keeps nearby pubs and coffee shops busy through the school year. Route 13 and the Centre at Salisbury are lined with convenience stores, gas stations, hotels, and dispensaries, while Ocean City to the east brings enormous summer crowds to boardwalk bars, arcades, and hotels.",
+      "areas": ["Downtown Salisbury", "Main Street", "Route 13 corridor", "Salisbury University area", "Ocean City", "Fruitland"],
+      "nearby": ["annapolis", "waldorf", "baltimore"]
+    },
+    {
+      "slug": "waldorf",
+      "name": "Waldorf",
+      "region": "Southern Maryland",
+      "blurb": "Waldorf is the commercial center of Charles County and the fastest-growing part of Southern Maryland, and we place and service ATMs at businesses throughout the area. Route 301 through Waldorf is lined with shopping centers, restaurants, bars, convenience stores, gas stations, salons, and dispensaries from St. Charles Towne Center south to La Plata. Regency Furniture Stadium hosts summer baseball and events, while Lexington Park near Naval Air Station Patuxent River and Prince Frederick in Calvert County host hotels, pubs, and grocery-anchored plazas serving the whole region.",
+      "areas": ["Route 301 corridor", "St. Charles", "La Plata", "Lexington Park", "Prince Frederick", "Brandywine"],
+      "nearby": ["annapolis", "silver-spring", "columbia"]
+    }
+  ]
+}

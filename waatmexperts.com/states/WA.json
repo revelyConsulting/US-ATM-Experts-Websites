@@ -1,0 +1,197 @@
+{
+  "abbr": "WA",
+  "name": "Washington",
+  "metro_city": "Seattle",
+  "metro_phrase": "the Puget Sound region",
+  "span_phrase": "from Seattle to Spokane",
+  "seasonal_phrase": "summer cruise season, ski season, and harvest and wine-tasting season",
+  "cities": [
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "region": "the Puget Sound region",
+      "blurb": "We place and service ATMs across Seattle, from the restaurants, bars, and specialty shops around Pike Place Market to the nightlife venues, dispensaries, and cafes of Capitol Hill. Ballard supports breweries, seafood restaurants, and boutiques, while Fremont adds pubs, coffee shops, and salons. Belltown and Pioneer Square anchor hotels, lounges, and late-night dining near the waterfront and stadiums. Cruise passengers, convention crowds, and game days keep convenience stores and hospitality merchants counting on cash.",
+      "areas": [
+        "Pike Place Market",
+        "Capitol Hill",
+        "Ballard",
+        "Fremont",
+        "Belltown",
+        "Pioneer Square"
+      ],
+      "nearby": [
+        "bellevue",
+        "tacoma",
+        "everett"
+      ]
+    },
+    {
+      "slug": "bellevue",
+      "name": "Bellevue",
+      "region": "the Eastside",
+      "blurb": "We place and service ATMs in Bellevue and the Eastside, where Downtown Bellevue's shopping centers, hotels, and restaurants serve a dense population of tech workers and visitors. The Spring District and Crossroads add cafes, international restaurants, and neighborhood retail, while Old Bellevue on Main Street supports boutiques and wine bars. Nearby Redmond and Kirkland bring waterfront dining, pubs, and salons. Convenience stores and gas stations along Interstate 405 keep steady commuter traffic supplied with cash.",
+      "areas": [
+        "Downtown Bellevue",
+        "Old Bellevue",
+        "Crossroads",
+        "Spring District",
+        "Kirkland",
+        "Redmond"
+      ],
+      "nearby": [
+        "seattle",
+        "everett",
+        "tacoma"
+      ]
+    },
+    {
+      "slug": "tacoma",
+      "name": "Tacoma",
+      "region": "the South Sound",
+      "blurb": "We place and service ATMs throughout Tacoma, where Downtown and the Theater District support restaurants, bars, hotels, and museums near the waterfront. The Stadium District and Sixth Avenue keep pubs, cafes, and music venues busy, while Point Ruston and Old Town add waterfront dining and shops. The Lincoln District brings international markets and neighborhood restaurants, and dispensaries and convenience stores across Pierce County serve a large military population from the nearby joint base.",
+      "areas": [
+        "Downtown Tacoma",
+        "Sixth Avenue",
+        "Stadium District",
+        "Point Ruston",
+        "Lincoln District",
+        "Proctor"
+      ],
+      "nearby": [
+        "seattle",
+        "olympia",
+        "bellevue"
+      ]
+    },
+    {
+      "slug": "spokane",
+      "name": "Spokane",
+      "region": "the Inland Northwest",
+      "blurb": "We place and service ATMs across Spokane, the commercial hub of eastern Washington. Downtown near Riverfront Park supports hotels, restaurants, bars, and entertainment venues, while the Garland District and Kendall Yards add cafes, breweries, and boutique retail. The South Hill brings neighborhood pubs and salons, and the Division Street corridor anchors convenience stores, gas stations, and retail centers. Spokane Valley and university traffic keep cash demand steady, with major conventions and basketball tournaments adding seasonal surges.",
+      "areas": [
+        "Downtown Spokane",
+        "Kendall Yards",
+        "Garland District",
+        "South Hill",
+        "Division Street",
+        "Spokane Valley"
+      ],
+      "nearby": [
+        "yakima",
+        "tri-cities",
+        "seattle"
+      ]
+    },
+    {
+      "slug": "vancouver",
+      "name": "Vancouver",
+      "region": "Southwest Washington",
+      "blurb": "We place and service ATMs in Vancouver, Washington, just across the Columbia River from Portland. The revitalized Waterfront supports restaurants, wine bars, and hotels, while Downtown along Main Street brings breweries, cafes, and boutiques. Uptown Village and Hazel Dell add neighborhood pubs, salons, and convenience stores, and the Mill Plain corridor anchors retail centers and gas stations. Dispensaries and businesses along the state line see heavy cross-river traffic from Oregon shoppers year round.",
+      "areas": [
+        "Vancouver Waterfront",
+        "Downtown Vancouver",
+        "Uptown Village",
+        "Hazel Dell",
+        "Mill Plain",
+        "Camas"
+      ],
+      "nearby": [
+        "olympia",
+        "tacoma",
+        "yakima"
+      ]
+    },
+    {
+      "slug": "everett",
+      "name": "Everett",
+      "region": "the North Sound",
+      "blurb": "We place and service ATMs throughout Everett and Snohomish County, where Downtown along Colby and Hewitt Avenues supports restaurants, bars, and entertainment venues near the arena. The Waterfront and Port Gardner marina bring seafood dining and hotels, while Evergreen Way anchors convenience stores, gas stations, and retail. Major aerospace manufacturing keeps shift workers moving through local businesses, and nearby Lynnwood and Marysville add shopping centers, dispensaries, and salons along Interstate 5.",
+      "areas": [
+        "Downtown Everett",
+        "Everett Waterfront",
+        "Evergreen Way",
+        "Lynnwood",
+        "Marysville",
+        "Mukilteo"
+      ],
+      "nearby": [
+        "seattle",
+        "bellevue",
+        "bellingham"
+      ]
+    },
+    {
+      "slug": "bellingham",
+      "name": "Bellingham",
+      "region": "Whatcom County",
+      "blurb": "We place and service ATMs in Bellingham, a college town on the coast near the Canadian border. Downtown supports breweries, music venues, restaurants, and bars, while the Fairhaven Historic District adds boutiques, cafes, and waterfront dining. The area near the university keeps convenience stores and casual eateries busy, and the Guide Meridian corridor anchors retail centers and gas stations serving cross-border shoppers. Dispensaries, outdoor recreation traffic, and Mount Baker ski visitors keep local merchants relying on cash year round.",
+      "areas": [
+        "Downtown Bellingham",
+        "Fairhaven",
+        "Guide Meridian",
+        "Sehome",
+        "Lettered Streets"
+      ],
+      "nearby": [
+        "everett",
+        "seattle",
+        "bellevue"
+      ]
+    },
+    {
+      "slug": "olympia",
+      "name": "Olympia",
+      "region": "the South Sound",
+      "blurb": "We place and service ATMs in Olympia, the state capital, where Downtown along Fourth Avenue supports restaurants, bars, music venues, and a large weekend farmers market near the waterfront. Legislative sessions bring steady traffic to cafes and hotels near the Capitol Campus, while the Westside and Lacey's Martin Way corridor anchor convenience stores, salons, and retail centers. Tumwater adds breweries and neighborhood businesses. Dispensaries and gas stations along Interstate 5 serve commuters and military families from the nearby base.",
+      "areas": [
+        "Downtown Olympia",
+        "Capitol Campus",
+        "Westside",
+        "Lacey",
+        "Tumwater"
+      ],
+      "nearby": [
+        "tacoma",
+        "seattle",
+        "vancouver"
+      ]
+    },
+    {
+      "slug": "yakima",
+      "name": "Yakima",
+      "region": "Central Washington",
+      "blurb": "We place and service ATMs across Yakima and the Yakima Valley, the agricultural heart of the state. Downtown along Yakima Avenue supports restaurants, bars, and hotels near the convention center, while the Front Street Historic District brings taprooms and cafes. The Valley Mall area in Union Gap anchors retail centers and convenience stores, and the valley's wineries and hop farms draw tasting-room visitors from spring through harvest. Farmworker payrolls and orchard seasons keep cash demand strong for local merchants.",
+      "areas": [
+        "Downtown Yakima",
+        "Front Street",
+        "Union Gap",
+        "West Valley",
+        "Yakima Valley wine country"
+      ],
+      "nearby": [
+        "tri-cities",
+        "spokane",
+        "seattle"
+      ]
+    },
+    {
+      "slug": "tri-cities",
+      "name": "Tri-Cities",
+      "region": "Southeast Washington",
+      "blurb": "We place and service ATMs throughout the Tri-Cities of Kennewick, Pasco, and Richland, where the Columbia River draws visitors to waterfront parks, restaurants, and hotels. Kennewick's Columbia Center area anchors retail, convenience stores, and casual dining, while Richland's Uptown and the Parkway support pubs, cafes, and wineries. Pasco's downtown brings taquerias, markets, and neighborhood salons. National laboratory employment, hydroplane races, and wine tourism keep merchants across Benton and Franklin counties reliant on steady cash service.",
+      "areas": [
+        "Kennewick",
+        "Pasco",
+        "Richland",
+        "Columbia Center",
+        "Richland Parkway",
+        "Queensgate"
+      ],
+      "nearby": [
+        "yakima",
+        "spokane",
+        "vancouver"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "abbr": "NV",
+  "name": "Nevada",
+  "metro_city": "Las Vegas",
+  "metro_phrase": "the Las Vegas Valley",
+  "span_phrase": "from Las Vegas to Reno",
+  "seasonal_phrase": "convention season, major fight and concert weekends, and Lake Tahoe ski season",
+  "cities": [
+    {
+      "slug": "las-vegas",
+      "name": "Las Vegas",
+      "region": "Southern Nevada",
+      "blurb": "We place and service ATMs across Las Vegas, from the bars, restaurants, and entertainment venues of the Fremont Street area and the downtown Arts District to the convenience stores and smoke shops that line the blocks just off the Strip. Chinatown's Spring Mountain Road corridor holds late-night restaurants, karaoke bars, and salons, and the Summerlin and Centennial Hills neighborhoods add taverns, gas stations, and retail. Dispensaries, strip clubs, and hotels off the resort corridor depend on machines we keep stocked and running around the clock.",
+      "areas": [
+        "Downtown Las Vegas",
+        "Fremont Street",
+        "Arts District",
+        "Chinatown",
+        "Summerlin",
+        "Centennial Hills"
+      ],
+      "nearby": [
+        "henderson",
+        "north-las-vegas",
+        "paradise"
+      ]
+    },
+    {
+      "slug": "paradise",
+      "name": "Paradise",
+      "region": "Southern Nevada",
+      "blurb": "We place and service ATMs in Paradise and the unincorporated areas that hold the Las Vegas Strip, the convention center, and the airport. Beyond the resort casinos themselves, the side streets along Paradise Road, Flamingo Road, and Tropicana Avenue are dense with bars, restaurants, souvenir shops, convenience stores, and gentlemen's clubs that serve tourists and the hospitality workers who keep the Strip running. The university campus on Maryland Parkway adds student bars and cafes, and dispensaries near the resort corridor rely on our machines through every convention and fight weekend.",
+      "areas": [
+        "Las Vegas Strip area",
+        "Paradise Road",
+        "Flamingo Road",
+        "Tropicana Avenue",
+        "Maryland Parkway",
+        "Spring Valley"
+      ],
+      "nearby": [
+        "las-vegas",
+        "henderson",
+        "north-las-vegas"
+      ]
+    },
+    {
+      "slug": "henderson",
+      "name": "Henderson",
+      "region": "Southern Nevada",
+      "blurb": "We place and service ATMs in Henderson, the southeastern anchor of the Las Vegas Valley. Water Street in downtown Henderson holds restaurants, breweries, and event spaces, and the Green Valley and Eastern Avenue corridors carry bars, salons, gas stations, and neighborhood retail. The District at Green Valley Ranch and the Lake Las Vegas resort area draw dining and hotel traffic, and Boulder City's downtown antique shops and cafes serve dam and lake visitors. Dispensaries and taverns across Henderson count on our reliable local service.",
+      "areas": [
+        "Water Street District",
+        "Green Valley",
+        "Eastern Avenue",
+        "Anthem",
+        "Lake Las Vegas",
+        "Boulder City"
+      ],
+      "nearby": [
+        "las-vegas",
+        "paradise",
+        "north-las-vegas"
+      ]
+    },
+    {
+      "slug": "north-las-vegas",
+      "name": "North Las Vegas",
+      "region": "Southern Nevada",
+      "blurb": "We place and service ATMs in North Las Vegas, a fast-growing city on the north side of the valley. The Las Vegas Boulevard North and Craig Road corridors carry gas stations, convenience stores, taverns, and salons, and the Aliante area adds a casino resort and neighborhood retail. The speedway on the north end draws enormous crowds on race weekends, and the air force base brings service members to nearby bars and restaurants. Dispensaries and smoke shops across the city rely on our locally stocked machines.",
+      "areas": [
+        "Las Vegas Boulevard North",
+        "Craig Road",
+        "Aliante",
+        "Eastern Avenue",
+        "Speedway area",
+        "Nellis area"
+      ],
+      "nearby": [
+        "las-vegas",
+        "paradise",
+        "henderson"
+      ]
+    },
+    {
+      "slug": "reno",
+      "name": "Reno",
+      "region": "Northern Nevada",
+      "blurb": "We place and service ATMs in Reno, where downtown's casino district, the Riverwalk along the Truckee River, and the Midtown corridor on South Virginia Street support bars, restaurants, breweries, tattoo shops, and boutiques. The university on the north side keeps taverns and convenience stores busy through the school year, and the summer schedule of rodeo, car show, and hot air balloon events fills hotels across the city. Gas stations, salons, and dispensaries along South Virginia, Kietzke Lane, and in the South Meadows area count on our prompt local service.",
+      "areas": [
+        "Downtown Reno",
+        "Midtown",
+        "Riverwalk District",
+        "South Virginia Street",
+        "Kietzke Lane",
+        "South Meadows"
+      ],
+      "nearby": [
+        "sparks",
+        "carson-city",
+        "lake-tahoe"
+      ]
+    },
+    {
+      "slug": "sparks",
+      "name": "Sparks",
+      "region": "Northern Nevada",
+      "blurb": "We place and service ATMs in Sparks, Reno's neighbor to the east and the home of the region's largest industrial and logistics parks. Victorian Square downtown holds a casino resort, bars, and restaurants that anchor the summer rib cook-off and holiday events, and the Sparks Marina and Legends outlet district add retail, hotels, and taverns. The Pyramid Way and Prater Way corridors carry gas stations, convenience stores, and salons, and the warehouse workforce out the I-80 corridor toward the industrial center keeps diners and dispensaries busy on shift changes.",
+      "areas": [
+        "Victorian Square",
+        "Sparks Marina",
+        "Legends at Sparks Marina",
+        "Pyramid Way",
+        "Prater Way",
+        "Spanish Springs"
+      ],
+      "nearby": [
+        "reno",
+        "carson-city",
+        "lake-tahoe"
+      ]
+    },
+    {
+      "slug": "carson-city",
+      "name": "Carson City",
+      "region": "Northern Nevada",
+      "blurb": "We place and service ATMs in Carson City, the state capital, where legislative sessions and state offices keep downtown restaurants, taverns, and coffee shops steady through the week. Carson Street holds casinos, bars, and historic storefront retail, and the South Carson corridor carries hotels, gas stations, big-box retail, and salons. Minden and Gardnerville to the south add neighborhood bars and grocers, and the summer traffic heading over the pass to the lake brings visitors to convenience stores. Dispensaries across Carson City and Douglas County rely on our locally serviced machines.",
+      "areas": [
+        "Downtown Carson City",
+        "Carson Street",
+        "South Carson",
+        "North Carson",
+        "Minden",
+        "Gardnerville"
+      ],
+      "nearby": [
+        "reno",
+        "sparks",
+        "lake-tahoe"
+      ]
+    },
+    {
+      "slug": "lake-tahoe",
+      "name": "Lake Tahoe",
+      "region": "the Tahoe Basin",
+      "blurb": "We place and service ATMs on the Nevada side of Lake Tahoe, where ski season and summer beach crowds create two peaks in cash demand. Stateline's casino resorts, restaurants, and nightclubs at the south shore border stay busy year round, and the Heavenly Village area adds ski shops, cafes, and bars. Incline Village and Crystal Bay hold taverns, marinas, and boutiques, and gas stations along Highway 50 and Highway 28 serve travelers. Dispensaries and hotels around the basin rely on our machines staying stocked through holiday weekends.",
+      "areas": [
+        "Stateline",
+        "Heavenly Village area",
+        "Incline Village",
+        "Crystal Bay",
+        "Zephyr Cove",
+        "Kingsbury"
+      ],
+      "nearby": [
+        "carson-city",
+        "reno",
+        "sparks"
+      ]
+    },
+    {
+      "slug": "elko",
+      "name": "Elko",
+      "region": "Northeastern Nevada",
+      "blurb": "We place and service ATMs in Elko, the gold-mining and ranching hub of northeastern Nevada along I-80. Idaho Street downtown holds casinos, bars, Basque restaurants, and western wear stores that fill to capacity for the cowboy poetry gathering each winter and the Basque festival in summer, and the Mountain City Highway corridor carries hotels, gas stations, and retail serving mine crews and travelers. Convenience stores, taverns, and dispensaries in Elko, Spring Creek, Carlin, and Winnemucca depend on our machines, and we plan routes around high-desert distances.",
+      "areas": [
+        "Downtown Elko",
+        "Idaho Street",
+        "Mountain City Highway",
+        "Spring Creek",
+        "Carlin",
+        "Winnemucca"
+      ],
+      "nearby": [
+        "reno",
+        "sparks",
+        "carson-city"
+      ]
+    }
+  ]
+}

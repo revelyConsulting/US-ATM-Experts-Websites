@@ -1,0 +1,247 @@
+{
+ "AK": {
+  "primary": "#0f204b",
+  "accent": "#c28a00",
+  "highlight": "#ffb612"
+ },
+ "AL": {
+  "primary": "#2b2b2b",
+  "accent": "#a6192e",
+  "highlight": "#f4f4f4"
+ },
+ "AR": {
+  "primary": "#002868",
+  "accent": "#bf0a30",
+  "highlight": "#f4f4f4"
+ },
+ "CA": {
+  "primary": "#5c3a21",
+  "accent": "#b71234",
+  "highlight": "#e8c39e"
+ },
+ "CO": {
+  "primary": "#002868",
+  "accent": "#bf0a30",
+  "highlight": "#ffd700"
+ },
+ "CT": {
+  "primary": "#0b3a8c",
+  "accent": "#b8862b",
+  "highlight": "#ffd24d"
+ },
+ "DE": {
+  "primary": "#2f5a9e",
+  "accent": "#a97b35",
+  "highlight": "#f4d6a8"
+ },
+ "FL": {
+  "primary": "#1f4e8c",
+  "accent": "#b22234",
+  "highlight": "#ffd24d"
+ },
+ "GA": {
+  "primary": "#002868",
+  "accent": "#b22234",
+  "highlight": "#ffd24d"
+ },
+ "HI": {
+  "primary": "#002868",
+  "accent": "#b22234",
+  "highlight": "#f4f4f4"
+ },
+ "IA": {
+  "primary": "#002868",
+  "accent": "#b22234",
+  "highlight": "#f4f4f4"
+ },
+ "ID": {
+  "primary": "#1c3f94",
+  "accent": "#b8232f",
+  "highlight": "#f2c94c"
+ },
+ "IL": {
+  "primary": "#1f3a93",
+  "accent": "#b22234",
+  "highlight": "#f2c94c"
+ },
+ "IN": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#ffd700"
+ },
+ "KS": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#ffd700"
+ },
+ "KY": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#ffd700"
+ },
+ "LA": {
+  "primary": "#1f3f95",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "MA": {
+  "primary": "#1f3f95",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "MD": {
+  "primary": "#1f1f1f",
+  "accent": "#c8102e",
+  "highlight": "#ffd700"
+ },
+ "ME": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "MI": {
+  "primary": "#002868",
+  "accent": "#b22234",
+  "highlight": "#f2c94c"
+ },
+ "MN": {
+  "primary": "#002d72",
+  "accent": "#1e6fb0",
+  "highlight": "#f4f4f4"
+ },
+ "MO": {
+  "primary": "#002868",
+  "accent": "#b22234",
+  "highlight": "#f4f4f4"
+ },
+ "MS": {
+  "primary": "#14245a",
+  "accent": "#b22234",
+  "highlight": "#ffd700"
+ },
+ "MT": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "NC": {
+  "primary": "#002868",
+  "accent": "#bf0a30",
+  "highlight": "#ffd24d"
+ },
+ "ND": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "NE": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "NH": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "NJ": {
+  "primary": "#2e4a8a",
+  "accent": "#a67c2e",
+  "highlight": "#eac99d"
+ },
+ "NM": {
+  "primary": "#7a5200",
+  "accent": "#bf0d3e",
+  "highlight": "#ffd100"
+ },
+ "NV": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#d9d9d9"
+ },
+ "NY": {
+  "primary": "#1f3f95",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "OH": {
+  "primary": "#002868",
+  "accent": "#bf0a30",
+  "highlight": "#f4f4f4"
+ },
+ "OK": {
+  "primary": "#2f6fb0",
+  "accent": "#a8742a",
+  "highlight": "#f4f4f4"
+ },
+ "OR": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#ffd700"
+ },
+ "PA": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#ffd700"
+ },
+ "RI": {
+  "primary": "#1f4e9e",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "SC": {
+  "primary": "#0f2a5c",
+  "accent": "#2e5aa6",
+  "highlight": "#f4f4f4"
+ },
+ "SD": {
+  "primary": "#2a6fb8",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "TN": {
+  "primary": "#002868",
+  "accent": "#b22234",
+  "highlight": "#f4f4f4"
+ },
+ "TX": {
+  "primary": "#002868",
+  "accent": "#bf0a30",
+  "highlight": "#f4f4f4"
+ },
+ "UT": {
+  "primary": "#0f2c6b",
+  "accent": "#b3202e",
+  "highlight": "#f2b134"
+ },
+ "VA": {
+  "primary": "#002868",
+  "accent": "#8c1c2b",
+  "highlight": "#f4f4f4"
+ },
+ "VT": {
+  "primary": "#002868",
+  "accent": "#1a5c2e",
+  "highlight": "#ffd700"
+ },
+ "WA": {
+  "primary": "#1a5c2e",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "WI": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#ffd700"
+ },
+ "WV": {
+  "primary": "#002868",
+  "accent": "#b8862b",
+  "highlight": "#f2c94c"
+ },
+ "WY": {
+  "primary": "#002868",
+  "accent": "#bf0a30",
+  "highlight": "#f4f4f4"
+ }
+}

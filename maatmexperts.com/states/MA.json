@@ -1,0 +1,90 @@
+{
+  "abbr": "MA",
+  "name": "Massachusetts",
+  "metro_city": "Boston",
+  "metro_phrase": "Greater Boston",
+  "span_phrase": "from Pittsfield to Provincetown",
+  "seasonal_phrase": "summer on the Cape and Islands, fall foliage in the Berkshires, and college move-in weekends",
+  "cities": [
+    {
+      "slug": "boston",
+      "name": "Boston",
+      "region": "Greater Boston",
+      "blurb": "We place and service ATMs across Boston, from the bars, restaurants, and hotels of the Seaport and Faneuil Hall to the pubs and corner stores of Southie and Dorchester. The North End is dense with Italian restaurants and cafes, while Fenway and Allston host music venues, taverns, and late-night food spots that stay busy with students. Back Bay and Newbury Street draw shoppers to boutiques and salons, and dispensaries throughout the city see steady traffic. Marathon Monday, convention season, and college move-in keep cash demand high.",
+      "areas": ["Seaport", "North End", "Back Bay", "Fenway", "South Boston", "Allston"],
+      "nearby": ["cambridge", "quincy", "lowell"]
+    },
+    {
+      "slug": "cambridge",
+      "name": "Cambridge",
+      "region": "Greater Boston",
+      "blurb": "Cambridge sits across the Charles River from Boston, and we place and service ATMs at businesses throughout the city and neighboring Somerville. Harvard Square and Central Square are packed with bars, restaurants, cafes, music venues, and salons that stay busy year-round with students and tourists, while Kendall Square hosts hotels and restaurants serving the biotech workforce. Davis Square and Union Square in Somerville add breweries, pubs, and dispensaries, and Inman Square and Porter Square host neighborhood cafes and convenience stores.",
+      "areas": ["Harvard Square", "Central Square", "Kendall Square", "Inman Square", "Davis Square", "Porter Square"],
+      "nearby": ["boston", "lowell", "quincy"]
+    },
+    {
+      "slug": "quincy",
+      "name": "Quincy",
+      "region": "the South Shore",
+      "blurb": "We place and service ATMs in Quincy and across the South Shore. Quincy Center has been transformed with new apartments, hotels, restaurants, and bars along Hancock Street, while Wollaston and North Quincy host a dense cluster of Asian restaurants, bakeries, and markets. Marina Bay draws summer crowds to waterfront restaurants and bars, and the Southern Artery and Quincy Avenue are lined with convenience stores, gas stations, salons, and dispensaries. Braintree and Weymouth nearby add the South Shore Plaza and Route 3 commercial corridors.",
+      "areas": ["Quincy Center", "Wollaston", "North Quincy", "Marina Bay", "Braintree", "Weymouth"],
+      "nearby": ["boston", "cambridge", "hyannis"]
+    },
+    {
+      "slug": "worcester",
+      "name": "Worcester",
+      "region": "Central Massachusetts",
+      "blurb": "Worcester is the second-largest city in New England, and we place and service ATMs at businesses throughout it. The Canal District along Green Street and Water Street is the city's nightlife hub with bars, restaurants, breweries, and Polar Park, while Shrewsbury Street is lined with restaurants and cafes. Downtown Worcester hosts the DCU Center, the Hanover Theatre, and hotels, and the city's many colleges keep pubs and coffee shops busy through the school year. Park Avenue and Lincoln Street host convenience stores, gas stations, salons, and dispensaries.",
+      "areas": ["Canal District", "Shrewsbury Street", "Downtown Worcester", "Park Avenue", "Lincoln Street", "Tatnuck"],
+      "nearby": ["springfield", "lowell", "boston"]
+    },
+    {
+      "slug": "springfield",
+      "name": "Springfield",
+      "region": "the Pioneer Valley",
+      "blurb": "We place and service ATMs in Springfield, the largest city in western Massachusetts. MGM Springfield anchors the downtown entertainment district with restaurants, bars, hotels, and event space, while the MassMutual Center hosts concerts and conventions. Forest Park and Sixteen Acres host neighborhood restaurants, salons, and convenience stores, and Boston Road and the Interstate 91 corridor are lined with gas stations, shopping plazas, and dispensaries. The Big E fair in nearby West Springfield draws more than a million visitors each September.",
+      "areas": ["Downtown Springfield", "MGM Springfield area", "Forest Park", "Sixteen Acres", "Boston Road", "West Springfield"],
+      "nearby": ["northampton", "worcester", "pittsfield"]
+    },
+    {
+      "slug": "lowell",
+      "name": "Lowell",
+      "region": "the Merrimack Valley",
+      "blurb": "Lowell is a historic mill city on the Merrimack River, and we place and service ATMs at businesses across the city and the Merrimack Valley. Downtown Lowell along Merrimack Street and Middle Street hosts bars, restaurants, cafes, and music venues, and the Lowell Folk Festival each July draws large crowds. The UMass Lowell campus keeps pubs and coffee shops busy through the school year, while the Chelmsford Street and Route 38 corridors are lined with convenience stores, gas stations, salons, and dispensaries serving Chelmsford, Dracut, and Tewksbury.",
+      "areas": ["Downtown Lowell", "Merrimack Street", "UMass Lowell campus area", "Chelmsford Street", "Route 38 corridor", "Dracut"],
+      "nearby": ["boston", "cambridge", "worcester"]
+    },
+    {
+      "slug": "new-bedford",
+      "name": "New Bedford",
+      "region": "the South Coast",
+      "blurb": "We place and service ATMs in New Bedford and Fall River, the twin cities of the South Coast. Downtown New Bedford and the historic waterfront district host bars, restaurants, cafes, and the Whaling Museum, and the working fishing port brings steady daily traffic to nearby businesses. Acushnet Avenue in the North End is lined with Portuguese and Latin American restaurants, bakeries, and corner stores, while Route 6 and Kings Highway host convenience stores, gas stations, salons, and dispensaries. Fall River adds Battleship Cove tourism and the Route 24 commercial corridor.",
+      "areas": ["Downtown New Bedford", "Waterfront district", "Acushnet Avenue", "Kings Highway", "Fall River", "Dartmouth"],
+      "nearby": ["hyannis", "quincy", "boston"]
+    },
+    {
+      "slug": "hyannis",
+      "name": "Hyannis",
+      "region": "Cape Cod",
+      "blurb": "Hyannis is the commercial center of Cape Cod, and we place and service ATMs at businesses across the Cape from Falmouth to Provincetown. Main Street in Hyannis is packed with restaurants, bars, ice cream shops, boutiques, and salons that fill up each summer, and the ferry terminals to Nantucket and Martha's Vineyard bring heavy seasonal foot traffic. Route 132 and the Cape Cod Mall area are lined with convenience stores, gas stations, hotels, and dispensaries, while Provincetown's Commercial Street hosts one of the busiest summer nightlife scenes in New England.",
+      "areas": ["Main Street Hyannis", "Hyannis Harbor", "Route 132", "Cape Cod Mall area", "Falmouth", "Provincetown"],
+      "nearby": ["new-bedford", "quincy", "boston"]
+    },
+    {
+      "slug": "northampton",
+      "name": "Northampton",
+      "region": "the Pioneer Valley",
+      "blurb": "We place and service ATMs in Northampton and the Five College area of the Pioneer Valley. Main Street in Downtown Northampton is lined with bars, restaurants, cafes, music venues, boutiques, and salons that stay busy with students from Smith College and visitors year-round, and dispensaries in the city see steady traffic. Amherst hosts the UMass Amherst campus and a downtown of pubs and coffee shops, while King Street and Route 9 in Hadley are lined with convenience stores, gas stations, hotels, and shopping plazas.",
+      "areas": ["Downtown Northampton", "Main Street", "King Street", "Amherst", "Hadley", "Florence"],
+      "nearby": ["springfield", "pittsfield", "worcester"]
+    },
+    {
+      "slug": "pittsfield",
+      "name": "Pittsfield",
+      "region": "the Berkshires",
+      "blurb": "Pittsfield is the largest city in the Berkshires, and we place and service ATMs at businesses throughout the region. North Street in Downtown Pittsfield hosts restaurants, bars, cafes, salons, and the Colonial Theatre, while the Upstreet Cultural District draws visitors to galleries and performances. Tanglewood in nearby Lenox brings large summer concert crowds to area hotels and restaurants, and fall foliage and winter ski traffic keep demand strong year-round. Dalton Avenue and Merrill Road are lined with convenience stores, gas stations, dispensaries, and shopping plazas.",
+      "areas": ["Downtown Pittsfield", "North Street", "Upstreet Cultural District", "Merrill Road", "Lenox", "Great Barrington"],
+      "nearby": ["northampton", "springfield", "worcester"]
+    }
+  ]
+}

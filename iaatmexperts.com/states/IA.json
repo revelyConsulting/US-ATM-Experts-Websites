@@ -1,0 +1,90 @@
+{
+  "abbr": "IA",
+  "name": "Iowa",
+  "metro_city": "Des Moines",
+  "metro_phrase": "the Des Moines metro",
+  "span_phrase": "from Sioux City to Davenport",
+  "seasonal_phrase": "the State Fair in August, college football weekends, and fall harvest",
+  "cities": [
+    {
+      "slug": "des-moines",
+      "name": "Des Moines",
+      "region": "Central Iowa",
+      "blurb": "We place and service ATMs across Des Moines, the state capital and largest city in Iowa. The East Village near the Iowa State Capitol is packed with bars, restaurants, boutiques, and salons, while Court Avenue downtown is the city's main nightlife strip with pubs and music venues. Ingersoll Avenue and Beaverdale host neighborhood cafes and taverns, and the Iowa State Fairgrounds brings more than a million visitors each August. Convenience stores and gas stations along Merle Hay Road and Fleur Drive see steady traffic year-round.",
+      "areas": ["East Village", "Court Avenue", "Downtown Des Moines", "Ingersoll Avenue", "Beaverdale", "Drake neighborhood"],
+      "nearby": ["west-des-moines", "ankeny", "ames"]
+    },
+    {
+      "slug": "west-des-moines",
+      "name": "West Des Moines",
+      "region": "Central Iowa",
+      "blurb": "West Des Moines is the retail and office center of the western suburbs, and we place and service ATMs at businesses throughout it. Jordan Creek Town Center anchors a district of restaurants, hotels, and entertainment venues, while Historic Valley Junction along 5th Street hosts bars, cafes, antique shops, and salons. University Avenue, Mills Civic Parkway, and the Interstate 35 and Interstate 80 interchanges are lined with convenience stores, gas stations, and hotels serving both commuters and cross-country travelers.",
+      "areas": ["Jordan Creek", "Valley Junction", "University Avenue", "Mills Civic Parkway", "Interstate 80 corridor"],
+      "nearby": ["des-moines", "ankeny", "ames"]
+    },
+    {
+      "slug": "ankeny",
+      "name": "Ankeny",
+      "region": "Central Iowa",
+      "blurb": "We place and service ATMs in Ankeny, one of the fastest-growing cities in Iowa just north of Des Moines. Uptown Ankeny along SW 3rd Street hosts local bars, restaurants, cafes, and salons, while the Prairie Trail development adds a walkable district of breweries, boutiques, and event space. Ankeny Boulevard and Delaware Avenue are lined with convenience stores, gas stations, and shopping plazas, and Des Moines Area Community College brings steady student traffic to nearby quick-service restaurants.",
+      "areas": ["Uptown Ankeny", "Prairie Trail", "Ankeny Boulevard", "Delaware Avenue", "Oralabor Road"],
+      "nearby": ["des-moines", "west-des-moines", "ames"]
+    },
+    {
+      "slug": "ames",
+      "name": "Ames",
+      "region": "Central Iowa",
+      "blurb": "Ames is home to Iowa State University, and we place and service ATMs at businesses across the city. Campustown along Welch Avenue and Lincoln Way is packed with bars, restaurants, cafes, and late-night food spots that stay busy through the school year, while Main Street in Downtown Ames hosts breweries, boutiques, and salons in historic storefronts. Duff Avenue and South 16th Street host convenience stores, gas stations, and shopping plazas, and hotels along Interstate 35 fill up on football weekends and during graduation.",
+      "areas": ["Campustown", "Downtown Ames", "Main Street", "Duff Avenue", "Lincoln Way", "Iowa State University campus"],
+      "nearby": ["des-moines", "ankeny", "waterloo"]
+    },
+    {
+      "slug": "cedar-rapids",
+      "name": "Cedar Rapids",
+      "region": "Eastern Iowa",
+      "blurb": "We place and service ATMs in Cedar Rapids, the second-largest city in Iowa. The NewBo District and Czech Village along the Cedar River host bars, restaurants, breweries, and the NewBo City Market, while Downtown Cedar Rapids is home to the Paramount Theatre, hotels, and cafes. Collins Road and Edgewood Road on the north side are lined with convenience stores, gas stations, and shopping plazas near Lindale Mall, and neighborhood taverns and salons throughout the city rely on on-site cash access.",
+      "areas": ["NewBo District", "Czech Village", "Downtown Cedar Rapids", "Collins Road", "Edgewood Road", "Marion"],
+      "nearby": ["iowa-city", "waterloo", "davenport"]
+    },
+    {
+      "slug": "iowa-city",
+      "name": "Iowa City",
+      "region": "Eastern Iowa",
+      "blurb": "Iowa City is home to the University of Iowa, and we place and service ATMs at businesses throughout the city. The Pedestrian Mall and Downtown Iowa City are packed with bars, restaurants, cafes, and music venues that stay busy through the school year, while the Northside Marketplace hosts pubs, bakeries, and salons. Highway 1 and Highway 6 host convenience stores, gas stations, and shopping plazas, and hotels in Coralville near Interstate 80 fill up on football weekends and for university hospital visitors.",
+      "areas": ["Downtown Iowa City", "Pedestrian Mall", "Northside Marketplace", "Coralville", "Highway 6 corridor", "University of Iowa campus"],
+      "nearby": ["cedar-rapids", "davenport", "waterloo"]
+    },
+    {
+      "slug": "davenport",
+      "name": "Davenport",
+      "region": "the Quad Cities",
+      "blurb": "We place and service ATMs in Davenport and across the Quad Cities on the Iowa side of the Mississippi River. Downtown Davenport hosts the Adler Theatre, the Figge Art Museum, and a cluster of bars, restaurants, and breweries along 2nd Street, while the Rhythm City Casino draws regional visitors. Elmore Avenue and Kimberly Road are lined with convenience stores, gas stations, and shopping plazas near NorthPark Mall, and Bettendorf's riverfront adds hotels, restaurants, and the Isle Casino.",
+      "areas": ["Downtown Davenport", "Village of East Davenport", "Kimberly Road", "Elmore Avenue", "Bettendorf", "NorthPark"],
+      "nearby": ["iowa-city", "cedar-rapids", "dubuque"]
+    },
+    {
+      "slug": "dubuque",
+      "name": "Dubuque",
+      "region": "Northeast Iowa",
+      "blurb": "Dubuque is a historic river city where Iowa, Illinois, and Wisconsin meet, and we place and service ATMs at businesses throughout it. The Port of Dubuque riverfront hosts the Diamond Jo Casino, hotels, and the National Mississippi River Museum, while Main Street and the Millwork District downtown are lined with bars, restaurants, breweries, and salons. John F. Kennedy Road and Dodge Street host convenience stores, gas stations, and shopping plazas, and Q Casino on Schmitt Island adds year-round entertainment traffic.",
+      "areas": ["Port of Dubuque", "Main Street", "Millwork District", "Dodge Street", "Kennedy Road", "Schmitt Island"],
+      "nearby": ["davenport", "cedar-rapids", "waterloo"]
+    },
+    {
+      "slug": "waterloo",
+      "name": "Waterloo",
+      "region": "the Cedar Valley",
+      "blurb": "We place and service ATMs in Waterloo and neighboring Cedar Falls, the heart of the Cedar Valley. Downtown Waterloo along the Cedar River hosts bars, restaurants, and the Isle Casino, while Main Street in Cedar Falls is lined with pubs, cafes, boutiques, and salons near the University of Northern Iowa campus. University Avenue and San Marnan Drive are busy commercial corridors with convenience stores, gas stations, and shopping plazas around Crossroads Center, and the National Cattle Congress draws seasonal event crowds.",
+      "areas": ["Downtown Waterloo", "Cedar Falls", "Main Street Cedar Falls", "University Avenue", "San Marnan Drive", "Crossroads"],
+      "nearby": ["cedar-rapids", "ames", "dubuque"]
+    },
+    {
+      "slug": "sioux-city",
+      "name": "Sioux City",
+      "region": "Siouxland",
+      "blurb": "Sioux City sits where Iowa, Nebraska, and South Dakota meet on the Missouri River, and we place and service ATMs at businesses across the Siouxland region. Historic 4th Street downtown hosts bars, restaurants, and music venues, and the Hard Rock Hotel and Casino Sioux City anchors the entertainment district. Southern Hills Mall and the Sergeant Bluff area along Interstate 29 host convenience stores, gas stations, hotels, and shopping plazas, while Morningside and Leeds neighborhoods rely on corner stores, taverns, and salons.",
+      "areas": ["Historic 4th Street", "Downtown Sioux City", "Southern Hills", "Morningside", "Sergeant Bluff", "Interstate 29 corridor"],
+      "nearby": ["des-moines", "ames", "west-des-moines"]
+    }
+  ]
+}

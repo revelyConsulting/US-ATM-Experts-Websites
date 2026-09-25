@@ -1,0 +1,185 @@
+{
+  "abbr": "CT",
+  "name": "Connecticut",
+  "metro_city": "Hartford",
+  "metro_phrase": "the greater Hartford area",
+  "span_phrase": "from Stamford to New London",
+  "seasonal_phrase": "summer shoreline tourism, fall foliage weekends, and the casino and holiday-shopping season",
+  "cities": [
+    {
+      "slug": "hartford",
+      "name": "Hartford",
+      "region": "Central Connecticut",
+      "blurb": "We place and service ATMs across Hartford, the state capital and the insurance industry's historic home. Downtown's Front Street district and Pratt Street support restaurants, bars, hotels, and entertainment venues near the convention center and the arena, while the West End and Parkville draw neighborhood dining and a growing arts scene. Franklin Avenue in the South End is lined with Italian bakeries, restaurants, and markets, and licensed dispensaries operate in the metro. Downtown offices keep weekday demand steady. Businesses here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Hartford",
+        "Front Street District",
+        "West End",
+        "Parkville",
+        "Franklin Avenue",
+        "Asylum Hill"
+      ],
+      "nearby": [
+        "new-britain",
+        "manchester",
+        "waterbury",
+        "new-haven"
+      ]
+    },
+    {
+      "slug": "new-britain",
+      "name": "New Britain",
+      "region": "Central Connecticut",
+      "blurb": "We place and service ATMs throughout New Britain and the neighboring communities of Newington, Berlin, and Plainville southwest of Hartford. Downtown's Little Poland district along Broad Street is packed with Polish bakeries, delis, restaurants, and markets, while the Main Street corridor supports bars, salons, and convenience stores near Central Connecticut State University. The Berlin Turnpike is one of the state's busiest commercial strips, lined with hotels, chain dining, and retail. Businesses here count on our machines for reliable cash availability and quick local service.",
+      "areas": [
+        "Little Poland",
+        "Downtown New Britain",
+        "Broad Street",
+        "Berlin Turnpike",
+        "Newington Center",
+        "Plainville"
+      ],
+      "nearby": [
+        "hartford",
+        "waterbury",
+        "manchester"
+      ]
+    },
+    {
+      "slug": "manchester",
+      "name": "Manchester",
+      "region": "Central Connecticut",
+      "blurb": "We place and service ATMs across Manchester and the eastern suburbs of Hartford, including East Hartford, Glastonbury, and Vernon. The Buckland Hills area along Interstate 84 is one of the state's largest retail and dining concentrations, with hotels, chain restaurants, convenience stores, and salons, while Main Street in downtown Manchester supports local restaurants, bars, and shops. The Thanksgiving road race draws thousands every fall, and Rentschler Field hosts college football and concerts nearby. Businesses here rely on our machines for dependable cash access year-round.",
+      "areas": [
+        "Buckland Hills",
+        "Downtown Manchester",
+        "Main Street",
+        "East Hartford",
+        "Glastonbury Center",
+        "Vernon"
+      ],
+      "nearby": [
+        "hartford",
+        "new-britain",
+        "new-london"
+      ]
+    },
+    {
+      "slug": "new-haven",
+      "name": "New Haven",
+      "region": "the New Haven Shoreline",
+      "blurb": "We place and service ATMs throughout New Haven, home to Yale University and a nationally known restaurant scene. Downtown's Chapel Street and Ninth Square pack bars, restaurants, theaters, and hotels into a walkable grid around the Green, while Wooster Street draws pizza pilgrims from across the country. East Rock and Westville support cafes, boutiques, and salons, and licensed dispensaries operate in the city. Convenience stores throughout the neighborhoods depend on cash access, and the academic calendar shapes demand. Businesses here count on us for reliable machines and quick service.",
+      "areas": [
+        "Downtown New Haven",
+        "Chapel Street",
+        "Ninth Square",
+        "Wooster Square",
+        "East Rock",
+        "Westville"
+      ],
+      "nearby": [
+        "bridgeport",
+        "hartford",
+        "waterbury",
+        "new-london"
+      ]
+    },
+    {
+      "slug": "bridgeport",
+      "name": "Bridgeport",
+      "region": "Fairfield County",
+      "blurb": "We place and service ATMs across Bridgeport, Connecticut's largest city, and the surrounding towns of Fairfield, Stratford, and Trumbull. Downtown's arena and the waterfront amphitheater bring concert crowds to nearby bars and restaurants, while Black Rock's Fairfield Avenue supports neighborhood dining, taverns, and salons. The East Side and Hollow neighborhoods are dense with bodegas, markets, and convenience stores, and Fairfield's Post Road carries chain dining and retail near the beaches. Businesses here rely on our machines for reliable cash access and responsive local service.",
+      "areas": [
+        "Downtown Bridgeport",
+        "Black Rock",
+        "East Side",
+        "North End",
+        "Fairfield Center",
+        "Stratford"
+      ],
+      "nearby": [
+        "stamford",
+        "new-haven",
+        "danbury",
+        "waterbury"
+      ]
+    },
+    {
+      "slug": "stamford",
+      "name": "Stamford",
+      "region": "Fairfield County",
+      "blurb": "We place and service ATMs throughout Stamford, Norwalk, and Greenwich along the Gold Coast of lower Fairfield County. Downtown Stamford's Bedford Street and Summer Street support restaurants, bars, hotels, and entertainment venues serving corporate headquarters and commuters, while Harbor Point's waterfront has added apartments, dining, and nightlife. SoNo in South Norwalk draws diners and bar-goers to Washington Street, and Greenwich Avenue carries upscale boutiques and salons. Convenience stores and delis throughout the corridor rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown Stamford",
+        "Harbor Point",
+        "Bedford Street",
+        "SoNo",
+        "Greenwich Avenue",
+        "Springdale"
+      ],
+      "nearby": [
+        "bridgeport",
+        "danbury",
+        "new-haven"
+      ]
+    },
+    {
+      "slug": "danbury",
+      "name": "Danbury",
+      "region": "Western Connecticut",
+      "blurb": "We place and service ATMs across Danbury and the Housatonic Valley towns of western Connecticut near the New York line. Downtown's Main Street and the Ives Street corridor support restaurants, bars, and event venues, while the Danbury Fair mall area and the Newtown Road and Mill Plain Road corridors along Interstate 84 carry hotels, chain dining, convenience stores, salons, and retail. Western Connecticut State University adds student demand, and Candlewood Lake draws summer visitors. Businesses here count on our machines for reliable cash availability and quick service.",
+      "areas": [
+        "Downtown Danbury",
+        "Main Street",
+        "Danbury Fair",
+        "Mill Plain Road",
+        "Newtown Road",
+        "Bethel"
+      ],
+      "nearby": [
+        "waterbury",
+        "bridgeport",
+        "stamford"
+      ]
+    },
+    {
+      "slug": "waterbury",
+      "name": "Waterbury",
+      "region": "the Naugatuck Valley",
+      "blurb": "We place and service ATMs throughout Waterbury and the Naugatuck Valley, the historic Brass City at the crossroads of Interstate 84 and Route 8. Downtown's Bank Street and the Green support restaurants, bars, and the Palace Theater, while the Brass Mill Center area and the Wolcott Street and Chase Avenue corridors carry hotels, chain dining, convenience stores, and salons. Town Plot's Highland Avenue is known for Italian restaurants and bakeries. Businesses across Waterbury, Naugatuck, and Torrington rely on our machines for dependable cash access and responsive local service.",
+      "areas": [
+        "Downtown Waterbury",
+        "Bank Street",
+        "Brass Mill Center",
+        "Town Plot",
+        "Wolcott Street",
+        "Naugatuck"
+      ],
+      "nearby": [
+        "hartford",
+        "new-britain",
+        "danbury",
+        "new-haven"
+      ]
+    },
+    {
+      "slug": "new-london",
+      "name": "New London",
+      "region": "Southeastern Connecticut",
+      "blurb": "We place and service ATMs across New London, Norwich, Mystic, and the southeastern shoreline. Downtown New London's Bank Street and the waterfront support bars, restaurants, and music venues near the ferry terminals to Long Island and Block Island, while Mystic's downtown drawbridge district draws tourists to seafood restaurants, shops, and the seaport museum. Two of the country's largest casino resorts sit nearby and fill hotels year-round, and the Coast Guard Academy and submarine base add steady demand. Convenience stores and salons here rely on our machines for dependable cash access.",
+      "areas": [
+        "Downtown New London",
+        "Bank Street",
+        "Mystic",
+        "Groton",
+        "Downtown Norwich",
+        "Niantic"
+      ],
+      "nearby": [
+        "new-haven",
+        "manchester",
+        "hartford"
+      ]
+    }
+  ]
+}

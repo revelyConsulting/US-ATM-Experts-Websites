@@ -1,0 +1,74 @@
+{
+  "abbr": "OH",
+  "name": "Ohio",
+  "metro_city": "Columbus",
+  "metro_phrase": "the Columbus metro",
+  "span_phrase": "from Cleveland to Cincinnati",
+  "seasonal_phrase": "college football Saturdays, summer festivals and Lake Erie tourism, and the holiday shopping season",
+  "cities": [
+    {
+      "slug": "columbus",
+      "name": "Columbus",
+      "region": "Central Ohio",
+      "blurb": "We place and service ATMs across Columbus, from the bars and restaurants of the Short North and Arena District to the campus-area convenience stores along High Street. German Village's taverns and cafes draw weekend crowds, while the Brewery District and Franklinton's music venues keep cash moving late into the night. Football Saturdays and the state fair bring surges of visitors to hotels and entertainment venues, and licensed dispensaries across the metro are a natural fit for cash-only sales. We handle installation, loading, and monitoring locally.",
+      "areas": ["Short North", "Arena District", "German Village", "Brewery District", "Franklinton", "Campus"],
+      "nearby": ["dayton", "cincinnati", "cleveland"]
+    },
+    {
+      "slug": "cleveland",
+      "name": "Cleveland",
+      "region": "Northeast Ohio",
+      "blurb": "We place and service ATMs in Cleveland and across Northeast Ohio. The bars, restaurants, and hotels of East Fourth Street, the Flats, and the Warehouse District fill on game days and concert nights, while Ohio City's breweries and the West Side Market draw steady weekend traffic. Tremont's galleries and taverns and the convenience stores and salons along Lorain Avenue and Detroit Avenue serve the city's west side, and Lake Erie tourism boosts summer demand. Licensed dispensaries across Cuyahoga County rely on us for reliable cash access.",
+      "areas": ["East Fourth Street", "The Flats", "Ohio City", "Tremont", "Warehouse District", "Detroit Shoreway"],
+      "nearby": ["akron", "youngstown", "toledo"]
+    },
+    {
+      "slug": "cincinnati",
+      "name": "Cincinnati",
+      "region": "Southwest Ohio",
+      "blurb": "We place and service ATMs in Cincinnati and the Northern Kentucky side of the metro. Over-the-Rhine's bars, restaurants, and music venues along Vine Street draw crowds every weekend, while the Banks riverfront district fills on game days and during festival season. Findlay Market's vendors and the convenience stores and salons of Clifton and Northside serve daily foot traffic, and Hyde Park's square hosts cafes and specialty shops. Licensed dispensaries in Hamilton County are a growing fit, and our machines keep cash flowing citywide.",
+      "areas": ["Over-the-Rhine", "The Banks", "Findlay Market", "Clifton", "Northside", "Hyde Park"],
+      "nearby": ["dayton", "columbus", "akron"]
+    },
+    {
+      "slug": "dayton",
+      "name": "Dayton",
+      "region": "the Miami Valley",
+      "blurb": "We place and service ATMs in Dayton and the Miami Valley. The Oregon District's bars, restaurants, and music venues on Fifth Street anchor the city's nightlife, while the convenience stores and hotels along Brown Street and near the university serve students and medical-center staff. Air Force base traffic keeps quick-service restaurants and salons busy in Fairborn and Beavercreek, and summer air shows and festivals bring visitors to the region. Licensed dispensaries in Montgomery County rely on us for reliable cash service.",
+      "areas": ["Oregon District", "Fifth Street", "Brown Street", "Downtown Dayton", "Beavercreek", "Fairborn"],
+      "nearby": ["cincinnati", "columbus", "toledo"]
+    },
+    {
+      "slug": "toledo",
+      "name": "Toledo",
+      "region": "Northwest Ohio",
+      "blurb": "We place and service ATMs in Toledo and Northwest Ohio. Downtown's Warehouse District and Hensville host bars, restaurants, and hotels that fill on ballpark nights and during summer festivals, while Adams Street's music venues and the convenience stores along Monroe Street and Secor Road serve daily traffic. The university district keeps salons and quick-service restaurants busy through the school year, and Lake Erie marinas and Put-in-Bay ferry traffic boost summer demand along the shoreline. Licensed dispensaries across Lucas County are a natural fit for our machines.",
+      "areas": ["Warehouse District", "Hensville", "Adams Street", "Monroe Street", "Old West End", "Sylvania"],
+      "nearby": ["cleveland", "dayton", "columbus"]
+    },
+    {
+      "slug": "akron",
+      "name": "Akron",
+      "region": "Northeast Ohio",
+      "blurb": "We place and service ATMs in Akron and Summit County. Downtown's Main Street and the Northside District host bars, restaurants, and music venues that fill on weekends and during summer events at Lock 3, while Highland Square's taverns, cafes, and salons anchor the west side. The convenience stores and hotels along Arlington Road and near the university serve students and visitors year-round, and nearby Canton's downtown arts district and the Hall of Fame festivities draw crowds each summer. Licensed dispensaries in the area rely on us for cash access.",
+      "areas": ["Downtown Akron", "Northside District", "Highland Square", "Lock 3", "Downtown Canton", "Cuyahoga Falls"],
+      "nearby": ["cleveland", "youngstown", "columbus"]
+    },
+    {
+      "slug": "youngstown",
+      "name": "Youngstown",
+      "region": "the Mahoning Valley",
+      "blurb": "We place and service ATMs in Youngstown and the Mahoning Valley. Downtown's Federal Street hosts bars, restaurants, and live-music venues that fill on weekends and during summer concerts, while the convenience stores and salons along Belmont Avenue and Mahoning Avenue serve neighborhoods across the city. Boardman's Route 224 corridor lines up hotels, quick-service restaurants, and shopping plazas serving the whole valley, and the university keeps cafes and taverns busy through the school year. Licensed dispensaries in the area are a natural fit for cash-only sales.",
+      "areas": ["Federal Street", "Downtown Youngstown", "Belmont Avenue", "Boardman", "Route 224 corridor"],
+      "nearby": ["akron", "cleveland", "columbus"]
+    },
+    {
+      "slug": "athens",
+      "name": "Athens",
+      "region": "Southeast Ohio",
+      "blurb": "We place and service ATMs in Athens and the hills of Southeast Ohio. Court Street's bars, restaurants, and convenience stores fill every weekend during the academic year and surge during homecoming and fall festivities, while the salons and quick-service restaurants along East State Street serve residents and visitors year-round. Nearby Marietta's downtown riverfront and Lancaster's Main Street add restaurants, hotels, and shops to the mix, and the Hocking Hills cabins draw tourists in every season. Licensed dispensaries in the region rely on us for cash service.",
+      "areas": ["Court Street", "Uptown Athens", "East State Street", "Hocking Hills", "Downtown Marietta", "Lancaster"],
+      "nearby": ["columbus", "cincinnati", "dayton"]
+    }
+  ]
+}

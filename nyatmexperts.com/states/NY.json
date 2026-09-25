@@ -1,0 +1,90 @@
+{
+  "abbr": "NY",
+  "name": "New York",
+  "metro_city": "New York City",
+  "metro_phrase": "the five boroughs and the greater New York metro",
+  "span_phrase": "from Brooklyn to Buffalo",
+  "seasonal_phrase": "holiday shopping in Manhattan, summer crowds on Long Island and in the Hudson Valley, and fall foliage tourism upstate",
+  "cities": [
+    {
+      "slug": "new-york-city",
+      "name": "New York City",
+      "region": "the five boroughs",
+      "blurb": "We place and service ATMs across all five boroughs, from the bars and late-night restaurants of the Lower East Side and Williamsburg to the delis, bodegas, and salons of Astoria and Flushing. Manhattan's Times Square hotels and Midtown convenience stores see round-the-clock foot traffic, while Brooklyn nightlife along Bushwick and Bedford Avenue keeps cash moving past midnight. Licensed dispensaries opening across the city are a growing fit for cash-only sales. We handle installation, cash loading, and monitoring so owners can focus on their customers.",
+      "areas": ["Times Square", "Williamsburg", "Lower East Side", "Astoria", "Flushing", "Bushwick"],
+      "nearby": ["long-island", "yonkers", "white-plains"]
+    },
+    {
+      "slug": "long-island",
+      "name": "Long Island",
+      "region": "Long Island",
+      "blurb": "We place and service ATMs across Nassau and Suffolk counties, from the beachside bars and seafood restaurants of Long Beach and Montauk to the strip-mall convenience stores and salons along Hempstead Turnpike and Route 110. Summer traffic in the Hamptons and Fire Island communities drives heavy seasonal cash demand for ice cream shops, marinas, and boardwalk vendors, while year-round hubs like Huntington Village and Patchogue keep restaurants and entertainment venues busy every weekend.",
+      "areas": ["Montauk", "The Hamptons", "Huntington Village", "Long Beach", "Patchogue"],
+      "nearby": ["new-york-city", "yonkers", "white-plains"]
+    },
+    {
+      "slug": "yonkers",
+      "name": "Yonkers",
+      "region": "lower Westchester County",
+      "blurb": "We place and service ATMs in Yonkers, where the revitalized downtown waterfront along the Hudson River hosts restaurants, breweries, and entertainment venues near the Metro-North station. Central Park Avenue's long strip of convenience stores, salons, and quick-service restaurants serves shoppers from across lower Westchester, and the Cross County Shopping Center draws steady traffic from the Bronx and nearby towns. Our machines fit corner delis, bars, and hotels alike, with regular cash loading and remote monitoring.",
+      "areas": ["Downtown Waterfront", "Central Park Avenue", "Cross County", "Getty Square", "McLean Avenue"],
+      "nearby": ["new-york-city", "white-plains", "long-island"]
+    },
+    {
+      "slug": "white-plains",
+      "name": "White Plains",
+      "region": "Westchester County",
+      "blurb": "We place and service ATMs in White Plains, the commercial center of Westchester County. Mamaroneck Avenue's bars and restaurants fill with office workers and weekend crowds, while the hotels and convenience stores around the Metro-North station serve business travelers commuting to Manhattan. The Galleria and Westchester mall corridor draws shoppers from across the county. From salons in downtown to late-night restaurants near the courthouse district, our ATMs keep cash accessible for customers and reduce card fees for owners.",
+      "areas": ["Mamaroneck Avenue", "Downtown White Plains", "Westchester Avenue", "Main Street"],
+      "nearby": ["yonkers", "new-york-city", "long-island"]
+    },
+    {
+      "slug": "albany",
+      "name": "Albany",
+      "region": "the Capital Region",
+      "blurb": "We place and service ATMs in Albany and the surrounding Capital Region, including Troy, Schenectady, and Saratoga Springs. Lark Street and the Warehouse District host bars, restaurants, and live-music venues that fill during the legislative session and college weekends. Pearl Street's nightlife sits blocks from state office buildings and hotels, while summer racing season in Saratoga brings heavy cash demand for restaurants and shops along Broadway. Convenience stores, salons, and licensed dispensaries across the region are a natural fit.",
+      "areas": ["Lark Street", "Warehouse District", "Pearl Street", "Downtown Troy", "Saratoga Springs"],
+      "nearby": ["syracuse", "utica", "white-plains"]
+    },
+    {
+      "slug": "syracuse",
+      "name": "Syracuse",
+      "region": "Central New York",
+      "blurb": "We place and service ATMs in Syracuse, the hub of Central New York. Armory Square's bars, restaurants, and hotels draw crowds year-round and surge during university events and the Great New York State Fair each late summer. The Marshall Street strip near the campus keeps convenience stores and late-night restaurants busy through the academic year, and Destiny USA brings shoppers from across the region. Our machines serve corner stores, salons, dispensaries, and entertainment venues throughout Onondaga County.",
+      "areas": ["Armory Square", "Marshall Street", "Destiny USA", "Westcott", "Tipperary Hill"],
+      "nearby": ["rochester", "utica", "albany"]
+    },
+    {
+      "slug": "rochester",
+      "name": "Rochester",
+      "region": "the Finger Lakes region",
+      "blurb": "We place and service ATMs in Rochester and the Finger Lakes region. The East End and Park Avenue neighborhoods host bars, restaurants, and salons that stay busy through festival season, including the summer jazz festival and Park Avenue Festival. The Public Market and South Wedge draw weekend crowds to cafes and specialty shops, while wineries and lakeside restaurants around Canandaigua and Seneca Lake see heavy summer and fall traffic. Convenience stores, hotels, and dispensaries throughout Monroe County rely on us for reliable cash access.",
+      "areas": ["East End", "Park Avenue", "South Wedge", "Public Market", "Canandaigua"],
+      "nearby": ["buffalo", "syracuse", "utica"]
+    },
+    {
+      "slug": "buffalo",
+      "name": "Buffalo",
+      "region": "Western New York",
+      "blurb": "We place and service ATMs in Buffalo and across Western New York. Chippewa Street and the Allentown district host bars, restaurants, and live-music venues, while Elmwood Village and Hertel Avenue line up salons, cafes, and specialty shops. Canalside and the waterfront draw heavy summer crowds for concerts and events, and hotels near Niagara Falls serve international tourists year-round. Football weekends fill sports bars and convenience stores across the region, and licensed dispensaries in Erie County are a growing fit for cash-only sales.",
+      "areas": ["Chippewa Street", "Allentown", "Elmwood Village", "Hertel Avenue", "Canalside", "Niagara Falls"],
+      "nearby": ["rochester", "syracuse", "binghamton"]
+    },
+    {
+      "slug": "utica",
+      "name": "Utica",
+      "region": "the Mohawk Valley",
+      "blurb": "We place and service ATMs in Utica and the Mohawk Valley. Varick Street's brewery district and Bagg's Square host bars, restaurants, and entertainment venues that draw crowds from across Oneida County, and Genesee Street's downtown corridor lines up convenience stores, salons, and hotels. Nearby Rome and the Turning Stone area bring steady visitor traffic to restaurants and shops, while summer events at the Boilermaker road race fill hotels and bars. Our ATMs serve small businesses across the valley with regular cash service.",
+      "areas": ["Varick Street", "Bagg's Square", "Genesee Street", "South Utica", "Downtown Rome"],
+      "nearby": ["syracuse", "albany", "binghamton"]
+    },
+    {
+      "slug": "binghamton",
+      "name": "Binghamton",
+      "region": "the Southern Tier",
+      "blurb": "We place and service ATMs in Binghamton and the Southern Tier. Downtown's State Street and Court Street host bars, restaurants, and music venues that fill on university weekends, and the Vestal Parkway corridor lines up convenience stores, salons, and hotels serving campus traffic. Nearby Ithaca's Commons and Elmira's downtown add college-town nightlife and restaurants to the mix, while summer festivals and fall foliage draw visitors to the region. Our machines fit corner stores, entertainment venues, and dispensaries throughout Broome County.",
+      "areas": ["State Street", "Court Street", "Vestal Parkway", "Ithaca Commons", "Downtown Elmira"],
+      "nearby": ["syracuse", "utica", "rochester"]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "abbr": "NJ",
+  "name": "New Jersey",
+  "metro_city": "Newark",
+  "metro_phrase": "North Jersey",
+  "span_phrase": "from Jersey City to Cape May",
+  "seasonal_phrase": "the Jersey Shore summer season, holiday shopping, and stadium concert season",
+  "cities": [
+    {
+      "slug": "newark",
+      "name": "Newark",
+      "region": "North Jersey",
+      "blurb": "We place and service ATMs across Newark, from the restaurants, bars, and hotels around the arena and performing arts center downtown to the Portuguese and Brazilian restaurants and bakeries of the Ironbound along Ferry Street. The Broad Street and Market Street corridors hold delis, salons, and discount retail, and the university campuses keep cafes and convenience stores busy. Bodegas, barbershops, and dispensaries along Bloomfield Avenue, South Orange Avenue, and in the Weequahic and North Ward neighborhoods depend on machines we keep stocked and running.",
+      "areas": [
+        "Downtown Newark",
+        "Ironbound",
+        "Broad Street",
+        "University Heights",
+        "North Ward",
+        "Weequahic"
+      ],
+      "nearby": [
+        "jersey-city",
+        "paterson",
+        "elizabeth",
+        "new-brunswick"
+      ]
+    },
+    {
+      "slug": "jersey-city",
+      "name": "Jersey City",
+      "region": "Hudson County",
+      "blurb": "We place and service ATMs in Jersey City and Hoboken, the dense Hudson County cities facing Manhattan. Downtown Jersey City's Grove Street and Newark Avenue pedestrian plaza hold bars, restaurants, and cafes that stay busy late, and Journal Square's Indian restaurants and shops along Newark Avenue draw crowds from across the region. Hoboken's Washington Street is lined with taverns, pizza shops, and salons that fill on weekends, and bodegas, laundromats, and dispensaries in the Heights, Bergen-Lafayette, and Bayonne rely on our reliable local service.",
+      "areas": [
+        "Downtown Jersey City",
+        "Grove Street",
+        "Journal Square",
+        "The Heights",
+        "Hoboken",
+        "Bayonne"
+      ],
+      "nearby": [
+        "newark",
+        "elizabeth",
+        "paterson"
+      ]
+    },
+    {
+      "slug": "paterson",
+      "name": "Paterson",
+      "region": "North Jersey",
+      "blurb": "We place and service ATMs in Paterson and the Passaic and Bergen County communities around it. Main Street and the South Paterson corridor hold Middle Eastern bakeries, groceries, and restaurants, and the downtown blocks near the Great Falls add delis, salons, and discount retail. Clifton's Route 3 and Route 46 corridors carry hotels, gas stations, diners, and big-box stores, and Hackensack's Main Street and Paramus's Route 17 and Route 4 malls draw shoppers from across the region. Bodegas, barbershops, and dispensaries throughout Passaic County depend on our locally serviced machines.",
+      "areas": [
+        "Downtown Paterson",
+        "South Paterson",
+        "Main Street",
+        "Clifton",
+        "Hackensack",
+        "Paramus"
+      ],
+      "nearby": [
+        "newark",
+        "jersey-city",
+        "elizabeth"
+      ]
+    },
+    {
+      "slug": "elizabeth",
+      "name": "Elizabeth",
+      "region": "Union County",
+      "blurb": "We place and service ATMs in Elizabeth and the Union County towns along the Route 1 and Route 9 corridors south of Newark. Broad Street and Elizabeth Avenue downtown hold Latin American restaurants, bakeries, salons, and discount retail, and the Mills at Jersey Gardens outlet mall and the airport hotel strip draw steady traveler traffic. Union's Morris Avenue and Route 22 carry diners, gas stations, and big-box retail, and bodegas, laundromats, taverns, and dispensaries in Linden, Rahway, and Plainfield count on our prompt local service.",
+      "areas": [
+        "Downtown Elizabeth",
+        "Elizabeth Avenue",
+        "Jersey Gardens area",
+        "Elmora",
+        "Union",
+        "Linden"
+      ],
+      "nearby": [
+        "newark",
+        "jersey-city",
+        "new-brunswick"
+      ]
+    },
+    {
+      "slug": "new-brunswick",
+      "name": "New Brunswick",
+      "region": "Central Jersey",
+      "blurb": "We place and service ATMs in New Brunswick and the Middlesex County towns of Central Jersey. George Street and the downtown theater district hold restaurants, bars, and music venues that fill with university students through the school year, and the Easton Avenue corridor runs with late-night pizza spots, taverns, and convenience stores. Edison's Oak Tree Road holds one of the country's largest Indian commercial districts, and the Route 1 and Route 18 corridors carry hotels, gas stations, salons, and dispensaries that rely on our locally serviced machines.",
+      "areas": [
+        "Downtown New Brunswick",
+        "George Street",
+        "Easton Avenue",
+        "Edison",
+        "Oak Tree Road",
+        "Route 18 corridor"
+      ],
+      "nearby": [
+        "newark",
+        "elizabeth",
+        "trenton",
+        "toms-river"
+      ]
+    },
+    {
+      "slug": "trenton",
+      "name": "Trenton",
+      "region": "Central Jersey",
+      "blurb": "We place and service ATMs in Trenton and the Mercer County towns around the state capital. State Street and the downtown blocks near the State House hold delis, restaurants, and taverns that serve the government workforce during the week, and the Chambersburg neighborhood's Italian restaurants and the Hamilton Avenue and Route 33 corridors carry gas stations, salons, and neighborhood bars. Princeton's Nassau Street adds cafes, bookstores, and boutiques for university visitors, and bodegas, barbershops, and dispensaries in Ewing, Hamilton, and Lawrence depend on our reliable local service.",
+      "areas": [
+        "Downtown Trenton",
+        "State Street",
+        "Chambersburg",
+        "Hamilton",
+        "Ewing",
+        "Princeton"
+      ],
+      "nearby": [
+        "new-brunswick",
+        "cherry-hill",
+        "toms-river"
+      ]
+    },
+    {
+      "slug": "cherry-hill",
+      "name": "Cherry Hill",
+      "region": "South Jersey",
+      "blurb": "We place and service ATMs in Cherry Hill and the Camden County suburbs across the river from Philadelphia. Route 70 and Route 38 carry the Cherry Hill Mall, hotels, diners, gas stations, and salons, and Haddonfield's Kings Highway and Collingswood's Haddon Avenue add restaurants, boutiques, and cafes in walkable downtowns. Camden's waterfront concert venue and aquarium draw event crowds, and the Route 73 corridor through Marlton and Voorhees holds big-box retail and bars. Bodegas, barbershops, and dispensaries across South Jersey rely on our locally stocked machines.",
+      "areas": [
+        "Route 70",
+        "Cherry Hill Mall area",
+        "Haddonfield",
+        "Collingswood",
+        "Camden Waterfront",
+        "Marlton"
+      ],
+      "nearby": [
+        "trenton",
+        "atlantic-city",
+        "toms-river"
+      ]
+    },
+    {
+      "slug": "atlantic-city",
+      "name": "Atlantic City",
+      "region": "the Jersey Shore",
+      "blurb": "We place and service ATMs in Atlantic City and the southern shore towns, where Boardwalk casinos, hotels, and nightclubs run year round and beach season adds summer crowds. Atlantic Avenue and Pacific Avenue hold convenience stores, pizza shops, souvenir stands, and bars, and the Tanger Outlets at the Walk draw shoppers. Ventnor and Margate add cafes and taverns, and Ocean City's boardwalk arcades, Cape May's Victorian inns, and Wildwood's motels and pier rides, along with area dispensaries, count on our machines through Memorial Day to Labor Day.",
+      "areas": [
+        "The Boardwalk",
+        "Atlantic Avenue",
+        "The Walk",
+        "Ocean City",
+        "Cape May",
+        "Wildwood"
+      ],
+      "nearby": [
+        "cherry-hill",
+        "toms-river",
+        "trenton"
+      ]
+    },
+    {
+      "slug": "toms-river",
+      "name": "Toms River",
+      "region": "the Jersey Shore",
+      "blurb": "We place and service ATMs in Toms River and the Ocean and Monmouth County shore towns, where beach season transforms cash demand. Seaside Heights' boardwalk arcades, bars, and pizza stands run a short intense season, and downtown Toms River's Main Street and the Route 37 and Hooper Avenue corridors carry restaurants, gas stations, salons, and retail year round. Asbury Park's Cookman Avenue music venues and boardwalk bars, Point Pleasant Beach's boardwalk, and Long Beach Island's surf shops and taverns, along with area dispensaries, rely on our locally serviced machines.",
+      "areas": [
+        "Downtown Toms River",
+        "Route 37",
+        "Seaside Heights",
+        "Point Pleasant Beach",
+        "Asbury Park",
+        "Long Beach Island"
+      ],
+      "nearby": [
+        "new-brunswick",
+        "atlantic-city",
+        "trenton",
+        "cherry-hill"
+      ]
+    }
+  ]
+}

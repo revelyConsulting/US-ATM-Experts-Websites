@@ -1,0 +1,191 @@
+{
+  "abbr": "AR",
+  "name": "Arkansas",
+  "metro_city": "Little Rock",
+  "metro_phrase": "the Central Arkansas metro",
+  "span_phrase": "from Bentonville to Texarkana",
+  "seasonal_phrase": "college football weekends, duck-hunting season in the Delta, and summer lake and river tourism",
+  "cities": [
+    {
+      "slug": "little-rock",
+      "name": "Little Rock",
+      "region": "Central Arkansas",
+      "blurb": "We place and service ATMs across Little Rock, the state capital and its largest city. The River Market District downtown packs bars, restaurants, hotels, and event venues near the riverfront and the presidential library, while the Heights and Hillcrest neighborhoods support boutiques, salons, and neighborhood dining. Southwest Little Rock and the University Avenue corridor carry convenience stores, retail, and dispensaries. State government, hospitals, and conventions keep weekday demand steady, and businesses here count on us for reliable machines and quick cash replenishment.",
+      "areas": [
+        "River Market District",
+        "The Heights",
+        "Hillcrest",
+        "SoMa",
+        "Midtown",
+        "West Little Rock"
+      ],
+      "nearby": [
+        "conway",
+        "hot-springs",
+        "pine-bluff"
+      ]
+    },
+    {
+      "slug": "conway",
+      "name": "Conway",
+      "region": "Central Arkansas",
+      "blurb": "We place and service ATMs across Conway, a college town north of Little Rock that hosts three universities. Downtown Conway's Front Street and Oak Street district supports restaurants, bars, coffee shops, and boutiques, and the Dave Ward Drive and Oak Street corridors carry hotels, chain dining, convenience stores, and retail. Toad Suck Daze draws large crowds every spring, and the academic calendar shapes demand throughout the year. Local businesses depend on our machines to stay stocked for student weekends, festivals, and steady commuter traffic.",
+      "areas": [
+        "Downtown Conway",
+        "Oak Street",
+        "Dave Ward Drive",
+        "Old Conway",
+        "Lewis Crossing"
+      ],
+      "nearby": [
+        "little-rock",
+        "fayetteville",
+        "jonesboro"
+      ]
+    },
+    {
+      "slug": "fayetteville",
+      "name": "Fayetteville",
+      "region": "Northwest Arkansas",
+      "blurb": "We place and service ATMs throughout Fayetteville, home of the University of Arkansas and the cultural center of Northwest Arkansas. Dickson Street is the state's best-known entertainment strip, lined with bars, live-music venues, restaurants, and hotels that fill on football weekends and during the academic year. The downtown square hosts a popular farmers market, while the College Avenue and Joyce Boulevard corridors carry retail, convenience stores, salons, and dispensaries. Businesses here rely on us for machines that handle game-day crowds and steady student demand.",
+      "areas": [
+        "Dickson Street",
+        "Downtown Square",
+        "College Avenue",
+        "Uptown Fayetteville",
+        "Mount Sequoyah"
+      ],
+      "nearby": [
+        "springdale",
+        "bentonville",
+        "fort-smith"
+      ]
+    },
+    {
+      "slug": "springdale",
+      "name": "Springdale",
+      "region": "Northwest Arkansas",
+      "blurb": "We place and service ATMs across Springdale and Rogers, the fast-growing core of Northwest Arkansas between Fayetteville and Bentonville. Downtown Springdale along Emma Avenue has been revitalized with restaurants, breweries, and shops near the Razorback Greenway, while the poultry and trucking employers headquartered here sustain a large, diverse workforce. Rogers' Pinnacle Hills district adds hotels, a major outdoor amphitheater, upscale dining, and retail. Convenience stores, salons, and entertainment venues throughout Washington and Benton counties count on our machines for reliable cash access.",
+      "areas": [
+        "Downtown Springdale",
+        "Emma Avenue",
+        "Pinnacle Hills",
+        "Downtown Rogers",
+        "Har-Ber Meadows"
+      ],
+      "nearby": [
+        "fayetteville",
+        "bentonville",
+        "fort-smith"
+      ]
+    },
+    {
+      "slug": "bentonville",
+      "name": "Bentonville",
+      "region": "Northwest Arkansas",
+      "blurb": "We place and service ATMs throughout Bentonville, a city transformed by the world's largest retailer's headquarters and a wave of related investment. The downtown square and surrounding blocks host chef-driven restaurants, bars, hotels, and boutiques within walking distance of the Crystal Bridges museum and the 8th Street Market food hall. Extensive mountain-bike trails draw visitors year-round, and the annual supplier conferences fill hotels across the region. Convenience stores, salons, and hospitality businesses here rely on our machines for dependable cash availability.",
+      "areas": [
+        "Downtown Bentonville",
+        "8th Street Market",
+        "Crystal Bridges",
+        "Bella Vista",
+        "Walton Boulevard"
+      ],
+      "nearby": [
+        "springdale",
+        "fayetteville",
+        "fort-smith"
+      ]
+    },
+    {
+      "slug": "fort-smith",
+      "name": "Fort Smith",
+      "region": "the River Valley",
+      "blurb": "We place and service ATMs across Fort Smith, the historic border city on the Arkansas River and the hub of the River Valley region. Downtown's Garrison Avenue supports restaurants, bars, and the marshals museum near the old fort site, while Rogers Avenue and the Central Mall area carry hotels, chain dining, convenience stores, salons, and dispensaries. Manufacturing, a regional medical center, and a nearby military training installation keep demand steady. Businesses here depend on our machines and our quick local service to keep cash available every day.",
+      "areas": [
+        "Downtown Fort Smith",
+        "Garrison Avenue",
+        "Rogers Avenue",
+        "Central Mall",
+        "Chaffee Crossing"
+      ],
+      "nearby": [
+        "fayetteville",
+        "springdale",
+        "hot-springs"
+      ]
+    },
+    {
+      "slug": "hot-springs",
+      "name": "Hot Springs",
+      "region": "the Ouachitas",
+      "blurb": "We place and service ATMs throughout Hot Springs, a resort city built around thermal baths and a national park in the Ouachita Mountains. Central Avenue's Bathhouse Row and downtown host hotels, bars, restaurants, galleries, and gift shops that draw visitors year-round, while the thoroughbred racing and casino resort brings large crowds from winter through spring. Lake Hamilton and Lake Ouachita fill with boaters all summer, and Central Avenue and Albert Pike carry convenience stores, salons, and retail. Businesses here rely on us for machines that keep pace with tourism peaks.",
+      "areas": [
+        "Bathhouse Row",
+        "Downtown Hot Springs",
+        "Central Avenue",
+        "Lake Hamilton",
+        "Hot Springs Village"
+      ],
+      "nearby": [
+        "little-rock",
+        "fort-smith",
+        "texarkana"
+      ]
+    },
+    {
+      "slug": "jonesboro",
+      "name": "Jonesboro",
+      "region": "Northeast Arkansas",
+      "blurb": "We place and service ATMs across Jonesboro, the largest city in Northeast Arkansas and home to Arkansas State University. Downtown's Main Street district supports restaurants, bars, and coffee shops, while the Caraway Road and Red Wolf Boulevard corridors carry hotels, chain dining, convenience stores, salons, and retail near the campus and the Mall at Turtle Creek. Agriculture, food processing, and a regional hospital system anchor the economy across the Delta. Businesses here count on our machines to stay stocked through the academic year and beyond.",
+      "areas": [
+        "Downtown Jonesboro",
+        "Main Street",
+        "Caraway Road",
+        "Red Wolf Boulevard",
+        "Turtle Creek"
+      ],
+      "nearby": [
+        "little-rock",
+        "pine-bluff",
+        "conway"
+      ]
+    },
+    {
+      "slug": "pine-bluff",
+      "name": "Pine Bluff",
+      "region": "Southeast Arkansas",
+      "blurb": "We place and service ATMs throughout Pine Bluff and the surrounding Delta communities of southeast Arkansas. Downtown Pine Bluff along Main Street is home to a convention center, hotels, and a casino resort that draws visitors from across the region, while the Olive Street and Hazel Street corridors carry restaurants, convenience stores, salons, and retail. The University of Arkansas at Pine Bluff and a regional medical center anchor steady demand. Businesses here rely on our machines for dependable cash access and responsive local service.",
+      "areas": [
+        "Downtown Pine Bluff",
+        "Main Street",
+        "Olive Street",
+        "Hazel Street",
+        "White Hall"
+      ],
+      "nearby": [
+        "little-rock",
+        "texarkana",
+        "jonesboro"
+      ]
+    },
+    {
+      "slug": "texarkana",
+      "name": "Texarkana",
+      "region": "Southwest Arkansas",
+      "blurb": "We place and service ATMs across Texarkana, the twin city straddling the Arkansas–Texas line in the southwest corner of the state. State Line Avenue runs through the heart of both cities and carries hotels, restaurants, bars, convenience stores, and salons, while the historic downtown near the post office that sits on the border hosts restaurants and event venues. Interstate 30 traffic and a regional medical hub keep demand consistent. Businesses on the Arkansas side count on our machines for reliable cash availability and quick service.",
+      "areas": [
+        "State Line Avenue",
+        "Downtown Texarkana",
+        "Arkansas Boulevard",
+        "Jefferson Avenue",
+        "Interstate 30 Corridor"
+      ],
+      "nearby": [
+        "hot-springs",
+        "pine-bluff",
+        "little-rock"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "abbr": "VA",
+  "name": "Virginia",
+  "metro_city": "Richmond",
+  "metro_phrase": "the greater Richmond area",
+  "span_phrase": "from Virginia Beach to Bristol",
+  "seasonal_phrase": "summer beach tourism, college football weekends, and fall wine and foliage season",
+  "cities": [
+    {
+      "slug": "richmond",
+      "name": "Richmond",
+      "region": "Central Virginia",
+      "blurb": "We place and service ATMs across Richmond, where Carytown's boutiques, restaurants, and bars stretch along Cary Street and the Fan District supports neighborhood pubs, cafes, and salons. Scott's Addition has become a hub of breweries, cideries, and entertainment venues, while Shockoe Bottom and Shockoe Slip anchor nightlife and hotels near the river. Convenience stores and restaurants near the university keep cash moving through the school year, and the state capitol brings steady weekday traffic downtown.",
+      "areas": ["Carytown", "The Fan", "Scott's Addition", "Shockoe Bottom", "Downtown Richmond", "Jackson Ward"],
+      "nearby": ["charlottesville", "fredericksburg", "norfolk"]
+    },
+    {
+      "slug": "virginia-beach",
+      "name": "Virginia Beach",
+      "region": "Hampton Roads",
+      "blurb": "We place and service ATMs throughout Virginia Beach, where the Oceanfront resort strip along Atlantic Avenue is packed with hotels, restaurants, bars, surf shops, and convenience stores that see enormous summer crowds. Town Center supports upscale dining, entertainment venues, and retail, while the ViBe Creative District adds galleries, cafes, and breweries. Sandbridge and Chic's Beach bring seasonal beachgoers, and the large military population keeps gas stations and salons busy year round across the city.",
+      "areas": ["Oceanfront", "Town Center", "ViBe Creative District", "Sandbridge", "Chic's Beach", "Hilltop"],
+      "nearby": ["norfolk", "newport-news", "richmond"]
+    },
+    {
+      "slug": "norfolk",
+      "name": "Norfolk",
+      "region": "Hampton Roads",
+      "blurb": "We place and service ATMs in Norfolk, home to a massive naval base and a lively waterfront downtown. Granby Street supports restaurants, bars, and music venues, while the Waterside District and the MacArthur Center area anchor hotels and entertainment. Ghent is known for its cafes, boutiques, salons, and pubs along Colley Avenue, and the Ocean View neighborhood brings beachfront dining and convenience stores. Sailors, cruise passengers, and university students all keep cash demand steady for Norfolk merchants.",
+      "areas": ["Granby Street", "Ghent", "Waterside District", "Ocean View", "Downtown Norfolk"],
+      "nearby": ["virginia-beach", "newport-news", "richmond"]
+    },
+    {
+      "slug": "newport-news",
+      "name": "Newport News",
+      "region": "the Virginia Peninsula",
+      "blurb": "We place and service ATMs across Newport News and Hampton on the Virginia Peninsula, where City Center at Oyster Point supports restaurants, hotels, and retail near major shipbuilding and defense employers. Jefferson Avenue and Warwick Boulevard anchor convenience stores, gas stations, and salons, while Hampton's Phoebus and downtown waterfront add bars, cafes, and seafood restaurants. Williamsburg nearby draws historic-district tourists to taverns and shops, keeping cash demand strong across the peninsula.",
+      "areas": ["City Center at Oyster Point", "Jefferson Avenue", "Hampton", "Phoebus", "Williamsburg"],
+      "nearby": ["norfolk", "virginia-beach", "richmond"]
+    },
+    {
+      "slug": "arlington",
+      "name": "Arlington",
+      "region": "Northern Virginia",
+      "blurb": "We place and service ATMs in Arlington, directly across the Potomac from Washington, where the Rosslyn-Ballston corridor supports hotels, restaurants, bars, and convenience stores serving a dense population of professionals. Clarendon is a nightlife hub with pubs, lounges, and late-night dining, while Crystal City and Pentagon City anchor hotels and retail near major federal and corporate offices. Shirlington adds theaters, restaurants, and salons. Nearby Alexandria's Old Town brings historic waterfront dining and boutique shopping.",
+      "areas": ["Clarendon", "Rosslyn", "Ballston", "Crystal City", "Shirlington", "Old Town Alexandria"],
+      "nearby": ["fairfax", "fredericksburg", "richmond"]
+    },
+    {
+      "slug": "fairfax",
+      "name": "Fairfax",
+      "region": "Northern Virginia",
+      "blurb": "We place and service ATMs throughout Fairfax County, where Tysons supports major shopping centers, hotels, and restaurants, and Reston Town Center anchors dining, entertainment venues, and retail. Old Town Fairfax near the university supports pubs, cafes, and convenience stores, while the Mosaic District in Merrifield brings boutiques and restaurants. Annandale and Centreville add diverse dining and salons along busy commuter corridors. Federal contractors, commuters, and dispensaries keep cash demand steady across the county.",
+      "areas": ["Tysons", "Reston Town Center", "Old Town Fairfax", "Mosaic District", "Annandale", "Centreville"],
+      "nearby": ["arlington", "fredericksburg", "charlottesville"]
+    },
+    {
+      "slug": "fredericksburg",
+      "name": "Fredericksburg",
+      "region": "Central Virginia",
+      "blurb": "We place and service ATMs in Fredericksburg, midway between Richmond and Washington on Interstate 95. Historic Downtown along Caroline Street supports restaurants, taverns, antique shops, and cafes near the university, while Central Park and the Route 3 corridor anchor hotels, convenience stores, retail centers, and salons. Stafford and Spotsylvania nearby add gas stations and neighborhood businesses serving commuters and military families from nearby bases. Civil War heritage tourism brings visitors to downtown merchants year round.",
+      "areas": ["Downtown Fredericksburg", "Caroline Street", "Central Park", "Route 3", "Stafford", "Spotsylvania"],
+      "nearby": ["richmond", "arlington", "fairfax"]
+    },
+    {
+      "slug": "charlottesville",
+      "name": "Charlottesville",
+      "region": "Central Virginia",
+      "blurb": "We place and service ATMs across Charlottesville, where the Downtown Mall pedestrian district supports restaurants, bars, music venues, and boutiques. The Corner near the university keeps pubs, convenience stores, and late-night eateries busy through the school year, while Barracks Road and the Route 29 corridor anchor hotels, salons, and retail centers. Belmont adds neighborhood restaurants and cafes. Nearby wineries, cideries, and Blue Ridge tourism bring seasonal cash demand to Albemarle County merchants.",
+      "areas": ["Downtown Mall", "The Corner", "Barracks Road", "Belmont", "Route 29"],
+      "nearby": ["richmond", "fredericksburg", "roanoke"]
+    },
+    {
+      "slug": "roanoke",
+      "name": "Roanoke",
+      "region": "Southwest Virginia",
+      "blurb": "We place and service ATMs in Roanoke, the largest city in southwestern Virginia. The Downtown Market District around the historic farmers market supports restaurants, bars, breweries, and hotels, while Grandin Village adds cafes, a theater, and neighborhood shops. Williamson Road and Valley View anchor convenience stores, salons, and retail centers. Blacksburg nearby brings large university crowds to bars and restaurants on game weekends, and Blue Ridge Parkway travelers keep gas stations and dining busy through the fall.",
+      "areas": ["Downtown Market District", "Grandin Village", "Williamson Road", "Valley View", "Blacksburg", "Salem"],
+      "nearby": ["charlottesville", "bristol", "richmond"]
+    },
+    {
+      "slug": "bristol",
+      "name": "Bristol",
+      "region": "Southwest Virginia",
+      "blurb": "We place and service ATMs in Bristol, where the state line runs down the middle of State Street through a downtown of restaurants, bars, music venues, and shops celebrating the city's country music heritage. The Lee Highway and Exit 7 corridor anchors hotels, gas stations, convenience stores, and a casino resort that draws visitors from across the region. Abingdon nearby adds a historic downtown with taverns, cafes, and a well-known theater. Race weekends at the nearby speedway bring huge surges in cash demand.",
+      "areas": ["State Street", "Exit 7", "Lee Highway", "Abingdon", "Downtown Bristol"],
+      "nearby": ["roanoke", "charlottesville", "richmond"]
+    }
+  ]
+}

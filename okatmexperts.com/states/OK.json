@@ -1,0 +1,74 @@
+{
+  "abbr": "OK",
+  "name": "Oklahoma",
+  "metro_city": "Oklahoma City",
+  "metro_phrase": "the Oklahoma City metro",
+  "span_phrase": "from Tulsa to Lawton",
+  "seasonal_phrase": "college football weekends, the state fair and rodeo season, and summer lake traffic",
+  "cities": [
+    {
+      "slug": "oklahoma-city",
+      "name": "Oklahoma City",
+      "region": "Central Oklahoma",
+      "blurb": "We place and service ATMs across Oklahoma City, from the bars, restaurants, and hotels of Bricktown and Automobile Alley to the boutiques and cafes of the Plaza District and Paseo Arts District. Midtown's taverns and salons draw weekend crowds, while the convenience stores and quick-service restaurants along Northwest Expressway and Interstate 240 serve daily traffic. Arena events downtown and the state fair each fall bring surges of visitors, and licensed dispensaries across the metro are a natural fit for cash-only sales. We handle installation and loading locally.",
+      "areas": ["Bricktown", "Automobile Alley", "Plaza District", "Paseo Arts District", "Midtown", "Northwest Expressway"],
+      "nearby": ["norman", "edmond", "tulsa"]
+    },
+    {
+      "slug": "tulsa",
+      "name": "Tulsa",
+      "region": "Green Country",
+      "blurb": "We place and service ATMs in Tulsa and northeastern Oklahoma. The Blue Dome District and Tulsa Arts District host bars, restaurants, and music venues that fill on weekends and during concerts, while Cherry Street and Brookside line up cafes, salons, and specialty shops. The convenience stores and hotels along 71st Street and near Route 66 serve steady traffic, and Gathering Place draws families year-round. Licensed dispensaries throughout Tulsa County rely on us for reliable cash access, and our machines fit businesses of every size.",
+      "areas": ["Blue Dome District", "Tulsa Arts District", "Cherry Street", "Brookside", "Route 66", "71st Street"],
+      "nearby": ["broken-arrow", "oklahoma-city", "stillwater"]
+    },
+    {
+      "slug": "norman",
+      "name": "Norman",
+      "region": "Central Oklahoma",
+      "blurb": "We place and service ATMs in Norman, where Campus Corner's bars, restaurants, and convenience stores fill on football Saturdays and through the academic year. Main Street's downtown taverns, cafes, and salons draw local crowds every weekend, while the hotels and quick-service restaurants along Interstate 35 and Lindsey Street serve visitors to games, conferences, and the medieval fair each spring. Licensed dispensaries around the city are a steady fit for cash sales, and our machines keep up with the predictable surges of game weekends.",
+      "areas": ["Campus Corner", "Main Street", "Lindsey Street", "Interstate 35 corridor", "Downtown Norman"],
+      "nearby": ["oklahoma-city", "edmond", "lawton"]
+    },
+    {
+      "slug": "edmond",
+      "name": "Edmond",
+      "region": "Central Oklahoma",
+      "blurb": "We place and service ATMs in Edmond, one of the fastest-growing suburbs north of Oklahoma City. Downtown's Broadway hosts restaurants, bars, and specialty shops, while the convenience stores, salons, and quick-service restaurants along Second Street and Covell Road serve new residential neighborhoods and the university community. Golf tournaments and summer events at Mitch Park bring seasonal visitors, and hotels near Interstate 35 handle steady traveler traffic. Licensed dispensaries in the area rely on us for cash service and monitoring.",
+      "areas": ["Downtown Edmond", "Broadway", "Second Street", "Covell Road", "Interstate 35 corridor"],
+      "nearby": ["oklahoma-city", "norman", "stillwater"]
+    },
+    {
+      "slug": "broken-arrow",
+      "name": "Broken Arrow",
+      "region": "Green Country",
+      "blurb": "We place and service ATMs in Broken Arrow, the largest suburb in the Tulsa metro. The Rose District's Main Street hosts restaurants, bars, and boutiques that fill on weekend evenings and during the spring and fall festival season, while the convenience stores, salons, and quick-service restaurants along Kenosha Street and the Creek Turnpike serve residents across the city. Hotels near the Bass Pro Shops corridor handle steady visitor traffic, and licensed dispensaries in Wagoner and Tulsa counties rely on us for cash access.",
+      "areas": ["Rose District", "Main Street", "Kenosha Street", "Creek Turnpike corridor", "Bass Pro corridor"],
+      "nearby": ["tulsa", "stillwater", "oklahoma-city"]
+    },
+    {
+      "slug": "lawton",
+      "name": "Lawton",
+      "region": "Southwest Oklahoma",
+      "blurb": "We place and service ATMs in Lawton and southwestern Oklahoma. The convenience stores, bars, and quick-service restaurants along Cache Road and Sheridan Road serve the large military community at Fort Sill, where payday cycles and training rotations create predictable swings in cash demand. Downtown's Second Street and Central Mall draw shoppers from across Comanche County, while the nearby Wichita Mountains bring hikers and campers to Medicine Park's cafes and shops each spring and fall. Licensed dispensaries in the area rely on us for reliable service.",
+      "areas": ["Cache Road", "Sheridan Road", "Downtown Lawton", "Central Mall", "Medicine Park"],
+      "nearby": ["norman", "oklahoma-city", "edmond"]
+    },
+    {
+      "slug": "stillwater",
+      "name": "Stillwater",
+      "region": "North Central Oklahoma",
+      "blurb": "We place and service ATMs in Stillwater, where the Strip along Washington Street hosts bars, restaurants, and convenience stores that fill on football weekends and through the academic year. Downtown's Main Street draws local crowds to cafes, taverns, and salons, and the hotels and quick-service restaurants along Sixth Avenue and Perkins Road serve visitors for games, graduation, and conferences. Game weekends drive sharp spikes in cash demand, and licensed dispensaries around Payne County rely on us for steady service.",
+      "areas": ["The Strip", "Washington Street", "Downtown Stillwater", "Sixth Avenue", "Perkins Road"],
+      "nearby": ["tulsa", "edmond", "oklahoma-city"]
+    },
+    {
+      "slug": "enid",
+      "name": "Enid",
+      "region": "Northwest Oklahoma",
+      "blurb": "We place and service ATMs in Enid and northwestern Oklahoma. Downtown's courthouse square hosts restaurants, bars, and shops, while the convenience stores, salons, and quick-service restaurants along Owen K. Garriott Road and Van Buren Street serve residents and the air base community. Wheat harvest each summer brings crews and agricultural traffic to local businesses, and the Stride Bank Center draws concert and event crowds to nearby hotels and taverns. Licensed dispensaries in Garfield County rely on us for reliable cash access.",
+      "areas": ["Downtown Enid", "Courthouse Square", "Owen K. Garriott Road", "Van Buren Street", "Oakwood Mall"],
+      "nearby": ["stillwater", "oklahoma-city", "edmond"]
+    }
+  ]
+}

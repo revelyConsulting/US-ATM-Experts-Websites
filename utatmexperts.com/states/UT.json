@@ -1,0 +1,82 @@
+{
+  "abbr": "UT",
+  "name": "Utah",
+  "metro_city": "Salt Lake City",
+  "metro_phrase": "the Wasatch Front",
+  "span_phrase": "from Logan to St. George",
+  "seasonal_phrase": "ski season, summer national park tourism, and film festival week",
+  "cities": [
+    {
+      "slug": "salt-lake-city",
+      "name": "Salt Lake City",
+      "region": "the Wasatch Front",
+      "blurb": "We place and service ATMs across Salt Lake City, from the hotels, restaurants, and convention traffic of Downtown around Temple Square to the bars and music venues along State Street. Sugar House supports cafes, boutiques, and pubs, while the 9th and 9th neighborhood adds coffee shops, salons, and restaurants. The Granary District brings breweries and event spaces. Ski season crowds and year-round convention business keep convenience stores and hospitality merchants in Salt Lake County reliant on dependable cash access.",
+      "areas": ["Downtown", "Sugar House", "9th and 9th", "Granary District", "Central City", "The Avenues"],
+      "nearby": ["west-valley-city", "sandy", "ogden"]
+    },
+    {
+      "slug": "west-valley-city",
+      "name": "West Valley City",
+      "region": "the Wasatch Front",
+      "blurb": "We place and service ATMs in West Valley City, Utah's second-largest city and a diverse commercial hub just west of Salt Lake. The Valley Fair Mall area and the 3500 South corridor anchor restaurants, convenience stores, salons, and retail plazas, while the Maverik Center draws concert and event crowds to nearby hotels and dining. Redwood Road supports gas stations, taquerias, and neighborhood markets. Nearby Taylorsville and Kearns add commuter traffic and small businesses that count on cash.",
+      "areas": ["Valley Fair Mall", "3500 South", "Redwood Road", "Taylorsville", "Kearns"],
+      "nearby": ["salt-lake-city", "sandy", "ogden"]
+    },
+    {
+      "slug": "sandy",
+      "name": "Sandy",
+      "region": "the Wasatch Front",
+      "blurb": "We place and service ATMs in Sandy and the southern Salt Lake Valley, where the Cairns district and Shops at South Town support restaurants, hotels, and retail near the major stadium. The mouth of Little Cottonwood Canyon makes Sandy a gateway for ski traffic, keeping gas stations, convenience stores, and casual dining busy through winter. Draper and the Point of the Mountain add growing office parks, salons, and neighborhood retail, while historic Sandy near Main Street supports local shops and cafes.",
+      "areas": ["The Cairns", "Shops at South Town", "Historic Sandy", "Draper", "Little Cottonwood Canyon"],
+      "nearby": ["salt-lake-city", "west-valley-city", "provo"]
+    },
+    {
+      "slug": "provo",
+      "name": "Provo",
+      "region": "Utah Valley",
+      "blurb": "We place and service ATMs across Provo and Orem, where Center Street downtown supports restaurants, cafes, and small shops that serve a large university population. University Avenue and the area near campus keep convenience stores, casual dining, and salons busy through the school year, while University Parkway in Orem anchors retail centers and hotels. The Riverwoods shopping district adds boutiques and restaurants. Fast growth in Lehi and the Silicon Slopes corridor brings steady commuter traffic to Utah County merchants.",
+      "areas": ["Center Street", "University Avenue", "Orem", "The Riverwoods", "Lehi"],
+      "nearby": ["sandy", "salt-lake-city", "st-george"]
+    },
+    {
+      "slug": "ogden",
+      "name": "Ogden",
+      "region": "Northern Utah",
+      "blurb": "We place and service ATMs throughout Ogden, where Historic 25th Street draws visitors to its bars, restaurants, and boutiques in restored railroad-era buildings. The Junction entertainment district supports hotels, dining, and event venues, while the area near Weber State University keeps convenience stores and casual eateries busy. Ogden serves as a base for nearby ski resorts, bringing winter crowds to gas stations and hospitality businesses. Riverdale Road anchors retail centers and salons for the surrounding Weber County communities.",
+      "areas": ["Historic 25th Street", "The Junction", "Weber State area", "Riverdale Road", "South Ogden"],
+      "nearby": ["salt-lake-city", "layton", "logan"]
+    },
+    {
+      "slug": "layton",
+      "name": "Layton",
+      "region": "Northern Utah",
+      "blurb": "We place and service ATMs in Layton and Davis County, a growing corridor between Salt Lake City and Ogden near Hill Air Force Base. The Layton Hills Mall area and Main Street support restaurants, hotels, and retail plazas, while Antelope Drive anchors convenience stores, gas stations, and salons serving commuters and military families. Nearby Kaysville, Farmington, and the Station Park shopping district add dining and entertainment venues. Steady residential growth keeps small businesses here counting on reliable cash access.",
+      "areas": ["Layton Hills", "Antelope Drive", "Kaysville", "Farmington", "Station Park"],
+      "nearby": ["ogden", "salt-lake-city", "logan"]
+    },
+    {
+      "slug": "st-george",
+      "name": "St. George",
+      "region": "Southern Utah",
+      "blurb": "We place and service ATMs in St. George and Washington County, one of the fastest-growing areas in the country and the gateway to Zion National Park. Historic Downtown along Main Street and St. George Boulevard supports restaurants, cafes, and shops, while Red Cliffs Drive anchors hotels, retail centers, and convenience stores. Springdale near the park entrance sees heavy tourist traffic, and Hurricane and Washington City add gas stations and neighborhood businesses. Golf, hiking, and winter visitors keep cash demand high year round.",
+      "areas": ["Downtown St. George", "Red Cliffs Drive", "Springdale", "Hurricane", "Washington City"],
+      "nearby": ["cedar-city", "provo", "sandy"]
+    },
+    {
+      "slug": "cedar-city",
+      "name": "Cedar City",
+      "region": "Southern Utah",
+      "blurb": "We place and service ATMs in Cedar City, a college town and tourism stop on Interstate 15 in Iron County. Historic Downtown along Main Street supports restaurants, cafes, and shops that fill up during the summer theater festival, while the area around Southern Utah University keeps convenience stores and casual dining busy. Hotels and gas stations near the interstate serve travelers heading to Bryce Canyon and Brian Head ski resort. Parowan and Brian Head nearby add seasonal recreation traffic.",
+      "areas": ["Downtown Cedar City", "SUU area", "Interstate 15 corridor", "Brian Head", "Parowan"],
+      "nearby": ["st-george", "provo", "sandy"]
+    },
+    {
+      "slug": "logan",
+      "name": "Logan",
+      "region": "Cache Valley",
+      "blurb": "We place and service ATMs across Logan and Cache Valley in northern Utah, where Historic Downtown along Main Street supports restaurants, coffee shops, and locally owned retail. The area around Utah State University keeps convenience stores, casual dining, and salons busy through the academic year, while the north Main Street corridor anchors hotels and shopping centers. Nearby Smithfield and Providence add neighborhood businesses. Summer festivals, agricultural trade, and canyon recreation bring seasonal cash demand to Cache County merchants.",
+      "areas": ["Downtown Logan", "USU area", "North Main Street", "Providence", "Smithfield"],
+      "nearby": ["ogden", "layton", "salt-lake-city"]
+    }
+  ]
+}

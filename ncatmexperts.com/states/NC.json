@@ -1,0 +1,82 @@
+{
+  "abbr": "NC",
+  "name": "North Carolina",
+  "metro_city": "Charlotte",
+  "metro_phrase": "the Charlotte metro",
+  "span_phrase": "from Wilmington to Asheville",
+  "seasonal_phrase": "college basketball season, summer beach traffic on the Outer Banks and Crystal Coast, and fall leaf-peeping in the Blue Ridge Mountains",
+  "cities": [
+    {
+      "slug": "charlotte",
+      "name": "Charlotte",
+      "region": "the Charlotte metro",
+      "blurb": "We place and service ATMs across Charlotte, from the bars and hotels of Uptown to the breweries and restaurants of South End and NoDa. Plaza Midwood's eclectic strip of dive bars, salons, and late-night eateries keeps cash moving on weekends, while the convenience stores and quick-service restaurants along South Boulevard and Independence Boulevard see steady daily traffic. Race weekends in nearby Concord and arena events Uptown bring surges of visitors to hotels and entertainment venues, and our machines keep up with the demand.",
+      "areas": ["Uptown", "South End", "NoDa", "Plaza Midwood", "Ballantyne", "University City"],
+      "nearby": ["greensboro", "winston-salem", "raleigh"]
+    },
+    {
+      "slug": "raleigh",
+      "name": "Raleigh",
+      "region": "the Triangle",
+      "blurb": "We place and service ATMs in Raleigh and across the Triangle. Glenwood South and Fayetteville Street host the bars, restaurants, and hotels that fill during legislative sessions, conventions, and downtown festivals, while Hillsborough Street's convenience stores and late-night eateries serve the university crowd through the school year. The Warehouse District's breweries and music venues draw weekend traffic, and North Hills and Cary's shopping corridors line up salons and quick-service restaurants. Our ATMs fit businesses of every size in Wake County.",
+      "areas": ["Glenwood South", "Fayetteville Street", "Hillsborough Street", "Warehouse District", "North Hills", "Cary"],
+      "nearby": ["durham", "greensboro", "fayetteville"]
+    },
+    {
+      "slug": "durham",
+      "name": "Durham",
+      "region": "the Triangle",
+      "blurb": "We place and service ATMs in Durham and Chapel Hill. The American Tobacco Campus and downtown's Five Points area host restaurants, bars, and performance venues that fill for concerts and ballpark games, while Ninth Street's cafes and shops serve the campus community year-round. In Chapel Hill, Franklin Street's bars, convenience stores, and late-night restaurants surge during basketball season and graduation weekends. Hotels around Research Triangle Park serve business travelers through the week, and our machines keep cash accessible across the region.",
+      "areas": ["American Tobacco Campus", "Five Points", "Ninth Street", "Franklin Street", "Brightleaf"],
+      "nearby": ["raleigh", "greensboro", "fayetteville"]
+    },
+    {
+      "slug": "greensboro",
+      "name": "Greensboro",
+      "region": "the Piedmont Triad",
+      "blurb": "We place and service ATMs in Greensboro and the Piedmont Triad. South Elm Street's downtown bars, restaurants, and music venues draw crowds from across Guilford County, and the hotels along Interstate 40 fill during the spring furniture market in nearby High Point and coliseum events. Tate Street's convenience stores and cafes serve the university district, while the Friendly Center and Wendover Avenue corridors line up salons and quick-service restaurants. Our ATMs support small businesses throughout the Triad with regular cash loading.",
+      "areas": ["South Elm Street", "Downtown Greensboro", "Tate Street", "Friendly Center", "High Point"],
+      "nearby": ["winston-salem", "charlotte", "raleigh"]
+    },
+    {
+      "slug": "winston-salem",
+      "name": "Winston-Salem",
+      "region": "the Piedmont Triad",
+      "blurb": "We place and service ATMs in Winston-Salem, where the Downtown Arts District along Trade Street hosts galleries, bars, and restaurants that stay busy on gallery-hop nights and weekends. The Innovation Quarter's converted tobacco warehouses house cafes and breweries, while the West End's hotels and convenience stores serve visitors to the medical center and university. Stratford Road and Hanes Mall Boulevard line up salons and quick-service restaurants serving Forsyth County shoppers. Our machines keep cash flowing for businesses citywide.",
+      "areas": ["Downtown Arts District", "Trade Street", "Innovation Quarter", "West End", "Hanes Mall Boulevard"],
+      "nearby": ["greensboro", "charlotte", "asheville"]
+    },
+    {
+      "slug": "wilmington",
+      "name": "Wilmington",
+      "region": "the Cape Fear coast",
+      "blurb": "We place and service ATMs in Wilmington and the surrounding beach towns. The historic downtown Riverwalk and Front Street host bars, restaurants, and hotels that fill from spring through the fall film and festival season, while Wrightsville Beach and Carolina Beach see heavy summer traffic at boardwalk shops, surf stores, and seafood restaurants. Market Street and College Road line up convenience stores and salons serving the university community and year-round residents. Our ATMs handle the seasonal surge with reliable cash service.",
+      "areas": ["Downtown Riverwalk", "Front Street", "Wrightsville Beach", "Carolina Beach", "Market Street"],
+      "nearby": ["fayetteville", "greenville", "raleigh"]
+    },
+    {
+      "slug": "asheville",
+      "name": "Asheville",
+      "region": "the Blue Ridge Mountains",
+      "blurb": "We place and service ATMs in Asheville and Western North Carolina. Downtown's Pack Square and Wall Street host the restaurants, bars, and shops that draw visitors year-round, while the South Slope brewery district and the River Arts District fill on weekends with tourists and locals alike. Fall leaf season and summer festivals push hotels, convenience stores, and salons to peak demand, and the Biltmore Village shops serve estate visitors daily. Our machines keep cash available where card readers and cell service fall short in the mountains.",
+      "areas": ["Downtown Asheville", "South Slope", "River Arts District", "Biltmore Village", "West Asheville"],
+      "nearby": ["winston-salem", "charlotte", "greensboro"]
+    },
+    {
+      "slug": "fayetteville",
+      "name": "Fayetteville",
+      "region": "the Sandhills",
+      "blurb": "We place and service ATMs in Fayetteville and the Sandhills region. Downtown's Hay Street hosts restaurants, bars, and event venues, while the convenience stores, salons, and quick-service restaurants along Bragg Boulevard, Skibo Road, and Raeford Road serve the large military community around Fort Liberty. Payday cycles and deployment schedules create predictable swings in cash demand, and hotels near Cross Creek Mall fill during graduations and training rotations. Our ATMs help local businesses keep up with the steady traffic in Cumberland County.",
+      "areas": ["Hay Street", "Downtown Fayetteville", "Bragg Boulevard", "Skibo Road", "Cross Creek"],
+      "nearby": ["raleigh", "wilmington", "durham"]
+    },
+    {
+      "slug": "greenville",
+      "name": "Greenville",
+      "region": "Eastern North Carolina",
+      "blurb": "We place and service ATMs in Greenville and Eastern North Carolina. Uptown Greenville's Dickinson Avenue and Evans Street host bars, restaurants, and music venues that fill on university weekends, while Fifth Street and Greenville Boulevard line up convenience stores, salons, and quick-service restaurants serving students and hospital staff. Football weekends and the fall semester bring predictable surges in cash demand, and nearby communities like Kinston and Rocky Mount rely on us for reliable ATM service at their local shops and restaurants.",
+      "areas": ["Uptown Greenville", "Dickinson Avenue", "Evans Street", "Greenville Boulevard", "Rocky Mount"],
+      "nearby": ["raleigh", "wilmington", "durham"]
+    }
+  ]
+}

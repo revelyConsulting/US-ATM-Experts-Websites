@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Lineup of ATM machines in a showroom">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f5a9e"/><stop offset="1" stop-color="#486eaa"/></linearGradient><linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d7eb3"/><stop offset="1" stop-color="#3b64a4"/></linearGradient>
+<g id="atm"><rect x="0" y="0" width="200" height="420" rx="16" fill="#213f6f"/><rect x="16" y="16" width="168" height="42" rx="7" fill="#a97b35"/><text x="100" y="45" text-anchor="middle" fill="#fff" font-family="Inter,Arial" font-size="20" font-weight="800" letter-spacing="3">ATM</text><rect x="22" y="76" width="156" height="110" rx="7" fill="#dfe9f7"/><rect x="34" y="92" width="130" height="10" rx="3" fill="#2f5a9e" opacity=".6"/><rect x="34" y="112" width="90" height="8" rx="3" fill="#2f5a9e" opacity=".3"/><rect x="34" y="130" width="110" height="8" rx="3" fill="#2f5a9e" opacity=".3"/><g fill="#5d7eb3"><rect x="26" y="208" width="36" height="22" rx="4"/><rect x="68" y="208" width="36" height="22" rx="4"/><rect x="110" y="208" width="36" height="22" rx="4"/><rect x="26" y="236" width="36" height="22" rx="4"/><rect x="68" y="236" width="36" height="22" rx="4"/><rect x="110" y="236" width="36" height="22" rx="4"/></g><rect x="152" y="208" width="24" height="22" rx="4" fill="#a97b35"/><rect x="152" y="236" width="24" height="22" rx="4" fill="#f4d6a8"/><rect x="22" y="290" width="156" height="20" rx="5" fill="#000" opacity=".5"/><rect x="22" y="340" width="156" height="40" rx="6" fill="#446aa8"/></g></defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect x="0" y="720" width="1600" height="180" fill="url(#floor)"/>
+<ellipse cx="1150" cy="130" rx="260" ry="60" fill="#f4d6a8" opacity=".18"/>
+<use href="#atm" transform="translate(900,320) scale(.95)"/>
+<use href="#atm" transform="translate(1150,300)"/>
+<use href="#atm" transform="translate(1400,320) scale(.95)"/>
+<g fill="#fff" opacity=".05"><rect x="860" y="722" width="740" height="120" rx="10"/></g>
+</svg>

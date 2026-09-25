@@ -1,0 +1,90 @@
+{
+  "abbr": "KS",
+  "name": "Kansas",
+  "metro_city": "Wichita",
+  "metro_phrase": "the Wichita metro",
+  "span_phrase": "from Kansas City to Garden City",
+  "seasonal_phrase": "wheat harvest, college basketball season, and the State Fair in Hutchinson",
+  "cities": [
+    {
+      "slug": "wichita",
+      "name": "Wichita",
+      "region": "South Central Kansas",
+      "blurb": "We place and service ATMs across Wichita, the largest city in Kansas. Old Town is the city's nightlife district, packed with bars, restaurants, music venues, and hotels in converted brick warehouses, while Delano and the Douglas Design District host breweries, boutiques, and salons. Downtown Wichita is home to Intrust Bank Arena and a growing cluster of restaurants and cafes. Rock Road, Kellogg Avenue, and West Street are lined with convenience stores, gas stations, and shopping plazas, and Wichita State University adds student traffic.",
+      "areas": ["Old Town", "Delano", "Downtown Wichita", "Douglas Design District", "East Wichita", "Rock Road"],
+      "nearby": ["hutchinson", "salina", "topeka"]
+    },
+    {
+      "slug": "overland-park",
+      "name": "Overland Park",
+      "region": "Johnson County",
+      "blurb": "Overland Park is the largest city in Johnson County and the commercial heart of the Kansas side of the Kansas City metro, and we place and service ATMs at businesses throughout it. Downtown Overland Park along Santa Fe Drive hosts restaurants, bars, cafes, and a busy farmers market, while Prairiefire and Corbin Park bring hotels, entertainment venues, and shopping to the south. Metcalf Avenue, 95th Street, and 135th Street are lined with convenience stores, gas stations, and strip-mall retail from Oak Park Mall to the College Boulevard office corridor.",
+      "areas": ["Downtown Overland Park", "Prairiefire", "Metcalf Avenue", "Oak Park", "College Boulevard", "Corbin Park"],
+      "nearby": ["kansas-city", "olathe", "lawrence"]
+    },
+    {
+      "slug": "kansas-city",
+      "name": "Kansas City",
+      "region": "Wyandotte County",
+      "blurb": "We place and service ATMs in Kansas City, Kansas, and across Wyandotte County. The Village West district near the Kansas Speedway is home to Legends Outlets, the Hollywood Casino, hotels, and a cluster of restaurants and entertainment venues that draw visitors from across the metro. Strawberry Hill and the Argentine and Armourdale neighborhoods host family-run restaurants, taverns, corner stores, and salons, while State Avenue and Interstate 70 exits are lined with convenience stores, gas stations, and truck stops.",
+      "areas": ["Village West", "Legends", "Strawberry Hill", "Argentine", "State Avenue", "Downtown KCK"],
+      "nearby": ["overland-park", "olathe", "lawrence"]
+    },
+    {
+      "slug": "olathe",
+      "name": "Olathe",
+      "region": "Johnson County",
+      "blurb": "Olathe is the Johnson County seat and one of the fastest-growing cities in the Kansas City metro, and we place and service ATMs at businesses across it. Downtown Olathe around the county courthouse hosts restaurants, bars, cafes, and salons, while Interstate 35 and K-7 corridors are lined with hotels, convenience stores, gas stations, and shopping plazas. The Mahaffie Stagecoach Stop draws heritage tourists, and Santa Fe Street, 119th Street, and 151st Street host neighborhood retail and quick-service restaurants.",
+      "areas": ["Downtown Olathe", "Santa Fe Street", "119th Street", "Interstate 35 corridor", "K-7 corridor", "151st Street"],
+      "nearby": ["overland-park", "kansas-city", "lawrence"]
+    },
+    {
+      "slug": "topeka",
+      "name": "Topeka",
+      "region": "Northeast Kansas",
+      "blurb": "We place and service ATMs in Topeka, the state capital. Downtown Topeka near the Kansas State Capitol hosts hotels, restaurants, bars, and cafes along Kansas Avenue that serve state employees, visitors, and the growing residential population, while the NOTO Arts District north of the river is lined with galleries, pubs, and salons. Wanamaker Road on the west side is the city's main retail corridor with convenience stores, gas stations, and shopping plazas, and Washburn University adds steady student traffic to nearby businesses.",
+      "areas": ["Downtown Topeka", "NOTO Arts District", "Wanamaker Road", "Kansas Avenue", "Washburn University area", "West Topeka"],
+      "nearby": ["lawrence", "manhattan", "kansas-city"]
+    },
+    {
+      "slug": "lawrence",
+      "name": "Lawrence",
+      "region": "Northeast Kansas",
+      "blurb": "Lawrence is home to the University of Kansas, and we place and service ATMs at businesses throughout the city. Massachusetts Street in Downtown Lawrence is one of the best-known main streets in the Midwest, packed with bars, restaurants, cafes, music venues, boutiques, and salons that stay busy through the school year. 23rd Street and Iowa Street host convenience stores, gas stations, and shopping plazas, while hotels along Interstate 70 and near the campus fill up on basketball game days and for graduation.",
+      "areas": ["Massachusetts Street", "Downtown Lawrence", "University of Kansas campus", "23rd Street", "Iowa Street", "North Lawrence"],
+      "nearby": ["topeka", "overland-park", "kansas-city"]
+    },
+    {
+      "slug": "manhattan",
+      "name": "Manhattan",
+      "region": "the Flint Hills",
+      "blurb": "We place and service ATMs in Manhattan, the college town at the heart of the Flint Hills. Aggieville next to the Kansas State University campus is one of the oldest shopping and nightlife districts in the state, lined with bars, restaurants, cafes, and salons that fill up on football weekends and through the school year. Downtown Manhattan along Poyntz Avenue hosts breweries, boutiques, and hotels, while Tuttle Creek Boulevard and the Fort Riley corridor host convenience stores, gas stations, and shopping plazas serving soldiers and families.",
+      "areas": ["Aggieville", "Downtown Manhattan", "Poyntz Avenue", "Kansas State University campus", "Tuttle Creek Boulevard", "Fort Riley corridor"],
+      "nearby": ["topeka", "salina", "lawrence"]
+    },
+    {
+      "slug": "salina",
+      "name": "Salina",
+      "region": "North Central Kansas",
+      "blurb": "Salina sits at the junction of Interstates 70 and 135 and serves as the commercial hub of north central Kansas, and we place and service ATMs at businesses across the city. Downtown Salina along Santa Fe Avenue hosts bars, restaurants, cafes, and the Stiefel Theatre, while South 9th Street and the Interstate 70 interchange are lined with convenience stores, gas stations, truck stops, and hotels serving cross-country travelers. Neighborhood taverns, salons, and grocery-anchored plazas throughout the city rely on on-site cash access.",
+      "areas": ["Downtown Salina", "Santa Fe Avenue", "South 9th Street", "Interstate 70 interchange", "Central Mall area"],
+      "nearby": ["manhattan", "wichita", "hutchinson"]
+    },
+    {
+      "slug": "hutchinson",
+      "name": "Hutchinson",
+      "region": "South Central Kansas",
+      "blurb": "We place and service ATMs in Hutchinson, home of the Kansas State Fair and the Cosmosphere space museum. Downtown Hutchinson along Main Street hosts bars, restaurants, cafes, and salons in historic storefronts, and the fairgrounds bring hundreds of thousands of visitors each September to nearby hotels, convenience stores, and gas stations. 17th Avenue and the K-61 corridor are lined with shopping plazas and quick-service restaurants, while Strataca, the underground salt mine museum, adds steady tourism traffic year-round.",
+      "areas": ["Downtown Hutchinson", "Main Street", "State Fairgrounds", "17th Avenue", "K-61 corridor", "South Hutchinson"],
+      "nearby": ["wichita", "salina", "manhattan"]
+    },
+    {
+      "slug": "garden-city",
+      "name": "Garden City",
+      "region": "Southwest Kansas",
+      "blurb": "Garden City is the largest city in southwest Kansas and a hub for the region's agriculture and meatpacking industries, and we place and service ATMs at businesses across it. Downtown Garden City along Main Street hosts restaurants, bars, cafes, and salons, while East Kansas Avenue and the US 50 and US 83 corridors are lined with convenience stores, gas stations, hotels, and shopping plazas. The Lee Richardson Zoo draws regional visitors, and nearby Dodge City adds Boot Hill tourism and casino traffic to the area.",
+      "areas": ["Downtown Garden City", "Main Street", "East Kansas Avenue", "US 50 corridor", "US 83 corridor", "Dodge City"],
+      "nearby": ["wichita", "hutchinson", "salina"]
+    }
+  ]
+}

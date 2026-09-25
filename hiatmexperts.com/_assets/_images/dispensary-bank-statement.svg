@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-labelledby="t d">
+<title id="t">Compliant dispensary ATM bank statement</title>
+<desc id="d">A customer's mobile banking statement showing an ATM withdrawal listed under the dispensary's real name and street address.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f4ee"/><stop offset="1" stop-color="#ece6da"/></linearGradient>
+ <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#002868" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<circle cx="1030" cy="150" r="130" fill="#f4f4f4" opacity=".18"/>
+<circle cx="160" cy="780" r="120" fill="#002868" opacity=".08"/>
+
+<!-- phone with mobile banking app -->
+<g filter="url(#sh)" font-family="Inter, Arial, sans-serif">
+ <rect x="130" y="90" width="330" height="700" rx="40" fill="#002868"/>
+ <rect x="146" y="106" width="298" height="668" rx="28" fill="#fff"/>
+ <rect x="250" y="118" width="90" height="10" rx="5" fill="#002868"/>
+ <rect x="146" y="140" width="298" height="70" fill="#002868"/>
+ <text x="170" y="170" fill="#cfd6ea" font-size="11" font-weight="700" letter-spacing="1.5">CHECKING ····4417</text>
+ <text x="170" y="196" fill="#fff" font-size="22" font-weight="800">Recent activity</text>
+ <g font-size="13" fill="#002868">
+  <text x="170" y="246">Coffee Shop</text><text x="170" y="263" fill="#8a90a0" font-size="11">Kapolei HI · 09/08</text><text x="420" y="246" text-anchor="end" font-weight="700">-6.75</text>
+  <line x1="166" y1="280" x2="424" y2="280" stroke="#eee9df"/>
+  <text x="170" y="306">Grocery Store</text><text x="170" y="323" fill="#8a90a0" font-size="11">Honolulu HI · 09/09</text><text x="420" y="306" text-anchor="end" font-weight="700">-84.12</text>
+  <line x1="166" y1="340" x2="424" y2="340" stroke="#eee9df"/>
+ </g>
+ <rect x="158" y="350" width="274" height="96" rx="12" fill="#fdf1ec" stroke="#b22234" stroke-width="3"/>
+ <text x="170" y="376" fill="#002868" font-size="13" font-weight="800">ATM Withdrawal</text><text x="420" y="376" text-anchor="end" fill="#002868" font-size="13" font-weight="800">-103.50</text>
+ <text x="170" y="398" fill="#002868" font-size="13" font-weight="700">GREEN LEAF DISPENSARY</text>
+ <text x="170" y="416" fill="#5b6172" font-size="12">1234 Main St</text>
+ <text x="170" y="433" fill="#5b6172" font-size="12">Honolulu, HI · 09/11</text>
+ <g font-size="13" fill="#002868">
+  <text x="170" y="480">Gas Station</text><text x="170" y="497" fill="#8a90a0" font-size="11">Kaneohe HI · 09/11</text><text x="420" y="480" text-anchor="end" font-weight="700">-52.30</text>
+  <line x1="166" y1="514" x2="424" y2="514" stroke="#eee9df"/>
+  <text x="170" y="540">Pharmacy</text><text x="170" y="557" fill="#8a90a0" font-size="11">Haleiwa HI · 09/12</text><text x="420" y="540" text-anchor="end" font-weight="700">-18.40</text>
+  <line x1="166" y1="574" x2="424" y2="574" stroke="#eee9df"/>
+  <text x="170" y="600">Restaurant</text><text x="170" y="617" fill="#8a90a0" font-size="11">Honolulu HI · 09/12</text><text x="420" y="600" text-anchor="end" font-weight="700">-46.90</text>
+ </g>
+ <rect x="146" y="704" width="298" height="70" rx="0" fill="#f7f4ee"/>
+ <rect x="146" y="746" width="298" height="28" rx="28" fill="#f7f4ee"/>
+ <rect x="255" y="756" width="80" height="6" rx="3" fill="#cfc9be"/>
+</g>
+
+<!-- connector -->
+<path d="M440 398 C 480 398, 490 372, 530 360" stroke="#b22234" stroke-width="3" fill="none" stroke-dasharray="6 5"/>
+
+<!-- callout card -->
+<g filter="url(#sh)" font-family="Inter, Arial, sans-serif">
+ <rect x="530" y="290" width="560" height="170" rx="18" fill="#fff"/>
+ <circle cx="572" cy="335" r="20" fill="#1f9d55"/>
+ <path d="M562 335l7 7 13-14" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="606" y="330" fill="#5b6172" font-size="12" font-weight="700" letter-spacing="1.5">ON THE CUSTOMER'S BANK STATEMENT</text>
+ <text x="606" y="357" fill="#002868" font-size="20" font-weight="800">Your real business name and address</text>
+ <text x="606" y="388" fill="#5b6172" font-size="14">No disguised merchant descriptors. No shell names.</text>
+ <text x="606" y="410" fill="#5b6172" font-size="14">No fake locations. The withdrawal is recorded exactly</text>
+ <text x="606" y="432" fill="#5b6172" font-size="14">where it happened, like any other retail purchase.</text>
+</g>
+
+<!-- comparison card -->
+<g filter="url(#sh)" font-family="Inter, Arial, sans-serif">
+ <rect x="530" y="500" width="560" height="260" rx="18" fill="#fff"/>
+ <text x="556" y="536" fill="#5b6172" font-size="12" font-weight="700" letter-spacing="1.5">THE DIFFERENCE</text>
+ <rect x="556" y="554" width="508" height="76" rx="12" fill="#fbecec"/>
+ <circle cx="584" cy="592" r="14" fill="#c0392b"/>
+ <path d="M578 586l12 12M590 586l-12 12" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+ <text x="610" y="586" fill="#002868" font-size="14" font-weight="700">Non-compliant operator</text>
+ <text x="610" y="608" fill="#5b6172" font-size="13">"ATM W/D — XYZ SERVICES LLC" · address of a different business</text>
+ <rect x="556" y="644" width="508" height="76" rx="12" fill="#e9f7ee"/>
+ <circle cx="584" cy="682" r="14" fill="#1f9d55"/>
+ <path d="M576 682l6 6 11-12" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="610" y="676" fill="#002868" font-size="14" font-weight="700">Hawaii ATM Experts</text>
+ <text x="610" y="698" fill="#5b6172" font-size="13">"ATM W/D — GREEN LEAF DISPENSARY" · 1234 Main St, Honolulu</text>
+ <text x="556" y="746" fill="#1f9d55" font-size="13" font-weight="700">✓ Fully transparent, fully compliant.</text>
+</g>
+</svg>

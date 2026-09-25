@@ -1,0 +1,82 @@
+{
+  "abbr": "IN",
+  "name": "Indiana",
+  "metro_city": "Indianapolis",
+  "metro_phrase": "the Indianapolis metro",
+  "span_phrase": "from Gary to Evansville",
+  "seasonal_phrase": "race week in May, college basketball season, and county fair summers",
+  "cities": [
+    {
+      "slug": "indianapolis",
+      "name": "Indianapolis",
+      "region": "Central Indiana",
+      "blurb": "We place and service ATMs across Indianapolis, from the bars and restaurants of Mass Ave and Fountain Square to the hotels and convention venues of Downtown Indianapolis. Broad Ripple is a long-standing nightlife district lined with pubs, music venues, and salons, while the Meridian-Kessler and Irvington neighborhoods host cafes and boutiques. Convenience stores and gas stations along Keystone Avenue, Washington Street, and the Interstate 465 loop see steady traffic, and race week each May brings enormous crowds to the west side.",
+      "areas": ["Downtown Indianapolis", "Mass Ave", "Broad Ripple", "Fountain Square", "Speedway", "Castleton"],
+      "nearby": ["carmel", "bloomington", "lafayette"]
+    },
+    {
+      "slug": "carmel",
+      "name": "Carmel",
+      "region": "Hamilton County",
+      "blurb": "Carmel is an affluent suburb north of Indianapolis, and we place and service ATMs at businesses throughout it. The Carmel Arts and Design District along Main Street and the Palladium at the Center for the Performing Arts anchor a walkable core of restaurants, bars, boutiques, and salons. Clay Terrace and the Merchants' Square area host shopping plazas, convenience stores, and cafes, and nearby Fishers and Westfield add sports complexes, hotels, and busy commercial corridors along State Road 37 and US 31.",
+      "areas": ["Arts and Design District", "Midtown Carmel", "Clay Terrace", "Fishers", "Westfield", "US 31 corridor"],
+      "nearby": ["indianapolis", "lafayette", "bloomington"]
+    },
+    {
+      "slug": "fort-wayne",
+      "name": "Fort Wayne",
+      "region": "Northeast Indiana",
+      "blurb": "We place and service ATMs in Fort Wayne, the second-largest city in Indiana. Downtown Fort Wayne has grown around Parkview Field, the Embassy Theatre, and The Landing, with bars, restaurants, breweries, and hotels along Calhoun Street and Columbia Street. Coldwater Road and Lima Road on the north side host convenience stores, gas stations, and shopping plazas near Glenbrook Square, while the Electric Works campus adds cafes and event space. Neighborhood taverns and salons throughout the city rely on on-site cash access.",
+      "areas": ["Downtown Fort Wayne", "The Landing", "Glenbrook", "Coldwater Road", "Electric Works", "Southwest Fort Wayne"],
+      "nearby": ["south-bend", "indianapolis", "carmel"]
+    },
+    {
+      "slug": "evansville",
+      "name": "Evansville",
+      "region": "Southwest Indiana",
+      "blurb": "Evansville is the commercial hub of the Tri-State region along the Ohio River, and we place and service ATMs at businesses across the city. Downtown Evansville is home to the Ford Center, the Bally's riverfront casino, and a cluster of bars, restaurants, and hotels along Main Street. Haynie's Corner is an arts district with cafes, pubs, and salons, while Green River Road and the Lloyd Expressway are lined with convenience stores, gas stations, and shopping centers around Eastland Mall.",
+      "areas": ["Downtown Evansville", "Haynie's Corner", "Green River Road", "Eastland", "North Side", "West Side"],
+      "nearby": ["bloomington", "indianapolis", "lafayette"]
+    },
+    {
+      "slug": "south-bend",
+      "name": "South Bend",
+      "region": "Michiana",
+      "blurb": "We place and service ATMs in South Bend and neighboring Mishawaka, the heart of the Michiana region. Downtown South Bend hosts the Morris Performing Arts Center, Four Winds Field, and a growing mix of bars, restaurants, and breweries along Michigan Street, while the Eddy Street Commons near the University of Notre Dame is busy with cafes, pubs, and hotels on football weekends. Grape Road in Mishawaka is the region's main retail corridor, lined with convenience stores, gas stations, and shopping plazas.",
+      "areas": ["Downtown South Bend", "Eddy Street Commons", "Grape Road", "Mishawaka", "Portage Avenue", "Ireland Road"],
+      "nearby": ["fort-wayne", "gary", "lafayette"]
+    },
+    {
+      "slug": "gary",
+      "name": "Gary",
+      "region": "Northwest Indiana",
+      "blurb": "Gary and the surrounding Region cities of Hammond, Merrillville, and Hobart sit at the southern tip of Lake Michigan, and we place and service ATMs at businesses throughout the area. Hard Rock Casino Northern Indiana and the Horseshoe casino in Hammond draw heavy traffic, and US 30 in Merrillville is one of the busiest retail corridors in the state, lined with convenience stores, gas stations, restaurants, and hotels. Miller Beach hosts summer bars and cafes, while Broadway and Ridge Road serve neighborhood taverns, salons, and corner stores.",
+      "areas": ["Miller Beach", "Merrillville", "Hammond", "Hobart", "US 30 corridor", "Broadway"],
+      "nearby": ["south-bend", "lafayette", "fort-wayne"]
+    },
+    {
+      "slug": "lafayette",
+      "name": "Lafayette",
+      "region": "North Central Indiana",
+      "blurb": "We place and service ATMs in Lafayette and West Lafayette, home to Purdue University. Downtown Lafayette along Main Street hosts bars, restaurants, breweries, and salons in historic storefronts, while Chauncey Hill and State Street in West Lafayette are packed with cafes, pubs, and late-night food spots that stay busy through the school year. Creasy Lane and Sagamore Parkway are lined with convenience stores, gas stations, and shopping plazas, and hotels near Interstate 65 fill up on football weekends and for graduation.",
+      "areas": ["Downtown Lafayette", "Chauncey Hill", "West Lafayette", "State Street", "Creasy Lane", "Sagamore Parkway"],
+      "nearby": ["indianapolis", "carmel", "south-bend"]
+    },
+    {
+      "slug": "bloomington",
+      "name": "Bloomington",
+      "region": "South Central Indiana",
+      "blurb": "Bloomington is a college town in the wooded hills of southern Indiana, and we place and service ATMs at businesses across the city. Kirkwood Avenue between the Indiana University campus and the Courthouse Square is lined with bars, restaurants, cafes, and salons that stay busy during the school year, while the B-Line Trail connects breweries and music venues. College Mall Road and West 3rd Street host convenience stores, gas stations, and shopping plazas, and hotels fill up for basketball season, graduation, and the Little 500 weekend.",
+      "areas": ["Kirkwood Avenue", "Courthouse Square", "Indiana University campus", "College Mall", "West Side", "B-Line Trail"],
+      "nearby": ["indianapolis", "evansville", "carmel"]
+    },
+    {
+      "slug": "terre-haute",
+      "name": "Terre Haute",
+      "region": "the Wabash Valley",
+      "blurb": "We place and service ATMs in Terre Haute, the commercial center of the Wabash Valley on the Illinois border. Downtown Terre Haute along Wabash Avenue hosts bars, restaurants, cafes, and salons near the Indiana State University campus, and the Terre Haute Casino Resort draws regional visitors. US 41 and State Road 46 are lined with convenience stores, gas stations, hotels, and shopping plazas around Honey Creek Mall, while the Interstate 70 interchange serves truck stops and travelers heading between Indianapolis and St. Louis.",
+      "areas": ["Downtown Terre Haute", "Wabash Avenue", "US 41 corridor", "Honey Creek", "Indiana State University area", "Interstate 70 interchange"],
+      "nearby": ["indianapolis", "bloomington", "lafayette"]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "abbr": "NH",
+  "name": "New Hampshire",
+  "metro_city": "Manchester",
+  "metro_phrase": "the Manchester area",
+  "span_phrase": "from Nashua to the North Country",
+  "seasonal_phrase": "Motorcycle Week, fall foliage season, and White Mountains ski season",
+  "cities": [
+    {
+      "slug": "manchester",
+      "name": "Manchester",
+      "region": "Southern New Hampshire",
+      "blurb": "We place and service ATMs across Manchester, the state's largest city, from the bars, restaurants, and hotels of Elm Street downtown to the breweries and offices of the converted Millyard along the Merrimack River. The arena district draws concert and hockey crowds, and the Hanover Street and Second Street corridors carry taverns, pizza shops, salons, and convenience stores. South Willow Street holds the region's big-box retail and gas stations, and dispensaries, bowling alleys, and neighborhood bars in Bedford, Goffstown, and Hooksett depend on our locally serviced machines.",
+      "areas": [
+        "Downtown Manchester",
+        "Elm Street",
+        "The Millyard",
+        "South Willow Street",
+        "West Side",
+        "Bedford"
+      ],
+      "nearby": [
+        "nashua",
+        "concord",
+        "salem"
+      ]
+    },
+    {
+      "slug": "nashua",
+      "name": "Nashua",
+      "region": "Southern New Hampshire",
+      "blurb": "We place and service ATMs in Nashua, a border city where tax-free shopping draws steady traffic from Massachusetts. Main Street downtown holds restaurants, bars, coffee shops, and boutiques, and the Daniel Webster Highway corridor carries the Pheasant Lane Mall, hotels, gas stations, big-box retail, and salons. The Amherst Street and Route 101A corridors on the north and west sides add taverns, convenience stores, and tech-park lunch spots, and dispensaries and neighborhood bars in Hudson, Merrimack, and Milford rely on our reliable local service.",
+      "areas": [
+        "Downtown Nashua",
+        "Main Street",
+        "Daniel Webster Highway",
+        "Amherst Street",
+        "Hudson",
+        "Merrimack"
+      ],
+      "nearby": [
+        "manchester",
+        "salem",
+        "concord"
+      ]
+    },
+    {
+      "slug": "concord",
+      "name": "Concord",
+      "region": "Central New Hampshire",
+      "blurb": "We place and service ATMs in Concord, the state capital, where legislative sessions and state offices keep Main Street's restaurants, coffee shops, and taverns busy through the week. The downtown blocks near the State House hold bars, bookstores, and a performing arts theater, and the Loudon Road corridor on the Heights carries hotels, gas stations, retail, and salons. The speedway in nearby Loudon brings huge race-weekend crowds to local motels and convenience stores, and dispensaries and neighborhood bars in Bow, Pembroke, and Hopkinton depend on our locally stocked machines.",
+      "areas": [
+        "Downtown Concord",
+        "Main Street",
+        "Loudon Road",
+        "Concord Heights",
+        "Penacook",
+        "Loudon"
+      ],
+      "nearby": [
+        "manchester",
+        "laconia",
+        "nashua"
+      ]
+    },
+    {
+      "slug": "portsmouth",
+      "name": "Portsmouth",
+      "region": "the Seacoast",
+      "blurb": "We place and service ATMs in Portsmouth and the New Hampshire Seacoast, where summer tourism and a year-round restaurant scene keep cash moving. Market Square and the downtown waterfront hold bars, seafood restaurants, breweries, boutiques, and hotels that fill from late spring through fall, and the Lafayette Road corridor carries gas stations, retail, and salons. Hampton Beach's boardwalk arcades, taverns, and motels run a compressed summer season, and dispensaries, convenience stores, and neighborhood bars in Dover, Exeter, and Rye rely on our locally serviced machines.",
+      "areas": [
+        "Market Square",
+        "Downtown Portsmouth",
+        "Lafayette Road",
+        "Hampton Beach",
+        "Exeter",
+        "Rye"
+      ],
+      "nearby": [
+        "dover",
+        "salem",
+        "manchester"
+      ]
+    },
+    {
+      "slug": "dover",
+      "name": "Dover",
+      "region": "the Seacoast",
+      "blurb": "We place and service ATMs in Dover, Durham, and Rochester, the inland Seacoast cities along the Cocheco and Salmon Falls rivers. Central Avenue in downtown Dover holds bars, restaurants, breweries, and music venues in converted mill buildings, and the Weeks Crossing and Route 108 corridors carry gas stations, retail, and salons. Durham's Main Street fills with university students at pizza shops, taverns, and convenience stores through the school year, and dispensaries, diners, and neighborhood bars in Rochester and Somersworth depend on our reliable local service.",
+      "areas": [
+        "Downtown Dover",
+        "Central Avenue",
+        "Weeks Crossing",
+        "Durham",
+        "Rochester",
+        "Somersworth"
+      ],
+      "nearby": [
+        "portsmouth",
+        "manchester",
+        "concord"
+      ]
+    },
+    {
+      "slug": "salem",
+      "name": "Salem",
+      "region": "Southern New Hampshire",
+      "blurb": "We place and service ATMs in Salem, Derry, and Londonderry, the southern border towns that draw Massachusetts shoppers with tax-free retail along Route 28 and the Tuscan Village development. The Mall at Rockingham Park and the surrounding corridor hold restaurants, hotels, gas stations, and salons, and the Canobie Lake amusement park brings summer crowds to nearby convenience stores and pizza shops. Derry's Broadway downtown adds bars, cafes, and boutiques, and dispensaries, bowling alleys, and neighborhood taverns across Rockingham County rely on our locally stocked machines.",
+      "areas": [
+        "Route 28",
+        "Tuscan Village",
+        "Rockingham Park area",
+        "Canobie Lake",
+        "Derry",
+        "Londonderry"
+      ],
+      "nearby": [
+        "manchester",
+        "nashua",
+        "portsmouth"
+      ]
+    },
+    {
+      "slug": "laconia",
+      "name": "Laconia",
+      "region": "the Lakes Region",
+      "blurb": "We place and service ATMs in Laconia and the Lakes Region, where summer boating on Lake Winnipesaukee and the annual Motorcycle Week in June push cash demand to its peak. Weirs Beach's boardwalk arcades, taverns, and motels run a short intense season, and downtown Laconia's Main Street holds restaurants, bars, and shops. Meredith's lakefront inns and boutiques and the Route 3 corridor's gas stations, convenience stores, and salons serve visitors, and dispensaries and neighborhood bars in Gilford, Tilton, and Wolfeboro depend on our machines staying stocked through July and August.",
+      "areas": [
+        "Weirs Beach",
+        "Downtown Laconia",
+        "Meredith",
+        "Gilford",
+        "Tilton",
+        "Wolfeboro"
+      ],
+      "nearby": [
+        "concord",
+        "north-conway",
+        "manchester"
+      ]
+    },
+    {
+      "slug": "north-conway",
+      "name": "North Conway",
+      "region": "the White Mountains",
+      "blurb": "We place and service ATMs in North Conway and the White Mountains, where ski resorts, outlets, and fall foliage create three busy seasons. The North Conway village strip along Route 16 holds restaurants, taverns, outlet stores, hotels, and gear shops that fill on holiday weekends, and the Conway and Bartlett corridors add motels, gas stations, and convenience stores. Lincoln and Woodstock across the mountains serve skiers and hikers with bars and inns, and dispensaries and diners throughout the Mount Washington Valley rely on our locally serviced machines.",
+      "areas": [
+        "North Conway village",
+        "Route 16 corridor",
+        "Conway",
+        "Bartlett",
+        "Lincoln",
+        "Woodstock"
+      ],
+      "nearby": [
+        "laconia",
+        "littleton",
+        "concord"
+      ]
+    },
+    {
+      "slug": "littleton",
+      "name": "Littleton",
+      "region": "the North Country",
+      "blurb": "We place and service ATMs in Littleton and the North Country, where long distances make dependable service essential. Littleton's Main Street holds restaurants, a brewery, a general store, and boutiques that draw leaf-peepers and skiers, and the I-93 exits add hotels, gas stations, and convenience stores. Berlin's downtown taverns and diners serve mill workers and ATV riders exploring the trail network, and Lancaster and Colebrook add grocers and neighborhood bars. Dispensaries and motels across Coos and Grafton counties count on our machines through foliage season and the snowmobile winter.",
+      "areas": [
+        "Downtown Littleton",
+        "Main Street",
+        "I-93 corridor",
+        "Berlin",
+        "Lancaster",
+        "Colebrook"
+      ],
+      "nearby": [
+        "north-conway",
+        "laconia",
+        "concord"
+      ]
+    }
+  ]
+}

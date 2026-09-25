@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>US ATM Experts Buyer Flow — Editable Prototype</title>
+<meta name="description" content="Editable, single-file copy of the US ATM Experts guided ATM buyer experience.">
+<!--
+  ============================================================================
+  US ATM EXPERTS — GUIDED BUYER FLOW (EDITABLE PROTOTYPE)
+  ============================================================================
+  This is a faithful, dependency-free copy of the review prototype at
+  https://us-atm-buyer-flow.usatmexperts.chatgpt.site/
+
+  HOW TO EDIT
+  -----------
+  Everything a person sees — headings, helper copy, answer choices, the long
+  comparison / cannabis panels, form fields, button labels and the
+  branching rules — lives in ONE plain JavaScript object called FLOW, directly
+  below this comment. Edit the text there and reload the file. You should not
+  need to touch the rendering code (marked "ENGINE") or the CSS.
+
+  SALESFORCE NOTES
+  ----------------
+  * Every step has a `salesforce` block with a suggested field API name and a
+    picklist-style mapping of the choice values. These are placeholders — rename
+    them to match your org's schema.
+  * The answers a customer gives are collected in one flat object keyed by step
+    id (see the "Captured answers" panel on the final screen). That object is the
+    payload you would send to a Lead / custom object when this becomes real.
+  * Nothing here transmits or stores data. It is a review prototype only.
+  ============================================================================
+-->
+<script>
+/* ============================================================================
+   1. FLOW CONFIGURATION  —  edit freely
+   ============================================================================ */
+const FLOW = {
+
+  brand: {
+    name: "US ATM Experts",
+    tagline: "Let’s find the right ATM setup.",
+    pill: "Customer-flow prototype",
+    footerNote: "Review prototype only · Nothing entered is transmitted or stored",
+    logoAlt: "US ATM Experts"
+  },
+
+  buttons: {
+    back: "Back",
+    continue: "Continue",
+    reviewPlan: "Review my plan",            // used on `kind: "form"` steps
+    testAgain: "Test again",                 // used on `kind: "done"` steps
+    selectionHint: "Choose an option to continue"     // shown instead of Continue when autoAdvance is true
+  },
+
+  /* --------------------------------------------------------------------------
+     STARTING SEQUENCE
+     The order of screens the customer sees until a branching rule changes it.
+     Every id must exist in `steps` below.
+  -------------------------------------------------------------------------- */
+  startSequence: [
+    "experience",
+    "ownership-comparison",
+    "category",
+    "volume",
+    "recommend",
+    "programming",
+    "contact",
+    "done"
+  ],
+
+  /* --------------------------------------------------------------------------
+     BRANCHING RULES
+     Evaluated when the customer leaves a step. The FIRST matching rule wins,
+     so put specific values before the "*" (any value) catch-all.
+     `append` replaces everything AFTER the current step with the listed ids.
+  -------------------------------------------------------------------------- */
+  routes: [
+    // Step 1 — only people who ask for help see the buy-vs-full-service comparison.
+    { step: "experience", value: "help",
+      append: ["ownership-comparison", "category", "volume", "recommend", "programming", "contact", "done"] },
+    // Full service — no equipment recommendation or installation question; go straight to contact.
+    { step: "experience", value: "full-service",
+      append: ["category", "volume", "contact", "done"] },
+    { step: "experience", value: "*",
+      append: ["category", "volume", "recommend", "programming", "contact", "done"] },
+
+    // Same rule for people who chose full service after reading the comparison.
+    { step: "ownership-comparison", value: "full-service",
+      append: ["category", "volume", "contact", "done"] },
+
+    // Business type — cannabis goes to a dedicated specialist path immediately.
+    { step: "category", value: "cannabis",
+      append: ["cannabis-intro", "contact-cannabis", "done-cannabis"] },
+
+    // Cannabis situation — replacing an ATM asks "what to improve", otherwise asks footprint.
+    { step: "cannabis-intro", value: "replace",
+      append: ["cannabis-replacement", "contact-cannabis", "done-cannabis"] },
+    { step: "cannabis-intro", value: "*",
+      append: ["footprint", "contact-cannabis", "done-cannabis"] },
+  ],
+
+  /* --------------------------------------------------------------------------
+     STEPS
+     kind:  "choices" (default) | "comparison" | "cannabis-intro" | "form" | "done"
+     Steps with `choices` require a selection before Continue is enabled,
+     unless the step also has rich content (comparison / cannabis-intro),
+     in which case Continue is always enabled.
+     autoAdvance: true  → clicking a choice moves forward immediately (no Continue button).
+     variants: [...]    → conditional copy. Each entry has `when` (a list of
+                          earlier { step, value } answers — ANY match applies it)
+                          plus the properties to override (title, helper, choices…).
+                          The first matching variant wins.
+  -------------------------------------------------------------------------- */
+  steps: {
+
+    "experience": {
+      eyebrow: "Interested in getting an ATM?",
+      title: "Let’s find the right ATM solution for your business.",
+      helper: "Tell us which statement best describes where you are in the process.",
+      choices: [
+        { value: "buy",          label: "I know I want to buy the ATM and service it myself.", description: "I’ll own the equipment, load the cash and manage the ATM." },
+        { value: "full-service", label: "I know I want full service.",                         description: "Provide the ATM and handle the ongoing service for me." },
+        { value: "help",         label: "I’m not sure. Help me decide.",                       description: "Walk me through the differences and recommend the best fit." }
+      ],
+      salesforce: { field: "ATM_Service_Preference__c", type: "Picklist", values: { buy: "Purchase", "full-service": "Full Service", help: "Undecided" } }
+    },
+
+    "ownership-comparison": {
+      kind: "comparison",
+      eyebrow: "Understand your options",
+      title: "Buying an ATM vs. full service",
+      helper: "Both can be good solutions. The biggest difference is how much you want to invest, manage and earn from the ATM.",
+      choices: [
+        { value: "buy",          label: "Buying sounds like the better fit",       description: "I’m comfortable owning and managing the ATM." },
+        { value: "full-service", label: "Full service sounds like the better fit", description: "I’d rather have a provider handle the ATM." }
+      ],
+      // Two side-by-side cards. `sections` render as h3 + paragraphs; `bullets` render as a list.
+      comparison: [
+        {
+          label: "Own and operate",
+          heading: "Buy the ATM",
+          featured: false,
+          bullets: [
+            "You decide what surcharge, if any, customers pay",
+            "You keep 100% of any surcharge revenue",
+            "You own the ATM and control how it is operated"
+          ],
+          intro: [
+            "Some business owners set their ATM surcharge to $0 because their primary goal is providing convenient cash access—not generating ATM revenue. This is especially popular with businesses that use a cash-discount program to reduce merchant-processing costs. In those situations, the savings on credit-card processing can help offset the cost of buying the ATM.",
+            "If you have a surcharge on your ATM, you keep 100% of it!"
+          ],
+          sections: [
+            { heading: "What an ATM costs", paragraphs: [
+              "Cost may be a deciding factor. Most business types can use a base-model ATM that costs approximately $2,700. That includes shipping within the contiguous United States, programming and a wireless modem.",
+              "The price increases when you need the ATM to hold more cash or dispense multiple denominations. In those cases, you’re looking at approximately $3,200."
+            ]},
+            { heading: "What you’ll do", paragraphs: [
+              "If you can operate a smartphone, you can operate an ATM. The primary tasks are loading cash into the cassette, telling the ATM how many bills you loaded, replacing the receipt paper and occasionally cleaning the cash-dispensing unit with compressed air."
+            ]},
+            { heading: "Warranty and service", paragraphs: [
+              "ATMs are like any other piece of equipment—they can occasionally have technical issues. Parts are covered by a two-year manufacturer warranty, and our YouTube channel includes videos showing how to resolve most common issues.",
+              "For anything you’re unable to resolve, our nationwide network of technicians is available to service your ATM for a fair price."
+            ]},
+            { heading: "Banking", paragraphs: [
+              "You’ll want to check with your bank to make sure it accepts ATM settlement funds. Many national banks are not ATM-friendly. We find that local and smaller regional banks are often easier to work with."
+            ]},
+            { heading: "You can change course later", paragraphs: [
+              "If you begin by buying and operating your ATM but later decide it’s too cumbersome, we can evaluate whether it makes sense for us to take over the cash loading and servicing through our nationwide network of vaulters."
+            ]}
+          ]
+        },
+        {
+          label: "Hands-off option",
+          heading: "Choose full service",
+          featured: true,
+          bullets: [
+            "No ATM equipment purchase",
+            "No cash loading or day-to-day management",
+            "The provider monitors, services and repairs the ATM"
+          ],
+          intro: [],
+          sections: [
+            { heading: "How full service works", paragraphs: [
+              "The sustainability of a full-service ATM is driven largely by transaction volume. An ATM generally needs more than 100 transactions per month before it begins generating a profit. Locations that remain below 100 monthly transactions can be difficult to sustain unless the provider already services several nearby ATMs.",
+              "There is no way to know exactly how many transactions a new location will generate until an ATM is installed and operating. We are willing to give most locations a 90-day trial period to see how the ATM performs. After 90 days, we will review the results together and determine whether full service makes sense for the location.",
+              "Revenue-sharing opportunities are normally based on the ATM’s actual performance. If earning revenue from the ATM is important to you, we can adjust the surcharge to provide revenue share from every transaction. We generally set the surcharge at $3.00 per transaction. If we set the fee any amount higher than $3.00, we can give you that amount.",
+              "If the location does not generate enough transactions to sustain full service, the business owner will still have the option to purchase the ATM and continue operating it."
+            ]}
+          ]
+        }
+      ],
+      salesforce: { field: "ATM_Service_Preference__c", type: "Picklist", values: { buy: "Purchase", "full-service": "Full Service" }, notes: "Overwrites the 'Undecided' value captured on the first step." }
+    },
+
+    "category": {
+      eyebrow: "Your location",
+      title: "Tell us about your business.",
+      helper: "Choose the closest match. This helps us determine the ATM that best suits your location.",
+      choices: [
+        { value: "personal",    label: "Personal care services",     description: "Barber, salon, nails, tattoo or spa" },
+        { value: "retail",      label: "Retail",                     description: "Convenience, smoke, liquor or specialty shop" },
+        { value: "hospitality", label: "Hospitality & entertainment", description: "Bar, restaurant, club, hotel or venue" },
+        { value: "cannabis",    label: "Cannabis",                   description: "Dispensary or cannabis retail" },
+        { value: "other",       label: "Something else",             description: "Another customer-facing business" }
+      ],
+      salesforce: { field: "Business_Category__c", type: "Picklist", values: { personal: "Personal Care", retail: "Retail", hospitality: "Hospitality & Entertainment", cannabis: "Cannabis", other: "Other" } }
+    },
+
+    "volume": {
+      eyebrow: "Expected usage",
+      title: "How busy do you expect the ATM to be?",
+      helper: "Several factors affect ATM usage. The type of business, daily customer traffic and accepted forms of payment are the major determining factors. Cash-only businesses and businesses that use a cash-discount program tend to see greater ATM transaction volume. More customers coming through your business each day generally means more transactions. We can make an initial determination based on the type of business you selected, but we need your help understanding whether you are cash-only, use a cash discount or believe another factor will drive higher ATM activity.",
+      choices: [
+        { value: "cash-only",     label: "We are or plan to be cash-only",          description: "Customers will need cash to complete their purchases." },
+        { value: "cash-discount", label: "We have or plan to use a cash discount",   description: "Customers will be encouraged to pay with cash." },
+        { value: "other-driver",  label: "We accept debit/credit but believe other factors will drive sustainable ATM transaction volume", description: "Customer traffic or another factor should support ongoing ATM usage." }
+      ],
+      salesforce: { field: "Expected_Volume_Driver__c", type: "Picklist", values: { "cash-only": "Cash Only", "cash-discount": "Cash Discount Program", "other-driver": "Other Traffic Driver" } }
+    },
+
+    "recommend": {
+      eyebrow: "Best fit",
+      title: "Recommended package: Genmega G2500 with dedicated modem",
+      helper: "Sized for your expected traffic and paired with a dedicated wireless ATM modem for reliable processing and remote monitoring. US ATM Experts recommends Genmega ATMs, as we’ve found them to be the most reliable.",
+      // Full-service customers don't monitor the ATM themselves, so drop that wording for them.
+      variants: [
+        { when: [ { step: "experience", value: "full-service" }, { step: "ownership-comparison", value: "full-service" } ],
+          helper: "Sized for your expected traffic and paired with a dedicated wireless ATM modem for reliable processing. US ATM Experts recommends Genmega ATMs, as we’ve found them to be the most reliable." }
+      ],
+      choices: [
+        { value: "yes",     label: "Use this recommendation",  description: "Continue with the suggested ATM-and-modem package" },
+        { value: "compare", label: "Send me pricing options for other models", description: "" }
+      ],
+      salesforce: { field: "Recommendation_Response__c", type: "Picklist", values: { yes: "Accepted Recommendation", compare: "Requested Pricing for Other Models" }, notes: "In production the title/helper should be generated from category + volume." }
+    },
+
+    "programming": {
+      eyebrow: "Customize your setup",
+      title: "Do you want the ATM installed for you?",
+      helper: "ATM installation includes bolting the ATM to the floor, bringing the ATM live, and training. This service ranges from $100–$350, depending on your location.",
+      choices: [
+        { value: "install", label: "Yes, install it for me",      description: "A technician bolts down the ATM, brings it live and trains your team" },
+        { value: "self",    label: "No, I’ll set it up myself",    description: "You’ll receive YouTube videos covering setup and cash loading" }
+      ],
+      salesforce: { field: "Installation_Preference__c", type: "Picklist", values: { install: "Professional Installation", self: "Self-Install" } }
+    },
+
+    "contact": {
+      kind: "form",
+      eyebrow: "Almost finished",
+      title: "Where should we send your personalized ATM plan?",
+      helper: "For this prototype, nothing entered here will be submitted or saved.",
+      fields: [
+        { name: "fullName", label: "Full name",      type: "text",  placeholder: "Your name",               salesforce: "Lead.FirstName / Lead.LastName" },
+        { name: "email",    label: "Business email", type: "email", placeholder: "name@business.com",       salesforce: "Lead.Email" },
+        { name: "phone",    label: "Phone",          type: "tel",   placeholder: "Best number to reach you", salesforce: "Lead.Phone", fullWidth: true },
+        { name: "address",  label: "Location address", type: "text", placeholder: "Street address of the ATM location", salesforce: "Lead.Street", fullWidth: true },
+        { name: "city",     label: "City",           type: "text",  placeholder: "City",                    salesforce: "Lead.City" },
+        { name: "state",    label: "State",          type: "text",  placeholder: "State",                   salesforce: "Lead.State" },
+        { name: "zip",      label: "Zip code",       type: "text",  placeholder: "Zip code",                salesforce: "Lead.PostalCode", inputMode: "numeric" }
+      ],
+      salesforce: { notes: "Create Lead here. Standard path → Lead.Status = 'Open', assign to inbound sales queue. Address fields map to the Lead standard address." }
+    },
+
+    "done": {
+      kind: "done",
+      eyebrow: "Prototype complete",
+      title: "Thank you for completing the form. A dedicated sales rep will review your information and follow up.",
+      helper: "",            // leave empty to hide the line under the heading
+      // completeTitle / completeText are optional — omit both to hide the checkmark box
+      salesforce: { notes: "Confirmation screen. Trigger plan email / follow-up task." }
+    },
+
+    /* ------------------------- CANNABIS PATH ------------------------- */
+
+    "cannabis-intro": {
+      kind: "cannabis-intro",
+      eyebrow: "ATM service for cannabis",
+      title: "Cannabis locations need a different ATM setup.",
+      helper: "We are the largest ATM provider in the country for the cannabis industry. We already know customer demand and transaction volume are much higher than at most other businesses, so we’ll focus on compliance and operations.",
+      panels: [
+        { heading: "Compliance", paragraphs: [
+          "Our entire network is 100% cannabis compliant. Everyone involved—from our processors to our sponsor banks—knows when one of our terminals is located in a dispensary, so there is no risk of your ATM being shut off for non-compliance."
+        ]},
+        { heading: "Operations", paragraphs: [
+          "Transaction volume is very high, and dispensaries tend to have a much higher average withdrawal amount than most other types of businesses. We often place ATMs that dispense multiple denominations to accommodate those higher withdrawal amounts.",
+          "We also recommend at least two ATMs per location to handle the higher volume and provide redundancy. A bill jam or another technical issue should not leave your location without a working ATM while one of our technicians is on the way.",
+          "Some dispensaries accept other forms of payment, and some of those options are not compliant and may be shut down. Multiple ATMs provide the safety net we recommend so customers can continue accessing cash."
+        ]}
+      ],
+      callout: "Please select the option below that best describes your current situation.",
+      choices: [
+        { value: "new",     label: "We need an ATM",         description: "There is no ATM at this location today." },
+        { value: "replace", label: "We’re replacing an ATM", description: "We want to improve an existing setup or change providers." },
+        { value: "expand",  label: "We’re adding locations", description: "We need a repeatable setup for multiple locations." }
+      ],
+      salesforce: { field: "Cannabis_Situation__c", type: "Picklist", values: { new: "New ATM", replace: "Replacing ATM", expand: "Adding Locations" } }
+    },
+
+    "footprint": {
+      eyebrow: "Your cannabis operation",
+      title: "How many dispensary locations are involved?",
+      helper: "This gives our cannabis ATM team enough context before reaching out.",
+      choices: [
+        { value: "one",        label: "1 location",     description: "Single-site setup" },
+        { value: "small",      label: "2–10 locations", description: "Small group rollout" },
+        { value: "regional",   label: "11–50 locations", description: "Regional or multi-state rollout" },
+        { value: "enterprise", label: "More than 50",   description: "Enterprise deployment" }
+      ],
+      salesforce: { field: "Location_Count_Range__c", type: "Picklist", values: { one: "1", small: "2-10", regional: "11-50", enterprise: "50+" } }
+    },
+
+    "cannabis-replacement": {
+      eyebrow: "Replacing an existing ATM",
+      title: "What would you like to improve?",
+      helper: "We’ve improved many dispensary ATM situations. Tell us the primary reason you’re considering a change. This helps us understand what your current ATM or provider is not delivering.",
+      choices: [
+        { value: "compliance",  label: "Compliance concerns",                description: "We want an ATM setup built specifically for the cannabis industry." },
+        { value: "reliability", label: "Reliability or service issues",      description: "The ATM is frequently down or service takes too long." },
+        { value: "capacity",    label: "Cash capacity or withdrawal limits", description: "The ATM cannot keep up with demand or larger withdrawals." },
+        { value: "provider",    label: "We want a different provider",       description: "We’re dissatisfied with the current relationship or terms." },
+        { value: "redundancy",  label: "We need more than one ATM",          description: "We want enough capacity and a backup when one ATM has an issue." },
+        { value: "other",       label: "Something else",                     description: "Another issue is driving the change." }
+      ],
+      salesforce: { field: "Replacement_Reason__c", type: "Picklist", values: { compliance: "Compliance", reliability: "Reliability/Service", capacity: "Cash Capacity", provider: "Provider Change", redundancy: "Needs Redundancy", other: "Other" } }
+    },
+
+    "contact-cannabis": {
+      kind: "form",
+      eyebrow: "Specialist review",
+      title: "Where should our cannabis ATM specialist contact you?",
+      helper: "For this prototype, nothing entered here will be submitted or saved.",
+      fields: [
+        { name: "dispensaryName", label: "Dispensary name", type: "text", placeholder: "Name of your dispensary", salesforce: "Lead.Company", fullWidth: true },
+        { name: "fullName", label: "Full name",      type: "text",  placeholder: "Your name",               salesforce: "Lead.FirstName / Lead.LastName" },
+        { name: "email",    label: "Business email", type: "email", placeholder: "name@business.com",       salesforce: "Lead.Email" },
+        { name: "phone",    label: "Phone",          type: "tel",   placeholder: "Best number to reach you", salesforce: "Lead.Phone", fullWidth: true }
+      ],
+      salesforce: { notes: "Create Lead here. Cannabis path → assign to cannabis specialist queue. Dispensary name maps to Lead.Company." }
+    },
+
+    "done-cannabis": {
+      kind: "done",
+      eyebrow: "Prototype complete",
+      title: "A cannabis ATM specialist will follow up with you soon.",
+      helper: "",            // leave empty to hide the line under the heading
+      // completeTitle / completeText are optional — omit both to hide the checkmark box
+      salesforce: { notes: "Confirmation screen. Create follow-up Task for specialist." }
+    }
+  }
+};
+/* ======================= end of FLOW configuration ======================= */
+</script>
+
+<style>
+/* ============================================================================
+   2. STYLES  —  copied from the original prototype (brand colours in :root)
+   ============================================================================ */
+:root{--navy:#111f4d;--navy2:#1a2e69;--red:#c9002b;--ink:#172033;--muted:#657087;--line:#dce2ec;--soft:#f5f7fb;--white:#fff}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;border:0 solid}
+html{background:#eef2f8;-webkit-text-size-adjust:100%;line-height:1.5}
+body{color:var(--ink);background:radial-gradient(circle at top,#fff 0,#eef2f8 52%,#e6ebf3 100%);margin:0;font-family:Arial,Helvetica,sans-serif}
+img{display:block;max-width:100%;height:auto}
+button,input{font:inherit;color:inherit;background:transparent;border-radius:0}
+button{cursor:pointer}
+button:focus-visible,input:focus-visible{outline-offset:2px;outline:3px solid #c9002b40}
+h1,h2,h3{font-size:inherit;font-weight:inherit}
+b,strong{font-weight:bolder}
+ul{list-style:none}
+.site-shell{min-height:100vh;padding:32px 18px 20px}
+.flow-card{background:#fff;border:1px solid #111f4d1f;border-radius:24px;width:min(850px,100%);margin:auto;overflow:hidden;box-shadow:0 24px 65px #111f4d21}
+.brand-header{border-bottom:1px solid var(--line);align-items:center;gap:13px;min-height:90px;padding:14px 28px;display:flex}
+.logo{object-fit:contain;border-radius:50%;width:64px;height:64px}
+.brand-copy{flex-direction:column;gap:3px;display:flex}
+.brand-copy strong{color:var(--navy);font-size:17px}
+.brand-copy span{color:var(--muted);font-size:14px}
+.prototype-pill{color:var(--navy);background:#eef2fb;border:1px solid #d8e0f2;border-radius:999px;margin-left:auto;padding:7px 11px;font-size:12px;font-weight:700}
+.progress-wrap{padding:22px 32px 0}
+.progress-meta{color:var(--muted);justify-content:space-between;margin-bottom:8px;font-size:12px;display:flex}
+.progress-track{background:#e8ecf3;border-radius:99px;height:6px;overflow:hidden}
+.progress-fill{background:linear-gradient(90deg,var(--navy),var(--red));height:100%;transition:width .25s}
+.screen-body{min-height:480px;padding:38px 48px 32px}
+.eyebrow{color:var(--red);letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px;font-size:13px;font-weight:700}
+h1{max-width:680px;color:var(--navy);letter-spacing:-.035em;margin:0;font-size:clamp(30px,4.6vw,46px);line-height:1.08;font-weight:700}
+.helper{max-width:680px;color:var(--muted);margin:16px 0 28px;font-size:17px;line-height:1.6}
+.choice-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;display:grid}
+.choice{text-align:left;min-height:96px;color:var(--ink);border:1px solid var(--line);background:#fff;border-radius:14px;padding:17px 18px;transition:all .16s}
+.choice:hover{border-color:#94a2bf;transform:translateY(-1px);box-shadow:0 8px 20px #111f4d14}
+.choice.selected{color:#fff;border-color:var(--navy);background:linear-gradient(135deg,var(--navy),var(--navy2));box-shadow:0 10px 25px #111f4d33}
+.choice-title,.choice-description{display:block}
+.choice-title{font-weight:700;line-height:1.3}
+.choice-description{color:var(--muted);margin-top:6px;font-size:13px;line-height:1.4}
+.choice.selected .choice-description{color:#ffffffc2}
+.comparison-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:18px;display:grid}
+.comparison-card{border:1px solid var(--line);background:var(--soft);border-radius:16px;padding:22px}
+.comparison-card.featured{border-top:4px solid var(--red);padding-top:19px}
+.option-label{color:var(--red);letter-spacing:.08em;text-transform:uppercase;font-size:11px;font-weight:800}
+.comparison-card h2{color:var(--navy);margin:7px 0 17px;font-size:23px;font-weight:700}
+.comparison-card h3{color:var(--navy);margin:16px 0 7px;font-size:13px;font-weight:700}
+.comparison-card ul{color:var(--muted);margin:0;padding-left:19px;font-size:13px;line-height:1.5;list-style:disc}
+.comparison-card li+li{margin-top:4px}
+.comparison-card p{color:var(--muted);margin:13px 0 0;font-size:13px;line-height:1.55}
+.cannabis-details{grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr);gap:14px;margin-bottom:18px;display:grid}
+.cannabis-details article{border:1px solid var(--line);border-top:4px solid var(--red);background:var(--soft);border-radius:14px;padding:21px}
+.cannabis-details h2{color:var(--navy);margin:0 0 10px;font-size:18px;font-weight:700}
+.cannabis-details p{color:var(--muted);margin:0;font-size:14px;line-height:1.58}
+.cannabis-details p+p{margin-top:12px}
+.cannabis-next{border-left:4px solid var(--navy);background:#eef2fb;border-radius:0 12px 12px 0;grid-column:1/-1;padding:15px 18px;font-weight:700;color:var(--ink)!important}
+.form-grid{grid-template-columns:1fr 1fr;gap:16px;display:grid}
+.form-grid label{color:var(--navy);font-size:13px;font-weight:700}
+.form-grid input{border:1px solid var(--line);border-radius:10px;width:100%;margin-top:8px;padding:14px;font-weight:400;display:block}
+.full-field{grid-column:1/-1}
+.complete-panel{background:var(--soft);border:1px solid var(--line);border-radius:14px;align-items:center;gap:16px;margin-top:30px;padding:20px;display:flex}
+.checkmark{color:#fff;background:var(--navy);border-radius:50%;place-items:center;width:42px;height:42px;font-size:22px;display:grid}
+.complete-panel strong{color:var(--navy)}
+.complete-panel p{color:var(--muted);margin:4px 0 0}
+.dev-panel{margin-top:18px;border:1px dashed #94a2bf;border-radius:12px;background:#fbfcfe;padding:14px 16px;font-size:12px;color:var(--muted)}
+.dev-panel summary{cursor:pointer;font-weight:700;color:var(--navy)}
+.dev-panel pre{margin-top:10px;white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:var(--ink)}
+.actions{border-top:1px solid var(--line);background:#fbfcfe;justify-content:space-between;align-items:center;padding:20px 32px 26px;display:flex}
+.actions button{border-radius:10px;min-width:116px;padding:13px 20px;font-weight:700}
+.selection-hint{color:var(--muted);font-size:13px;font-weight:700}
+.primary{color:#fff;background:var(--red);border:1px solid var(--red)}
+.secondary{color:var(--navy);border:1px solid var(--line);background:0 0}
+.actions button:disabled{cursor:not-allowed;opacity:.4}
+.review-note{text-align:center;color:#718096;font-size:12px;margin-top:14px}
+@media (width<=700px){.cannabis-details{grid-template-columns:1fr}.cannabis-next{grid-column:auto}}
+@media (width<=640px){
+  .site-shell{padding:0}.flow-card{min-height:100vh;box-shadow:none;border:0;border-radius:0}
+  .brand-header{padding:12px 18px}.logo{width:52px;height:52px}.brand-copy span{display:none}
+  .prototype-pill{padding:6px 8px;font-size:10px}.progress-wrap{padding:18px 20px 0}
+  .screen-body{min-height:0;padding:30px 20px 28px}.helper{font-size:16px}
+  .choice-grid,.form-grid,.comparison-grid{grid-template-columns:1fr}.full-field{grid-column:auto}
+  .choice{min-height:86px}.actions{padding:16px 20px;position:sticky;bottom:0}.review-note{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="site-shell">
+  <section class="flow-card" aria-live="polite">
+    <header class="brand-header">
+      <img id="brand-logo" class="logo" alt="" src="">
+      <div class="brand-copy"><strong id="brand-name"></strong><span id="brand-tagline"></span></div>
+      <span class="prototype-pill" id="brand-pill"></span>
+    </header>
+    <div class="progress-wrap">
+      <div class="progress-meta"><span id="progress-label"></span><span id="progress-pct"></span></div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+    </div>
+    <div class="screen-body" id="screen"></div>
+    <footer class="actions">
+      <button class="secondary" id="btn-back" type="button"></button>
+      <span id="footer-right"></span>
+    </footer>
+  </section>
+  <p class="review-note" id="footer-note"></p>
+</main>
+
+<script>
+/* ============================================================================
+   3. LOGO  —  base64 JPEG so this file has no external dependencies.
+      Replace the string with your own data URI (or an https URL) if needed.
+   ============================================================================ */
+const LOGO_SRC = "data:image/jpeg;base64,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";
+</script>
+
+<script>
+/* ============================================================================
+   4. ENGINE  —  renders FLOW. You should not need to edit below this line.
+   ============================================================================ */
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  let sequence = FLOW.startSequence.slice();
+  let index = 0;
+  let answers = {};          // { stepId: choiceValue, contact: {fullName, email, phone} }
+
+  const currentId = () => sequence[index];
+
+  // Returns the step definition with any matching `variants` entry merged over it.
+  function resolveStep(id) {
+    const base = FLOW.steps[id];
+    if (!base || !base.variants) return base;
+    const match = base.variants.find((v) => (v.when || []).some((c) => answers[c.step] === c.value));
+    if (!match) return base;
+    const { when, ...overrides } = match;
+    return Object.assign({}, base, overrides);
+  }
+  const current = () => resolveStep(currentId());
+
+  function findRoute(stepId, value) {
+    return FLOW.routes.find((r) => r.step === stepId && r.value === value)
+        || FLOW.routes.find((r) => r.step === stepId && r.value === "*");
+  }
+
+  function applyRoute(stepId, value) {
+    const route = findRoute(stepId, value);
+    if (route && route.append) sequence = sequence.slice(0, index + 1).concat(route.append);
+  }
+
+  function select(value) {
+    const id = currentId();
+    answers[id] = value;
+    if (current().autoAdvance) { advance(); return; }
+    render();
+  }
+
+  function advance() {
+    const id = currentId();
+    applyRoute(id, answers[id]);
+    if (index < sequence.length - 1) index++;
+    render();
+  }
+
+  function back() {
+    if (index === 0) return;
+    index--;
+    if (index === 0) sequence = FLOW.startSequence.slice();
+    render();
+  }
+
+  function reset() {
+    sequence = FLOW.startSequence.slice();
+    index = 0;
+    answers = {};
+    render();
+  }
+
+  function paragraphs(list) { return (list || []).map((p) => `<p>${esc(p)}</p>`).join(""); }
+
+  function renderComparison(step) {
+    return `<div class="comparison-grid">${step.comparison.map((card) => `
+      <article class="comparison-card${card.featured ? " featured" : ""}">
+        <span class="option-label">${esc(card.label)}</span>
+        <h2>${esc(card.heading)}</h2>
+        <h3>Advantages</h3>
+        <ul>${(card.bullets || []).map((b) => `<li>${esc(b)}</li>`).join("")}</ul>
+        ${paragraphs(card.intro)}
+        ${(card.sections || []).map((s) => `<h3>${esc(s.heading)}</h3>${paragraphs(s.paragraphs)}`).join("")}
+      </article>`).join("")}</div>`;
+  }
+
+  function renderPanels(step, wrapClass, calloutClass) {
+    return `<div class="${wrapClass}">
+      ${(step.panels || []).map((p) => `<article><h2>${esc(p.heading)}</h2>${paragraphs(p.paragraphs)}</article>`).join("")}
+      ${step.callout ? `<p class="${calloutClass}">${esc(step.callout)}</p>` : ""}
+    </div>`;
+  }
+
+  function renderChoices(step) {
+    const picked = answers[currentId()];
+    return `<div class="choice-grid">${step.choices.map((c) => `
+      <button type="button" class="choice${picked === c.value ? " selected" : ""}" data-value="${esc(c.value)}" aria-pressed="${picked === c.value}">
+        <span class="choice-title">${esc(c.label)}</span>
+        ${c.description ? `<span class="choice-description">${esc(c.description)}</span>` : ""}
+      </button>`).join("")}</div>`;
+  }
+
+  function renderForm(step) {
+    const saved = answers[currentId()] || {};
+    return `<div class="form-grid">${step.fields.map((f) => `
+      <label class="${f.fullWidth ? "full-field" : ""}">${esc(f.label)}
+        <input type="${esc(f.type || "text")}" name="${esc(f.name)}" placeholder="${esc(f.placeholder || "")}" value="${esc(saved[f.name] || "")}"${f.inputMode ? ` inputmode="${esc(f.inputMode)}"` : ""} autocomplete="off">
+      </label>`).join("")}</div>`;
+  }
+
+  function renderDone(step) {
+    const panel = (step.completeTitle || step.completeText) ? `<div class="complete-panel">
+        <span class="checkmark">✓</span>
+        <div><strong>${esc(step.completeTitle || "")}</strong><p>${esc(step.completeText || "")}</p></div>
+      </div>` : "";
+    return `${panel}
+      <details class="dev-panel">
+        <summary>Captured answers (for developers)</summary>
+        <pre>${esc(JSON.stringify({ path: sequence, answers }, null, 2))}</pre>
+      </details>`;
+  }
+
+  function render() {
+    const step = current();
+    const id = currentId();
+    const kind = step.kind || "choices";
+    const picked = answers[id];
+
+    $("progress-label").textContent = `Step ${index + 1} of ${sequence.length}`;
+    const pct = Math.round(((index + 1) / sequence.length) * 100);
+    $("progress-pct").textContent = `${pct}%`;
+    $("progress-fill").style.width = `${pct}%`;
+
+    let html = `<p class="eyebrow">${esc(step.eyebrow)}</p><h1>${esc(step.title)}</h1>${step.helper ? `<p class="helper">${esc(step.helper)}</p>` : ""}`;
+    if (kind === "comparison") html += renderComparison(step);
+    if (kind === "cannabis-intro") html += renderPanels(step, "cannabis-details", "cannabis-next");
+    if (step.choices) html += renderChoices(step);
+    if (kind === "form") html += renderForm(step);
+    if (kind === "done") html += renderDone(step);
+    $("screen").innerHTML = html;
+
+    // wire choices
+    $("screen").querySelectorAll(".choice").forEach((b) => b.addEventListener("click", () => select(b.dataset.value)));
+    // wire form fields (kept in memory only)
+    $("screen").querySelectorAll("input").forEach((inp) => inp.addEventListener("input", () => {
+      answers[id] = Object.assign({}, answers[id] || {}, { [inp.name]: inp.value });
+    }));
+
+    // footer
+    const backBtn = $("btn-back");
+    backBtn.textContent = FLOW.buttons.back;
+    backBtn.disabled = index === 0;
+
+    const right = $("footer-right");
+    if (step.autoAdvance) {
+      right.innerHTML = `<span class="selection-hint">${esc(FLOW.buttons.selectionHint)}</span>`;
+    } else if (kind === "done") {
+      right.innerHTML = `<button class="primary" type="button" id="btn-primary">${esc(FLOW.buttons.testAgain)}</button>`;
+      $("btn-primary").addEventListener("click", reset);
+    } else {
+      const label = kind === "form" ? FLOW.buttons.reviewPlan : FLOW.buttons.continue;
+      // Continue is enabled when the step has rich content (kind set) or a choice has been made.
+      const enabled = step.kind ? true : Boolean(picked);
+      right.innerHTML = `<button class="primary" type="button" id="btn-primary" ${enabled ? "" : "disabled"}>${esc(label)}</button>`;
+      $("btn-primary").addEventListener("click", advance);
+    }
+    window.scrollTo({ top: 0 });
+  }
+
+  // brand
+  $("brand-logo").src = LOGO_SRC;
+  $("brand-logo").alt = FLOW.brand.logoAlt;
+  $("brand-name").textContent = FLOW.brand.name;
+  $("brand-tagline").textContent = FLOW.brand.tagline;
+  $("brand-pill").textContent = FLOW.brand.pill;
+  $("footer-note").textContent = FLOW.brand.footerNote;
+  $("btn-back").addEventListener("click", back);
+
+  // expose for debugging in the console
+  window.ATM_FLOW = { get sequence() { return sequence; }, get index() { return index; }, get answers() { return answers; }, reset };
+  render();
+})();
+</script>
+</body>
+</html>

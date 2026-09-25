@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "static-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/azatmexperts.com", "-p", "8001"],
+      "port": 8001
+    }
+  ]
+}

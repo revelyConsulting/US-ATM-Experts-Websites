@@ -1,0 +1,90 @@
+{
+  "abbr": "PA",
+  "name": "Pennsylvania",
+  "metro_city": "Philadelphia",
+  "metro_phrase": "the greater Philadelphia area",
+  "span_phrase": "from Philadelphia to Pittsburgh",
+  "seasonal_phrase": "football and hockey season, the summer shore and Pocono tourism rush, and holiday shopping in Center City",
+  "cities": [
+    {
+      "slug": "philadelphia",
+      "name": "Philadelphia",
+      "region": "the greater Philadelphia area",
+      "blurb": "We place and service ATMs across Philadelphia, from the bars, restaurants, and hotels of Center City and Old City to the breweries and music venues of Fishtown and Northern Liberties. South Philly's corner stores and the Italian Market keep cash moving daily, while Manayunk's Main Street and University City's convenience stores serve students and weekend crowds. Game days in the stadium district bring surges of visitors, and licensed medical dispensaries across the city are a natural fit. We handle installation, loading, and monitoring locally.",
+      "areas": ["Center City", "Old City", "Fishtown", "Northern Liberties", "South Philly", "Manayunk"],
+      "nearby": ["allentown", "reading", "lancaster"]
+    },
+    {
+      "slug": "pittsburgh",
+      "name": "Pittsburgh",
+      "region": "Western Pennsylvania",
+      "blurb": "We place and service ATMs in Pittsburgh and across Western Pennsylvania. The bars, restaurants, and music venues of the South Side and Lawrenceville fill every weekend, while the Strip District's markets and cafes draw daily crowds. Oakland's convenience stores and late-night eateries serve the university district, and hotels downtown and on the North Shore fill on game days and concert nights. Shadyside's salons and boutiques round out the mix, and licensed medical dispensaries across Allegheny County rely on us for reliable cash service.",
+      "areas": ["South Side", "Lawrenceville", "Strip District", "Oakland", "North Shore", "Shadyside"],
+      "nearby": ["erie", "harrisburg", "state-college"]
+    },
+    {
+      "slug": "harrisburg",
+      "name": "Harrisburg",
+      "region": "the Susquehanna Valley",
+      "blurb": "We place and service ATMs in Harrisburg and the Susquehanna Valley. Second Street's restaurant row and downtown bars fill during the legislative session and after events at the state complex, while Midtown's cafes, salons, and music venues draw weekend crowds. The convenience stores and hotels along the Carlisle Pike in Mechanicsburg and near the Farm Show Complex handle steady traffic, and Hershey's attractions bring summer tourists to the region. Licensed medical dispensaries across Dauphin and Cumberland counties rely on us for cash access.",
+      "areas": ["Second Street", "Midtown Harrisburg", "Downtown Harrisburg", "Carlisle Pike", "Hershey", "Mechanicsburg"],
+      "nearby": ["lancaster", "york", "state-college"]
+    },
+    {
+      "slug": "allentown",
+      "name": "Allentown",
+      "region": "the Lehigh Valley",
+      "blurb": "We place and service ATMs in Allentown, Bethlehem, and Easton. Downtown Allentown's Hamilton Street hosts restaurants, bars, and hotels that fill on arena nights, while Bethlehem's Main Street and the SteelStacks campus draw crowds to cafes, breweries, and summer music festivals. Easton's Centre Square adds taverns and shops, and the convenience stores and salons along MacArthur Road and Route 22 serve residents across the valley. Licensed medical dispensaries in Lehigh and Northampton counties rely on us for reliable cash service.",
+      "areas": ["Hamilton Street", "Downtown Allentown", "Main Street Bethlehem", "SteelStacks", "Centre Square Easton", "MacArthur Road"],
+      "nearby": ["philadelphia", "reading", "scranton"]
+    },
+    {
+      "slug": "scranton",
+      "name": "Scranton",
+      "region": "Northeastern Pennsylvania",
+      "blurb": "We place and service ATMs in Scranton, Wilkes-Barre, and the Poconos. Downtown Scranton's Courthouse Square and the Electric City area host bars, restaurants, and music venues, while Wilkes-Barre's Public Square adds taverns, cafes, and hotels near the arena. The convenience stores and salons along Wyoming Avenue and Route 6 serve neighborhoods across the valley, and Pocono resorts bring ski-season and summer visitors to shops and restaurants in Stroudsburg. Licensed medical dispensaries in Lackawanna and Luzerne counties rely on us for cash access.",
+      "areas": ["Courthouse Square", "Downtown Scranton", "Public Square Wilkes-Barre", "Wyoming Avenue", "Stroudsburg", "The Poconos"],
+      "nearby": ["allentown", "state-college", "harrisburg"]
+    },
+    {
+      "slug": "erie",
+      "name": "Erie",
+      "region": "Northwestern Pennsylvania",
+      "blurb": "We place and service ATMs in Erie and the Lake Erie shore. State Street's downtown bars, restaurants, and hotels fill on hockey nights and during summer festivals, while the Bayfront's marinas and seafood restaurants surge with warm-weather visitors heading to Presque Isle. The convenience stores and salons along Peach Street and Upper Peach's shopping corridor serve residents and Canadian shoppers year-round, and the universities keep quick-service restaurants busy through the school year. Licensed medical dispensaries in Erie County rely on us for cash service.",
+      "areas": ["State Street", "Downtown Erie", "Bayfront", "Peach Street", "Presque Isle", "Millcreek"],
+      "nearby": ["pittsburgh", "state-college", "harrisburg"]
+    },
+    {
+      "slug": "lancaster",
+      "name": "Lancaster",
+      "region": "Pennsylvania Dutch Country",
+      "blurb": "We place and service ATMs in Lancaster and Pennsylvania Dutch Country. Downtown's Gallery Row and the Central Market district host restaurants, bars, and hotels that fill on First Friday and during the fall tourist season, while Prince Street's music venues and cafes draw weekend crowds. The convenience stores, salons, and quick-service restaurants along Lincoln Highway East serve visitors to the Amish countryside and outlet centers, and licensed medical dispensaries across Lancaster County rely on us for reliable cash access.",
+      "areas": ["Gallery Row", "Central Market", "Downtown Lancaster", "Prince Street", "Lincoln Highway East"],
+      "nearby": ["harrisburg", "york", "reading"]
+    },
+    {
+      "slug": "york",
+      "name": "York",
+      "region": "South Central Pennsylvania",
+      "blurb": "We place and service ATMs in York and southern York County. Downtown's Market Street and the Royal Square district host restaurants, bars, and breweries that fill on First Friday and during summer events at the fairgrounds, while the convenience stores and salons along East Market Street and the Route 30 corridor serve residents and Maryland commuters. Hanover's downtown square adds taverns and shops, and the York Fair brings large crowds each fall. Licensed medical dispensaries in the county rely on us for cash service.",
+      "areas": ["Downtown York", "Market Street", "Royal Square", "Route 30 corridor", "Hanover"],
+      "nearby": ["lancaster", "harrisburg", "reading"]
+    },
+    {
+      "slug": "reading",
+      "name": "Reading",
+      "region": "Berks County",
+      "blurb": "We place and service ATMs in Reading and Berks County. Downtown's Penn Street hosts restaurants, bars, and event venues near the arena, while the convenience stores, salons, and quick-service restaurants along Lancaster Avenue and Fifth Street Highway serve neighborhoods across the city. Wyomissing's shopping corridor draws regional traffic to hotels and stores, and the Berks County fairgrounds bring seasonal visitors. Licensed medical dispensaries in the area rely on us for reliable cash access, and our machines fit corner stores and bars alike.",
+      "areas": ["Penn Street", "Downtown Reading", "Lancaster Avenue", "Fifth Street Highway", "Wyomissing"],
+      "nearby": ["allentown", "philadelphia", "lancaster"]
+    },
+    {
+      "slug": "state-college",
+      "name": "State College",
+      "region": "Central Pennsylvania",
+      "blurb": "We place and service ATMs in State College and the university corridor of Central Pennsylvania. College Avenue and Beaver Avenue host bars, restaurants, and convenience stores that surge on football weekends and through the academic year, while the hotels and quick-service restaurants along North Atherton Street serve visitors for games, graduation, and arts festival weekends each July. Nearby Altoona's downtown and Bellefonte's historic square add restaurants and shops. Licensed medical dispensaries in Centre County rely on us for cash service.",
+      "areas": ["College Avenue", "Beaver Avenue", "Downtown State College", "North Atherton Street", "Bellefonte", "Altoona"],
+      "nearby": ["harrisburg", "pittsburgh", "scranton"]
+    }
+  ]
+}

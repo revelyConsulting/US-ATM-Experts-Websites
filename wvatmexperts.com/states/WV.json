@@ -1,0 +1,90 @@
+{
+  "abbr": "WV",
+  "name": "West Virginia",
+  "metro_city": "Charleston",
+  "metro_phrase": "the Kanawha Valley",
+  "span_phrase": "from Wheeling to Bluefield",
+  "seasonal_phrase": "fall foliage and hunting season, whitewater rafting season, and college football weekends",
+  "cities": [
+    {
+      "slug": "charleston",
+      "name": "Charleston",
+      "region": "the Kanawha Valley",
+      "blurb": "We place and service ATMs across Charleston, the state capital, where Capitol Street downtown supports restaurants, bars, coffee shops, and boutiques near the convention center and hotels. The East End along Washington Street brings pubs, salons, and neighborhood markets, while the Kanawha City corridor anchors convenience stores, gas stations, and retail plazas. Legislative sessions, the Capitol Market, and summer festivals bring steady crowds, and medical dispensaries and nearby South Charleston add growing cash-based business traffic.",
+      "areas": ["Capitol Street", "East End", "Kanawha City", "Downtown Charleston", "South Charleston"],
+      "nearby": ["huntington", "beckley", "parkersburg"]
+    },
+    {
+      "slug": "huntington",
+      "name": "Huntington",
+      "region": "the Tri-State area",
+      "blurb": "We place and service ATMs throughout Huntington on the Ohio River, where Fourth Avenue and the Pullman Square district support restaurants, bars, hotels, and a downtown cinema. The area near Marshall University keeps pubs, convenience stores, and late-night dining busy through the school year, while the Route 60 corridor and Barboursville's mall district anchor retail centers, salons, and gas stations. Shoppers from nearby Ohio and Kentucky and university game weekends keep cash demand strong for Cabell County merchants.",
+      "areas": ["Pullman Square", "Fourth Avenue", "Marshall University area", "Route 60", "Barboursville"],
+      "nearby": ["charleston", "beckley", "parkersburg"]
+    },
+    {
+      "slug": "morgantown",
+      "name": "Morgantown",
+      "region": "North Central West Virginia",
+      "blurb": "We place and service ATMs in Morgantown, a fast-paced college town on the Monongahela River. High Street downtown is lined with bars, restaurants, and late-night eateries that fill up on game weekends, while the Sunnyside and Evansdale neighborhoods near campus support convenience stores and casual dining. The Wharf District brings waterfront restaurants and pubs, and the Suncrest Towne Centre and University Town Centre areas anchor hotels, salons, and retail. Football season drives some of the strongest cash demand in the state.",
+      "areas": ["High Street", "Sunnyside", "Wharf District", "Evansdale", "Suncrest", "University Town Centre"],
+      "nearby": ["fairmont", "wheeling", "clarksburg"]
+    },
+    {
+      "slug": "parkersburg",
+      "name": "Parkersburg",
+      "region": "the Mid-Ohio Valley",
+      "blurb": "We place and service ATMs across Parkersburg and the Mid-Ohio Valley, where Market Street downtown supports restaurants, bars, cafes, and locally owned shops near the historic riverfront. The Grand Central Mall area in Vienna anchors retail centers, hotels, and convenience stores, while the Route 50 and Seventh Street corridors bring gas stations, salons, and casual dining. Cross-river traffic from Marietta, Ohio, and visitors to the island historical park keep Wood County merchants relying on steady cash service.",
+      "areas": ["Downtown Parkersburg", "Market Street", "Vienna", "Grand Central Mall", "Route 50"],
+      "nearby": ["charleston", "huntington", "clarksburg"]
+    },
+    {
+      "slug": "wheeling",
+      "name": "Wheeling",
+      "region": "the Northern Panhandle",
+      "blurb": "We place and service ATMs in Wheeling and the Northern Panhandle, where Centre Market and Main Street downtown support restaurants, bars, cafes, and antique shops near the historic suspension bridge. The Highlands shopping district off Interstate 70 anchors hotels, retail centers, and casual dining, while National Road through Elm Grove brings convenience stores, gas stations, and salons. A casino and racetrack on Wheeling Island draws steady visitor traffic, and holiday light displays each winter bring seasonal crowds to local merchants.",
+      "areas": ["Centre Market", "Downtown Wheeling", "The Highlands", "Wheeling Island", "Elm Grove"],
+      "nearby": ["morgantown", "fairmont", "clarksburg"]
+    },
+    {
+      "slug": "beckley",
+      "name": "Beckley",
+      "region": "Southern West Virginia",
+      "blurb": "We place and service ATMs throughout Beckley and southern West Virginia, where the Uptown district along Neville Street supports restaurants, pubs, and local shops. The Harper Road and Robert C. Byrd Drive corridors anchor hotels, convenience stores, retail plazas, and gas stations serving Interstate 64 and 77 travelers. The New River Gorge and Fayetteville nearby draw whitewater rafters and climbers to outfitters, taverns, and cafes each summer, and Winterplace ski resort adds winter traffic for Raleigh County businesses.",
+      "areas": ["Uptown Beckley", "Harper Road", "Robert C. Byrd Drive", "Fayetteville", "New River Gorge"],
+      "nearby": ["charleston", "bluefield", "huntington"]
+    },
+    {
+      "slug": "martinsburg",
+      "name": "Martinsburg",
+      "region": "the Eastern Panhandle",
+      "blurb": "We place and service ATMs across Martinsburg and the Eastern Panhandle, the fastest-growing part of the state thanks to commuters to the Washington and Baltimore areas. Queen Street downtown supports restaurants, bars, and small shops, while the Foxcroft Avenue and Interstate 81 corridors anchor hotels, convenience stores, retail centers, and gas stations. Nearby Shepherdstown brings a college-town downtown with pubs and cafes, and Charles Town's casino and racetrack draw steady visitors who keep cash demand high.",
+      "areas": ["Downtown Martinsburg", "Foxcroft Avenue", "Interstate 81 corridor", "Shepherdstown", "Charles Town"],
+      "nearby": ["morgantown", "fairmont", "wheeling"]
+    },
+    {
+      "slug": "fairmont",
+      "name": "Fairmont",
+      "region": "North Central West Virginia",
+      "blurb": "We place and service ATMs in Fairmont and Marion County, situated on Interstate 79 between Morgantown and Clarksburg. Adams Street and the downtown district support restaurants, bars, cafes, and locally owned shops, while the Middletown Commons area and Fairmont Avenue corridor anchor hotels, convenience stores, retail, and salons. The university area keeps casual dining and gas stations busy through the school year, and federal technology employers in the area bring steady weekday traffic to local merchants.",
+      "areas": ["Downtown Fairmont", "Adams Street", "Fairmont Avenue", "Middletown Commons", "Pleasant Valley"],
+      "nearby": ["morgantown", "clarksburg", "wheeling"]
+    },
+    {
+      "slug": "clarksburg",
+      "name": "Clarksburg",
+      "region": "North Central West Virginia",
+      "blurb": "We place and service ATMs throughout Clarksburg and Bridgeport in Harrison County, where Main Street downtown supports restaurants, bars, and cafes known for the area's Italian food heritage. Bridgeport's Charles Pointe development and the Meadowbrook Mall district anchor hotels, retail centers, convenience stores, and casual dining near Interstate 79. Federal and energy employers bring steady weekday traffic, while the annual Italian heritage festival and nearby regional airport keep gas stations and salons busy throughout the year.",
+      "areas": ["Downtown Clarksburg", "Bridgeport", "Charles Pointe", "Meadowbrook Mall", "Glen Elk"],
+      "nearby": ["fairmont", "morgantown", "parkersburg"]
+    },
+    {
+      "slug": "bluefield",
+      "name": "Bluefield",
+      "region": "Southern West Virginia",
+      "blurb": "We place and service ATMs in Bluefield and Mercer County along the Virginia state line, where Princeton Avenue and the downtown district support restaurants, cafes, bars, and small shops. The Cumberland Road corridor and nearby Princeton anchor hotels, convenience stores, retail plazas, and gas stations serving Interstate 77 travelers. The Hatfield-McCoy trail system brings ATV riders to outfitters, lodges, and taverns across the region each season, and coal industry payrolls keep local merchants counting on dependable cash service.",
+      "areas": ["Downtown Bluefield", "Princeton Avenue", "Cumberland Road", "Princeton", "Bramwell"],
+      "nearby": ["beckley", "charleston", "huntington"]
+    }
+  ]
+}

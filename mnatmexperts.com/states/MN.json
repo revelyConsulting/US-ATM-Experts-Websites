@@ -1,0 +1,82 @@
+{
+  "abbr": "MN",
+  "name": "Minnesota",
+  "metro_city": "Minneapolis",
+  "metro_phrase": "the Twin Cities",
+  "span_phrase": "from Minneapolis to Duluth",
+  "seasonal_phrase": "State Fair season, summer lake tourism, and hockey and hunting weekends",
+  "cities": [
+    {
+      "slug": "minneapolis",
+      "name": "Minneapolis",
+      "region": "the Twin Cities",
+      "blurb": "We place and service ATMs across Minneapolis, from the bars and music venues of the North Loop and Warehouse District to the restaurants and hotels downtown along Nicollet Mall. Uptown and the Lyn-Lake area keep late-night traffic moving through taverns, tattoo shops, and cafes, while Dinkytown serves the university crowd with pizza spots and convenience stores. Northeast's breweries and the Eat Street corridor along Nicollet Avenue add steady walk-in business. Salons, gas stations, and dispensaries across the city rely on machines we stock and maintain locally.",
+      "areas": ["Downtown Minneapolis", "North Loop", "Uptown", "Dinkytown", "Northeast Minneapolis", "Eat Street"],
+      "nearby": ["st-paul", "bloomington", "st-cloud"]
+    },
+    {
+      "slug": "st-paul",
+      "name": "St. Paul",
+      "region": "the Twin Cities",
+      "blurb": "We place and service ATMs in St. Paul, where Grand Avenue's restaurants, boutiques, and coffee shops anchor one of the metro's busiest retail corridors. Lowertown's converted warehouses hold bars, breweries, and a Saturday farmers market, and the downtown hotels and event venues fill up for hockey games and concerts. West Seventh's neighborhood taverns and the Midway's gas stations and convenience stores see steady cash traffic, and the State Fairgrounds in Falcon Heights bring enormous late-summer crowds. Dispensaries and salons across the East Side depend on our reliable local service.",
+      "areas": ["Downtown St. Paul", "Lowertown", "Grand Avenue", "West Seventh", "Midway", "Cathedral Hill"],
+      "nearby": ["minneapolis", "bloomington", "rochester"]
+    },
+    {
+      "slug": "bloomington",
+      "name": "Bloomington",
+      "region": "the South Metro",
+      "blurb": "We place and service ATMs in Bloomington and the southern Twin Cities suburbs, an area built around the airport and the country's largest shopping mall. Hotels along the I-494 strip host business travelers and tourists year round, and the restaurants, bars, and entertainment venues around the mall draw crowds every day of the week. Nearby Burnsville, Eagan, and Edina add gas stations, salons, convenience stores, and neighborhood taverns, while dispensaries and bowling alleys across the south metro rely on machines we keep stocked and running.",
+      "areas": ["Mall of America area", "I-494 Strip", "South Loop", "Edina", "Burnsville", "Eagan"],
+      "nearby": ["minneapolis", "st-paul", "mankato"]
+    },
+    {
+      "slug": "rochester",
+      "name": "Rochester",
+      "region": "Southeast Minnesota",
+      "blurb": "We place and service ATMs in Rochester, a city whose economy runs on the world-renowned medical campus downtown. Hotels, restaurants, and pharmacies along First Avenue and Broadway serve patients and families who arrive from around the world, many of whom need cash on hand. The Historic Third Street district adds bars and cafes, and Apache Mall and the Highway 52 corridor hold retail, gas stations, and salons. Dispensaries and convenience stores across Olmsted County count on our locally serviced machines through every season.",
+      "areas": ["Downtown Rochester", "Historic Third Street", "Apache Mall area", "Highway 52 corridor", "Northwest Rochester"],
+      "nearby": ["st-paul", "mankato", "bloomington"]
+    },
+    {
+      "slug": "duluth",
+      "name": "Duluth",
+      "region": "the North Shore",
+      "blurb": "We place and service ATMs in Duluth, where Lake Superior tourism drives cash demand from late spring through fall. Canal Park's hotels, restaurants, and bars sit beside the Aerial Lift Bridge and fill up on summer weekends, while downtown's Superior Street and the Lincoln Park Craft District support breweries, coffee shops, and boutiques. The university campus keeps taverns and convenience stores busy through winter, and dispensaries, gas stations, and motels up the North Shore toward Two Harbors depend on our machines staying stocked through every tourist surge.",
+      "areas": ["Canal Park", "Downtown Duluth", "Lincoln Park Craft District", "East Hillside", "Miller Hill"],
+      "nearby": ["st-cloud", "brainerd", "minneapolis"]
+    },
+    {
+      "slug": "st-cloud",
+      "name": "St. Cloud",
+      "region": "Central Minnesota",
+      "blurb": "We place and service ATMs in St. Cloud and the surrounding Central Minnesota communities of Sartell, Waite Park, and Sauk Rapids. Downtown St. Cloud's St. Germain Street holds bars, restaurants, and a busy events district, and the university area on the south side keeps taverns and convenience stores busy through the school year. Division Street and the Crossroads mall corridor are lined with retail, gas stations, and salons. Dispensaries, bowling alleys, and lake-country resorts within an hour's drive rely on our dependable local service.",
+      "areas": ["Downtown St. Cloud", "Division Street", "Waite Park", "Sartell", "Sauk Rapids"],
+      "nearby": ["minneapolis", "brainerd", "duluth"]
+    },
+    {
+      "slug": "mankato",
+      "name": "Mankato",
+      "region": "Southern Minnesota",
+      "blurb": "We place and service ATMs in Mankato and North Mankato, the commercial center of southern Minnesota's farm country. Old Town and the City Center along Front Street hold bars, restaurants, and music venues that draw crowds from the university, and Madison Avenue and the River Hills Mall area carry the region's big-box retail, gas stations, and salons. Convenience stores, dispensaries, and taverns in surrounding towns like New Ulm and St. Peter depend on our machines, and we plan refills around harvest season and campus move-in weekends.",
+      "areas": ["Old Town Mankato", "City Center", "Madison Avenue", "River Hills Mall area", "North Mankato"],
+      "nearby": ["bloomington", "rochester", "minneapolis"]
+    },
+    {
+      "slug": "brainerd",
+      "name": "Brainerd",
+      "region": "the Brainerd Lakes Area",
+      "blurb": "We place and service ATMs in Brainerd, Baxter, and the resort towns of the Brainerd Lakes Area, where summer cabin season and winter ice fishing turn cash demand up sharply. Resorts and golf courses around Gull Lake and Pelican Lake, bait shops, marinas, and lakeside bars in Nisswa and Crosslake all need machines that stay full on holiday weekends. Downtown Brainerd's Laurel Street taverns and Baxter's Highway 371 gas stations, convenience stores, and dispensaries serve both locals and visitors, and our service routes are built around the seasonal swings.",
+      "areas": ["Downtown Brainerd", "Baxter", "Nisswa", "Crosslake", "Gull Lake"],
+      "nearby": ["st-cloud", "duluth", "moorhead"]
+    },
+    {
+      "slug": "moorhead",
+      "name": "Moorhead",
+      "region": "the Red River Valley",
+      "blurb": "We place and service ATMs in Moorhead and across the Minnesota side of the Fargo-Moorhead metro. Center Avenue and the downtown blocks near the college campuses hold bars, restaurants, and convenience stores that stay busy through the school year, and the Highway 10 and 8th Street corridors carry gas stations, salons, and grocers. Dilworth's truck stops and the agricultural supply businesses of the Red River Valley bring steady cash traffic, and dispensaries and taverns in Detroit Lakes and Fergus Falls depend on our locally serviced machines year round.",
+      "areas": ["Downtown Moorhead", "Center Avenue", "Highway 10 corridor", "Dilworth", "Detroit Lakes"],
+      "nearby": ["brainerd", "st-cloud", "duluth"]
+    }
+  ]
+}

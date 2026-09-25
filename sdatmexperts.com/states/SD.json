@@ -1,0 +1,90 @@
+{
+  "abbr": "SD",
+  "name": "South Dakota",
+  "metro_city": "Sioux Falls",
+  "metro_phrase": "the Sioux Falls metro",
+  "span_phrase": "from Sioux Falls to Rapid City",
+  "seasonal_phrase": "the summer Black Hills tourism rush, the Sturgis motorcycle rally, and pheasant hunting season each fall",
+  "cities": [
+    {
+      "slug": "sioux-falls",
+      "name": "Sioux Falls",
+      "region": "Southeastern South Dakota",
+      "blurb": "We place and service ATMs across Sioux Falls, the state's largest city. Downtown's Phillips Avenue hosts bars, restaurants, and music venues that fill on weekends and during summer events at Falls Park, while the convenience stores, salons, and quick-service restaurants along 41st Street and Louise Avenue serve the Empire Mall shopping corridor. Hotels along Interstate 29 and Interstate 90 handle steady traveler traffic, and medical dispensaries across the metro are a natural fit for cash-only sales. We handle installation, loading, and monitoring locally.",
+      "areas": ["Downtown Phillips Avenue", "Falls Park", "41st Street", "Louise Avenue", "Empire Mall", "East Side"],
+      "nearby": ["brookings", "mitchell", "yankton"]
+    },
+    {
+      "slug": "rapid-city",
+      "name": "Rapid City",
+      "region": "the Black Hills",
+      "blurb": "We place and service ATMs in Rapid City and the Black Hills. Downtown's Main Street and the Art Alley district host bars, restaurants, and hotels that fill with summer tourists visiting Mount Rushmore and the Badlands, while the convenience stores, salons, and quick-service restaurants along Mount Rushmore Road and Haines Avenue serve residents and the air base community. Rushmore Mall draws regional shoppers year-round, and medical dispensaries in Pennington County rely on us for cash access where mountain connectivity can be limited.",
+      "areas": ["Downtown Main Street", "Art Alley", "Mount Rushmore Road", "Haines Avenue", "Rushmore Mall", "Box Elder"],
+      "nearby": ["spearfish", "sturgis", "pierre"]
+    },
+    {
+      "slug": "aberdeen",
+      "name": "Aberdeen",
+      "region": "Northeastern South Dakota",
+      "blurb": "We place and service ATMs in Aberdeen and northeastern South Dakota. Downtown's Main Street hosts bars, restaurants, and shops, while the convenience stores, salons, hotels, and quick-service restaurants along Sixth Avenue and Highway 12 serve residents and hunters passing through each fall. Pheasant season brings large crowds of visitors to lodges, taverns, and gas stations across Brown County, and the Brown County Fair and the universities keep businesses busy through the summer and school year. Medical dispensaries in the area rely on us for cash service.",
+      "areas": ["Downtown Aberdeen", "Main Street", "Sixth Avenue", "Highway 12 corridor", "Wylie Park"],
+      "nearby": ["watertown", "brookings", "pierre"]
+    },
+    {
+      "slug": "brookings",
+      "name": "Brookings",
+      "region": "Eastern South Dakota",
+      "blurb": "We place and service ATMs in Brookings, home to the state's largest university. Downtown's Main Avenue hosts bars, restaurants, and convenience stores that fill on football Saturdays and through the academic year, while the salons, hotels, and quick-service restaurants along Sixth Street and 22nd Avenue serve students and visitors for games and graduation. The summer arts festival brings large crowds to Pioneer Park, and medical dispensaries in Brookings County rely on us for reliable cash access. Our machines handle the predictable game-weekend surges.",
+      "areas": ["Downtown Brookings", "Main Avenue", "Sixth Street", "22nd Avenue", "Pioneer Park"],
+      "nearby": ["sioux-falls", "watertown", "aberdeen"]
+    },
+    {
+      "slug": "watertown",
+      "name": "Watertown",
+      "region": "the Glacial Lakes region",
+      "blurb": "We place and service ATMs in Watertown and the Glacial Lakes region. Downtown's Kemp Avenue hosts bars, restaurants, and shops, while the convenience stores, salons, hotels, and quick-service restaurants along Highway 212 and Ninth Avenue serve residents and travelers on Interstate 29. Lake Kampeska's marinas and campgrounds bring summer boaters and anglers to local bait shops and taverns, and pheasant and waterfowl hunting seasons each fall keep motels and gas stations busy. Medical dispensaries in Codington County rely on us for cash service.",
+      "areas": ["Downtown Watertown", "Kemp Avenue", "Highway 212", "Lake Kampeska", "Ninth Avenue"],
+      "nearby": ["brookings", "aberdeen", "sioux-falls"]
+    },
+    {
+      "slug": "mitchell",
+      "name": "Mitchell",
+      "region": "Central South Dakota",
+      "blurb": "We place and service ATMs in Mitchell, where the Corn Palace draws thousands of summer tourists to Main Street's restaurants, bars, and gift shops. The convenience stores, hotels, and quick-service restaurants at the Interstate 90 exits serve heavy traveler traffic between Sioux Falls and the Black Hills, while the salons and stores along Havens Avenue and Burr Street serve residents year-round. Pheasant hunting season each fall fills lodges and taverns across Davison County, and medical dispensaries in the area rely on us for cash access.",
+      "areas": ["Corn Palace", "Downtown Main Street", "Interstate 90 corridor", "Havens Avenue", "Lake Mitchell"],
+      "nearby": ["sioux-falls", "yankton", "pierre"]
+    },
+    {
+      "slug": "yankton",
+      "name": "Yankton",
+      "region": "the Missouri River valley",
+      "blurb": "We place and service ATMs in Yankton and the southeastern corner of the state along the Missouri River. Downtown's Third Street and the Meridian District host bars, restaurants, and shops, while the convenience stores, salons, hotels, and quick-service restaurants along Broadway Avenue serve residents and Nebraska visitors. Lewis and Clark Lake's marinas, campgrounds, and resorts bring heavy summer boating and fishing traffic to local businesses, and Riverboat Days each August draws large crowds. Medical dispensaries in Yankton County rely on us for cash service.",
+      "areas": ["Downtown Yankton", "Third Street", "Meridian District", "Broadway Avenue", "Lewis and Clark Lake"],
+      "nearby": ["sioux-falls", "mitchell", "brookings"]
+    },
+    {
+      "slug": "pierre",
+      "name": "Pierre",
+      "region": "Central South Dakota",
+      "blurb": "We place and service ATMs in Pierre, the state capital, and neighboring Fort Pierre. Downtown's Pierre Street hosts restaurants, bars, and shops that fill during the legislative session each winter, while the convenience stores, salons, hotels, and quick-service restaurants along Sioux Avenue and Highway 14 serve state workers and travelers. Lake Oahe's marinas and campgrounds bring walleye anglers all summer, and pheasant season each fall fills lodges and taverns across the region. Medical dispensaries in Hughes County rely on us for reliable cash service.",
+      "areas": ["Downtown Pierre", "Pierre Street", "Sioux Avenue", "Fort Pierre", "Lake Oahe"],
+      "nearby": ["rapid-city", "mitchell", "aberdeen"]
+    },
+    {
+      "slug": "spearfish",
+      "name": "Spearfish",
+      "region": "the Northern Black Hills",
+      "blurb": "We place and service ATMs in Spearfish and the Northern Black Hills, including Deadwood and Lead. Spearfish's downtown Main Street hosts restaurants, bars, and shops that serve the university community and summer tourists driving Spearfish Canyon, while the hotels and convenience stores along Jackson Boulevard and Interstate 90 handle steady traveler traffic. Deadwood's Main Street casinos, saloons, and hotels keep cash moving year-round and surge during summer events. Medical dispensaries in Lawrence County rely on us for reliable cash access.",
+      "areas": ["Downtown Spearfish", "Main Street", "Jackson Boulevard", "Spearfish Canyon", "Deadwood", "Lead"],
+      "nearby": ["rapid-city", "sturgis", "pierre"]
+    },
+    {
+      "slug": "sturgis",
+      "name": "Sturgis",
+      "region": "the Black Hills",
+      "blurb": "We place and service ATMs in Sturgis, where the motorcycle rally each August transforms Main Street's bars, restaurants, and shops into some of the busiest cash environments in the country for ten days. Outside rally season, the convenience stores, salons, hotels, and quick-service restaurants along Lazelle Street and Junction Avenue serve residents and Interstate 90 travelers, while nearby campgrounds and the Fort Meade area add steady summer traffic. Medical dispensaries in Meade County rely on us for cash service, and our machines are built for the rally surge.",
+      "areas": ["Main Street", "Lazelle Street", "Junction Avenue", "Buffalo Chip", "Fort Meade"],
+      "nearby": ["rapid-city", "spearfish", "pierre"]
+    }
+  ]
+}

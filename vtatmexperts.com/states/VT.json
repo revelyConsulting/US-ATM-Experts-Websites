@@ -1,0 +1,82 @@
+{
+  "abbr": "VT",
+  "name": "Vermont",
+  "metro_city": "Burlington",
+  "metro_phrase": "the greater Burlington area",
+  "span_phrase": "from Burlington to Brattleboro",
+  "seasonal_phrase": "fall foliage season, ski season, and summer lake tourism",
+  "cities": [
+    {
+      "slug": "burlington",
+      "name": "Burlington",
+      "region": "the Champlain Valley",
+      "blurb": "We place and service ATMs across Burlington, Vermont's largest city, where the Church Street Marketplace draws crowds to its restaurants, bars, boutiques, and street performers. The Waterfront along Lake Champlain supports hotels, breweries, and seasonal dining, while the Old North End adds cafes, neighborhood markets, and salons. Bars and late-night eateries near the university stay busy through the school year. Dispensaries, convenience stores, and music venues throughout Chittenden County rely on dependable cash access.",
+      "areas": ["Church Street Marketplace", "Waterfront", "Old North End", "South End", "University Hill"],
+      "nearby": ["south-burlington", "essex", "montpelier"]
+    },
+    {
+      "slug": "south-burlington",
+      "name": "South Burlington",
+      "region": "the Champlain Valley",
+      "blurb": "We place and service ATMs in South Burlington, home to the state's busiest airport and its largest retail corridor along Williston Road and Dorset Street. The University Mall area anchors restaurants, hotels, and convenience stores, while Shelburne Road supports gas stations, salons, and casual dining serving commuters. Nearby Williston's Taft Corners adds big-box retail and dining, and Shelburne brings village shops and lakeside visitors. Airport travelers and year-round retail traffic keep cash demand steady.",
+      "areas": ["Williston Road", "Dorset Street", "Shelburne Road", "Taft Corners", "Shelburne"],
+      "nearby": ["burlington", "essex", "montpelier"]
+    },
+    {
+      "slug": "essex",
+      "name": "Essex",
+      "region": "the Champlain Valley",
+      "blurb": "We place and service ATMs in Essex and Essex Junction, the largest suburban communities east of Burlington. Five Corners in Essex Junction supports restaurants, pubs, and small shops, while the Essex Outlets and Susie Wilson Road corridor anchor retail, hotels, and convenience stores. Nearby Colchester adds lakeside businesses and neighborhood markets along Route 7, and Winooski's downtown roundabout district brings bars, cafes, and international restaurants. Manufacturing shifts and commuter traffic keep local merchants busy year round.",
+      "areas": ["Five Corners", "Essex Outlets", "Susie Wilson Road", "Colchester", "Winooski"],
+      "nearby": ["burlington", "south-burlington", "st-albans"]
+    },
+    {
+      "slug": "montpelier",
+      "name": "Montpelier",
+      "region": "Central Vermont",
+      "blurb": "We place and service ATMs in Montpelier and neighboring Barre, the heart of central Vermont. State Street and Main Street in Montpelier support restaurants, cafes, bookstores, and bars serving state employees and visitors, while Barre's North Main Street downtown adds pubs, salons, and convenience stores. The Berlin Mall area along Interstate 89 anchors hotels and retail. Legislative sessions, granite industry traffic, and foliage tourists all shape cash demand for Washington County businesses.",
+      "areas": ["Downtown Montpelier", "State Street", "Barre", "Berlin", "Northfield"],
+      "nearby": ["burlington", "stowe", "rutland"]
+    },
+    {
+      "slug": "stowe",
+      "name": "Stowe",
+      "region": "Northern Vermont",
+      "blurb": "We place and service ATMs in Stowe and the Lamoille County resort region, where Main Street village supports restaurants, taverns, galleries, and boutique shops. The Mountain Road corridor toward the ski resort is lined with lodges, hotels, breweries, and convenience stores that see enormous winter and foliage-season crowds. Waterbury nearby adds a busy downtown with bars, cafes, and cider and beer destinations, and Morrisville supports local retail and dispensaries. Seasonal swings make well-stocked cash machines essential here.",
+      "areas": ["Stowe Village", "Mountain Road", "Waterbury", "Morrisville", "Smugglers' Notch"],
+      "nearby": ["montpelier", "burlington", "st-albans"]
+    },
+    {
+      "slug": "rutland",
+      "name": "Rutland",
+      "region": "Southern Vermont",
+      "blurb": "We place and service ATMs throughout Rutland and the Killington region, where Downtown Rutland's Center Street and Merchants Row support restaurants, bars, and locally owned shops. The Route 7 corridor anchors convenience stores, hotels, and retail plazas serving commuters and travelers, while the Killington Access Road brings a dense stretch of ski lodges, taverns, and nightlife that surges each winter. Summer hikers and fall foliage visitors keep Rutland County businesses relying on cash long after the snow melts.",
+      "areas": ["Downtown Rutland", "Route 7", "Killington", "Merchants Row", "Castleton"],
+      "nearby": ["montpelier", "bennington", "brattleboro"]
+    },
+    {
+      "slug": "brattleboro",
+      "name": "Brattleboro",
+      "region": "Southern Vermont",
+      "blurb": "We place and service ATMs in Brattleboro, a lively arts town on the Connecticut River in Windham County near the New Hampshire and Massachusetts borders. Main Street downtown supports restaurants, cafes, bars, galleries, and a well-known food co-op, while Putney Road anchors hotels, convenience stores, and retail centers along Interstate 91. Nearby Wilmington and the Mount Snow area bring winter ski crowds to taverns and lodges. Gallery walks, festivals, and foliage visitors keep cash moving downtown year round.",
+      "areas": ["Main Street", "Putney Road", "Wilmington", "Mount Snow", "Putney"],
+      "nearby": ["bennington", "rutland", "montpelier"]
+    },
+    {
+      "slug": "bennington",
+      "name": "Bennington",
+      "region": "Southern Vermont",
+      "blurb": "We place and service ATMs across Bennington and the southwestern corner of the state, where Main Street downtown supports restaurants, pubs, cafes, and small shops near the historic battle monument. The Northside Drive corridor anchors convenience stores, gas stations, and retail plazas, while Manchester to the north brings outlet shopping, hotels, and dining that draw visitors from New York and Massachusetts. College traffic, foliage tourism, and ski visitors headed to Stratton keep local merchants counting on cash.",
+      "areas": ["Downtown Bennington", "Northside Drive", "Manchester", "Old Bennington", "Stratton"],
+      "nearby": ["brattleboro", "rutland", "montpelier"]
+    },
+    {
+      "slug": "st-albans",
+      "name": "St. Albans",
+      "region": "Northern Vermont",
+      "blurb": "We place and service ATMs in St. Albans and Franklin County, the commercial center of northwestern Vermont near the Canadian border. Main Street downtown facing Taylor Park supports restaurants, bars, salons, and locally owned shops, while the Route 7 and Interstate 89 corridor anchors hotels, gas stations, and convenience stores serving cross-border travelers and commuters. Swanton and Enosburg Falls add village businesses, and Lake Champlain's bays bring summer boaters and campers who keep cash demand steady.",
+      "areas": ["Downtown St. Albans", "Taylor Park", "Route 7", "Swanton", "St. Albans Bay"],
+      "nearby": ["burlington", "essex", "stowe"]
+    }
+  ]
+}

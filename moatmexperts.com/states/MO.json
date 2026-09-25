@@ -1,0 +1,90 @@
+{
+  "abbr": "MO",
+  "name": "Missouri",
+  "metro_city": "Kansas City",
+  "metro_phrase": "the Kansas City metro",
+  "span_phrase": "from St. Louis to Kansas City",
+  "seasonal_phrase": "Lake of the Ozarks summer season, baseball and football weekends, and the Branson show season",
+  "cities": [
+    {
+      "slug": "kansas-city",
+      "name": "Kansas City",
+      "region": "Western Missouri",
+      "blurb": "We place and service ATMs across Kansas City, from the bars, restaurants, and hotels of the Power and Light District downtown to the galleries and taprooms of the Crossroads Arts District. Westport's nightlife strip and the Country Club Plaza's boutiques and restaurants keep evening traffic steady, and the Jazz District at 18th and Vine draws music crowds. Barbecue joints, gas stations, salons, and dispensaries along Troost, Independence Avenue, and the Northland corridors depend on machines we keep stocked and running from our local routes.",
+      "areas": ["Power and Light District", "Crossroads Arts District", "Westport", "Country Club Plaza", "18th and Vine", "Northland"],
+      "nearby": ["independence", "st-joseph", "columbia"]
+    },
+    {
+      "slug": "st-louis",
+      "name": "St. Louis",
+      "region": "Eastern Missouri",
+      "blurb": "We place and service ATMs throughout St. Louis, from the bars and music venues of Soulard and the Grove to the restaurants and hotels downtown near the riverfront and the ballpark district. The Delmar Loop draws crowds to its record shops, taverns, and concert hall, and the Central West End's cafes and cocktail bars serve the medical campus and university. South Grand's international restaurants, the Hill's Italian bakeries and delis, and gas stations, salons, and dispensaries across the city and county count on our fast local service.",
+      "areas": ["Downtown St. Louis", "Soulard", "The Grove", "Delmar Loop", "Central West End", "South Grand"],
+      "nearby": ["st-charles", "columbia", "cape-girardeau"]
+    },
+    {
+      "slug": "springfield",
+      "name": "Springfield",
+      "region": "the Ozarks",
+      "blurb": "We place and service ATMs in Springfield, the commercial hub of the Missouri Ozarks and home to several universities. Downtown's Park Central Square and the Commercial Street district hold bars, restaurants, coffee shops, and music venues that fill with students on weekends, and the Battlefield Road and Glenstone Avenue corridors carry retail, hotels, gas stations, and salons. The sporting goods flagship on the south side draws outdoor enthusiasts from across the region, and dispensaries, convenience stores, and taverns in Nixa, Ozark, and Republic rely on our locally serviced machines.",
+      "areas": ["Downtown Springfield", "Commercial Street", "Battlefield Road", "Glenstone Avenue", "Nixa", "Ozark"],
+      "nearby": ["branson", "joplin", "columbia"]
+    },
+    {
+      "slug": "columbia",
+      "name": "Columbia",
+      "region": "Mid-Missouri",
+      "blurb": "We place and service ATMs in Columbia and Jefferson City, the university and state capital pair at the center of Missouri. The District downtown along Broadway and Ninth Street holds bars, restaurants, and music venues that fill up on football weekends and through the school year, and the Stadium Boulevard and Providence Road corridors carry hotels, gas stations, and salons. Jefferson City's High Street restaurants and taverns serve the capitol crowd during legislative session, and dispensaries and convenience stores across Boone and Cole counties depend on our reliable local service.",
+      "areas": ["The District", "Ninth Street", "Stadium Boulevard", "Providence Road", "Jefferson City"],
+      "nearby": ["kansas-city", "st-louis", "springfield"]
+    },
+    {
+      "slug": "independence",
+      "name": "Independence",
+      "region": "the Kansas City metro",
+      "blurb": "We place and service ATMs in Independence, Lee's Summit, and Blue Springs, the eastern suburbs of the Kansas City metro. The Independence Square district holds restaurants, antique shops, and taverns near the presidential library, and the 39th Street and Noland Road corridors carry gas stations, salons, and convenience stores. Lee's Summit's downtown Main Street adds bars, boutiques, and coffee shops, and the arena and hotel district at the Independence Events Center draws event crowds. Dispensaries and bowling alleys across eastern Jackson County rely on our locally stocked machines.",
+      "areas": ["Independence Square", "39th Street", "Noland Road", "Lee's Summit", "Blue Springs", "Raytown"],
+      "nearby": ["kansas-city", "columbia", "st-joseph"]
+    },
+    {
+      "slug": "st-charles",
+      "name": "St. Charles",
+      "region": "the St. Louis metro",
+      "blurb": "We place and service ATMs in St. Charles, O'Fallon, and St. Peters, the fast-growing suburbs on the north side of the St. Louis metro. Historic Main Street in St. Charles is lined with restaurants, wine bars, and boutiques along the riverfront, and the casino and convention center on the Missouri River bring event and hotel traffic. The Mid Rivers Mall corridor and Highway K in O'Fallon carry retail, gas stations, and salons, and dispensaries, taverns, and convenience stores across St. Charles County depend on our prompt local service.",
+      "areas": ["Historic Main Street", "St. Charles riverfront", "Mid Rivers Mall area", "O'Fallon", "St. Peters", "Wentzville"],
+      "nearby": ["st-louis", "columbia", "cape-girardeau"]
+    },
+    {
+      "slug": "branson",
+      "name": "Branson",
+      "region": "the Ozarks",
+      "blurb": "We place and service ATMs in Branson, where show season, summer lake tourism, and the holiday light displays drive cash demand higher than almost anywhere else in the state. The 76 Country Boulevard strip is packed with theaters, hotels, restaurants, and go-kart tracks, while Branson Landing on the waterfront adds bars, boutiques, and a marina. Historic downtown's cafes and shops, the Table Rock Lake marinas and resorts, and gas stations, convenience stores, and dispensaries across Taney and Stone counties rely on our machines staying full through the busiest weekends.",
+      "areas": ["76 Country Boulevard", "Branson Landing", "Historic Downtown Branson", "Table Rock Lake", "Hollister"],
+      "nearby": ["springfield", "joplin", "columbia"]
+    },
+    {
+      "slug": "joplin",
+      "name": "Joplin",
+      "region": "Southwest Missouri",
+      "blurb": "We place and service ATMs in Joplin, the retail and trucking hub of the four-state corner where Missouri meets Kansas, Oklahoma, and Arkansas. Downtown's Main Street holds bars, restaurants, and galleries, and the Range Line Road corridor along I-44 carries hotels, truck stops, gas stations, and big-box retail. The university on the north side keeps taverns and convenience stores busy during the school year, and salons, dispensaries, and neighborhood bars in Carthage, Webb City, and Neosho depend on our locally serviced machines.",
+      "areas": ["Downtown Joplin", "Range Line Road", "Main Street", "Webb City", "Carthage"],
+      "nearby": ["springfield", "branson", "kansas-city"]
+    },
+    {
+      "slug": "st-joseph",
+      "name": "St. Joseph",
+      "region": "Northwest Missouri",
+      "blurb": "We place and service ATMs in St. Joseph, a Missouri River city north of Kansas City with a historic downtown and a strong manufacturing base. Felix Street and the downtown blocks hold bars, restaurants, and antique shops near the Pony Express museum, and the Belt Highway carries hotels, gas stations, retail, and salons on the east side. The summer training camp draws football fans to local hotels and taverns, and convenience stores, dispensaries, and neighborhood bars across Buchanan County rely on our prompt local service.",
+      "areas": ["Downtown St. Joseph", "Felix Street", "Belt Highway", "East Hills", "North End"],
+      "nearby": ["kansas-city", "independence", "columbia"]
+    },
+    {
+      "slug": "cape-girardeau",
+      "name": "Cape Girardeau",
+      "region": "Southeast Missouri",
+      "blurb": "We place and service ATMs in Cape Girardeau, the river city that anchors Missouri's Bootheel and the surrounding southeast counties. Downtown's Main Street and Broadway hold bars, restaurants, and shops near the riverfront murals, and the university campus keeps taverns and convenience stores busy through the school year. The West Park Mall and Kingshighway corridors carry hotels, gas stations, and salons, and the casino on the north side draws steady visitor traffic. Dispensaries and bars in Jackson, Sikeston, and Poplar Bluff depend on our locally serviced machines.",
+      "areas": ["Downtown Cape Girardeau", "Broadway", "Kingshighway", "West Park Mall area", "Jackson", "Sikeston"],
+      "nearby": ["st-louis", "st-charles", "springfield"]
+    }
+  ]
+}

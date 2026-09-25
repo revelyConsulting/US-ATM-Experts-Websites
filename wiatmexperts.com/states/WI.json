@@ -1,0 +1,90 @@
+{
+  "abbr": "WI",
+  "name": "Wisconsin",
+  "metro_city": "Milwaukee",
+  "metro_phrase": "the greater Milwaukee area",
+  "span_phrase": "from Milwaukee to Superior",
+  "seasonal_phrase": "summer festival season, football weekends, and deer hunting season",
+  "cities": [
+    {
+      "slug": "milwaukee",
+      "name": "Milwaukee",
+      "region": "Southeastern Wisconsin",
+      "blurb": "We place and service ATMs across Milwaukee, from the bars, restaurants, and hotels of the Third Ward and Downtown to the neighborhood taverns and cafes of Bay View along Kinnickinnic Avenue. Brady Street on the East Side supports pubs, salons, and late-night eateries, while Walker's Point brings breweries, nightclubs, and restaurants. The lakefront festival grounds host events all summer, and convenience stores, corner taverns, and gas stations throughout Milwaukee County rely on dependable cash access.",
+      "areas": ["Third Ward", "Bay View", "Brady Street", "Walker's Point", "Downtown Milwaukee", "East Side"],
+      "nearby": ["waukesha", "racine", "madison"]
+    },
+    {
+      "slug": "madison",
+      "name": "Madison",
+      "region": "South Central Wisconsin",
+      "blurb": "We place and service ATMs throughout Madison, the state capital, where State Street connects the Capitol Square to the university with a dense mix of bars, restaurants, coffee shops, and boutiques. The Capitol Square hosts a large weekly farmers market and supports hotels and dining, while Williamson Street on the near east side brings taverns, cafes, and salons. Hilldale and the West Side anchor retail centers and convenience stores. Game weekends and legislative sessions keep cash demand strong for Dane County merchants.",
+      "areas": ["State Street", "Capitol Square", "Williamson Street", "Hilldale", "Monroe Street", "East Washington Avenue"],
+      "nearby": ["milwaukee", "waukesha", "eau-claire"]
+    },
+    {
+      "slug": "green-bay",
+      "name": "Green Bay",
+      "region": "Northeastern Wisconsin",
+      "blurb": "We place and service ATMs in Green Bay, where the stadium district along Lombardi Avenue is packed with sports bars, restaurants, hotels, and convenience stores that see enormous crowds on football weekends. Downtown along Washington Street and the Broadway District support taverns, breweries, cafes, and boutiques near the river, while the Titletown development adds dining and entertainment. Nearby De Pere brings a college-town main street with pubs and restaurants, and the Oneida casino keeps steady visitor traffic year round.",
+      "areas": ["Stadium District", "Broadway District", "Downtown Green Bay", "Titletown", "De Pere", "Ashwaubenon"],
+      "nearby": ["appleton", "oshkosh", "wausau"]
+    },
+    {
+      "slug": "kenosha",
+      "name": "Kenosha",
+      "region": "Southeastern Wisconsin",
+      "blurb": "We place and service ATMs across Kenosha on the Lake Michigan shore between Milwaukee and Chicago, where Downtown and the HarborPark district support restaurants, bars, cafes, and museums near the marina. The 52nd Street and Highway 50 corridors anchor convenience stores, gas stations, retail centers, and salons serving commuters and shoppers from Illinois. Pleasant Prairie's outlet mall and distribution centers bring steady traffic, and summer harbor events and Lake Michigan tourism keep cash demand high for local merchants.",
+      "areas": ["Downtown Kenosha", "HarborPark", "Highway 50", "52nd Street", "Pleasant Prairie"],
+      "nearby": ["racine", "milwaukee", "waukesha"]
+    },
+    {
+      "slug": "racine",
+      "name": "Racine",
+      "region": "Southeastern Wisconsin",
+      "blurb": "We place and service ATMs in Racine, a lakefront city known for its Danish bakeries and historic downtown. Main Street and Sixth Street support restaurants, taverns, coffee shops, and galleries near the harbor and North Beach, while the Durand Avenue and Highway 20 corridors anchor convenience stores, gas stations, and retail centers. Nearby Mount Pleasant and Sturtevant add manufacturing traffic and neighborhood businesses. Summer beach crowds and boating season give Racine County merchants a reliable seasonal boost in cash demand.",
+      "areas": ["Downtown Racine", "North Beach", "Sixth Street", "Durand Avenue", "Mount Pleasant"],
+      "nearby": ["kenosha", "milwaukee", "waukesha"]
+    },
+    {
+      "slug": "appleton",
+      "name": "Appleton",
+      "region": "the Fox Cities",
+      "blurb": "We place and service ATMs throughout Appleton and the Fox Cities, where College Avenue downtown is lined with bars, restaurants, music venues, and boutiques serving university students and visitors. The Fox River Mall district in Grand Chute anchors hotels, retail centers, convenience stores, and casual dining, while Neenah and Menasha add small-town downtowns with taverns and cafes. Paper industry employers and summer festivals keep steady traffic flowing through gas stations and salons across the Fox Valley.",
+      "areas": ["College Avenue", "Downtown Appleton", "Fox River Mall", "Grand Chute", "Neenah", "Menasha"],
+      "nearby": ["green-bay", "oshkosh", "wausau"]
+    },
+    {
+      "slug": "oshkosh",
+      "name": "Oshkosh",
+      "region": "the Fox Cities",
+      "blurb": "We place and service ATMs in Oshkosh on Lake Winnebago, where Main Street downtown supports bars, restaurants, cafes, and locally owned shops. The area near the university keeps taverns, convenience stores, and late-night dining busy through the school year, while the Highway 41 and Koeller Street corridors anchor hotels, retail centers, and gas stations. The annual summer aviation convention brings hundreds of thousands of visitors to Winnebago County merchants, and nearby Fond du Lac adds a busy downtown and lakefront businesses.",
+      "areas": ["Downtown Oshkosh", "Main Street", "Highway 41 corridor", "Koeller Street", "Fond du Lac"],
+      "nearby": ["appleton", "green-bay", "madison"]
+    },
+    {
+      "slug": "waukesha",
+      "name": "Waukesha",
+      "region": "Southeastern Wisconsin",
+      "blurb": "We place and service ATMs across Waukesha County and Milwaukee's western suburbs, where Downtown Waukesha's Main Street and Five Points support restaurants, pubs, cafes, and small shops. Brookfield's Bluemound Road corridor anchors hotels, retail centers, and casual dining, while Pewaukee's lakefront brings summer bars and restaurants. New Berlin and Menomonee Falls add convenience stores, gas stations, and salons serving commuters. Summer festivals and lake recreation keep cash demand steady for suburban merchants.",
+      "areas": ["Downtown Waukesha", "Brookfield", "Bluemound Road", "Pewaukee", "New Berlin", "Menomonee Falls"],
+      "nearby": ["milwaukee", "madison", "racine"]
+    },
+    {
+      "slug": "eau-claire",
+      "name": "Eau Claire",
+      "region": "Western Wisconsin",
+      "blurb": "We place and service ATMs in Eau Claire, the commercial hub of western Wisconsin. Downtown along Barstow Street and the Phoenix Park riverfront support restaurants, bars, breweries, and a well-known concert venue, while Water Street near the university keeps taverns, convenience stores, and late-night dining busy. The Clairemont Avenue and Golf Road corridors anchor hotels, retail centers, and gas stations. Summer music festivals and the nearby Chippewa Falls brewery draw visitors who keep Eau Claire County merchants counting on cash.",
+      "areas": ["Downtown Eau Claire", "Water Street", "Phoenix Park", "Golf Road", "Chippewa Falls"],
+      "nearby": ["wausau", "madison", "milwaukee"]
+    },
+    {
+      "slug": "wausau",
+      "name": "Wausau",
+      "region": "North Central Wisconsin",
+      "blurb": "We place and service ATMs throughout Wausau and central Wisconsin, where Third Street downtown and the 400 Block support restaurants, bars, cafes, and boutiques. Rib Mountain's Rib Mountain Drive corridor anchors hotels, retail centers, convenience stores, and gas stations near the ski hill, while Stevens Point to the south adds a university downtown with taverns and a brewery. Weston brings neighborhood businesses and salons. Winter skiing, summer whitewater events, and deer season give Marathon County merchants steady seasonal cash demand.",
+      "areas": ["Downtown Wausau", "400 Block", "Rib Mountain", "Weston", "Stevens Point"],
+      "nearby": ["green-bay", "eau-claire", "appleton"]
+    }
+  ]
+}

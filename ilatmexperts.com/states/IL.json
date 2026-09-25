@@ -1,0 +1,90 @@
+{
+  "abbr": "IL",
+  "name": "Illinois",
+  "metro_city": "Chicago",
+  "metro_phrase": "Chicagoland",
+  "span_phrase": "from Rockford to Carbondale",
+  "seasonal_phrase": "summer street festivals, college football weekends, and holiday shopping on the Magnificent Mile",
+  "cities": [
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "region": "Chicagoland",
+      "blurb": "We place and service ATMs across Chicago, from the bars and nightclubs of River North and Wrigleyville to the restaurants, hotels, and boutiques of the Loop and the Magnificent Mile. Wicker Park and Logan Square are dense with taverns, music venues, and coffee shops, while Pilsen and Chinatown host family-run restaurants and corner stores. Dispensaries, salons, and convenience stores throughout the city's neighborhoods depend on reliable cash access, and our machines are serviced by technicians based in the city.",
+      "areas": ["The Loop", "River North", "Wicker Park", "Wrigleyville", "Logan Square", "Pilsen"],
+      "nearby": ["naperville", "joliet", "aurora", "elgin"]
+    },
+    {
+      "slug": "naperville",
+      "name": "Naperville",
+      "region": "the western suburbs",
+      "blurb": "Naperville is one of the largest suburbs in Chicagoland, and we place and service ATMs at businesses throughout it. Downtown Naperville along Jefferson Avenue and Main Street is packed with restaurants, bars, boutiques, and salons, and the Naperville Riverwalk draws crowds through the summer. Route 59 and Ogden Avenue are busy commercial corridors lined with convenience stores, gas stations, and shopping plazas. Hotels near the Interstate 88 corridor serve business travelers visiting the area's corporate campuses.",
+      "areas": ["Downtown Naperville", "Naperville Riverwalk", "Route 59 corridor", "Ogden Avenue", "Interstate 88 corridor"],
+      "nearby": ["aurora", "joliet", "chicago"]
+    },
+    {
+      "slug": "aurora",
+      "name": "Aurora",
+      "region": "the Fox Valley",
+      "blurb": "We place and service ATMs in Aurora, the second-largest city in Illinois. Downtown Aurora along the Fox River is home to the Paramount Theatre, the Hollywood Casino, and a growing cluster of restaurants, bars, and cafes. Chicago Premium Outlets on the city's east side draws shoppers from across the region, while Lake Street, Farnsworth Avenue, and Route 59 are lined with convenience stores, gas stations, salons, and quick-service restaurants. Dispensaries and entertainment venues also rely on on-site cash access.",
+      "areas": ["Downtown Aurora", "Fox Valley", "Chicago Premium Outlets", "Farnsworth Avenue", "Lake Street", "Route 59"],
+      "nearby": ["naperville", "elgin", "joliet"]
+    },
+    {
+      "slug": "joliet",
+      "name": "Joliet",
+      "region": "the southwest suburbs",
+      "blurb": "Joliet is a transportation and entertainment hub southwest of Chicago, and we place and service ATMs at businesses across the city. Downtown Joliet is home to the Rialto Square Theatre, the Harrah's and Hollywood casinos, and nearby bars and restaurants, while Chicagoland Speedway and the Route 66 Raceway bring heavy seasonal crowds. Jefferson Street and Larkin Avenue are lined with convenience stores, gas stations, and salons, and the Interstate 80 and Interstate 55 interchanges are packed with truck stops and hotels.",
+      "areas": ["Downtown Joliet", "Jefferson Street", "Larkin Avenue", "Interstate 80 corridor", "Route 66 Raceway area"],
+      "nearby": ["naperville", "aurora", "chicago"]
+    },
+    {
+      "slug": "elgin",
+      "name": "Elgin",
+      "region": "the Fox Valley",
+      "blurb": "We place and service ATMs in Elgin, a Fox River city in the northwest suburbs. Downtown Elgin hosts the Grand Victoria Casino, the Hemmens Cultural Center, and a mix of bars, restaurants, cafes, and salons along Grove Avenue and Douglas Avenue. Randall Road on the west side is one of the busiest retail corridors in the region, lined with shopping plazas, convenience stores, gas stations, and chain restaurants. Dispensaries and hotels near Interstate 90 serve travelers heading to and from Rockford.",
+      "areas": ["Downtown Elgin", "Randall Road", "Grand Victoria Casino area", "South Elgin", "Interstate 90 corridor"],
+      "nearby": ["aurora", "rockford", "chicago"]
+    },
+    {
+      "slug": "rockford",
+      "name": "Rockford",
+      "region": "Northern Illinois",
+      "blurb": "Rockford is the largest city in Illinois outside Chicagoland, and we place and service ATMs at businesses throughout it. Downtown Rockford along the Rock River is home to the Coronado Performing Arts Center, the BMO Center, bars, restaurants, and breweries, and the city's dispensaries see steady traffic. East State Street is the main retail corridor with CherryVale Mall, convenience stores, gas stations, and hotels. Anderson Japanese Gardens and summer festivals bring visitors to nearby cafes and salons.",
+      "areas": ["Downtown Rockford", "East State Street", "CherryVale", "North Main Street", "Rockton Avenue"],
+      "nearby": ["elgin", "peoria", "chicago"]
+    },
+    {
+      "slug": "peoria",
+      "name": "Peoria",
+      "region": "Central Illinois",
+      "blurb": "We place and service ATMs across Peoria, the commercial center of Central Illinois. The Peoria Riverfront and Warehouse District along Water Street are lined with bars, restaurants, breweries, and music venues, while the Peoria Civic Center hosts concerts and conventions. War Memorial Drive and University Street host convenience stores, gas stations, salons, and shopping plazas, and Bradley University keeps cafes and pubs busy through the school year. Hotels near Interstate 74 and the city's dispensaries also rely on cash access.",
+      "areas": ["Peoria Riverfront", "Warehouse District", "War Memorial Drive", "University Street", "East Peoria"],
+      "nearby": ["bloomington", "springfield", "champaign"]
+    },
+    {
+      "slug": "springfield",
+      "name": "Springfield",
+      "region": "Central Illinois",
+      "blurb": "Springfield is the state capital, and we place and service ATMs at businesses across the city. Downtown Springfield near the Illinois State Capitol and the Abraham Lincoln Presidential Library hosts hotels, restaurants, bars, and cafes that serve tourists, lobbyists, and state employees. Wabash Avenue and Dirksen Parkway are lined with convenience stores, gas stations, and shopping plazas, and the Illinois State Fairgrounds brings enormous August crowds. Dispensaries, salons, and neighborhood taverns throughout the city depend on reliable cash access.",
+      "areas": ["Downtown Springfield", "Capitol area", "Wabash Avenue", "Dirksen Parkway", "State Fairgrounds"],
+      "nearby": ["peoria", "bloomington", "champaign"]
+    },
+    {
+      "slug": "champaign",
+      "name": "Champaign",
+      "region": "East Central Illinois",
+      "blurb": "We place and service ATMs in Champaign and neighboring Urbana, home to the University of Illinois. Campustown along Green Street is packed with bars, restaurants, cafes, and late-night food spots that stay busy during the school year, while Downtown Champaign hosts breweries, music venues, and salons. Neil Street and Prospect Avenue are lined with convenience stores, gas stations, and shopping plazas. Hotels and dispensaries near Interstate 74 serve visitors for football weekends, graduation, and university events.",
+      "areas": ["Campustown", "Green Street", "Downtown Champaign", "Downtown Urbana", "Neil Street", "Prospect Avenue"],
+      "nearby": ["bloomington", "springfield", "peoria"]
+    },
+    {
+      "slug": "bloomington",
+      "name": "Bloomington",
+      "region": "Central Illinois",
+      "blurb": "Bloomington and neighboring Normal sit at the crossroads of Interstates 55, 74, and 39, and we place and service ATMs at businesses across both cities. Downtown Bloomington hosts bars, restaurants, and salons around the historic courthouse square, while Uptown Normal near Illinois State University is packed with cafes, pubs, and entertainment venues. Veterans Parkway is the main commercial strip, lined with convenience stores, gas stations, hotels, and dispensaries that serve both locals and interstate travelers.",
+      "areas": ["Downtown Bloomington", "Uptown Normal", "Veterans Parkway", "Illinois State University area", "Eastland"],
+      "nearby": ["peoria", "champaign", "springfield"]
+    }
+  ]
+}
