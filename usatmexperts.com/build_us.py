@@ -564,7 +564,7 @@ body.apply-open{overflow:hidden}
    {STATE_OPTIONS}
   </select></div>
   <div><label for="ap-zip">ZIP <span style="color:#c0392b">*</span></label><input id="ap-zip" name="zip" type="text" required autocomplete="postal-code" inputmode="numeric"></div>
-  <div><label for="ap-service-zip">Service ZIP code <span style="color:#c0392b">*</span></label><input id="ap-service-zip" name="__SERVICE_ZIP_FIELD__" type="text" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" required placeholder="Center of your route"></div>
+  <div><label for="ap-service-zip">Service ZIP code <span style="color:#c0392b">*</span></label><input id="ap-service-zip" name="00NbV0000045sK1" type="text" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" required placeholder="Center of your route"></div>
   <div><label for="ap-radius">Service radius <span style="color:#c0392b">*</span></label><select id="ap-radius" name="00NbV0000045s77" required>
    <option value="" disabled selected>Select a radius</option>
    <option>5 miles</option><option>15 miles</option><option>25 miles</option><option>50 miles</option><option>100 miles</option><option>150+ miles</option><option>The entire state</option>
