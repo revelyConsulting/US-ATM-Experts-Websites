@@ -6,6 +6,18 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/azatmexperts.com", "-p", "8001"],
       "port": 8001
+    },
+    {
+      "name": "us-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/usatmexperts.com", "-p", "8002"],
+      "port": 8002
+    },
+    {
+      "name": "ut-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/david/Documents/Salesforce Projects/ATM/Websites/utatmexperts.com", "-p", "8003"],
+      "port": 8003
     }
   ]
 }
